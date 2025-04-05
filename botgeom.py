@@ -749,4 +749,5 @@ token = os.getenv('DISCORD_TOKEN')
 if not token:
     logging.error("Missing DISCORD_TOKEN in .env")
     exit(1)
+logging.info(f"Bot token: {token[:5]}...")
 bot.run(token)
