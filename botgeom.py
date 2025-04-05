@@ -745,9 +745,15 @@ async def aranea(ctx):
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
+logging.info("Bot starting...")
 token = os.getenv('DISCORD_TOKEN')
 if not token:
-    logging.error("Missing DISCORD_TOKEN in .env")
+    logging.error("DISCORD_TOKEN is not found in environment variables.")
     exit(1)
-logging.info(f"Bot token: {token[:5]}...")
-bot.run(token)
+else:
+    logging.info(f"Token loaded successfully, attempting to log in...")
+
+try:
+    bot.run(token)
+except Exception as e:
+    logging.error(f"An error occurred while running the bot: {str(e)}")
