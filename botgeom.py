@@ -4,7 +4,10 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.triggers.cron import CronTrigger
 import asyncio
 import logging
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -742,4 +745,8 @@ async def aranea(ctx):
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
-bot.run('MTE1ODYxOTM2NDI5NjIzNzEwNw.GqqOaX.Zudz2i3RpYt8ZvvN-5dxsiqIkTE_92LjYrs1tI')  # Ganti dengan token bot Anda
+token = os.getenv('DISCORD_TOKEN')
+if not token:
+    logging.error("Missing DISCORD_TOKEN in .env")
+    exit(1)
+bot.run(token)
