@@ -139,6 +139,7 @@ async def bossroga(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='279\nFTS 93\n\n', inline=True)
     embed.add_field(name='Retaliation', value='FTS: The bosss defenses and resistances significantly increase for a\nperiod of time (~15 seconds). The boss attack power is also\nreduced during this duration.\n\n', inline=False)
+    embed.set_image(url='https://aminoapps.com/c/toram_online/page/item/boss-colon/Rrnm_MgvTvIjXm8dZmklLWwkNg8M7Rk3nW')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -159,6 +160,7 @@ async def excavatedgolem(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='12', inline=True)
     embed.add_field(name='Retaliation', value='None\n\nNote : Breaking the parts will reduce the boss defenses by 100%', inline=False)
+    embed.set_image(url='https://www.google.com/imgres?q=excavated%20golem%20toram&imgurl=http%3A%2F%2Fpm1.aminoapps.com%2F6694%2Fad4abbd36f9ccd84df9ab1b9e7139bd94dc18712_00.jpg&imgrefurl=https%3A%2F%2Faminoapps.com%2Fc%2Ftoram_online%2Fpage%2Fitem%2Fexcavated-golem%2F6PzK_pYniYIKlvb8mjJ5VallKPNBZB4Ez0q&docid=sKPcKSBgJ09qpM&tbnid=KDGFcqtn02HURM&vet=12ahUKEwjGu8G38sSMAxWbTmwGHSbbHmwQM3oECGoQAA..i&w=512&h=397&hcb=2&ved=2ahUKEwjGu8G38sSMAxWbTmwGHSbbHmwQM3oECGoQAA')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -179,6 +181,7 @@ async def eeiriecrystal(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='0', inline=True)
     embed.add_field(name='Retaliation', value='None', inline=False)
+    embed.set_image(url='https://toram.fandom.com/wiki/Eerie_Crystal')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -199,6 +202,7 @@ async def minotaur(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='48', inline=True)
     embed.add_field(name='Retaliation', value='When the boss HP reaches below 20% the boss will gain 100% guard rate for 10 seconds\nand perform three long-range rush attacks that inflict ignite\n\n', inline=False)
+    embed.set_image(url='')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -219,6 +223,7 @@ async def brutaldragondecel(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='75', inline=True)
     embed.add_field(name='Retaliation', value='T : Guard rate up for 12 seconds\n', inline=False)
+    embed.set_image(url='')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -239,6 +244,7 @@ async def warmonger(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='45', inline=True)
     embed.add_field(name='Retaliation', value='None', inline=False)
+    embed.set_image(url='')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -259,6 +265,7 @@ async def forestia(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='292', inline=True)
     embed.add_field(name='Retaliation', value='The players can fall off the stages cliffs.', inline=False)
+    embed.set_image(url='')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -279,6 +286,7 @@ async def ancientempress(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='48', inline=True)
     embed.add_field(name='Retaliation', value='None', inline=False)
+    embed.set_image(url='')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -299,6 +307,7 @@ async def flarevolg(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='56', inline=True)
     embed.add_field(name='Retaliation', value='The boss switches to PH2 at 50% HP.\n\nNote : Breaking parts reduces the boss DEF and MDEF by 25%.', inline=False)
+    embed.set_image(url='')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -319,6 +328,7 @@ async def ganglef(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='43', inline=True)
     embed.add_field(name='Retaliation', value='None', inline=False)
+    embed.set_image(url='')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -337,6 +347,7 @@ async def gespenst(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='30', inline=True)
     embed.add_field(name='Retaliation', value='None', inline=False)
+    embed.set_image(url='')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -357,6 +368,7 @@ async def forestwolf(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='45', inline=True)
     embed.add_field(name='Retaliation', value='None', inline=False)
+    embed.set_image(url='')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -377,6 +389,7 @@ async def bossgoblin(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='75', inline=True)
     embed.add_field(name='Retaliation', value='None', inline=False)
+    embed.set_image(url='')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -397,6 +410,7 @@ async def mochelo(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='64', inline=True)
     embed.add_field(name='Retaliation', value='None.\nThe boss attack power decreases at 50% HP and at 25% HP.', inline=False)
+    embed.set_image(url='')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -417,6 +431,7 @@ async def ooze(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='0', inline=True)
     embed.add_field(name='Retaliation', value='None', inline=False)
+    embed.set_image(url='')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -437,6 +452,7 @@ async def mauez(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='PH1 : 41 | PH2 : 246', inline=True)
     embed.add_field(name='Retaliation', value='The boss switches to PH2 at 50% HP.', inline=False)
+    embed.set_image(url='')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -457,6 +473,7 @@ async def demonsgate(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='0', inline=True)
     embed.add_field(name='Retaliation', value='F: Guard rate up for 15 seconds', inline=False)
+    embed.set_image(url='')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -477,6 +494,7 @@ async def astol(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='112', inline=True)
     embed.add_field(name='Retaliation', value='TS: The boss will perform a delayed straight-line counter attack. Due to the delayed nature of this attack, TS is actually safe to use.\n\nNote: You can easily break this boss\'s head by interrupting it while it is slowly flying towards you with its body parallel to the ground.', inline=False)
+    embed.set_image(url='')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -497,6 +515,7 @@ async def ruingolem(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='14', inline=True)
     embed.add_field(name='Retaliation', value='Support mobs will spawn every 20 seconds\n\nNote: Breaking parts reduces the boss DEF and MDEF by 23.8%.', inline=False)
+    embed.set_image(url='')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -517,6 +536,7 @@ async def maskedwarrior(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='200', inline=True)
     embed.add_field(name='Retaliation', value='None.\n\nNote: Breaking parts will increase the boss movement speed.', inline=False)
+    embed.set_image(url='')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -537,6 +557,7 @@ async def pillargolem(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='11', inline=True)
     embed.add_field(name='Retaliation', value='FT: If inflicted when the boss is Yellow, the boss will turn Red and become enraged (EN) for 10 seconds. While in enraged mode, the boss defenses and attack power are significantly increased and the boss does not retaliate to FTS.\nInflicting F to the boss while it is Yellow will also cause the boss to attack with a foe-centered AOE ground pound.\n\nNote: Breaking parts lowers the boss movement speed', inline=False)
+    embed.set_image(url='')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -557,6 +578,7 @@ async def yelb(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='87', inline=True)
     embed.add_field(name='Retaliation', value='SLOW/STOP/IGNITE: When the boss receives a Slow or Stop ailment during normal mode, it will change to enraged mode for 30 sec and then go back to normal mode. While in enraged mode, the boss defenses are halved and the boss movement speed increases.\nDAMAGE: When the boss receives damage higher than 3% of its health in one instance, it will go into enraged mode and shell mode\n(SHELL) at the same time for 30 sec. While in shell mode, the bosses defenses increase by a lot.\nPARA/ARMORBREAK: Removes the boss shell mode and returns the defenses to normal. The boss will retaliate with a low damage, full-map AOE attack that inflicts paralysis if inflicted with Armor Break or Paralysis while in shell mode.\nWhile the boss is in enraged mode, it will perform full-map AOE attacks periodically. All of these full-map AOE attacks inflict ailments.', inline=False)
+    embed.set_image(url='')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -577,6 +599,7 @@ async def nurethoth(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='PH1 : 57 | PH2 : 285', inline=True)
     embed.add_field(name='Retaliation', value='FTS: If inflicted above 50% HP, the boss will retaliate with a high damage AOE that: flinches (if the boss was flinched), tumbles (if the boss was tumbled), or stuns (if the boss was stunned).\n\nThe boss switches to PH2 at 50% HP.', inline=False)
+    embed.set_image(url='')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -595,6 +618,7 @@ async def bbgoblin(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='157', inline=True)
     embed.add_field(name='Retaliation', value='None', inline=False)
+    embed.set_image(url='')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -615,6 +639,7 @@ async def goovua(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='PH1: 246 | PH2: 273 | PH3: 308 | LPH: 0', inline=True)
     embed.add_field(name='Retaliation', value='The boss switches to PH2 30 seconds after initiating the battle. Similarly, the boss switches to PH3 30 seconds after switching to PH2. When the boss HP goes below 20%, the boss enters the LHP phase. During the LHP phase, the boss defenses are zero and the boss nonfractional damage to players is increased by approximately 10 times.', inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/goovua.png')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -635,6 +660,7 @@ async def scrader(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='64', inline=True)
     embed.add_field(name='Retaliation', value='Dealing damage above 2% of its max HP in one instance will cause the boss to go into rage mode (Red color) for 20 seconds. While in rage mode, the boss ATK and MATK increase.', inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/scrader.png')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -655,6 +681,7 @@ async def bkod(ctx):
     embed.add_field(name='Crit Res', value='0', inline=True)
     embed.add_field(name='Flee', value='231', inline=True)
     embed.add_field(name='Retaliation', value='TS: Boss backs away to the left (PH1) or to the right (PH2) if inflicted.\n\nThe boss switches from PH1 to PH2 at 50% HP.', inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/bkod.png')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -676,6 +703,7 @@ async def ecb(ctx):
     embed.add_field(name='Flee', value='231', inline=True)
     embed.add_field(name='Retaliation', value="FS: 100% guard rate for 10 sec if inflicted during PH1 (Purple).\nFTS: 100% evasion rate for 10 sec if inflicted during PH2 (Red).\n\nWhen the boss's HP goes below 25%, the boss turns Red and switches to PH2.\nWhen the boss receives damage that is greater than 3% of its max HP, the boss's guard rate (PH1) or evasion rate (PH2) will increase to 100% for 10 sec.", inline=False)
     embed.add_field(name='Parts Destruction:', value='2 Parts: Left Hand (Evil Crystal Beast Claw, ARM), Chest (ADD)', inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/ecb.png')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
@@ -1115,7 +1143,1321 @@ async def gwaimol(ctx):
     await ctx.send(embed=embed)
 
 
+@bot.command(name='ornlarf', aliases=['orn'])
+async def ornlarf(ctx):
+    embed = discord.Embed(title='Ornlarf')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='7', inline=True)
+    embed.add_field(name='MQ Locked', value='Yes', inline=True)
+    embed.add_field(name='Map', value='Ultimea Palace: Corridor')
+    embed.add_field(name='Element', value='Light', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='108', inline=True)
+    embed.add_field(name='M.Def', value='710', inline=True)
+    embed.add_field(name='P.Res', value='5', inline=True)
+    embed.add_field(name='M.Res', value='5', inline=True)
+    embed.add_field(name='Prorate', value='N:1  P:1  M:11', inline=True)
+    embed.add_field(name='Crit Res', value='30', inline=True)
+    embed.add_field(name='Flee', value='692', inline=True)
+    embed.add_field(name='Retaliation', value="", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nLeft Shoulder (Chief BK Shoulder Armor),\nHead (Mithril Ore, check [Retaliation] for TIP)\nRight Arm (Ether Metal)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/ornlarf.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='venenacoenubia', aliases=['venena'])
+async def venena(ctx):
+    embed = discord.Embed(title='Venena Coenubia')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='7', inline=True)
+    embed.add_field(name='MQ Locked', value='Yes', inline=True)
+    embed.add_field(name='Map', value='')
+    embed.add_field(name='Element', value='VENENA: Fire;\nPILLAR: Dark', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='VENENA: 300\nPILLAR: 290', inline=True)
+    embed.add_field(name='M.Def', value='VENENA: 300\nPILLAR: 290', inline=True)
+    embed.add_field(name='P.Res', value='VENENA: 6;\nPILLAR: 5', inline=True)
+    embed.add_field(name='M.Res', value='VENENA: 6;\nPILLAR: 5', inline=True)
+    embed.add_field(name='Prorate', value='N:Venena20;Pillar10\nP:Venena10;Pillar5\nM:Venena5;Pillar20', inline=True)
+    embed.add_field(name='Crit Res', value='0', inline=True)
+    embed.add_field(name='Flee', value='VENENA: [NORMAL: 75;\nBREAK: 225];\nPILLAR: 109', inline=True)
+    embed.add_field(name='Retaliation', value="", inline=False)
+    embed.add_field(name='Parts Destruction:', value="2 Parts:\nHead (Lil Empress Horn, SHIELD, DAGGER, ARROW)\nRight Neck (Lil Empress Crystal, ARM", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/venena1.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+################ Main Quest BAB 8 ###############
+@bot.command(name='shampy', aliases=['sham'])
+async def shampy(ctx):
+    embed = discord.Embed(title='Shampy')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='8', inline=True)
+    embed.add_field(name='MQ Locked', value='No', inline=True)
+    embed.add_field(name='Map', value='Turnus Mine: Hall')
+    embed.add_field(name='Element', value='SHAMPY: Water;\nRED+COMRABY: Fire;\nBLUE+COMRABY: Water;\nYELLOW+COMRABY: Wind;', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='SHAMPY: 261;\nCOMRABY: 136;', inline=True)
+    embed.add_field(name='M.Def', value='SHAMPY: 290;\nCOMRABY: 202;', inline=True)
+    embed.add_field(name='P.Res', value='SHAMPY: 5;\nCOMRABY: 5;', inline=True)
+    embed.add_field(name='M.Res', value='SHAMPY: 5;\nCOMRABY: 5;', inline=True)
+    embed.add_field(name='Prorate', value='N:15  P:20  M:25', inline=True)
+    embed.add_field(name='Crit Res', value='0', inline=True)
+    embed.add_field(name='Flee', value='SHAMPY: 434;\nCOMRABY: 300', inline=True)
+    embed.add_field(name='Retaliation', value="FTS: OK", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nBack Hair,\nWand/Right Arm,\nHead (SHIELD)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/shampy.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='titancrystal', aliases=['titan'])
+async def titancrystal(ctx):
+    embed = discord.Embed(title='Titan Crystal')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='8', inline=True)
+    embed.add_field(name='MQ Locked', value='No', inline=True)
+    embed.add_field(name='Map', value='Decaying Ruins')
+    embed.add_field(name='Element', value='Dark', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='NORMAL: 593; BREAK+BODY: 400', inline=True)
+    embed.add_field(name='M.Def', value='NORMAL: 447; BREAK+BODY: 306', inline=True)
+    embed.add_field(name='P.Res', value='NORMAL: 25; BREAK+BODY: 5', inline=True)
+    embed.add_field(name='M.Res', value='NORMAL: 25; BREAK+BODY: 5', inline=True)
+    embed.add_field(name='Prorate', value='N:20  P:30  M:25', inline=True)
+    embed.add_field(name='Crit Res', value='0', inline=True)
+    embed.add_field(name='Flee', value='111', inline=True)
+    embed.add_field(name='Retaliation', value="FTS: Damage to the boss is capped at 1 while interrupted.\nFREEZE: Damage to the boss increases by 4 times for 10 sec.\n\nAt 50% HP, the boss moves to the edge of the map and casts a bunch of meteors AOEs.", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nRight Arm (Corroded Trunk, KTN),\nLeft Arm (Corroded Trunk, KN),\nTorso (Rare Diopside)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/crystaltitan.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='momfluck', aliases=['mom'])
+async def momfluck(ctx):
+    embed = discord.Embed(title='Mom Fluck')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='8', inline=True)
+    embed.add_field(name='MQ Locked', value='No', inline=True)
+    embed.add_field(name='Map', value='Forgotten Cave')
+    embed.add_field(name='Element', value='MOM_FLUCK: Water;\nFLUCK: Water', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='MOM_FLUCK: 226;\nFLUCK: 139;', inline=True)
+    embed.add_field(name='M.Def', value='MOM_FLUCK: 226;\nFLUCK: 139;', inline=True)
+    embed.add_field(name='P.Res', value='MOM_FLUCK: 6;\nFLUCK: 5', inline=True)
+    embed.add_field(name='M.Res', value='MOM_FLUCK: 6;\nFLUCK: 5', inline=True)
+    embed.add_field(name='Prorate', value='N:10  P:15  M:20', inline=True)
+    embed.add_field(name='Crit Res', value='0', inline=True)
+    embed.add_field(name='Flee', value='MOM_FLUCK: 226;\nFLUCK: 206;', inline=True)
+    embed.add_field(name='Retaliation', value="", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nHead (Vivid Crest),\nFloating Ring/Body (Fluck Egg),\nTail", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/momfluck.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='mardula', aliases=['mardu'])
+async def mardula(ctx):
+    embed = discord.Embed(title='Mardula')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='8', inline=True)
+    embed.add_field(name='MQ Locked', value='No', inline=True)
+    embed.add_field(name='Map', value='Hall of Blessings Gods')
+    embed.add_field(name='Element', value='PH1: Light; PH1+BREAK+SPEAR: Wind; PH2: Neutral', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='158', inline=True)
+    embed.add_field(name='M.Def', value='394', inline=True)
+    embed.add_field(name='P.Res', value='6', inline=True)
+    embed.add_field(name='M.Res', value='6', inline=True)
+    embed.add_field(name='Prorate', value='N:10  P:5  M:5', inline=True)
+    embed.add_field(name='Crit Res', value='0', inline=True)
+    embed.add_field(name='Flee', value='470', inline=True)
+    embed.add_field(name='Retaliation', value="", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nLeft Back/Left Ribbon of MD (Broken Holy Scale),\nTorso (MD),\nSpear (HB)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/mardula.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='seelezauga', aliases=['seele'])
+async def seelezauga(ctx):
+    embed = discord.Embed(title='Seele Zauga')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='8', inline=True)
+    embed.add_field(name='MQ Locked', value='Yes', inline=True)
+    embed.add_field(name='Map', value='Shrine of the Goddess of Species')
+    embed.add_field(name='Element', value='SEELE: Light;\nBLUE/RED_GUARDIAN: Light;', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='SEELE: 320;\nBLUE/RED_GUARDIAN: 155;', inline=True)
+    embed.add_field(name='M.Def', value='SEELE: 320;\nBLUE/RED_GUARDIAN: 155;', inline=True)
+    embed.add_field(name='P.Res', value='SEELE: 6;\nBLUE/RED_GUARDIAN: 6;', inline=True)
+    embed.add_field(name='M.Res', value='SEELE: 6;\nBLUE/RED_GUARDIAN: 6;', inline=True)
+    embed.add_field(name='Prorate', value='N:SEELE: 5;BLUE/RED_GUARDIAN: 50;\nP:N:SEELE: 10;BLUE/RED_GUARDIAN: 50\nM:N:SEELE: 20;BLUE/RED_GUARDIAN: 50', inline=True)
+    embed.add_field(name='Crit Res', value='25', inline=True)
+    embed.add_field(name='Flee', value='240', inline=True)
+    embed.add_field(name='Retaliation', value="", inline=False)
+    embed.add_field(name='Parts Destruction:', value="2 Parts:\nLeft Arm (High Grade Frill Fabric, ADD),\nRight Waist (ARM)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/seele.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='kingpiton', aliases=['piton'])
+async def kingpiton(ctx):
+    embed = discord.Embed(title='King Piton')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='8', inline=True)
+    embed.add_field(name='MQ Locked', value='No', inline=True)
+    embed.add_field(name='Map', value='Elf Mountains: Shrine')
+    embed.add_field(name='Element', value='Water', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='NORMAL: 790;\nBREAK+1: 690;\nBREAK+2: 590;\nBREAK+3: 490', inline=True)
+    embed.add_field(name='M.Def', value='242', inline=True)
+    embed.add_field(name='P.Res', value='NORMAL: 15;\nBREAK+1: 10;\nBREAK+2: 5;\nBREAK+3: 0', inline=True)
+    embed.add_field(name='M.Res', value='NORMAL: 15;\nBREAK+1: 10;\nBREAK+2: 5;\nBREAK+3: 0', inline=True)
+    embed.add_field(name='Prorate', value='N:30  P:30  M:30', inline=True)
+    embed.add_field(name='Crit Res', value='10', inline=True)
+    embed.add_field(name='Flee', value='122', inline=True)
+    embed.add_field(name='Retaliation', value="The boss has a damage cap of 500k.\nThe boss's DEF, PRES, and MRES decrease for each broken part.\nAlso, every broken part increases FTS cooldown by 10 seconds.", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts: Right Arm, Left Arm, Torso (King Piton Fur)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/kingpiton.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='finsternthedarkdragon', aliases=['finstern'])
+async def finsternthedarkdragon(ctx):
+    embed = discord.Embed(title='Finstern the Dark Dragon')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='8', inline=True)
+    embed.add_field(name='MQ Locked', value='Yes', inline=True)
+    embed.add_field(name='Map', value='Dark Dragon Shrine: Near the Top')
+    embed.add_field(name='Element', value='FINSTERN: Dark;\nOBSCUROPHANY: Dark', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='250', inline=True)
+    embed.add_field(name='M.Def', value='250', inline=True)
+    embed.add_field(name='P.Res', value='FINSTERN: [PH1: 6; PH2: 16; PH2+FTS: 6]', inline=True)
+    embed.add_field(name='M.Res', value='FINSTERN: [PH1: 6; PH2: 16; PH2+FTS: 6]', inline=True)
+    embed.add_field(name='Prorate', value='N:100  P:1  M:10', inline=True)
+    embed.add_field(name='Crit Res', value='[PH1: 0; PH2: 125; PH2+FTS: 0]', inline=True)
+    embed.add_field(name='Flee', value='25', inline=True)
+    embed.add_field(name='Retaliation', value="", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nRight Leg (KTN),\nLeft Wing (OHS),\nTail (Dark Gemstone)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/finstern.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='tuscog', aliases=['tus'])
+async def tuscog(ctx):
+    embed = discord.Embed(title='Tuscog')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='9', inline=True)
+    embed.add_field(name='MQ Locked', value='No', inline=True)
+    embed.add_field(name='Map', value='Eryldan Street: Near the Forest of Ein')
+    embed.add_field(name='Element', value='Earth', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='PH1: 423; PH2: 339', inline=True)
+    embed.add_field(name='M.Def', value='PH1: 253; PH2: 253', inline=True)
+    embed.add_field(name='P.Res', value='6', inline=True)
+    embed.add_field(name='M.Res', value='6', inline=True)
+    embed.add_field(name='Prorate', value='N:20  P:5  M:20', inline=True)
+    embed.add_field(name='Crit Res', value='0', inline=True)
+    embed.add_field(name='Flee', value='PH1: 253; PH2: 630', inline=True)
+    embed.add_field(name='Retaliation', value="2 Phases. Transition @50% HP\n\nBoss becomes Pink during PH2.\n\nFTS:\nPH1: OK\nPH2: Retaliates with an 8m radius, enemy-centered spike\nbed (P, Knockback) when FTS while HP<50%\n\nImmune to [Fear]", inline=False)
+    embed.add_field(name='Parts Destruction:', value="", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/tuscog.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+
+@bot.command(name='erodedpilz', aliases=['pilz'])
+async def erodedpilz(ctx):
+    embed = discord.Embed(title='Eroded Pilz')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='9', inline=True)
+    embed.add_field(name='MQ Locked', value='No', inline=True)
+    embed.add_field(name='Map', value='Morthell Swell: Deep Area')
+    embed.add_field(name='Element', value='PURPLE: Fire;\nGREEN: Neutrl', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='NORMAL: 602;\nGREEN: 1033;\nBREAK+RIGHT: 431;\nBREAK+RIGHT+GREEN: 861', inline=True)
+    embed.add_field(name='M.Def', value='NORMAL: 496;\nNORMAL+GREEN: 826;\nBREAK+LEFT: 330;\nBREAK+LEFT+GREEN: 660', inline=True)
+    embed.add_field(name='P.Res', value='NORMAL: 26;\nBREAK+RIGHT: 6;\nBREAK+HEAD: 20;\nBREAK+RIGHT+HEAD: 0', inline=True)
+    embed.add_field(name='M.Res', value='NORMAL: 26;\nBREAK+RIGHT: 6;\nBREAK+HEAD: 20;\nBREAK+RIGHT+HEAD: 0', inline=True)
+    embed.add_field(name='Prorate', value='N:5  P:20  M:5', inline=True)
+    embed.add_field(name='Crit Res', value='0', inline=True)
+    embed.add_field(name='Flee', value='NORMAL/PURPLE: 20;\nGREEN: 40', inline=True)
+    embed.add_field(name='Retaliation', value="258", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nHead (Corroded Mushroom Cap),\nRight Mushroom (Corroded Mushroom Cap),\nLeft Leg (Broken Mushroom Nail)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/eroded.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='pyxtica', aliases=['pyx'])
+async def pyxtica(ctx):
+    embed = discord.Embed(title='Pyxtica')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='9', inline=True)
+    embed.add_field(name='MQ Locked', value='Yes', inline=True)
+    embed.add_field(name='Map', value='Fractum Sector: Area 3')
+    embed.add_field(name='Element', value='PURPLE: Dark; RED: Fire; GREEN: Neutral', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='PURPLE: 437; RED: 437; PURPLE+FATIGUE: 315; GREEN: 315', inline=True)
+    embed.add_field(name='M.Def', value='PURPLE: 437; RED: 437; PURPLE+FATIGUE: 315; GREEN: 315', inline=True)
+    embed.add_field(name='P.Res', value='PURPLE: 7; RED: 7; GREEN: -43', inline=True)
+    embed.add_field(name='M.Res', value='PURPLE: 7; RED: 7; GREEN: 7', inline=True)
+    embed.add_field(name='Prorate', value='N:5  P:5  M:5', inline=True)
+    embed.add_field(name='Crit Res', value='PURPLE: 15; RED: 50; GREEN: 500', inline=True)
+    embed.add_field(name='Flee', value='654', inline=True)
+    embed.add_field(name='Retaliation', value="", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nHead (MD),\nTorso (THS),\nTail (Pyxtica's Tail)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/pyxtica.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='kuzto', aliases=['kuz'])
+async def kuzto(ctx):
+    embed = discord.Embed(title='Kuzto')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='9', inline=True)
+    embed.add_field(name='MQ Locked', value='No', inline=True)
+    embed.add_field(name='Map', value='Labilans Sector: Square')
+    embed.add_field(name='Element', value='Earth', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='KUZTO: 535;\nLAURUS: 357;\nTORETTA: 178;', inline=True)
+    embed.add_field(name='M.Def', value='KUZTO: 535;\nLAURUS: 178;\nTORETTA: 357;', inline=True)
+    embed.add_field(name='P.Res', value='KUZTO: 7;\nLAURUS: 14;\nTORETTA: 7;', inline=True)
+    embed.add_field(name='M.Res', value='KUZTO: 7;\nLAURUS: 7;\nTORETTA: 14;', inline=True)
+    embed.add_field(name='Prorate', value='N:20  P:5  M:5', inline=True)
+    embed.add_field(name='Crit Res', value='25', inline=True)
+    embed.add_field(name='Flee', value='267', inline=True)
+    embed.add_field(name='Retaliation', value="", inline=False)
+    embed.add_field(name='Parts Destruction:', value="2 Parts:\nRight Thigh (ARM),\nLeft Arm (Mystical Nut)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/kuzto.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='sapphireroga', aliases=['sroga'])
+async def sapphireroga(ctx):
+    embed = discord.Embed(title='Sapphire Roga')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='9', inline=True)
+    embed.add_field(name='MQ Locked', value='No', inline=True)
+    embed.add_field(name='Map', value='Avant Plastida: Deepest Area')
+    embed.add_field(name='Element', value='SAPPHIRE_ROGA: [PURPLE: Dark; RED: Fire; GREEN: Neutral];', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value=':[PURPLE: 315; RED: 315; GREEN: 315];', inline=True)
+    embed.add_field(name='M.Def', value=':[PURPLE: 315; RED: 315; GREEN: 315];', inline=True)
+    embed.add_field(name='P.Res', value='[PURPLE: 7; RED: 70; GREEN: -75];', inline=True)
+    embed.add_field(name='M.Res', value='[PURPLE: 7; RED: 7; GREEN: 7];', inline=True)
+    embed.add_field(name='Prorate', value='N:5  P:10  M:5', inline=True)
+    embed.add_field(name='Crit Res', value='[PURPLE: 20; GREEN: 300; RED: 0];', inline=True)
+    embed.add_field(name='Flee', value='140', inline=True)
+    embed.add_field(name='Retaliation', value="", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nHead (Sapphire Roga Horns),\nLeft Arm (SHIELD),\nRight Arm (OHS)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/sapphireroga.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='gravicep', aliases=['gravi'])
+async def gravicep(ctx):
+    embed = discord.Embed(title='')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='9', inline=True)
+    embed.add_field(name='MQ Locked', value='No', inline=True)
+    embed.add_field(name='Map', value='Recetacula Sector: Depot Rooftop')
+    embed.add_field(name='Element', value='Neutral', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='AGGRO<=7m: 552; AGGRO>7m; 185', inline=True)
+    embed.add_field(name='M.Def', value='AGGRO<=7m: 185; AGGRO>7m; 734', inline=True)
+    embed.add_field(name='P.Res', value='AGGRO<=7m: 21; AGGRO>7m; 7', inline=True)
+    embed.add_field(name='M.Res', value='AGGRO<=7m: 7; AGGRO>7m; 21', inline=True)
+    embed.add_field(name='Prorate', value='N:1  P:100  M:100', inline=True)
+    embed.add_field(name='Crit Res', value='0', inline=True)
+    embed.add_field(name='Flee', value='AGGRO<=7m: 275; AGGRO>7m; 550', inline=True)
+    embed.add_field(name='Retaliation', value="AGGRO<=7m: FT Immune and Guard rate up.\nAGGRO>7m: S: Immune and Evasion rate up", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nLeft Arm (STF),\nRight Arm (KTN),\nHead/Torso (Gravicep Accessory Chip)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/gravicep.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='repthon', aliases=['rep'])
+async def repthon(ctx):
+    embed = discord.Embed(title='Repthon')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='9', inline=True)
+    embed.add_field(name='MQ Locked', value='No', inline=True)
+    embed.add_field(name='Map', value='Deltzon Research Zone: Deepest Area')
+    embed.add_field(name='Element', value='PURPLE: Dark;\nRED: Fire;\nYELLOW: Neutral', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='PURPLE: 467;\nRED: 935;\nYELLOW: 467', inline=True)
+    embed.add_field(name='M.Def', value='PURPLE: 467;\nRED: 935;\nYELLOW: 935', inline=True)
+    embed.add_field(name='P.Res', value='7', inline=True)
+    embed.add_field(name='M.Res', value='7', inline=True)
+    embed.add_field(name='Prorate', value='N:5  P:5  M:5', inline=True)
+    embed.add_field(name='Crit Res', value='PURPLE: 25;\nRED: 25;\nYELLOW: 150', inline=True)
+    embed.add_field(name='Flee', value='333', inline=True)
+    embed.add_field(name='Retaliation', value="The boss starts out in PURPLE mode\n\nWhile in PURPLE mode, if 100k+ damage is inflicted to the boss while its HP is above 60%, the boss will change to RED mode\nThe boss will change back from RED to PURPLE mode after 15 sec.\n\nWhen HP reaches below 60% while in RED mode or when dealing 100k+ damage while HP is below 60% in PURPLE mode, the boss will change to YELLOW mode.\nWhile in YELLOW mode, the boss will retaliate with a Mana Explosion inflicting attack when it is FTS.\nThe boss will revert back from YELLOW to PURPLE mode after 15 sec.\nThere is a 500k damage cap during the RED and YELLOW modes.\n\nFTS:\nPURPLE: OK\nRED: Immune\nYELLOW: Retaliates to FTS\nThe boss has a long FTS cooldown", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nHead (Citric Essence),\nFuselage/Left Wing (MD),\nTail (HB)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/repthon.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='venenameta', aliases=['nemet'])
+async def venenameta(ctx):
+    embed = discord.Embed(title='Venena Metacoenubia')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='9', inline=True)
+    embed.add_field(name='MQ Locked', value='Yes (Area Lock)', inline=True)
+    embed.add_field(name='Map', value='Neo Plastida')
+    embed.add_field(name='Element', value='VENENA: Fire;\nSEDEM: Neutral', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='VENENA: 820;\nSEDEM: 655', inline=True)
+    embed.add_field(name='M.Def', value='VENENA: 820;\nSEDEM: 655', inline=True)
+    embed.add_field(name='P.Res', value='VENENA: 7;\nSEDEM: 7', inline=True)
+    embed.add_field(name='M.Res', value='VENENA: 7;\nSEDEM: 7', inline=True)
+    embed.add_field(name='Prorate', value='N:VENENA: 1;SEDEM: 10 \nP:VENENA: 1; SEDEM: 5\nM:VENENA: 5; SEDEM: 20', inline=True)
+    embed.add_field(name='Crit Res', value='VENENA: 5;\nSEDEM: 25', inline=True)
+    embed.add_field(name='Flee', value='VENENA: 436;\nSEDEM: 283', inline=True)
+    embed.add_field(name='Retaliation', value="", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts: Head/Top of Crown (ARM),\nTorso (Empress Ogre Fang, OHS, BW, STF, KN, HB),\nLeft Arm (Empress Ogre Crystal, THS, BWG, MD, SHIELD, KTN)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/venena2.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+################### MAIN QUEST BAB 10####################
+
+@bot.command(name='pisteus', aliases=['pist'])
+async def pisteus(ctx):
+    embed = discord.Embed(title='Pisteus')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='10', inline=True)
+    embed.add_field(name='MQ Locked', value='No', inline=True)
+    embed.add_field(name='Map', value='Ducia Coast: Depths')
+    embed.add_field(name='Element', value='Water', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='386', inline=True)
+    embed.add_field(name='M.Def', value='483', inline=True)
+    embed.add_field(name='P.Res', value='7', inline=True)
+    embed.add_field(name='M.Res', value='7', inline=True)
+    embed.add_field(name='Prorate', value='N:5  P:10  M:15', inline=True)
+    embed.add_field(name='Crit Res', value='0', inline=True)
+    embed.add_field(name='Flee', value='432', inline=True)
+    embed.add_field(name='Retaliation', value="T: Immune.\nS: OK when inflicted while HP > 30% HP. Boss runs away and retaliates with a large fin attack (M, Freeze) when Stunned at <= 30% HP.", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nRight Fin,\nLeft Fin,\nHead (Pisteus Horns)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/pisteus.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='arachnidemon', aliases=['arach'])
+async def arachnidemon(ctx):
+    embed = discord.Embed(title='Arachnidemon')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='10', inline=True)
+    embed.add_field(name='MQ Locked', value='Yes(Area Lock)', inline=True)
+    embed.add_field(name='Map', value='Arche Valley: Depths')
+    embed.add_field(name='Element', value='Dark', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='512', inline=True)
+    embed.add_field(name='M.Def', value='392', inline=True)
+    embed.add_field(name='P.Res', value='7', inline=True)
+    embed.add_field(name='M.Res', value='7', inline=True)
+    embed.add_field(name='Prorate', value='N:10  P:20  M:20', inline=True)
+    embed.add_field(name='Crit Res', value='0', inline=True)
+    embed.add_field(name='Flee', value='351', inline=True)
+    embed.add_field(name='Retaliation', value="FTS: OK. Cooldown duration increases when HP < 50%", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nTail,\nLeft Arm,\nHead (Radiant Miracle Water)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/arachnidemon.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='blackshadow', aliases=['bs'])
+async def blackshadow(ctx):
+    embed = discord.Embed(title='Black Shadow')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='10', inline=True)
+    embed.add_field(name='MQ Locked', value='No', inline=True)
+    embed.add_field(name='Map', value='Rokoko City Ruins')
+    embed.add_field(name='Element', value='PURPLE: Dark;\nRED: Fire', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='398', inline=True)
+    embed.add_field(name='M.Def', value='598', inline=True)
+    embed.add_field(name='P.Res', value='PURPLE: 7;\nRED: 27', inline=True)
+    embed.add_field(name='M.Res', value='PURPLE: 7;\nRED: 27', inline=True)
+    embed.add_field(name='Prorate', value='N:1  P:10  M:10', inline=True)
+    embed.add_field(name='Crit Res', value='10', inline=True)
+    embed.add_field(name='Flee', value='297', inline=True)
+    embed.add_field(name='Retaliation', value="PURPLE: OK\nRED: FTS success rate is reduced by 50%", inline=False)
+    embed.add_field(name='Parts Destruction:', value="2 Parts:\nLeft Chest (Black Shadow Cape Fragment),\nMantle/Cloak (Black Shadow Cape Fragment)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/blackshadow.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='hexter', aliases=['hex'])
+async def hexter(ctx):
+    embed = discord.Embed(title='Hexter')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='10', inline=True)
+    embed.add_field(name='MQ Locked', value='Yes(Area Lock)', inline=True)
+    embed.add_field(name='Map', value="Witch's Woods Depths")
+    embed.add_field(name='Element', value='Wind', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='607', inline=True)
+    embed.add_field(name='M.Def', value='606', inline=True)
+    embed.add_field(name='P.Res', value='8', inline=True)
+    embed.add_field(name='M.Res', value='8', inline=True)
+    embed.add_field(name='Prorate', value='N:5  P:5  M:25', inline=True)
+    embed.add_field(name='Crit Res', value='NORM: 20;\nCRITRES: 100', inline=True)
+    embed.add_field(name='Flee', value='303', inline=True)
+    embed.add_field(name='Retaliation', value="At the start of the battle and every 60 seconds afterwards, the boss will go to the center of the map and enter CRITRES mode for a period of time. When entering CRITRES mode, the boss will release multiple slow moving fins that go around the map while moving outwards. These fins deal heavy magic damage, so it is best to just go at the upper left/right corners of the map to avoid these fins. After the fins are released, the boss will then summon a plethora of meteors. Shortly after releasing all of the fins and meteors, the boss will return back to its normal form.", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nHead (Flame Horn),\nFuselage/Left Wing,\nTail", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/hexter.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='irestida', aliases=['ires'])
+async def irestida(ctx):
+    embed = discord.Embed(title='Irestida')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='10', inline=True)
+    embed.add_field(name='MQ Locked', value='No', inline=True)
+    embed.add_field(name='Map', value='Nov Diela: Center')
+    embed.add_field(name='Element', value='IRESTIDA: [BLUE: Neutral; GREEN/ORANGE: Wind];\nFLYSTIDA/WALKASTIDA: Dark;', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='922', inline=True)
+    embed.add_field(name='M.Def', value='310', inline=True)
+    embed.add_field(name='P.Res', value='8', inline=True)
+    embed.add_field(name='M.Res', value='8', inline=True)
+    embed.add_field(name='Prorate', value='N:1  P:1  M:50', inline=True)
+    embed.add_field(name='Crit Res', value='[NORMAL: 100; FREEZE: 0];', inline=True)
+    embed.add_field(name='Flee', value='310', inline=True)
+    embed.add_field(name='Retaliation', value="T: Immune\nFS: Immune above 75% HP", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nLeft Upper Torso,\nRight Hand (Irestida's Bubble),\nTail (Irestida's Tail)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/irestida.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+############### MAIN QUEST BAB 11#####################
+@bot.command(name='reliza', aliases=['reli'])
+async def reliza(ctx):
+    embed = discord.Embed(title='Raliza')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='11', inline=True)
+    embed.add_field(name='MQ Locked', value='Yes', inline=True)
+    embed.add_field(name='Map', value='Manna Waterfront')
+    embed.add_field(name='Element', value='PH1+PH2: Dark;\nPH3: Neutral', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='420', inline=True)
+    embed.add_field(name='M.Def', value='630', inline=True)
+    embed.add_field(name='P.Res', value='PH1+PH2: 8;\nPH3: -42', inline=True)
+    embed.add_field(name='M.Res', value='PH1+PH2+PH3: 8', inline=True)
+    embed.add_field(name='Prorate', value='N:1  P:1  M:10', inline=True)
+    embed.add_field(name='Crit Res', value='PH1+PH2: 30;\nPH3: 500', inline=True)
+    embed.add_field(name='Flee', value='640', inline=True)
+    embed.add_field(name='Retaliation', value="F: Retaliates with a player-centered attack that inflicts mana explosion during PH1 and PH3.\nT: Retaliates with a player-centered attack that inflicts mana explosion during PH2 and PH3.\nS: OK\nFEAR: Immune", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nLeft Arm (Crimson Silk),\nRight Wing (ADD: Iron Witch Wings),\nTorso (ARM)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/reliz.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='gemma', aliases=['gema'])
+async def gemma(ctx):
+    embed = discord.Embed(title='Gemma')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='11', inline=True)
+    embed.add_field(name='MQ Locked', value='No(World Lock)', inline=True)
+    embed.add_field(name='Map', value='Fugitive Lake Swamp')
+    embed.add_field(name='Element', value='RED: Fire; YELLOW: Earth; GREEN: Wind', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='728', inline=True)
+    embed.add_field(name='M.Def', value='728', inline=True)
+    embed.add_field(name='P.Res', value='NORM: 16; SHELL: 96', inline=True)
+    embed.add_field(name='M.Res', value='NORM: 16; SHELL: 96', inline=True)
+    embed.add_field(name='Prorate', value='N:10  P:5  M:10', inline=True)
+    embed.add_field(name='Crit Res', value='20', inline=True)
+    embed.add_field(name='Flee', value='465', inline=True)
+    embed.add_field(name='Retaliation', value="T: Immune\nFTS: Immune during SHELL mode\n\nDIZZY: The boss turns YELLOW, retaliates with a spinning attack that inflicts Dizzy, and becomes Earth element.DIZZY: The boss turns YELLOW, retaliates with a spinning attack that inflicts Dizzy, and becomes Earth element.\nPARALYSIS: The boss turns GREEN, retaliates with a spinning attack that inflicts Paralysis, and becomes Wind element.\nIGNITE: The boss turns RED, retaliates with a spinning attack that inflicts Ignite, and becomes Fire element.", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nCore/Head (Gemma's Jewel),\nRight Side of Fuselage (STF),\nTail (OHS)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/gemma.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='ferzen', aliases=['ferz'])
+async def ferzen(ctx):
+    embed = discord.Embed(title='Ferzen the Rock Dragon')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='', inline=True)
+    embed.add_field(name='MQ Locked', value='', inline=True)
+    embed.add_field(name='Map', value='Guardian Forest: Giant Tree')
+    embed.add_field(name='Element', value='Earth', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='NORM: 1055;\nBREAK+HEAD: def-52;\nBREAK+TAIL: def-52;\nBREAK+TORSO: def-104', inline=True)
+    embed.add_field(name='M.Def', value='NORM: 740;\nBREAK+HEAD: mdef-28;\nBREAK+TAIL: mdef-28;\nBREAK+TORSO: mdef-54', inline=True)
+    embed.add_field(name='P.Res', value='8', inline=True)
+    embed.add_field(name='M.Res', value='8', inline=True)
+    embed.add_field(name='Prorate', value='N:10  P:10  M:20', inline=True)
+    embed.add_field(name='Crit Res', value='20', inline=True)
+    embed.add_field(name='Flee', value='314', inline=True)
+    embed.add_field(name='Retaliation', value="Breaking the boss's parts reduces its defenses.\nAt 20% HP, the boss will gain invincibility for a period of time, release floor spikes centered around its body, and summon four large, circular AOE attacks.\nWhen the aggro holder is outside of the boss's attack range, the boss will start moving towards the aggro holder.", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nTorso,\nHead (Terrestrial Tears),\nTail (Mithril Ore)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/ferzen.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='juniordragonzyvio', aliases=['junior'])
+async def juniordragonzyvvio(ctx):
+    embed = discord.Embed(title='Junior Dragon Zyvio')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='11', inline=True)
+    embed.add_field(name='MQ Locked', value='No(World Lock)', inline=True)
+    embed.add_field(name='Map', value='Storage Yard: Arena')
+    embed.add_field(name='Element', value='Earth', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='640', inline=True)
+    embed.add_field(name='M.Def', value='535', inline=True)
+    embed.add_field(name='P.Res', value='8', inline=True)
+    embed.add_field(name='M.Res', value='8', inline=True)
+    embed.add_field(name='Prorate', value='N:5  P:10  M:5', inline=True)
+    embed.add_field(name='Crit Res', value='20', inline=True)
+    embed.add_field(name='Flee', value='640', inline=True)
+    embed.add_field(name='Retaliation', value="S: Immune to S while in Normal mode and HP >= 50%.\nAlso Immune to S while in Rage mode and HP < 50%\nFT: Immune to FT while in Normal mode and HP < 50%.\nAlso Immune to FT while in Rage mode and HP > 50%\n\nThe boss has a damage limit of 999999. If the boss receives damage above 500k in one instance, the boss will go into Rage mode and summon 2 Zimius mobs (max 2 at a time).\nWhile in Rage mode, the boss's Evasion rate increases, but the damage limit is lifted.\nAt 50% HP, the boss becomes [Invincible] for a period of time, goes into Rage mode, and summons 2 Zimius mobs (max 2 at a time). Rage mode lasts for 30 seconds.", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nHead,\nRight Arm,\nBase of Tail (Junior Dragon Black Thorn)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/zyvio.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='wardragonturba', aliases=['turba'])
+async def wardragonturba(ctx):
+    embed = discord.Embed(title='War Dragon Turba')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='11', inline=True)
+    embed.add_field(name='MQ Locked', value='No(World Lock)', inline=True)
+    embed.add_field(name='Map', value='Prime Ramus: Village')
+    embed.add_field(name='Element', value='Earth', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='596', inline=True)
+    embed.add_field(name='M.Def', value='705', inline=True)
+    embed.add_field(name='P.Res', value='8', inline=True)
+    embed.add_field(name='M.Res', value='8', inline=True)
+    embed.add_field(name='Prorate', value='N:10  P:5  M:10', inline=True)
+    embed.add_field(name='Crit Res', value='40', inline=True)
+    embed.add_field(name='Flee', value='480', inline=True)
+    embed.add_field(name='Retaliation', value="FTS: Increased cooldown during PH2 (HP <= 50%)\nT: Immune during PH1 (HP > 50%)\nS: When stunned during PH2, the boss will: gain\n[Invincible] for a short period of time, go to the center of the map, summon a bunch of spike beds, and then release an annulus-shaped, foe-centered spike bed AOE, where the safe areas are inside the inner circle (by the boss) and outside the outer circle.\n\nWhen the boss's HP crosses 50%, the boss will enter PH2 and perform the same actions as its retaliation for being stunned during PH2 (described above). Breaking the boss's right arm significantly reduces the boss's guard rate. The boss also has a straight line laser attack that inflicts absolute [Petrify].", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts: Head (War Dragon Horn), Torso (MD), Right Arm (KTN)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/wardragonturba.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='vlamtheflamedragon', aliases=['vlam'])
+async def vlamtheflamedragon(ctx):
+    embed = discord.Embed(title='Vlam the Flame Dragon')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='11', inline=True)
+    embed.add_field(name='MQ Locked', value='No (World Lock)', inline=True)
+    embed.add_field(name='Map', value='Divido Spring')
+    embed.add_field(name='Element', value='Fire', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='PH1: 880;\nPH2: 440:\nPH3: 220', inline=True)
+    embed.add_field(name='M.Def', value='PH1: 880;\nPH2: 440:\nPH3: 220', inline=True)
+    embed.add_field(name='P.Res', value='PH1: 8;\nPH2: 0:\nPH3: -16', inline=True)
+    embed.add_field(name='M.Res', value='PH1: 8;\nPH2: 0:\nPH3: -16', inline=True)
+    embed.add_field(name='Prorate', value='N:10  P:10  M:15', inline=True)
+    embed.add_field(name='Crit Res', value='30', inline=True)
+    embed.add_field(name='Flee', value='410', inline=True)
+    embed.add_field(name='Retaliation', value="The boss has 3 phases:\n\nPH1: HP > 66%. Immune to F. TS are both OK.\nPH2: HP > 33% & HP ≤ 66%. Immune to S. FT are both OK.\nPH3: HP ≤ 33%. Immune to TS. F is OK.\n\nThe boss has a high FTS cooldown. The boss's floor attacks deal heavy MaxHP fractional damage (about 75% fractional damage without any reductions). The boss also has attacks that inflict absolute ailments.", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nLeft Wing (BOW),\nHead (HB),\nTail (Toxic Dragon Caudal Claw)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/vlam.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='velum', aliases=['vel'])
+async def velum(ctx):
+    embed = discord.Embed(title='Velum')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='11', inline=True)
+    embed.add_field(name='MQ Locked', value='No (World Lock)', inline=True)
+    embed.add_field(name='Map', value='Arstida Depths')
+    embed.add_field(name='Element', value='Neutral', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='892', inline=True)
+    embed.add_field(name='M.Def', value='892', inline=True)
+    embed.add_field(name='P.Res', value='CYAN/BLUE/RED: 8;\nPURPLE: 75', inline=True)
+    embed.add_field(name='M.Res', value='CYAN/BLUE/RED: 8;\nPURPLE: 75', inline=True)
+    embed.add_field(name='Prorate', value='N:5  P:5  M:10', inline=True)
+    embed.add_field(name='Crit Res', value='25', inline=True)
+    embed.add_field(name='Flee', value='330', inline=True)
+    embed.add_field(name='Retaliation', value="The boss starts out in CYAN form. After 8 seconds, it will either remain in CYAN form or change to RED/BLUE form depending on the aggro holder's distance to the boss:\n\nCYAN: 6m <= dist < 7m\nBLUE: dist >= 7m\nRED: dist < 6m\n\nAfter 20 sec of being in RED/BLUE form, it will revert back to CYAN form and change color again after 8 sec if the distance conditions are met. This periodic color change repeats throughout the battle. FTS does not reset the 20 sec timer of a color form.\n\nBreaking the boss's parts reduces its guard rate.\nCYAN: FTS is OK\nRED: Retaliates to F\nBLUE: Retaliates to T\nPURPLE: Immune to FTS. Retaliates to [Fear]\n\nWhile in PURPLE form, the boss's guard rate is extremely high.", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nRight Knee (Velum's Armor),\nLeft Arm (OHS),\nRight Shoulder (Shield; Can be seen via Tumble or via Stun during charge attack)3 Parts:\nRight Knee (Velum's Armor),\nLeft Arm (OHS),\nRight Shoulder (Shield; Can be seen via Tumble or via Stun during charge attack)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/velum.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='oculasignio', aliases=['ocul'])
+async def oculasignio(ctx):
+    embed = discord.Embed(title='Oculasignio')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='11', inline=True)
+    embed.add_field(name='MQ Locked', value='No (World Lock)', inline=True)
+    embed.add_field(name='Map', value='Mt. Vulcani: Summit')
+    embed.add_field(name='Element', value='OCULASIGNIO: Dark;\nTEPIPOTAMUS: Earth', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='N: 987; BREAK+BODY: 395', inline=True)
+    embed.add_field(name='M.Def', value='N: 987; BREAK+BODY: 395', inline=True)
+    embed.add_field(name='P.Res', value='[N: 30; BREAK1: 20; BREAK2: 10; BREAK3: 0', inline=True)
+    embed.add_field(name='M.Res', value='[N: 30; BREAK1: 20; BREAK2: 10; BREAK3: 0', inline=True)
+    embed.add_field(name='Prorate', value='N:5  P:5  M:5', inline=True)
+    embed.add_field(name='Crit Res', value='OCULASIGNIO: 30;\nTEPIPOTAMUS: 20', inline=True)
+    embed.add_field(name='Flee', value='310', inline=True)
+    embed.add_field(name='Retaliation', value="T: Immune above 50% HP\nFS: Immune below 50% HP\n\nBreaking the boss's parts reduces its PRES/MRES by 10% for each part.\nBreaking the boss's Body reduces its DEF/MDEF by 60%.", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nRight Hand,\nFuselage/Body (Evil Pearl),\nHead (Easier to break with Tumble)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/oculasignio.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='gordel', aliases=['gor'])
+async def gordel(ctx):
+    embed = discord.Embed(title='Gordel')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='11', inline=True)
+    embed.add_field(name='MQ Locked', value='No (World Lock)', inline=True)
+    embed.add_field(name='Map', value="Milcaska Falls: Weredragon's Mouth")
+    embed.add_field(name='Element', value='Earth', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='NORM: 1717;\nBREAK+TORSO: 1145', inline=True)
+    embed.add_field(name='M.Def', value='NORM: 1717;\nBREAK+TORSO: 1145', inline=True)
+    embed.add_field(name='P.Res', value='NORM: 39;\nBREAK+TAIL: 19', inline=True)
+    embed.add_field(name='M.Res', value='NORM: 39;\nBREAK+TAIL: 19', inline=True)
+    embed.add_field(name='Prorate', value='N:1  P:1  M:5', inline=True)
+    embed.add_field(name='Crit Res', value='40', inline=True)
+    embed.add_field(name='Flee', value='350', inline=True)
+    embed.add_field(name='Retaliation', value="The boss has two phases:\nPH1: HP>=50%\n\PH2: HP<50%\n\nF: OK during PH1. Immune to F during PH2\nT: During PH1, if F is not in cooldown and the boss is Tumbled, F will be forced into cooldown. Immune to T during PH2.\nS: Immune to S during PH1. OK during PH2", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nTorso (MD),\nLeft Arm (THS),\nTail (Gordel's Caudal Armor)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/gordel.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+############### Main Quest 12 ##################
+@bot.command(name='guardgolem', aliases=['gg'])
+async def guardgolem(ctx):
+    embed = discord.Embed(title='Guard Golem')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='12', inline=True)
+    embed.add_field(name='MQ Locked', value='No (World Lock)', inline=True)
+    embed.add_field(name='Map', value="Weredragon's Throat")
+    embed.add_field(name='Element', value='Earth', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='PH1: 1160;\nPH2: 0;\nPH3: 0', inline=True)
+    embed.add_field(name='M.Def', value='PH1: 1160;\nPH2: 0;\nPH3: 0', inline=True)
+    embed.add_field(name='P.Res', value='PH1: 25;\nPH2: 80;\nPH3: 0', inline=True)
+    embed.add_field(name='M.Res', value='PH1: 25;\nPH2: 80;\nPH3: 0', inline=True)
+    embed.add_field(name='Prorate', value='N:0  P:0  M:0', inline=True)
+    embed.add_field(name='Crit Res', value='20', inline=True)
+    embed.add_field(name='Flee', value='450', inline=True)
+    embed.add_field(name='Retaliation', value="The boss has 3 phases:\nPH1 (Blue): High Guard Rate. FTS is OK\nPH2 (Yellow): High Resistance. Immune to FTS during start of phase; OK afterwards.\nPH3 (Red): High Evasion Rate and motion speed. Immune to FTS.\n\nFear: Immune\nParalysis: During PH3, inflicting [Paralysis] on the boss will interrupt its actions for 5 seconds.", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nShield,\nBack (Weredragon Golem Core),\nRight Arm", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/guardgolem.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='burningdragonigneus', aliases=['igneus'])
+async def burningdragonigneus(ctx):
+    embed = discord.Embed(title='Burning Dragon Igneus')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='12', inline=True)
+    embed.add_field(name='MQ Locked', value='No (World Lock)', inline=True)
+    embed.add_field(name='Map', value='Boma Moja: Village Center')
+    embed.add_field(name='Element', value='Fire', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='PH1: 823;\nPH2: 823', inline=True)
+    embed.add_field(name='M.Def', value='PH1: 823;\nPH2: 823', inline=True)
+    embed.add_field(name='P.Res', value='PH1: 9;\nPH2: 27', inline=True)
+    embed.add_field(name='M.Res', value='PH1: 9;\nPH2: 27', inline=True)
+    embed.add_field(name='Prorate', value='N:10  P:15  M:20', inline=True)
+    embed.add_field(name='Crit Res', value='20', inline=True)
+    embed.add_field(name='Flee', value='360', inline=True)
+    embed.add_field(name='Retaliation', value="The boss has 2 phases:\nPH1: 50-100% HP\nPH2: 0-50% HP\FTS: The boss will go into Rage Mode for 10 seconds and then return to normal.\nUpon recovering from FTS, the boss will start emitting shock waves until Rage Mode ends.", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nHead,\nTorso,\nLeft Wing (Burning Dragon Claw)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/igneus.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='trickterdragonmimyugon', aliases=['mimyugon'])
+async def trickterdragonmimyugon(ctx):
+    embed = discord.Embed(title='Trickter Dragon Mimyugon')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='12', inline=True)
+    embed.add_field(name='MQ Locked', value='No (World Lock)', inline=True)
+    embed.add_field(name='Map', value='Operation Zone: Cockpit Area')
+    embed.add_field(name='Element', value='Earth', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='2620', inline=True)
+    embed.add_field(name='M.Def', value='2620', inline=True)
+    embed.add_field(name='P.Res', value='9', inline=True)
+    embed.add_field(name='M.Res', value='9', inline=True)
+    embed.add_field(name='Prorate', value='N:5  P:10  M:15', inline=True)
+    embed.add_field(name='Crit Res', value='35', inline=True)
+    embed.add_field(name='Flee', value='360', inline=True)
+    embed.add_field(name='Retaliation', value="PH1: Immune to S. FT is OK\nPH2: Immune to TS. F is OK\n\nFor every broken part: Base DEF/MDEF is reduced by 572", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nTorso,\nHead (Trickster Kerato),\nLeft Wing (Trickster Wings)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/mimyugon.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='wackeddragonfazzino', aliases=['fazzino'])
+async def wickeddragonfazzino(ctx):
+    embed = discord.Embed(title='Wicked Dragon Fazzino')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='12', inline=True)
+    embed.add_field(name='MQ Locked', value='No (World Lock)', inline=True)
+    embed.add_field(name='Map', value='Propulsion System Room')
+    embed.add_field(name='Element', value='Dark', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='FAZZINO: 488;\nELECITA: 352', inline=True)
+    embed.add_field(name='M.Def', value='FAZZINO: 854;\nELECITA: 470', inline=True)
+    embed.add_field(name='P.Res', value='FAZZINO: 9;\nELECITA: 8', inline=True)
+    embed.add_field(name='M.Res', value='FAZZINO: 9;\nELECITA: 8', inline=True)
+    embed.add_field(name='Prorate', value='N:5  P:1  M:1', inline=True)
+    embed.add_field(name='Crit Res', value='FAZZINO: 40;\nELECITA: 25', inline=True)
+    embed.add_field(name='Flee', value='FAZZINO: 360;\nELECITA: 350', inline=True)
+    embed.add_field(name='Retaliation', value="ELECITA:\nFTS: OK\n\nF: OK\nTS: Immune unless both ELECITA mobs are defeated. OK otherwise", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nLeft Wing,\nRight Wing,\nHead (Wicked Dragon Twisted Horn)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/wickeddragonfazzino.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='brassdragonreguita', aliases=['reguita'])
+async def brassdragonreguita(ctx):
+    embed = discord.Embed(title='Brass Dragon Reguita')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='12', inline=True)
+    embed.add_field(name='MQ Locked', value='No (World Lock)', inline=True)
+    embed.add_field(name='Map', value='Boma Konda: Village Center')
+    embed.add_field(name='Element', value='Neutral', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='500', inline=True)
+    embed.add_field(name='M.Def', value='875', inline=True)
+    embed.add_field(name='P.Res', value='10', inline=True)
+    embed.add_field(name='M.Res', value='10', inline=True)
+    embed.add_field(name='Prorate', value='N:7  P:3  M:5', inline=True)
+    embed.add_field(name='Crit Res', value='35', inline=True)
+    embed.add_field(name='Flee', value='390', inline=True)
+    embed.add_field(name='Retaliation', value="On initiation, the boss will release a full map AOE (fixed M, Curse); this attack can be safely interrupted by Tumble.On initiation, the boss will release a full map AOE (fixed M, Curse); this attack can be safely interrupted by Tumble.\n\nDealing ≥1M damage to the boss causes the boss to have a 300k damage limit for 10 sec\nThe boss has 2 phases (@50%HP). Attack patterns change in PH2.", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nStaff (BWG),\nLeft Wing (KTN),\nTail (Brass Dragon Tail)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/brassdragonreguita.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='walican', aliases=['wali'])
+async def walican(ctx):
+    embed = discord.Embed(title='Walican')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='12', inline=True)
+    embed.add_field(name='MQ Locked', value='No (World Lock)', inline=True)
+    embed.add_field(name='Map', value='Jabali Kubwa: Summit')
+    embed.add_field(name='Element', value='Wind', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='494', inline=True)
+    embed.add_field(name='M.Def', value='988', inline=True)
+    embed.add_field(name='P.Res', value='MODE1: 9;\nMODE2: 59', inline=True)
+    embed.add_field(name='M.Res', value='MODE1: 9;\nMODE2: 89', inline=True)
+    embed.add_field(name='Prorate', value='N:15  P:10  M:5', inline=True)
+    embed.add_field(name='Crit Res', value='35', inline=True)
+    embed.add_field(name='Flee', value='445', inline=True)
+    embed.add_field(name='Retaliation', value="2 Phases\n\nPH1:\nBoss switches between MODE1 & MODE2 depending on the aggro holder's distance from the boss (boss checks in between its attacks):\n\nIf Aggro<6m: MODE1\nIf Aggro≥6m: MODE2\nFTS:\nMODE1; OK\nMODE2:\nPH1: [Invincible], full map AOE retaliation (current HP FR, abs Slow), ends MODE2 and rechecks aggro distance\nPH2: OK, ends MODE2 and rechecks aggro distance", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nHead (Walican Horn),\nLeft Wing (THS),\nTail (BOW)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/walican.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='dominaredor', aliases=['domi'])
+async def dominaredor(ctx):
+    embed = discord.Embed(title='Dominaredor')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='12', inline=True)
+    embed.add_field(name='MQ Locked', value='No (World Lock)', inline=True)
+    embed.add_field(name='Map', value='Frozen Falls: Depths')
+    embed.add_field(name='Element', value='DOMINAREDOR: Dark;\nCOENUBIA: Neutral', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='PH1+PH2: 1265;\nPH2+RETAL: 634', inline=True)
+    embed.add_field(name='M.Def', value='PH1+PH2: 1265;\nPH2+RETAL: 634', inline=True)
+    embed.add_field(name='P.Res', value='PH1: 50;\nPH2: 20;\nPH2+RETAL: 10', inline=True)
+    embed.add_field(name='M.Res', value='PH1: 50;\nPH2: 20;\nPH2+RETAL: 10', inline=True)
+    embed.add_field(name='Prorate', value='N:5  P:1  M:1', inline=True)
+    embed.add_field(name='Crit Res', value='PH1: 30;\nPH2: 40', inline=True)
+    embed.add_field(name='Flee', value='460', inline=True)
+    embed.add_field(name='Retaliation', value="The boss has 2 phases (transition @50% HP)\n\nPH1:\nFour ball COENUBIAS:\nTL White: Heals 25% of boss's HP every 10 sec\nTR Purple: Vortex (CurHP FR, Freeze)\nBL Purple: Meteor (Magic, Stun)\nBR Dark Purple: Triangular fins (MaxHP FR, Fear)\n\nFTS:\nCOENUBIA: Immune\nDOMINAREDOR: OK\nPH2:\nBoss's HP is locked until any 2 COENUBIA is defeated. Any COENUBIAS defeated after the first 2 adds 10% P/MRES to the boss (max +20%).\n\nFTS:\nIf the number of defeated COENUBIAS since the start of PH2 ≤ 2, FTS the boss is OK.\nIf the number defeated > 2, the boss retaliates to FTS", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nHead/Heart,\nTail (HB),\nLeft Wing (MD)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/dominaredor.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+################## Main Quest Bab 13 #####################
+
+@bot.command(name='zapo', aliases=['zap'])
+async def zapo(ctx):
+    embed = discord.Embed(title='Zapo')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='13', inline=True)
+    embed.add_field(name='MQ Locked', value='No (World Lock)', inline=True)
+    embed.add_field(name='Map', value='Puerta Islands: Adit')
+    embed.add_field(name='Element', value='Water', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='896', inline=True)
+    embed.add_field(name='M.Def', value='641', inline=True)
+    embed.add_field(name='P.Res', value='10', inline=True)
+    embed.add_field(name='M.Res', value='10', inline=True)
+    embed.add_field(name='Prorate', value='N:5  P:5  M:10', inline=True)
+    embed.add_field(name='Crit Res', value='30', inline=True)
+    embed.add_field(name='Flee', value='575', inline=True)
+    embed.add_field(name='Retaliation', value="The boss has 2 phases.\n\nPH1:\nFTS: OK\nPH2:\nFTS: Immune while doing the rush to vortex attack pattern. OK otherwise.", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nLeft Hand (DAGGER),\nRight Torso/Spear (ARM),\nBack/Shield", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/zapo.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='redashdragonrudis', aliases=['rudis'])
+async def redashdragonrudis(ctx):
+    embed = discord.Embed(title='Red Ash Dragon Rudis')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='13', inline=True)
+    embed.add_field(name='MQ Locked', value='No (World Lock)', inline=True)
+    embed.add_field(name='Map', value='Espuma Dome: Entrance')
+    embed.add_field(name='Element', value='Earth', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='647', inline=True)
+    embed.add_field(name='M.Def', value='906', inline=True)
+    embed.add_field(name='P.Res', value='10', inline=True)
+    embed.add_field(name='M.Res', value='10', inline=True)
+    embed.add_field(name='Prorate', value='N:10  P:5  M:5', inline=True)
+    embed.add_field(name='Crit Res', value='35', inline=True)
+    embed.add_field(name='Flee', value='388', inline=True)
+    embed.add_field(name='Retaliation', value="Any damage past the boss's 50% HP is nullified (forced HP lock) When the boss's HP<50%, the boss gains a rare attack pattern where it releases a bunch of meteors all over the arena.\n\nFTS:\nIf Head part is not broken:\nFT: OK\nS: Immune\n\nIf Head part is broken:\nFS: OK\nT: Immune", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nHead (Extremely Scary Face),\nLeft Wing (OHS),\nTail (STF)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/redashdragonrudis.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='donprofundo', aliases=['don'])
+async def donprofundo(ctx):
+    embed = discord.Embed(title='Don Profundo')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='13', inline=True)
+    embed.add_field(name='MQ Locked', value='No(World Lock)', inline=True)
+    embed.add_field(name='Map', value='Abandoned District: Ruins Summit')
+    embed.add_field(name='Element', value='Water', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value="DON PROFUNDO: 787;\nPROFUNDO: 488", inline=True)
+    embed.add_field(name='M.Def', value='DON PROFUNDO: 1047;\nPROFUNDO: 488', inline=True)
+    embed.add_field(name='P.Res', value='DON_PROFUNDO: 20;\nDON_PROFUNDO+SHELL: 90;\nPROFUNDO: 9', inline=True)
+    embed.add_field(name='M.Res', value='DON_PROFUNDO: 20;\nDON_PROFUNDO+SHELL: 90;\nPROFUNDO: 9', inline=True)
+    embed.add_field(name='Prorate', value='N:10  P:5  M:1', inline=True)
+    embed.add_field(name='Crit Res', value='DON_PROFUNDO: 30;\nPROFUNDO: 20', inline=True)
+    embed.add_field(name='Flee', value='400', inline=True)
+    embed.add_field(name='Retaliation', value="", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nTorso (Abyssal Creature Exoskeleton),\nRight Arm Above Saw,\nBack Left Spike on Shoulder", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/donprofundo.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='vatudo', aliases=['vatu'])
+async def vatudo(ctx):
+    embed = discord.Embed(title='Vatudo')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='13', inline=True)
+    embed.add_field(name='MQ Locked', value='No (World Lock)', inline=True)
+    embed.add_field(name='Map', value='Deep Sea: Deepest Zone')
+    embed.add_field(name='Element', value='Dark', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='1060', inline=True)
+    embed.add_field(name='M.Def', value='795', inline=True)
+    embed.add_field(name='P.Res', value='NORMAL: 15;\nINTERRUPTED: 10;', inline=True)
+    embed.add_field(name='M.Res', value='NORMAL: 15;\nINTERRUPTED: 10;', inline=True)
+    embed.add_field(name='Prorate', value='N:1  P:3  M:1', inline=True)
+    embed.add_field(name='Crit Res', value='35', inline=True)
+    embed.add_field(name='Flee', value='400', inline=True)
+    embed.add_field(name='Retaliation', value="", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nLeft Shoulder (BOW),\nRight Arm (KTN),\nBack/Tip of Tentacle Hair (Vatudo's Tactile Hair)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/vatudo2.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='ragingdragonbovinari', aliases=['bovinari'])
+async def bovinari(ctx):
+    embed = discord.Embed(title='')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='13', inline=True)
+    embed.add_field(name='MQ Locked', value='No (World Lock)', inline=True)
+    embed.add_field(name='Map', value='Little Shrine of Grace: Sanctuary')
+    embed.add_field(name='Element', value='Wind', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='938', inline=True)
+    embed.add_field(name='M.Def', value='938', inline=True)
+    embed.add_field(name='P.Res', value='PH1: 10;\nPH2: 20;\nPH2+FT: 30;', inline=True)
+    embed.add_field(name='M.Res', value='PH1: 10;\nPH2: 20;\nPH2+FT: 30;', inline=True)
+    embed.add_field(name='Prorate', value='N:15  P:5  M:5', inline=True)
+    embed.add_field(name='Crit Res', value='PH1: 20;\nPH2: 25;\nPH2+FT: 30;', inline=True)
+    embed.add_field(name='Flee', value='400', inline=True)
+    embed.add_field(name='Retaliation', value="", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nHead (Bovinari Crystal Horn),\nRoot of Tail (THS),\nTip of Tail (HB)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/bovinari.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+
+@bot.command(name='humida', aliases=['humi'])
+async def humida(ctx):
+    embed = discord.Embed(title='Humida')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='13', inline=True)
+    embed.add_field(name='MQ Locked', value='No (World Lock)', inline=True)
+    embed.add_field(name='Map', value='Giant Plastida')
+    embed.add_field(name='Element', value='HUMIDA/BALL: [MODE1: Water; MODE2: Dark];', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='HUMIDA: [MODE1: 1897; MODE2: 813];\nBALL: [MODE1: 1500; MODE2: 500]', inline=True)
+    embed.add_field(name='M.Def', value='HUMIDA: [MODE1: 813; MODE2: 1897];\nBALL: [MODE1: 500; MODE2: 1500]', inline=True)
+    embed.add_field(name='P.Res', value='HUMIDA: [MODE1: 30; MODE2: 10];\nBALL: [MODE1: 15; MODE2: 5]', inline=True)
+    embed.add_field(name='M.Res', value='HUMIDA: [MODE1: 10; MODE2: 30];\nBALL: [MODE1: 5; MODE2: 15]', inline=True)
+    embed.add_field(name='Prorate', value='N:5  P:1  M:1', inline=True)
+    embed.add_field(name='Crit Res', value='HUMIDA: [MODE1: 30; MODE2: 40]\nBALL: 20', inline=True)
+    embed.add_field(name='Flee', value='HUMIDA: 530;\nBALL: 200', inline=True)
+    embed.add_field(name='Retaliation', value="FTS:\nHUMIDA:\nMODE1: Immune to S\nMODE2: Immune to T\nDuring PH2: Also Immune to F\n\nBALLS: FTS is OK", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nBack Left Shoulder (MD,visible at a distance),\nRight Arm (BWG),\nTorso (Dire Coenubia Crystal)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/humida.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='torexesa', aliases=['torex'])
+async def torexesa(ctx):
+    embed = discord.Embed(title='Torexesa')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='13', inline=True)
+    embed.add_field(name='MQ Locked', value='Yes(Area Lock)', inline=True)
+    embed.add_field(name='Map', value='Aquacity: Parliament Hall')
+    embed.add_field(name='Element', value='Dark', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='1143', inline=True)
+    embed.add_field(name='M.Def', value='1143', inline=True)
+    embed.add_field(name='P.Res', value='PH1/PH2/PH3: 20;\nPH4: -15', inline=True)
+    embed.add_field(name='M.Res', value='PH1/PH2/PH3/PH4: 20', inline=True)
+    embed.add_field(name='Prorate', value='N:1  P:1  M:1', inline=True)
+    embed.add_field(name='Crit Res', value='PH1/PH2/PH3: 35;\nPH4: 100', inline=True)
+    embed.add_field(name='Flee', value='610', inline=True)
+    embed.add_field(name='Retaliation', value="4 Phases (4 HP bars)\n\nFTS:\nF: Immune during PH2 and PH4\nT: OK\nS: Immune during PH1, PH3, and PH4\n\nPH4:\nForced minimum damage of 9999\n\nPhase Transitions:\nFor every phase transition, the boss temporarily gains [Invincible]", inline=False)
+    embed.add_field(name='Parts Destruction:', value="None", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/torexesa.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+
+############################# MAIN QUEST BAB 14 ############################
+
+
+@bot.command(name='mulgoon', aliases=['mulgon'])
+async def mulgoon(ctx):
+    embed = discord.Embed(title='Mulgoon')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='14', inline=True)
+    embed.add_field(name='MQ Locked', value='Yes', inline=True)
+    embed.add_field(name='Map', value='Menabra Plains')
+    embed.add_field(name='Element', value='Dark', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='MULGOON_LEFT_HAND: 1097;\nMULGOON_RIGHT_HAND: 1097;\nGARPUS: 810;\nANESTRO: 675', inline=True)
+    embed.add_field(name='M.Def', value='MULGOON_LEFT_HAND: 1097;\nMULGOON_RIGHT_HAND: 1097;\nGARPUS: 810;\nANESTRO: 675', inline=True)
+    embed.add_field(name='P.Res', value='MULGOON_LEFT_HAND: [PH1: 0; PH2-PH4: 10];\nMULGOON_RIGHT_HAND: 10;\nGARPUS: 10;\nANESTRO: 10', inline=True)
+    embed.add_field(name='M.Res', value='MULGOON_LEFT_HAND: [PH1: 0; PH2-PH4: 10];\nMULGOON_RIGHT_HAND: 10;\nGARPUS: 10;\nANESTRO: 10', inline=True)
+    embed.add_field(name='Prorate', value='N:1  P:1  M:1', inline=True)
+    embed.add_field(name='Crit Res', value='MULGOON_LEFT_HAND: 40;\nMULGOON_RIGHT_HAND: 40;\nGARPUS: 25;\nANESTRO: 25', inline=True)
+    embed.add_field(name='Flee', value='MULGOON_LEFT_HAND: 420;\nMULGOON_RIGHT_HAND: 420;\nGARPUS: 220;\nANESTRO: 620', inline=True)
+    embed.add_field(name='Retaliation', value="FTS:\bMULGOON LEFT & RIGHT HAND: Immune to FT. S is OK.\bGARPUS/ANESTRO: FTS OK", inline=False)
+    embed.add_field(name='Parts Destruction:', value="6 Parts:\n3 Fingers on Left Mulgoon Hand,\n3 Fingers on Right Mulgoon Hand", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/mulgoon.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+
+@bot.command(name='deformis', aliases=['defor'])
+async def deformis(ctx):
+    embed = discord.Embed(title='Deformis')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='14', inline=True)
+    embed.add_field(name='MQ Locked', value='No(World Lock)', inline=True)
+    embed.add_field(name='Map', value='Eumano Village Ruins: Central')
+    embed.add_field(name='Element', value='Earth', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='PH1: 830;\nPH2: 208', inline=True)
+    embed.add_field(name='M.Def', value='PH1: 830;\nPH2: 208', inline=True)
+    embed.add_field(name='P.Res', value='11', inline=True)
+    embed.add_field(name='M.Res', value='11', inline=True)
+    embed.add_field(name='Prorate', value='N:3  P:3  M:3', inline=True)
+    embed.add_field(name='Crit Res', value='30', inline=True)
+    embed.add_field(name='Flee', value='PH1: 208;\nPH2: 830', inline=True)
+    embed.add_field(name='Retaliation', value="PH1:\nFS OK.\nRetaliates to T\n\n\nPH2:\nT is OK. Retaliates to FS.\nRetaliation:\nBoss releases a straight line laser (M, Mana Explosion, full map range) while rotating 330 deg CW.\nThe boss is immune to FTS during this retaliation.\nThe safe area during this retaliation is next to the right edge of the straight line AOE.", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nLeft Arm,\nRight Arm,\nBack (ARROW, Corroded Petal, Easy to see when Tumbled)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/deformis.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='menti', aliases=['men'])
+async def menti(ctx):
+    embed = discord.Embed(title='Menti')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='14', inline=True)
+    embed.add_field(name='MQ Locked', value='Yes', inline=True)
+    embed.add_field(name='Map', value='Umidus Valley: Area 3Umidus Valley: Area 3')
+    embed.add_field(name='Element', value='Earth', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='3360', inline=True)
+    embed.add_field(name='M.Def', value='3360', inline=True)
+    embed.add_field(name='P.Res', value='NORMAL: 51;\nBREAK+HEAD: 11;', inline=True)
+    embed.add_field(name='M.Res', value='NORMAL: 51;\nBREAK+HEAD: 11;', inline=True)
+    embed.add_field(name='Prorate', value='N:2  P:2  M:3', inline=True)
+    embed.add_field(name='Crit Res', value='35', inline=True)
+    embed.add_field(name='Flee', value='410', inline=True)
+    embed.add_field(name='Retaliation', value="FT: Boss's P/MRES become 99% while interrupted\nS: Immune\n\nIgnite: Damage to boss +25%FT: Boss's P/MRES become 99% while interrupted\nS: Immune\n\nIgnite: Damage to boss +25%\n\nBreaking the boss's head reduces its resistances by 40%Breaking the boss's head also causes it to immediately move on to the next attack pattern.", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nHead (visible at ~4m from the front, F is more effective, Inlaid Purple Eye),\nBody,\nTail", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/menti.pnghttps://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/menti.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='biskyva', aliases=['bis'])
+async def biskyva(ctx):
+    embed = discord.Embed(title='biskyva')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='14', inline=True)
+    embed.add_field(name='MQ Locked', value='No(World Lock)', inline=True)
+    embed.add_field(name='Map', value='Aquastida: Central')
+    embed.add_field(name='Element', value='Water', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='1130', inline=True)
+    embed.add_field(name='M.Def', value='1130', inline=True)
+    embed.add_field(name='P.Res', value='12', inline=True)
+    embed.add_field(name='M.Res', value='12', inline=True)
+    embed.add_field(name='Prorate', value='N:6  P:4  M:10', inline=True)
+    embed.add_field(name='Crit Res', value='40', inline=True)
+    embed.add_field(name='Flee', value='510', inline=True)
+    embed.add_field(name='Retaliation', value="FTS: OK for all phases\nBody Part Destruction:\nHead: M/DEF+25%\nTorso: M/DEF-12.5%\nTail: M/DEF-12.5%", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nHead,\nTorso (Corroded Green Crystal),\nTail", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/biskyva.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='piscruva', aliases=['pisc'])
+async def piscruva(ctx):
+    embed = discord.Embed(title='Piscruva')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='14', inline=True)
+    embed.add_field(name='MQ Locked', value='Yes', inline=True)
+    embed.add_field(name='Map', value='Vicus Mutans: Square')
+    embed.add_field(name='Element', value='Water', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='1145', inline=True)
+    embed.add_field(name='M.Def', value='715', inline=True)
+    embed.add_field(name='P.Res', value='PH1: 15;\nPH2: [SHELL: 45; NORMAL: 15];', inline=True)
+    embed.add_field(name='M.Res', value='PH1: 10;\nPH2: [SHELL: 30; NORMAL: 10];', inline=True)
+    embed.add_field(name='Prorate', value='N:10  P:3  M:5', inline=True)
+    embed.add_field(name='Crit Res', value='0', inline=True)
+    embed.add_field(name='Flee', value='', inline=True)
+    embed.add_field(name='Retaliation', value="2 Phases\nPhase transition @80% HP\n\nWhen transitioning to PH2, the boss will temporarily gain [Invincible] and switch to SHELL mode.\n\nFTS:\nPH1: FTS OK\nPH2:\nSHELL: F OK. Immune to TS.\nNORMAL: FT OK. Immune to S.", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nHead,\nLower Body,\nTai", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/piscruva.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='supremeevilcrystalbeast', aliases=['supreme'])
+async def supremeevilcrystalbeast(ctx):
+    embed = discord.Embed(title='Supreme Evil Crystal Beast')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='14', inline=True)
+    embed.add_field(name='MQ Locked', value='Yes', inline=True)
+    embed.add_field(name='Map', value='Lixaro Ghost Town: Mansion')
+    embed.add_field(name='Element', value='Dark', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='910', inline=True)
+    embed.add_field(name='M.Def', value='1013', inline=True)
+    embed.add_field(name='P.Res', value='20', inline=True)
+    embed.add_field(name='M.Res', value='20', inline=True)
+    embed.add_field(name='Prorate', value='N:1  P:1  M:1', inline=True)
+    embed.add_field(name='Crit Res', value='35', inline=True)
+    embed.add_field(name='Flee', value='440', inline=True)
+    embed.add_field(name='Retaliation', value="3 Phases.\nPhase Transition at 80% and 40% HP\n\nFTS:\nPH1: Immune to FS. T is OK\nPH2: Immune to T. FS are OK\nPH3: FTS OK\n\nPhase Transition:\nBoss temporarily gains [Invincible] and turns Light Green.\nWhile the boss is Light Green, its HP is locked.\nHitting the boss 10x (PH1→PH2) or 15x (PH2→PH3) will cause it to switch back to normal mode (Purple)", inline=False)
+    embed.add_field(name='Parts Destruction:', value="2 Parts:\nBody (Orichalcum Ore),\nLeft Arm (Evil Crystal Beat Direclaw)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/supremeecb.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+###################### MAIN QUEST BAB 15 #########################
+
+@bot.command(name='bakuzan', aliases=['baku'])
+async def bakuzan(ctx):
+    embed = discord.Embed(title='Bakuzan')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='15', inline=True)
+    embed.add_field(name='MQ Locked', value='No (World Lock)', inline=True)
+    embed.add_field(name='Map', value='Afval Uplands: Summit')
+    embed.add_field(name='Element', value='Neutral', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='1460', inline=True)
+    embed.add_field(name='M.Def', value='585', inline=True)
+    embed.add_field(name='P.Res', value='10', inline=True)
+    embed.add_field(name='M.Res', value='10', inline=True)
+    embed.add_field(name='Prorate', value='N:10  P:20  M:20', inline=True)
+    embed.add_field(name='Crit Res', value='BAKUZAN: 35;\nBANDIT_LACKEY: 20;', inline=True)
+    embed.add_field(name='Flee', value='440', inline=True)
+    embed.add_field(name='Retaliation', value="The boss is accompanied by 4 BANDIT_LACKEY mobs.\nThe boss retaliates with an 11m radius, enemy-centered spike bed (MaxHP FR) every time 10 BANDIT_LACKEY mobs are defeated.\nDefeated BANDIT_LACKEY mobs respawn after 2 sec of being defeated.\nBANDIT_LACKEY in Normal mode is 30700", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nFront Lenses (ADD),\nLeft Leg (Black Steel),\nBack (ARM)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/bakuzan.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
+
+
 ######################### Xtall MQ ######################################
+
+
 
 @bot.command(name='xbosscolon', aliases=['xcolon'])
 async def xbosscolon(ctx):
@@ -1153,6 +2495,12 @@ async def xbrutaldragondecel(ctx):
     embed.set_image(url='https://cdn.discordapp.com/attachments/696678783465553990/1357540141685670072/image.png?ex=67f09347&is=67ef41c7&hm=459e01fe49235d8c8441b657c01969f854db513af41089fc48e401f12ab93401&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
+
+
+
+    ############################## Xtall BAB 2 #############################
+
+
 
 @bot.command(name='xbbgoblin', aliases=['xgoblin'])
 async def xbbgoblin(ctx):
@@ -1201,6 +2549,11 @@ async def xganglef(ctx):
     embed.set_image(url='https://cdn.discordapp.com/attachments/696678783465553990/1357540743282954482/image.png?ex=67f093d7&is=67ef4257&hm=26ff701db293ad4bd4c2a511e6a2fa532676d300c0703acd4bbbd4a5944ac55e&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
+
+
+
+############################### Xtall BAB 3 ###################################
+
 
 
 @bot.command(name='xdemonsgate', aliases=['xgate'])
@@ -1255,9 +2608,15 @@ async def xgrassdragonyelb(ctx):
 @bot.command(name='xnurethoth', aliases=['xnure'])
 async def xnurethoth(ctx):
     embed = discord.Embed(title='Nurethoth')
+    embed.add_field(name='Upgrade', value='nurethoth>guignol>guard golem>piscruva', inline=True)
     embed.set_image(url='https://cdn.discordapp.com/attachments/696678783465553990/1357541749253214349/image.png?ex=67f094c6&is=67ef4346&hm=89f7d76fba96caeaebc6b42d8e501e7031d4e879400db2dd69137072712c3846&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
+
+
+
+############################# Xtall BAB 4 ########################################
+
 
 
 @bot.command(name='xgespenst', aliases=['xgespen'])
@@ -1332,6 +2691,13 @@ async def xevilcrystalbeast(ctx):
     await ctx.send(embed=embed)
 
 
+
+
+#################### Xtall BAB 5 ############################
+
+
+
+
 @bot.command(name='xcerberus', aliases=['xcerbe'])
 async def xcerberus(ctx):
     embed = discord.Embed(title='Cerberus')
@@ -1404,6 +2770,12 @@ async def xtwilightdragon(ctx):
     await ctx.send(embed=embed)
 
 
+
+########################### Xtall BAB 6 ###########################################
+
+
+
+
 @bot.command(name='xiconos', aliases=['xico'])
 async def xiconos(ctx):
     embed = discord.Embed(title='Iconos')
@@ -1457,6 +2829,10 @@ async def xmoztomachina(ctx):
 
 
 
+########################### Xtall BAB 7 ###########################################
+
+
+
 @bot.command(name='xlalvada', aliases=['xlal'])
 async def xlalvada(ctx):
     embed = discord.Embed(title='Lalvada')
@@ -1476,6 +2852,7 @@ async def xzahhakmachina(ctx):
 @bot.command(name='xguignol', aliases=['xguig'])
 async def xguignol(ctx):
     embed = discord.Embed(title='Guignol')
+    embed.add_field(name='Upgrade', value='nurethoth>guignol>guard golem>piscruva', inline=True)
     embed.set_image(url='https://cdn.discordapp.com/attachments/696678783465553990/1357544867940667493/image.png?ex=67f097ae&is=67ef462e&hm=465c246dfb865e002bb5bf74881f3fbeb43ee51d9cf8aaaee236fc60ecc24150&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
@@ -1528,6 +2905,9 @@ async def xdemonicquasar(ctx):
     embed.set_image(url='https://cdn.discordapp.com/attachments/696678783465553990/1357545474781089932/image.png?ex=67f0983f&is=67ef46bf&hm=0f74385ecc2eb5d0b7df842cae009ad66a9a22efe4907bf7035c0e66874c5642&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
+
+
+########################### Xtall BAB 8 ###########################################
 
 
 @bot.command(name='xshampy', aliases=['xsham'])
@@ -1593,6 +2973,12 @@ async def xfinstern(ctx):
     embed.set_image(url='https://cdn.discordapp.com/attachments/696678783465553990/1357546085127553197/image.png?ex=67f098d0&is=67ef4750&hm=130c75aebd8aebc9421e7ca3948e9551665c67e18b24d82617b8e10f20b87891&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
+
+
+
+########################### Xtall BAB 9 ###########################################
+
+
 
 
 @bot.command(name='xtuscog', aliases=['xtus'])
@@ -1661,6 +3047,12 @@ async def xvenenameta(ctx):
     await ctx.send(embed=embed)
 
 
+
+########################### Xtall BAB 10 ###########################################
+
+
+
+
 @bot.command(name='xpisteus', aliases=['xpis'])
 async def xpisteus(ctx):
     embed = discord.Embed(title='Pisteus')
@@ -1701,6 +3093,12 @@ async def xirestida(ctx):
     embed.set_image(url='https://cdn.discordapp.com/attachments/696678783465553990/1357548473007865866/image.png?ex=67f09b09&is=67ef4989&hm=fb04e21c08071d1831bb7c4d7b22fa916c17b86826cd090d5c22ff3a12cd752a&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
+
+
+
+########################### Xtall BAB 11 ###########################################
+
+
 
 
 @bot.command(name='xreliza', aliases=['xclawedironwitch'])
@@ -1776,9 +3174,16 @@ async def xgordel(ctx):
     await ctx.send(embed=embed)
 
 
+
+########################### Xtall BAB 12 ###########################################
+
+
+
+
 @bot.command(name='xguardgolem', aliases=['xgg'])
 async def xguardgolem(ctx):
     embed = discord.Embed(title='Guard Golem')
+    embed.add_field(name='Upgrade', value='nurethoth>guignol>guard golem>piscruva', inline=True)
     embed.set_image(url='https://cdn.discordapp.com/attachments/696678783465553990/1357549640416890990/image.png?ex=67f09c20&is=67ef4aa0&hm=b2452971fc7c2d4e756cbd6f20376c0059133af8baadaca96de980d036e7636d&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
@@ -1834,6 +3239,7 @@ async def xdominaredor(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
+################################
 
 @bot.command(name='xvulture', aliases=['xvul'])
 async def xvulture(ctx):
@@ -1842,6 +3248,12 @@ async def xvulture(ctx):
     embed.set_image(url='https://cdn.discordapp.com/attachments/696678783465553990/1357551447809593525/image.png?ex=67f09dcf&is=67ef4c4f&hm=4739ea02cc1dc829c61c0d19dc44c44660bdbec05262cc0f30b90f165b1cd74c&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
+
+
+
+########################### Xtall BAB 13 ###########################################
+
+
 
 
 @bot.command(name='xzapo', aliases=['xzap'])
@@ -1901,6 +3313,10 @@ async def xtorexesa(ctx):
     await ctx.send(embed=embed)
 
 
+########################### Xtall BAB 14 ###########################################
+
+
+
 @bot.command(name='xmulgoon', aliases=['xmulgon'])
 async def xmulgoon(ctx):
     embed = discord.Embed(title="mulgoon's Hand")
@@ -1933,6 +3349,10 @@ async def xbiskyva(ctx):
     await ctx.send(embed=embed)
 
 
+########################### Xtall BAB 15 ###########################################
+
+
+
 @bot.command(name='xsupreme', aliases=['xsecb'])
 async def xsupreme(ctx):
     embed = discord.Embed(title='Supreme Evil Crystal Beast')
@@ -1944,6 +3364,7 @@ async def xsupreme(ctx):
 @bot.command(name='xpiscruva', aliases=['xpiscru'])
 async def xpiscruva(ctx):
     embed = discord.Embed(title='Piscruva')
+    embed.add_field(name='Upgrade', value='nurethoth>guignol>guard golem>piscruva', inline=True)
     embed.set_image(url='https://cdn.discordapp.com/attachments/696678783465553990/1357553823274762360/image.png?ex=67f0a005&is=67ef4e85&hm=6c565c1f709354c4e1e3fcdeb763b380e675ebb34a6fda33e0635c733371e763&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
@@ -1956,6 +3377,808 @@ async def xbakuza(ctx):
     embed.set_image(url='https://cdn.discordapp.com/attachments/696678783465553990/1357554048068354208/image.png?ex=67f0a03b&is=67ef4ebb&hm=e258b0d8bc408666ff8dacbcc76769cb79d6104612ed792d108c0516f4b0b702&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
+
+
+
+
+
+################################ Mini Boss Xtall ######################################################################
+
+
+
+
+
+
+
+@bot.command(name='xtortuga', aliases=['xtortu'])
+async def xtortuga(ctx):
+    embed = discord.Embed(title='Tortuga')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357567902722691152/image.png?ex=67f4a1a2&is=67f35022&hm=12ad3cabf79ca22a277557882860f693b2e2005ee7f2068841589ff9a563e78a&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xmiraclepotum', aliases=['xmiracle'])
+async def xmiraclepotum(ctx):
+    embed = discord.Embed(title='Miracle Potum')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357568106394030311/image.png?ex=67f4a1d2&is=67f35052&hm=131225c16f82e552a6103686852dc379e76585aa2f35a1b0b18ab09ca4e75ac8&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xdarkmushroom', aliases=['xdmushroom'])
+async def xdarkmushroom(ctx):
+    embed = discord.Embed(title='Dark Mushroom')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357567978945908858/image.png?ex=67f4a1b4&is=67f35034&hm=1464c88ee6b7b9e212e9435f47db4f4238cf1350a1904966f951cede288cf01d&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xsilverroar', aliases=['xsilver'])
+async def xsilverorar(ctx):
+    embed = discord.Embed(title='Silver Roar')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357568199306248264/image.png?ex=67f4a1e9&is=67f35069&hm=bdcf3254917abfe305f1d165331dbe9421e523b9a982f6f24b2acbeb86f891d7&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xmetalstinger', aliases=['xmetal'])
+async def xmetal(ctx):
+    embed = discord.Embed(title='Metal Stinger')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357569899865575574/image.png?ex=67f4a37e&is=67f351fe&hm=da19289bc54f0a4a0c94c1e3b6fe75cb0bb1a776cab6354e5c0d6c6e81c76a26&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xkingpotum', aliases=['xking'])
+async def xkingpotum(ctx):
+    embed = discord.Embed(title='King Potum')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357568325651140689/image.png?ex=67f4a207&is=67f35087&hm=3a1db820271f812f782269074fa698cc9d82637c435fb121e6f7bdcbc47d5e09&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xgiantboar', aliases=['xgiant'])
+async def xgiantboar(ctx):
+    embed = discord.Embed(title='Giant Boar')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357568642044399806/image.png?ex=67f4a252&is=67f350d2&hm=0fa522d7f43b3d9f2025de689d03a03b5a476f300384e2def4c0c7076c1bcce6&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xgoldenskeleton', aliases=['xgolden'])
+async def xgoldenskeleton(ctx):
+    embed = discord.Embed(title='Golden Skeleton')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357568772256432339/image.png?ex=67f4a271&is=67f350f1&hm=002d581fdadb46df2d4ce9960b65f5961c84726477ce87fe3de987eb39285e16&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xbigcoryn', aliases=['xbig'])
+async def xbigcoryn(ctx):
+    embed = discord.Embed(title='Big Coryn')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357568866728935504/image.png?ex=67f4a288&is=67f35108&hm=3a311357d78c8146529fc04af3a34e5ec15dab3bcef8a9c09b030c434093da0f&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='seltirio', aliases=['xselti'])
+async def xseltirio(ctx):
+    embed = discord.Embed(title='Seltirio')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357568973452873728/image.png?ex=67f4a2a1&is=67f35121&hm=b54a6dd854ace7a80c7586fea764fa804199036c2570c65aee37f68074907a57&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xstonemercenary', aliases=['xstone'])
+async def xstonemerchenary(ctx):
+    embed = discord.Embed(title='Stone Mercenary')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357569118957473882/image.png?ex=67f4a2c4&is=67f35144&hm=a7501197b2139906c94ab913763bf32152b63bf43298deb9e63a16251d4b5ae5&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xarcoiris', aliases=['xarco'])
+async def xarcoiris(ctx):
+    embed = discord.Embed(title='Arcoiris')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357569236825800787/image.png?ex=67f4a2e0&is=67f35160&hm=30ffe90d23334db2f26c92ab5ddb6d99f42573b5a51d7b0c2108c636c09d705a&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xmoonlightpotum', aliases=['xmoonlight'])
+async def xmoonlightpotum(ctx):
+    embed = discord.Embed(title='Moonlight Potum')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357569499112407070/image.png?ex=67f4a31f&is=67f3519f&hm=b15f6f1d0ce6773028ce5a916318388ca256e518bed05c58d2832b4e7a429a75&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xgigantknight', aliases=['xgigant'])
+async def xgigantknight(ctx):
+    embed = discord.Embed(title='Gigant Knight')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357569608474689658/image.png?ex=67f4a339&is=67f351b9&hm=6a91a85de042effcfcc95c8a2d3fd584a6de20575671288d3e80c130f45d5b71&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xcaspy', aliases=['xcasp'])
+async def xcaspy(ctx):
+    embed = discord.Embed(title='Caspy')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357569697796849824/image.png?ex=67f4a34e&is=67f351ce&hm=e966f7657861de79af42500bc1094cde0c869a939ce7539fa4f51f39575efba0&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xviolaccoon', aliases=['xviola'])
+async def xviolaccoon(ctx):
+    embed = discord.Embed(title='Violaccoon')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357569798124474491/image.png?ex=67f4a366&is=67f351e6&hm=4a9f11a009c81fca73bd7488d7a74a3cbc92f2c2c3570aee5c00e35282d4a3c4&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xshininggentleman', aliases=['xshining'])
+async def xshininggentleman(ctx):
+    embed = discord.Embed(title='Shining Gentleman')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357569995118346365/image.png?ex=67f4a395&is=67f35215&hm=f094194bfb0ec9a180b77433f368039d052fe2667d8c2f8209ac1e124009f871&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xdeathcolon', aliases=['xdeath'])
+async def xdeathcolon(ctx):
+    embed = discord.Embed(title='Death Colon')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357570113070432317/image.png?ex=67f4a3b1&is=67f35231&hm=9df7f79d382b2357cdb53cf30868b3340da2515269e809b3bbf2cb5884e6f607&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xgranny', aliases=['xgrany'])
+async def xgranny(ctx):
+    embed = discord.Embed(title='Granny')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357570297682989198/image.png?ex=67f4a3dd&is=67f3525d&hm=c15f16bd7640b8cdfe81d97b76dc107c53599025cf835b0ba39c1c8fb38bac89&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xgrylle', aliases=['xGrylle'])
+async def xgrylle(ctx):
+    embed = discord.Embed(title='Grylle')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357570411151229019/image.png?ex=67f4a3f8&is=67f35278&hm=2df8bed24cd47973357ae4c2b8efea82cfbaebb8bf2a96bb18d093829fa6ef28&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xnightmarepotum', aliases=['xnightmare'])
+async def xnightmarepotum(ctx):
+    embed = discord.Embed(title='Nightmare Potum')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357573924854038669/image.png?ex=67f4a73e&is=67f355be&hm=f63d1f9478db0c2009eaa405d8e0ee7c91d7886bcb241c221110ea4c231da05d&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xdaddyfinpen', aliases=['xfinpen'])
+async def xdaddyfinpen(ctx):
+    embed = discord.Embed(title='Daddy Finpen')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357574013425287330/image.png?ex=67f4a753&is=67f355d3&hm=157922dd351ceea61a51322e1c0f0a9526af0c780422c2600cb66e13371cc481&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xlapin', aliases=['xLapin'])
+async def xlapin(ctx):
+    embed = discord.Embed(title='Lapin the Necromancer')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357574093246824612/image.png?ex=67f4a766&is=67f355e6&hm=dd9375fed7c084dd8c596d43b05e087d3cff62271436c5ce734756d7b5c465ef&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xcorrodedknight', aliases=['xcorroded'])
+async def xcorrodedknight(ctx):
+    embed = discord.Embed(title='Corroded Knight Captian')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357574196624097322/image.png?ex=67f4a77e&is=67f355fe&hm=843a0719f540023976fcb8ae55bfcaa8be7dbb52d1464c815ba35f340036ad31&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xsalamander', aliases=['xsalam'])
+async def xsalamander(ctx):
+    embed = discord.Embed(title='Salamander')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357574273492848660/image.png?ex=67f4a791&is=67f35611&hm=7ea37719a6ca1ec79abc3fcddfc2864f9e52f714fa0df42e1288a92b87fab84d&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+@bot.command(name='xevilmagicsword', aliases=['xems'])
+async def xevilcrystalsword(ctx):
+    embed = discord.Embed(title='Evil Crystal Sword')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357574351859482736/image.png?ex=67f4a7a3&is=67f35623&hm=41e90527fcb9af56dc54777aa7fd8b49418751448a9f535041886ce946d48adf&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xbuildergolem', aliases=['xbuilder'])
+async def xbuildergolem(ctx):
+    embed = discord.Embed(title='Builder Golem')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357574524652228638/image.png?ex=67f4a7cd&is=67f3564d&hm=cdc9568d7c9149aa3008910dcf9a2c8611111c5ea303feb85474fed3d265d15b&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xdusk', aliases=['xDusk'])
+async def xdusk(ctx):
+    embed = discord.Embed(title='Dusk Machina')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357574641312333864/image.png?ex=67f4a7e9&is=67f35669&hm=364073a64448a3115cc9dc09d8dd56e789ce92f7239b57b7376097843cad42c1&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xodelon', aliases=['xOdelon'])
+async def xodelon(ctx):
+    embed = discord.Embed(title='Odelon Machina')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357574754512666674/image.png?ex=67f4a803&is=67f35683&hm=714bd887d96200d9f7161503115e2007f2cfffbf5a511eae93ab99c05cc41b03&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xsuperdeathmushroom', aliases=['xsdm'])
+async def xsuperdeathmushroom(ctx):
+    embed = discord.Embed(title='Super Death Mushroom')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357574882757709956/image.png?ex=67f4a822&is=67f356a2&hm=f920cb0b856c33193ebec1ba121c22ea9024fffffcf737c1c4047fe686636467&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xcommandergolem', aliases=['xcg'])
+async def xcommandergolem(ctx):
+    embed = discord.Embed(title='Commander Golem')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357574965314064516/image.png?ex=67f4a836&is=67f356b6&hm=a7bec43de72e164ae1e6569126e121ca7934232ca13c06c2b63c88f6f14c964a&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xlyark', aliases=['xLyark'])
+async def xlyark(ctx):
+    embed = discord.Embed(title='Lyark Master Specialist')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357575053721731223/image.png?ex=67f4a84b&is=67f356cb&hm=d8b3967f4a4541c55b16d92604aaaaf2695f06f3581ea71a20108aad8ffb1ff1&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xamoeba', aliases=['xAmoeba'])
+async def xamoeba(ctx):
+    embed = discord.Embed(title='Amoeba Machina')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357575155542528210/image.png?ex=67f4a863&is=67f356e3&hm=7ab3066edbfc487b8f013b769c706ee041f67178688ff82754a0cbbd3dcf4876&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xvolotur', aliases=['xVolotur'])
+async def xvolotur(ctx):
+    embed = discord.Embed(title='Volontur')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357575244193202256/image.png?ex=67f4a878&is=67f356f8&hm=3cf64f280558937c7333024407114b58f2e458c48688458c882186a8b52ade1a&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xwanderingwheel', aliases=['xww'])
+async def xwanderingwheel(ctx):
+    embed = discord.Embed(title='Wandering Wheel')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357575333775282337/image.png?ex=67f4a88e&is=67f3570e&hm=1438e4c98384c46a50dbb310434c3b7310ac012865f957662b4fc16b82441a11&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xseraph', aliases=['xSeraph'])
+async def xseraph(ctx):
+    embed = discord.Embed(title='Seraph Machina')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357575405607059506/image.png?ex=67f4a89f&is=67f3571f&hm=6a87478c9e729a037298ad89bef7fd97c849394fd8be1058f75e9eaa90721311&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xsolopy', aliases=['xSolopy'])
+async def xsolopy(ctx):
+    embed = discord.Embed(title='Solopy')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357575547433123927/image.png?ex=67f4a8c1&is=67f35741&hm=41614a4a679fc26f0f9ad6b0617f93db8c869c59543ffa6c3598357936ecce54&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xfanadon', aliases=['xFanadon'])
+async def xfanadon(ctx):
+    embed = discord.Embed(title='Fanadon')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357575605876428954/image.png?ex=67f4a8ce&is=67f3574e&hm=af37de9a75b94cff53bf2e51b97a10f3399b0079ca4a01e2e2756fd5efbbca2d&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xaltoblepas', aliases=['xalto'])
+async def xaltoblepas(ctx):
+    embed = discord.Embed(title='Altoblepas')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357575691217928323/image.png?ex=67f4a8e3&is=67f35763&hm=3071c3ffc4401ec41d29dbbc84662e1bf14343b3e6c5b09d16251d723096e3b7&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xbubblebogey', aliases=['xbubble'])
+async def xbubblebogey(ctx):
+    embed = discord.Embed(title='Bubble Bogey')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357575759895466075/image.png?ex=67f4a8f3&is=67f35773&hm=a29f802db75a67492a564541523e21c9e3af9685156ad78490276f53e3e16baf&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+    
+@bot.command(name='xmithurnalynx', aliases=['xmithurna'])
+async def xmithurna(ctx):
+    embed = discord.Embed(title='Mithurna Lynx')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357575856482160740/image.png?ex=67f4a90a&is=67f3578a&hm=2f59c48e3c2c1430a668339e4e6b23f523f4a6f4b82c3b98fafb92ff330adaf8&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xcarbuncle', aliases=['xcarbu'])
+async def xcarbuncle(ctx):
+    embed = discord.Embed(title='Carbuncle')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357575922311630908/image.png?ex=67f4a91a&is=67f3579a&hm=283ec94cd27da83e80b05f588ef57fcb16d349a329f95542f81538ee3c0b6333&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xgoldenia', aliases=['xGoldenia'])
+async def xgoldenia(ctx):
+    embed = discord.Embed(title='Goldenia')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357575999671238786/image.png?ex=67f4a92c&is=67f357ac&hm=f8277d1323a99471036024f1e11852a97f627e17058cd9551d9d7311c0432fae&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xthuggolem', aliases=['xthug'])
+async def xthuggolem(ctx):
+    embed = discord.Embed(title='Thug Golem')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357576057737449543/image.png?ex=67f4a93a&is=67f357ba&hm=adf909355634154bcbb1a11f74cf3d2e9c5b07a0fe7d9ffde7608b221f83943d&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xgrimuckus', aliases=['xgrim'])
+async def xgrimuckus(ctx):
+    embed = discord.Embed(title='Grimuckus')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357576134522306640/image.png?ex=67f4a94d&is=67f357cd&hm=1928e621f9214925fee800b7f77557f8254e4ce3d31cd8b564192e7d1bca5229&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xfrenzyviola', aliases=['xfrenzy'])
+async def xfrenzyviola(ctx):
+    embed = discord.Embed(title='Frenzy Viola')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357576339850530996/image.png?ex=67f4a97d&is=67f357fd&hm=12fd2cd26bb26a08e4fa70c96ca9d92ff71710b0a1769c007cc669d26e6e2809&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xarmasite', aliases=['xArmasite'])
+async def xarmasite(ctx):
+    embed = discord.Embed(title='Armasite')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357576429067440198/image.png?ex=67f4a993&is=67f35813&hm=056210dd04b118e5e270b2e89d54fb555410caf5106d97b14021e045f3d2227a&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xmegaalpoca', aliases=['xmega'])
+async def xmegaalpoca(ctx):
+    embed = discord.Embed(title='Mega Alpoca')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357576489461219428/image.png?ex=67f4a9a1&is=67f35821&hm=12fa3a789ad08fd650d77e4b42bbc540bdccfaf4f26d30669791bf27902bf796&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xblood', aliases=['xbsc'])
+async def xblood(ctx):
+    embed = discord.Embed(title='Blood Smeared Crystal')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357576721116823782/image.png?ex=67f4a9d8&is=67f35858&hm=d45d84532ebfd757200c247fa4f0fa73839f381c8a6a78eed767c8325e1b792f&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xcanemofish', aliases=['xcanemo'])
+async def xcanemofish(ctx):
+    embed = discord.Embed(title='Canemofish')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357576814448607242/image.png?ex=67f4a9ef&is=67f3586f&hm=5186fb4322cd8bdb09865b4f1beea931e2585668d6af591babf37b28cee0be29&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+bot.command(name='xdemoniceye', aliases=['xdemonic'])
+async def xdemoniceye(ctx):
+    embed = discord.Embed(title='Demonic Eye')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357576870706811010/image.png?ex=67f4a9fc&is=67f3587c&hm=b48b3896c01d30cfde769b8316c134f0004774f89c72227c002c96ca8f1e26e5&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xtardigrademon', aliases=['xtardi'])
+async def xtardigrademon(ctx):
+    embed = discord.Embed(title='Tardigrademon')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357576955444203601/image.png?ex=67f4aa10&is=67f35890&hm=9d51e29f25602cd626240ff9efb31e9ff9b8d165c858d86b01cdb8f70c046e30&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xsandbannditsleader', aliases=['xsandbandit'])
+async def xsandbanditsleader(ctx):
+    embed = discord.Embed(title='Sand Bandits Leader')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357577074222694440/image.png?ex=67f4aa2d&is=67f358ad&hm=673536bb1c2a9aced1ea3f862341b6ae510c87066905caaa6af9f1659ae1d650&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xageladanios', aliases=['xagel'])
+async def xageladanios(ctx):
+    embed = discord.Embed(title='Ageladanios')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357577168430960660/image.png?ex=67f4aa43&is=67f358c3&hm=1e23536c03f1f964b8d7cc64a97461969c44d644cb9f050e63cfd365ae1563a3&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xtappler', aliases=['xTappler'])
+async def xtappler(ctx):
+    embed = discord.Embed(title='Tappler')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357577270700544060/image.png?ex=67f4aa5b&is=67f358db&hm=cfabc084700554f3586526feaebdf7c1115606389856cbb532f1d90f712bfaf9&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xespectro', aliases=['xespec'])
+async def xespectro(ctx):
+    embed = discord.Embed(title='Espectro')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357577363478548560/image.png?ex=67f4aa72&is=67f358f2&hm=9c6307f28a08cedf677c252d882a17413c2bb224fc8ac26b95e162acbf10efce&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xgrimreaper', aliases=['xreaper'])
+async def xgrimreaper(ctx):
+    embed = discord.Embed(title='Grim Reaper Screcrow')
+    embed.set_image(url='')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xlordofnezim', aliases=['xnezim'])
+async def xlordofnazim(ctx):
+    embed = discord.Embed(title='Lord of Nezim')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357577574330404884/image.png?ex=67f4aaa4&is=67f35924&hm=910faa9529ee3905fcf47f5b8d548de7dc5d2a5ffd8c57626720a82ba25ec0a6&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xtrocostida', aliases=['xtroco'])
+async def xtrocostida(ctx):
+    embed = discord.Embed(title='Trocostida')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357577658132860928/image.png?ex=67f4aab8&is=67f35938&hm=0bbeb3c410208ac8b6101df216ada6fc3c917cddf56242db982b9da7d8278d5c&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xrhinosaur', aliases=['xrhino'])
+async def xrhinosaur(ctx):
+    embed = discord.Embed(title='Rhinosaur')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357577717737848955/image.png?ex=67f4aac6&is=67f35946&hm=d6d106a8cda72759a96c11061b14cb7fc00baa9230b4ba1c14aff76b1cea5172&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xarbogazella', aliases=['xarbo'])
+async def xarbogazella(ctx):
+    embed = discord.Embed(title='Arbogazella')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357577816237150352/image.png?ex=67f4aadd&is=67f3595d&hm=a4c71c7cabd50c0b5170bf7fa31be0ecd42e2a6caa5f923eadc3ae2565cb26ab&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xbullamius', aliases=['xbull'])
+async def xbullamius(ctx):
+    embed = discord.Embed(title='Bullamius')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357577919714562129/image.png?ex=67f4aaf6&is=67f35976&hm=761ba79ecacf4d7aefa038ad6df734e7775d4620b4c03b531f78a9727789c7d1&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xgordo', aliases=['xGordo'])
+async def xgordo(ctx):
+    embed = discord.Embed(title='Gordo')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357578013679554671/image.png?ex=67f4ab0d&is=67f3598d&hm=5c25d0de1a16261c4c4659a3ee9ff2b2ca183854c1614bbbc16aff9e9539cb58&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xblazingur', aliases=['xblazing'])
+async def xblazingur(ctx):
+    embed = discord.Embed(title='Blazingur')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357578081921011972/image.png?ex=67f4ab1d&is=67f3599d&hm=c7670e5ef6e44b8e282c121719aacb1732b8c9691c9495fa7cd5de13507f9093&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xglaucius', aliases=['xglau'])
+async def xglaucius(ctx):
+    embed = discord.Embed(title='Glaucius')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357578710202716190/image.png?ex=67f4abb3&is=67f35a33&hm=0fe538f239fd8554ae2a411bd5f484116785f947de05bcf6ce7c4d38be823a6a&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xignitrus', aliases=['xignit'])
+async def xignitrus(ctx):
+    embed = discord.Embed(title='Ignitrus')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357578823419564183/image.png?ex=67f4abce&is=67f35a4e&hm=4b13dcd6809fc01874b8017532eb29f49d87bcc08b2fc5c54525040fd5a24972&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xrampion', aliases=['xRampion'])
+async def xrampion(ctx):
+    embed = discord.Embed(title='Rampion')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357578902976860291/image.png?ex=67f4abe1&is=67f35a61&hm=52cad6c20843008b37cbcefd548fe6ef5142e2b8091590c0c5a1f93cca4fc041&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='xwolkissa', aliases=['xwolkis'])
+async def xwolkissa(ctx):
+    embed = discord.Embed(title='Wolkissa')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357579013136318704/image.png?ex=67f4abfb&is=67f35a7b&hm=d4f9be38e7d0b4b7950f1b39bcb95ee53fce317160b9a0c939f289aa4f6392f9&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+###################### Mini Boss Stat Tabel ###########################
+
+
+@bot.command(name='miniboss1', aliases=['Miniboss1'])
+async def miniboss1(ctx):
+    embed = discord.Embed(title='Tabel Detail Mini Boss')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1358672146003394680/1358672234004222033/mini_boss1.png?ex=67f4b19f&is=67f3601f&hm=8e3eb5c218f430aa9b36de884d3d19ec917e8666e12fed91e32ccbbfadc6276c&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+@bot.command(name='miniboss2', aliases=['Miniboss2'])
+async def miniboss2(ctx):
+    embed = discord.Embed(title='Tabel Detail Mini Boss')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1358672146003394680/1358672226336899173/mini_boss2.png?ex=67f4b19d&is=67f3601d&hm=df18506c8c58383a90e6e1ca767e4dcd026d97ac0ab9b36f6473834c659ec8b6&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+@bot.command(name='miniboss3', aliases=['Miniboss3'])
+async def miniboss3(ctx):
+    embed = discord.Embed(title='Tabel Detail Mini Boss')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1358672146003394680/1358672212223070268/mini_boss_3.png?ex=67f4b19a&is=67f3601a&hm=8afae5f71364e1dc3d2855328dae121ef29c2e18edae2cd912e9c7d233071697&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='buffland', aliases=['Buffland'])
+async def buffland(ctx):
+    embed = discord.Embed(title='Tabel Detai Buff Land')
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1358672146003394680/1358672202114793583/food_level_toram.png?ex=67f4b197&is=67f36017&hm=a56c43a35591ec567642b9b9374e8d913887fc92e241767f99221708b83031a0&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+
+#########################  Buff Land Home Code #########################
+
+
+
+
+
+
+@bot.command(name='str', aliases=['streght'])
+async def str(ctx):
+    embed = discord.Embed(title='Code Alamat STR')
+    embed.add_field(name='Name', value='Okaka Rice Ball', inline=False)
+    embed.add_field(name='STR', value='4016699\n1110033\n2020303\n2017890\n1010055', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+@bot.command(name='hp', aliases=['Hp'])
+async def hp(ctx):
+    embed = discord.Embed(title='Code Alamat hp')
+    embed.add_field(name='Name', value='Golden Stir Fry', inline=False)
+    embed.add_field(name='HP', value='1250015\n4262222\n3040005\n1180755\n1010455', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+@bot.command(name='mp', aliases=['maxmp'])
+async def mp(ctx):
+    embed = discord.Embed(title='Code Alamat MP ')
+    embed.add_field(name='Name', value='Anake Fried Rice', inline=False)
+    embed.add_field(name='MP', value='1032222\\n2010079\n1091111\n1240000\n1027777', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='ampr', aliases=['AMPR'])
+async def ampr(ctx):
+    embed = discord.Embed(title='Code Alamat AMPR ')
+    embed.add_field(name='Name', value='Yakisoba', inline=False)
+    embed.add_field(name='AMPR', value='4040404\n4261111\n5010031\n1016969\n4233333', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='crit', aliases=['Crit'])
+async def crit(ctx):
+    embed = discord.Embed(title='Code Alamat Critical Rate')
+    embed.add_field(name='Name', value='Takoyaki', inline=False)
+    embed.add_field(name='Critical Rate', value='7010086\n1181140\n1100000\n5119105\n2022020', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='acc', aliases=['Acc'])
+async def acc(ctx):
+    embed = discord.Embed(title='Code Alamat Accuracy ')
+    embed.add_field(name='Name', value='Shoyu Ramen', inline=False)
+    embed.add_field(name='ACC', value='2010308\n4261111\n1181220', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='atk', aliases=['Atk'])
+async def atk(ctx):
+    embed = discord.Embed(title='Code Alamat ATK')
+    embed.add_field(name='Name', value='Pizza Diavola', inline=False)
+    embed.add_field(name='ATK', value='7170717\n1119876', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='watk', aliases=['Watk'])
+async def watk(ctx):
+    embed = discord.Embed(title='Code Alamat Weapon Attack ')
+    embed.add_field(name='Name', value='Pizza Margherita', inline=False)
+    embed.add_field(name='W.Atk', value='3160777\n1067777\n6010024\n1011122', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='vit', aliases=['Vit'])
+async def vit(ctx):
+    embed = discord.Embed(title='Code Alamat VIT ')
+    embed.add_field(name='Name', value='Tuna Mayo Rice Ball', inline=False)
+    embed.add_field(name='VIT', value='4032850\n5130123', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='agi', aliases=['Agi'])
+async def agi(ctx):
+    embed = discord.Embed(title='Code Alamat AGI ')
+    embed.add_field(name='Name', value='Mentaiko Rice Ball', inline=False)
+    embed.add_field(name='AGI', value='7162029\n1110033\n1220777\n4262222\n2020037', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='dex', aliases=['Dex'])
+async def dex(ctx):
+    embed = discord.Embed(title='Code Alamat Dex')
+    embed.add_field(name='Name', value='Salmon Rice Ball', inline=False)
+    embed.add_field(name='DEX', value='2020222\n1010261\n1160000\n1112220\n1107777', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='int', aliases=['Int'])
+async def int(ctx):
+    embed = discord.Embed(title='Code Alamat INT')
+    embed.add_field(name='Name', value='Umeboshi Rice Ball', inline=False)
+    embed.add_field(name='INT', value='6010701\n6061294\n5190001\n101049\n1032222', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='maggro', aliases=['minaggrp'])
+async def maggro(ctx):
+    embed = discord.Embed(title='Code Alamat -Aggro')
+    embed.add_field(name='Name', value='White Stew', inline=False)
+    embed.add_field(name='-Aggro', value='1010147\n3190038\n1011174\n2020808\n3010018', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='aggro', aliases=['Aggro'])
+async def aggro(ctx):
+    embed = discord.Embed(title='Code Alamat Aggro')
+    embed.add_field(name='Name', value='Beef Stew', inline=False)
+    embed.add_field(name='Aggro', value='1010207\n1140008\n1011340\n2020606\n1130832', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='dark', aliases=['Dark'])
+async def hp(ctx):
+    embed = discord.Embed(title='Code Alamat DTE Dark')
+    embed.add_field(name='Name', value='Squid Ink Pasta', inline=False)
+    embed.add_field(name='DTE Dark', value='6116116\n5010092\n1190020', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='light', aliases=['Light'])
+async def light(ctx):
+    embed = discord.Embed(title='Code Alamat DTE Light')
+    embed.add_field(name='Name', value='Carbonara', inline=False)
+    embed.add_field(name='DTE Light', value='1240000', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='wind', aliases=['Wind'])
+async def wind(ctx):
+    embed = discord.Embed(title='Code Alamat DTE Wind')
+    embed.add_field(name='Name', value='Naporitan', inline=False)
+    embed.add_field(name='DTE Wind', value='3030303\n1180020', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='water', aliases=['Water'])
+async def water(ctx):
+    embed = discord.Embed(title='Code Alamat DTE Water')
+    embed.add_field(name='Name', value='Vongole', inline=False)
+    embed.add_field(name='Water', value='1110111\n7150030\n7011001', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='earth', aliases=['Earth'])
+async def earth(ctx):
+    embed = discord.Embed(title='Code Alamat DTE Earth')
+    embed.add_field(name='Name', value='Genovese', inline=False)
+    embed.add_field(name='Dte Earth', value='2020202\n4233333\n710066', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='pres', aliases=['Pres'])
+async def pres(ctx):
+    embed = discord.Embed(title='Code Alamat Physical Resistance')
+    embed.add_field(name='Name', value='Chocolate Cake', inline=False)
+    embed.add_field(name='Physical Resistance', value='1100000\n7010014\n4010051\n2200117\n6010701', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='mres', aliases=['Mres'])
+async def mres(ctx):
+    embed = discord.Embed(title='Code Alamat Magical Resistance')
+    embed.add_field(name='Name', value='Cheese Cake', inline=False)
+    embed.add_field(name='Magical Resistance', value='6190007\n2020505\n6234567\n7010016\n1111575', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='frac', aliases=['Frac'])
+async def frac(ctx):
+    embed = discord.Embed(title='Code Alamat Fractional Barrier ')
+    embed.add_field(name='Name', value='Pancake', inline=False)
+    embed.add_field(name='Fractional Barrier', value='53010043\n4010024\n6150029\n1010013', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+@bot.command(name='neutral', aliases=['Neutral'])
+async def neutral(ctx):
+    embed = discord.Embed(title='Code Alamat DTE Neutral')
+    embed.add_field(name='Name', value='Peperoncio', inline=False)
+    embed.add_field(name='DTE Neutral', value='3210102   DTE Neutral Lv 10\n3099876   DTE Neutral Lv 7\n1011902   DTE Neutral Lv 7\n6061294   DTE Neutral Lv 7\n1019696   DTE Neutral Lv 6\n1032727   DTE Neutral Lv 5', inline=True)
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+
 
 
 logging.info("Bot starting...")
