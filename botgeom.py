@@ -4276,18 +4276,18 @@ async def level_83_to_89(ctx):
 
     # Bosses
     embed.add_field(name='**Bosses:**', value=(
-        "**Jade Raptor (Hard)** - Lv. 89 - Gravel Terrace\n\n"
-        "**Masked Warrior (Nightmare)** - Lv. 87 - Land Under Cultivation: Hill\n\n"
-        "**Pillar Golem (Nightmare)** - Lv. 90 - Lost Town: Magic Barrier\n\nn"
+        "**Jade Raptor (Hard)** - Lv. 89 - Gravel Terrace\n"
+        "**Masked Warrior (Nightmare)** - Lv. 87 - Land Under Cultivation: Hill\n"
+        "**Pillar Golem (Nightmare)** - Lv. 90 - Lost Town: Magic Barrier\n"
         "**Jade Raptor (Normal)** - Lv. 79 - Gravel Terrace\n"
         "\u200b"
     ), inline=False)
 
     # Mini Bosses
     embed.add_field(name='**Mini Bosses:**', value=(
-        "**Shining Gentleman** - Lv. 82 - Lost Town: Square\n\n"
-        "**Violacoon** - Lv. 80 - Darkanon Plain\n\n"
-        "**Death Colon** - Lv. 84 - Vyshed the Tainted Land: Area 2\n\n"
+        "**Shining Gentleman** - Lv. 82 - Lost Town: Square\n"
+        "**Violacoon** - Lv. 80 - Darkanon Plain\n"
+        "**Death Colon** - Lv. 84 - Vyshed the Tainted Land: Area 2"
     ), inline=False)
 
     await ctx.send(embed=embed)
@@ -4323,8 +4323,8 @@ async def level107_to_120(ctx):
 
     # Bosses
     embed.add_field(name='**Bosses:**', value=(
-        "**Grass Dragon Yelb (Ultimate)** - Lv. 113 - Albatif Village\n\n"
-        "**Nurethoth (Ultimate)** - Lv. 116 - Gate to Another World: Front\n\n"
+        "**Grass Dragon Yelb (Ultimate)** - Lv. 113 - Albatif Village\n"
+        "**Nurethoth (Ultimate)** - Lv. 116 - Gate to Another World: Front\n"
         "**Masked Warrior (Ultimate)** - Lv. 107 - Land Under Cultivation: Hill\n"
         "\u200b"
     ), inline=False)
@@ -4344,16 +4344,16 @@ async def level121_to_132(ctx):
 
     # Bosses
     embed.add_field(name='**Bosses:**', value=(
-        "**Jade Raptor (Ultimate)** - Lv. 119 - Gravel Terrace\n\n"
-        "**Scrader (Ultimate)** - Lv. 125 - Magic Waste Site: Deepest Part\n\n"
-        "**Memecoleous (Nightmare)** - Lv. 120 - Dark Castle: Area 2\n\n"
-        "**Black Knight of Delusion (Ultimate)** - Lv. 128 - Abyss of No Return: Deepest Area\n\n"
+        "**Jade Raptor (Ultimate)** - Lv. 119 - Gravel Terrace\n"
+        "**Scrader (Ultimate)** - Lv. 125 - Magic Waste Site: Deepest Part\n"
+        "**Memecoleous (Nightmare)** - Lv. 120 - Dark Castle: Area 2\n"
+        "**Black Knight of Delusion (Ultimate)** - Lv. 128 - Abyss of No Return: Deepest Area\n"
         "\u200b"
     ), inline=False)
 
     # Mini Bosses
     embed.add_field(name='**Mini Bosses:**', value=(
-        "**Lapin The Necromancer** - Lv. 124 - Trace of Dark River\n\n"
+        "**Lapin The Necromancer** - Lv. 124 - Trace of Dark River\n"
         "**Nightmare Potum** - Lv. 120 - Garden of Beginning"
     ), inline=False)
 
@@ -4367,19 +4367,18 @@ async def level133_to_153(ctx):
 
     # Bosses
     embed.add_field(name='**Bosses:**', value=(
-        "**Cerberus (Ultimate)** - Lv. 137 - Spring of Rebirth: Top\n\n"
-        "**Memecoleous (Ultimate)** - Lv. 140 - Dark Castle: Area 2\n\n"
-        "**Imitator (Ultimate)** - Lv. 146 - Plastida: Deepest Part\n\n"
+        "**Cerberus (Ultimate)** - Lv. 137 - Spring of Rebirth: Top\n"
+        "**Memecoleous (Ultimate)** - Lv. 140 - Dark Castle: Area 2\n"
+        "**Imitator (Ultimate)** - Lv. 146 - Plastida: Deepest Part\n"
         "**Imitacia (Ultimate)** - Lv. 149 - Dark Castle: Grand Hall\n"
         "\u200b"
     ), inline=False)
 
     # Mini Bosses
     embed.add_field(name='**Mini Bosses:**', value=(
-        "**Super Death Mushroom** - Lv. 150 - Monster's Forest: Animal Trail\n\n"
-        "**Odelon Machina** - Lv. 146 - Large Demi Machina Factory: Area 2\n\n"
-        "**Dusk Machina** - Lv. 142 - Small Demi Machina Factory: Area 2\n"
-        "→ 190,718 EXP ★ 1.7%"
+        "**Super Death Mushroom** - Lv. 150 - Monster's Forest: Animal Trail\n"
+        "**Odelon Machina** - Lv. 146 - Large Demi Machina Factory: Area 2\n"
+        "**Dusk Machina** - Lv. 142 - Small Demi Machina Factory: Area 2"
     ), inline=False)
 
     await ctx.send(embed=embed)
@@ -4392,18 +4391,18 @@ async def level154_to_174(ctx):
 
     # Bosses
     embed.add_field(name='**Bosses:**', value=(
-        "**Mozto Machina (Ultimate)** - Lv. 164 - Large Demi Machina Factory: Deepest Part\n\n"
-        "**Venena Coenubia (Nightmare)** - Lv. 170 - Ultimea Palace: Throne\n\n"
-        "**Tyrant Machina (Ultimate)** - Lv. 161 - Small Demi Machina Factory Core\n\n"
-        "**Tapir (Ultimate)** - Lv. 160 - Blazing Graben: Surface\n\n"
+        "**Mozto Machina (Ultimate)** - Lv. 164 - Large Demi Machina Factory: Deepest Part\n"
+        "**Venena Coenubia (Nightmare)** - Lv. 170 - Ultimea Palace: Throne\n"
+        "**Tyrant Machina (Ultimate)** - Lv. 161 - Small Demi Machina Factory Core\n"
+        "**Tapir (Ultimate)** - Lv. 160 - Blazing Graben: Surface\n"
         "**York (Ultimate)** - Lv. 158 - Huge Crysta Factory: Storage\n"
         "\u200b"
     ), inline=False)
 
     # Mini Bosses
     embed.add_field(name='**Mini Bosses:**', value=(
-        "**Amoeba Machina** - Lv. 158 - Ultimea Sewer: Southeast\n\n"
-        "**Volotur** - Lv. 160 - Suburb of Droma Square: Area 3\n\n"
+        "**Amoeba Machina** - Lv. 158 - Ultimea Sewer: Southeast\n"
+        "**Volotur** - Lv. 160 - Suburb of Droma Square: Area 3\n"
         "**Seraph Machina** - Lv. 167 - Buried Tower: Inside"
     ), inline=False)
 
@@ -4417,18 +4416,18 @@ async def level175_to_199(ctx):
 
     # Bosses
     embed.add_field(name='**Bosses:**', value=(
-        "**Venena Coenubia (Ultimate)** - Lv. 190 - Ultimea Palace: Throne\n\n"
-        "**Ultimate Machina (Ultimate)** - Lv. 179 - Droma Square\n\n"
-        "**Maton Sword (Ultimate)** - Lv. 183 - Buried Tower: Entrance\n\n"
-        "**Gwaimol (Ultimate)** - Lv. 176 - Cuervo Jail: Roof\n\n"
+        "**Venena Coenubia (Ultimate)** - Lv. 190 - Ultimea Palace: Throne\n"
+        "**Ultimate Machina (Ultimate)** - Lv. 179 - Droma Square\n"
+        "**Maton Sword (Ultimate)** - Lv. 183 - Buried Tower: Entrance\n"
+        "**Gwaimol (Ultimate)** - Lv. 176 - Cuervo Jail: Roof\n"
         "**Ornlarf (Ultimate)** - Lv. 182 - Ultimea Palace: Corridor\n"
         "\u200b"
     ), inline=False)
 
     # Mini Bosses
     embed.add_field(name='**Mini Bosses:**', value=(
-        "**Altoblepas** - Lv. 174 - Rokoko Plains\n\n"
-        "**Bubble Bogey** - Lv. 177 - Barbaros Corridor\n\n"
+        "**Altoblepas** - Lv. 174 - Rokoko Plains\n"
+        "**Bubble Bogey** - Lv. 177 - Barbaros Corridor\n"
         "**Mithurna Lynx** - Lv. 177 - Ruins of Mt. Mithurna: Stylobate"
     ), inline=False)
 
