@@ -1409,9 +1409,9 @@ async def erodedpilz(ctx):
     embed.add_field(name='P.Res', value='NORMAL: 26;\nBREAK+RIGHT: 6;\nBREAK+HEAD: 20;\nBREAK+RIGHT+HEAD: 0', inline=True)
     embed.add_field(name='M.Res', value='NORMAL: 26;\nBREAK+RIGHT: 6;\nBREAK+HEAD: 20;\nBREAK+RIGHT+HEAD: 0', inline=True)
     embed.add_field(name='Prorate', value='N:5  P:20  M:5', inline=True)
-    embed.add_field(name='Crit Res', value='0', inline=True)
-    embed.add_field(name='Flee', value='NORMAL/PURPLE: 20;\nGREEN: 40', inline=True)
-    embed.add_field(name='Retaliation', value="258", inline=False)
+    embed.add_field(name='Crit Res', value='NORMAL/PURPLE: 20;\nGREEN: 40', inline=True)
+    embed.add_field(name='Flee', value='258', inline=True)
+    embed.add_field(name='Retaliation', value="2 Phases\nnPhase Transition @ 40% HP: If the boss is in NORMAL/PURPLE mode at the 40% HP mark, it will switch to GREEN (high defense) mode. Else, it stays in GREEN mode.\n\nFor all Phases: After 30 sec of being in GREEN mode, the boss will revert back to NORMAL/PURPLE mode, unless a phase transition occurs.\nThe phase transition resets the GREEN mode timer back to 30 sec.\n\nBreaking the boss's parts reduces its defenses and resistances.\n\nFTS:\nGREEN: Immune\nPURPLE:\nPH1: If FTS while HP >= 40%, boss changes to GREEN mode.\nPH2: If FTS while HP < 40% HP, the boss will change to GREEN", inline=False)
     embed.add_field(name='Parts Destruction:', value="3 Parts:\nHead (Corroded Mushroom Cap),\nRight Mushroom (Corroded Mushroom Cap),\nLeft Leg (Broken Mushroom Nail)", inline=False)
     embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/eroded.png')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
@@ -3970,10 +3970,6 @@ async def buffland(ctx):
 #########################  Buff Land Home Code #########################
 
 
-
-
-
-
 @bot.command(name='str', aliases=['streght'])
 async def str(ctx):
     embed = discord.Embed(title='Code Alamat STR')
@@ -4178,9 +4174,1329 @@ async def neutral(ctx):
     await ctx.send(embed=embed)
 
 
+########################### Leveling ############################
+
+
+@bot.command(name='56', aliases=['57', '58', '59', '60', '61', '62'])
+async def level56_to_62(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 56–62)', color=discord.Color.orange())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    # Bosses
+    embed.add_field(name='**Bosses:**', value=(
+        "**Boss Roga (Normal)** - Lv. 62 - Saham Underground Cave - Deepest Part\n"
+        "**Forestia (Hard)** - Lv. 59 - Land Of Chaos\n"
+        "**Flare Volg (Hard)** - Lv. 60 - Fiery Volcano: Boss Map\n"
+        "\u200b"  # invisible character for spacing
+    ), inline=False)
+
+    # Mini Bosses
+    embed.add_field(name='**Mini Bosses:**', value=(
+        "**Big Coryn** - Lv. 60 - Douce Hamlet\n"
+        "**Stone Mercenary** - Lv. 60 - Zoktzda Ruins : Abnormal Space\n"
+        "**Seltirios** - Lv. 60 - Aulada Ancient Tower"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='63', aliases=['64', '65', '66', '67', '68'])
+async def level_63_to_68(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 62–68)', color=discord.Color.dark_purple())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    # Bosses
+    embed.add_field(name='**Bosses:**', value=(
+        "**Forestia (Nightmare)** - Lv. 69 - Land Of Chaos\n"
+        "**Masked Warrior (Normal)** - Lv. 67 - Land Under Cultivation: Hill\n"
+        "**Boss Roga (Normal)** - Lv. 62 - Saham Underground Cave - Deepest Part\n"
+        "\u200b"
+    ), inline=False)
+
+    # Mini Bosses
+    embed.add_field(name='**Mini Bosses:**', value=(
+        "**Outer World Wolf** - Lv. 70 - Gate to Another World: Area 1\n"
+        "**Outer World Wolf** - Lv. 70 - Gate to Another World: Area 2\n"
+        "**Big Coryn** - Lv. 60 - Douce Hamlet"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='69', aliases=['70', '71', '72', '73', '74', '75'])
+async def level_69_to_75(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 69–75)', color=discord.Color.teal())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    # Bosses
+    embed.add_field(name='**Bosses:**', value=(
+        "**Grass Dragon Yelb (Normal)** - Lv. 73 - Albatif Village\n"
+        "**Forestia (Nightmare)** - Lv. 69 - Land Of Chaos\n"
+        "**Boss Roga (Hard)** - Lv. 72 - Saham Underground Cave - Deepest Part\n"
+        "\u200b"
+    ), inline=False)
+
+    # Mini Bosses
+    embed.add_field(name='**Mini Bosses:**', value=(
+        "**Outer World Wolf** - Lv. 70 - Gate to Another World: Area 1 and 2\n"
+        "**Arcoiris** - Lv. 70 - Yorl Highlands\n"
+        "**Big Mask** - Lv. 70 - Haotas Ravine\n"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='76', aliases=['77', '78', '79', '80', '81', '82'])
+async def level_76_to_82(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 76–82)', color=discord.Color.gold())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    # Bosses
+    embed.add_field(name='**Bosses:**', value=(
+        "**Jade Raptor (Normal)** - Lv. 79 - Gravel Terrace\n"
+        "**Boss Roga (Nightmare)** - Lv. 82 - Saham Underground Cave - Deepest Part\n"
+        "**Masked Warrior (Hard)** - Lv. 77 - Land Under Cultivation: Hill\n"
+        "\u200b"
+    ), inline=False)
+
+    # Mini Bosses
+    embed.add_field(name='**Mini Bosses:**', value=(
+        "**Violacoon** - Lv. 80 - Darkanon Plain\n"
+        "**Shining Gentleman** - Lv. 82 - Lost Town: Square\n"
+        "**Outer World Wolf** - Lv. 70 - Gate to Another World: Area 1\n"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='83', aliases=['84', '85', '86', '87', '88', '89', '90', '91', '92', '93'])
+async def level_83_to_89(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 83–89)', color=discord.Color.dark_teal())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    # Bosses
+    embed.add_field(name='**Bosses:**', value=(
+        "**Jade Raptor (Hard)** - Lv. 89 - Gravel Terrace\n\n"
+        "**Masked Warrior (Nightmare)** - Lv. 87 - Land Under Cultivation: Hill\n\n"
+        "**Pillar Golem (Nightmare)** - Lv. 90 - Lost Town: Magic Barrier\n\nn"
+        "**Jade Raptor (Normal)** - Lv. 79 - Gravel Terrace\n"
+        "\u200b"
+    ), inline=False)
+
+    # Mini Bosses
+    embed.add_field(name='**Mini Bosses:**', value=(
+        "**Shining Gentleman** - Lv. 82 - Lost Town: Square\n\n"
+        "**Violacoon** - Lv. 80 - Darkanon Plain\n\n"
+        "**Death Colon** - Lv. 84 - Vyshed the Tainted Land: Area 2\n\n"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+@bot.command(name='94', aliases=['95', '96', '97', '98', '99', '100', '101', '102', '103', '104', '105', '106'])
+async def level94_to_105(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 94–105)', color=discord.Color.dark_teal())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    # Bosses
+    embed.add_field(name='**Bosses:**', value=(
+        "**Jade Raptor (Nightmare)** - Lv. 99 - Gravel Terrace\n"
+        "**Boss Roga (Ultimate)** - Lv. 102 - Saham Underground Cave - Deepest Part\n"
+        "**Nurethoth (Nightmare)** - Lv. 96 - Gate to Another World: Front\n"
+        "**Grass Dragon Yelb (Nightmare)** - Lv. 93 - Albatif Village\n"
+        "\u200b"
+    ), inline=False)
+
+    # Mini Bosses
+    embed.add_field(name='**Mini Bosses:**', value=(
+        "**Don Yeti** - Lv. 103 - Polde Ice Valley\n"
+        "**Grylle** - Lv. 90 - Wanderer's Plain\n"
+        "**Granny** - Lv. 88 - Abyss of No Return: Area 3"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='107', aliases=['108', '109', '110', '111', '112', '113', '114', '115', '116', '117', '118', '119', '120'])
+async def level107_to_120(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 107–120)', color=discord.Color.dark_gold())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    # Bosses
+    embed.add_field(name='**Bosses:**', value=(
+        "**Grass Dragon Yelb (Ultimate)** - Lv. 113 - Albatif Village\n\n"
+        "**Nurethoth (Ultimate)** - Lv. 116 - Gate to Another World: Front\n\n"
+        "**Masked Warrior (Ultimate)** - Lv. 107 - Land Under Cultivation: Hill\n"
+        "\u200b"
+    ), inline=False)
+
+    # Mini Bosses
+    embed.add_field(name='**Mini Bosses:**', value=(
+        "**Don Yeti** - Lv. 103 - Polde Ice Valley"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='121', aliases=['122', '123', '124', '125', '126', '127', '128', '129', '130', '131', '132'])
+async def level121_to_132(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 121–131)', color=discord.Color.red())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    # Bosses
+    embed.add_field(name='**Bosses:**', value=(
+        "**Jade Raptor (Ultimate)** - Lv. 119 - Gravel Terrace\n\n"
+        "**Scrader (Ultimate)** - Lv. 125 - Magic Waste Site: Deepest Part\n\n"
+        "**Memecoleous (Nightmare)** - Lv. 120 - Dark Castle: Area 2\n\n"
+        "**Black Knight of Delusion (Ultimate)** - Lv. 128 - Abyss of No Return: Deepest Area\n\n"
+        "\u200b"
+    ), inline=False)
+
+    # Mini Bosses
+    embed.add_field(name='**Mini Bosses:**', value=(
+        "**Lapin The Necromancer** - Lv. 124 - Trace of Dark River\n\n"
+        "**Nightmare Potum** - Lv. 120 - Garden of Beginning"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='133', aliases=['134', '135', '136', '137', '138', '139', '140', '141', '142', '143', '144', '145', '146', '147', '148', '149', '150', '151', '152', '153'])
+async def level133_to_153(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 133–153)', color=discord.Color.dark_red())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    # Bosses
+    embed.add_field(name='**Bosses:**', value=(
+        "**Cerberus (Ultimate)** - Lv. 137 - Spring of Rebirth: Top\n\n"
+        "**Memecoleous (Ultimate)** - Lv. 140 - Dark Castle: Area 2\n\n"
+        "**Imitator (Ultimate)** - Lv. 146 - Plastida: Deepest Part\n\n"
+        "**Imitacia (Ultimate)** - Lv. 149 - Dark Castle: Grand Hall\n"
+        "\u200b"
+    ), inline=False)
+
+    # Mini Bosses
+    embed.add_field(name='**Mini Bosses:**', value=(
+        "**Super Death Mushroom** - Lv. 150 - Monster's Forest: Animal Trail\n\n"
+        "**Odelon Machina** - Lv. 146 - Large Demi Machina Factory: Area 2\n\n"
+        "**Dusk Machina** - Lv. 142 - Small Demi Machina Factory: Area 2\n"
+        "→ 190,718 EXP ★ 1.7%"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='154', aliases=['155', '156', '157', '158', '159', '160', '161', '162', '163', '164', '165', '166', '167', '168', '169', '170', '171', '172', '173', '174'])
+async def level154_to_174(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 154–174)', color=discord.Color.teal())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    # Bosses
+    embed.add_field(name='**Bosses:**', value=(
+        "**Mozto Machina (Ultimate)** - Lv. 164 - Large Demi Machina Factory: Deepest Part\n\n"
+        "**Venena Coenubia (Nightmare)** - Lv. 170 - Ultimea Palace: Throne\n\n"
+        "**Tyrant Machina (Ultimate)** - Lv. 161 - Small Demi Machina Factory Core\n\n"
+        "**Tapir (Ultimate)** - Lv. 160 - Blazing Graben: Surface\n\n"
+        "**York (Ultimate)** - Lv. 158 - Huge Crysta Factory: Storage\n"
+        "\u200b"
+    ), inline=False)
+
+    # Mini Bosses
+    embed.add_field(name='**Mini Bosses:**', value=(
+        "**Amoeba Machina** - Lv. 158 - Ultimea Sewer: Southeast\n\n"
+        "**Volotur** - Lv. 160 - Suburb of Droma Square: Area 3\n\n"
+        "**Seraph Machina** - Lv. 167 - Buried Tower: Inside"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='175', aliases=['176', '177', '178', '179', '180', '181', '182', '183', '184', '185', '188', '189', '190', '191', '192', '193', '194', '195', '196', '197', '198', '199'])
+async def level175_to_199(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 175–199)', color=discord.Color.dark_gold())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    # Bosses
+    embed.add_field(name='**Bosses:**', value=(
+        "**Venena Coenubia (Ultimate)** - Lv. 190 - Ultimea Palace: Throne\n\n"
+        "**Ultimate Machina (Ultimate)** - Lv. 179 - Droma Square\n\n"
+        "**Maton Sword (Ultimate)** - Lv. 183 - Buried Tower: Entrance\n\n"
+        "**Gwaimol (Ultimate)** - Lv. 176 - Cuervo Jail: Roof\n\n"
+        "**Ornlarf (Ultimate)** - Lv. 182 - Ultimea Palace: Corridor\n"
+        "\u200b"
+    ), inline=False)
+
+    # Mini Bosses
+    embed.add_field(name='**Mini Bosses:**', value=(
+        "**Altoblepas** - Lv. 174 - Rokoko Plains\n\n"
+        "**Bubble Bogey** - Lv. 177 - Barbaros Corridor\n\n"
+        "**Mithurna Lynx** - Lv. 177 - Ruins of Mt. Mithurna: Stylobate"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='200', aliases=['201', '202', '203', '204'])
+async def level200_to_204(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 198–203)', color=discord.Color.dark_purple())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    # Mini Bosses
+    embed.add_field(name='**Mini Bosses:**', value=(
+        "**Grimuckus** - Lv. 195 - Wazeero Street\n"
+        "**Frenzy Viola** - Lv. 198 - Morthell Swell: Area 3"
+    ), inline=False)
+
+    # Boss Monsters
+    embed.add_field(name='**Boss Monsters:**', value=(
+        "**Venena Metacoenubia** - Lv. 205 (Hard) - Neo Plastida\n"
+        "**Kuzto** - Lv. 198 (Nightmare) - Labilans Sector: Square\n"
+        "**Seele Zauga** - Lv. 200 (Ultimate) - Shrine of the Goddess of Species\n"
+        "**Finstern the Dark Dragon** - Lv. 206 (Ultimate) - Dark Dragon Shrine: Near the Top"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='205', aliases=['206', '207', '208'])
+async def level205_to_209(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 203–206)', color=discord.Color.dark_purple())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    # Mini Bosses
+    embed.add_field(name='**Mini Bosses:**', value=(
+        "**Frenzy Viola** - Lv. 198 - Morthell Swell: Area 3"
+    ), inline=False)
+
+    # Boss Monsters
+    embed.add_field(name='**Boss Monsters:**', value=(
+        "**Venena Metacoenubia** - Lv. 205 (Hard) - Neo Plastida\n"
+        "**Seele Zauga** - Lv. 200 (Ultimate) - Shrine of the Goddess of Species\n"
+        "**Finstern the Dark Dragon** - Lv. 206 (Ultimate) - Dark Dragon Shrine: Near the Top"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='209', aliases=['210', '211'])
+async def level209_to_211(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 209–211)', color=discord.Color.dark_purple())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    # Mini Bosses
+    embed.add_field(name='**Mini Bosses:**', value=(
+        "**Demonic Eye** - Lv. 212 - Dea Ruinea\n"
+        "**Canemofish** - Lv. 210 - Recetacula Sector: Area 1"
+    ), inline=False)
+
+    # Boss Monsters
+    embed.add_field(name='**Boss Monsters:**', value=(
+        "**Venena Metacoenubia** - Lv. 205 (Hard) - Neo Plastida\n"
+        "**Finstern the Dark Dragon** - Lv. 206 (Ultimate) - Dark Dragon Shrine: Near the Top"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='212', aliases=['213', '214', '215', '216'])
+async def level212_to_216(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 212–216)', color=discord.Color.dark_red())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    embed.add_field(name='**Mini Bosses:**', value=(
+        "**Demonic Eye** - Lv. 212 - Dea Ruinea\n"
+        "**Canemofish** - Lv. 210 - Recetacula Sector: Area 1\n"
+        "**Tardigrademon** - Lv. 213 - Old Lufenas Mansion Ruins"
+    ), inline=False)
+
+    embed.add_field(name='**Boss Monsters:**', value=(
+        "**Arachnidemon** - Lv. 216 (Nightmare) - Arche Valley: Depths\n"
+        "**Kuzto** - Lv. 218 (Ultimate) - Labilans Sector: Square"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='217', aliases=['218', '219', '220', '221', '222'])
+async def level215_to_222(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 215–222)', color=discord.Color.blue())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    embed.add_field(name='**Mini Bosses:**', value=(
+        "**Ageladanios** - Lv. 218 - Ducia Coast: Area 1\n"
+        "**Tappler** - Lv. 218 - Ruins of Urban Elban\n"
+        "**Espectro** - Lv. 221 - Arche Valley: Area 1"
+    ), inline=False)
+
+    embed.add_field(name='**Boss Monsters:**', value=(
+        "**Arachnidemon** - Lv. 216 (Nightmare) - Arche Valley: Depths\n"
+        "**Kuzto** - Lv. 218 (Ultimate) - Labilans Sector: Square\n"
+        "**Gravicep** - Lv. 224 (Ultimate) - Recetacula Sector: Depot Rooftop"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='223', aliases=['224', '225'])
+async def level223_to_225(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 223–225)', color=discord.Color.green())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    embed.add_field(name='**Mini Boss Monsters:**', value=(
+        "**Ageladanios** - Lv. 218 - Ducia Coast: Area 1\n"
+        "**Tappler** - Lv. 218 - Ruins of Urban Elban\n"
+        "**Espectro** - Lv. 221 - Arche Valley: Area 1\n"
+        "**Lord of Nezim** - Lv. 227 - Nezim Wetlands"
+    ), inline=False)
+
+    embed.add_field(name='**Boss Monsters:**', value=(
+        "**Gemma** - Lv. 228 (Hard) - Fugitive Lake Swamp: Depths\n"
+        "**Kuzto** - Lv. 218 (Ultimate) - Labilans Sector: Square\n"
+        "**Gravicep** - Lv. 224 (Ultimate) - Recetacula Sector: Depot Rooftop"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='226', aliases=['227', '228', '229'])
+async def level226_to_229(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 226–229)', color=discord.Color.blue())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    embed.add_field(name='**Mini Boss Monsters:**', value=(
+        "**Espectro** - Lv. 221 - Arche Valley: Area 1\n"
+        "**Lord of Nezim** - Lv. 227 - Nezim Wetlands\n"
+        "**Rhinosaur** - Lv. 233 - Fugitive Lake Swamp: Area 3"
+    ), inline=False)
+
+    embed.add_field(name='**Boss Monsters:**', value=(
+        "**Gemma** - Lv. 228 (Hard) - Fugitive Lake Swamp: Depths\n"
+        "**Gravicep** - Lv. 224 (Ultimate) - Recetacula Sector: Depot Rooftop"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='230', aliases=['231', '232', '233', '234'])
+async def level230_to_235(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 230–235)', color=discord.Color.blue())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    embed.add_field(name='**Mini Boss Monsters:**', value=(
+        "**Lord of Nezim** - Lv. 227 - Nezim Wetlands\n"
+        "**Rhinosaur** - Lv. 233 - Fugitive Lake Swamp: Area 3"
+    ), inline=False)
+
+    embed.add_field(name='**Boss Monsters:**', value=(
+        "**Gemma** - Lv. 228 (Nightmare) - Fugitive Lake Swamp: Depths\n"
+        "**Arachnidemon** - Lv. 236 (Ultimate) - Arche Valley: Depths"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='235', aliases=['236', '237', '238', '239'])
+async def level235_to_240(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 235–240)', color=discord.Color.dark_green())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    embed.add_field(name='**Mini Boss Monsters:**', value=(
+        "**Rhinosaur** - Lv. 233 - Fugitive Lake Swamp: Area 3\n"
+        "**Bullamius** - Lv. 239 - Storage Yard: Area 2"
+    ), inline=False)
+
+    embed.add_field(name='**Boss Monsters:**', value=(
+        "**Arachnidemon** - Lv. 236 (Ultimate) - Arche Valley: Depths\n"
+        "**Venena Metacoenubia** - Lv. 235 (Ultimate) - Neo Plastida"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='240', aliases=['241', '242', '243', '244'])
+async def level240_to_245(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 240–245)', color=discord.Color.purple())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    embed.add_field(name='**Mini Boss Monsters:**', value=(
+        "**Bullamius** - Lv. 239 - Storage Yard: Area 2"
+    ), inline=False)
+
+    embed.add_field(name='**Boss Monsters:**', value=(
+        "**Black Shadow** - Lv. 239 (Ultimate) - Rokoko City Ruins\n"
+        "**Hexter** - Lv. 242 (Ultimate) - Witch's Woods Depths\n"
+        "**Arachnidemon** - Lv. 236 (Ultimate) - Arche Valley: Depths"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='245', aliases=['246', '247', '248', '249', '250'])
+async def level245_to_250(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 245–250)', color=discord.Color.orange())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    embed.add_field(name='**Mini Boss Monsters:**', value=(
+        "**Blazingur** - Lv. 245 - Divido Valley: Area 3\n"
+        "**Glaucius** - Lv. 248 - Arstida: Area 2"
+    ), inline=False)
+
+    embed.add_field(name='**Boss Monsters:**', value=(
+        "**Guard Golem** - Lv. 252 (Nightmare) - Weredragon's Throat\n"
+        "**Ferzen the Rock Dragon** - Lv. 251 (Ultimate) - Guardian Forest: Giant Tree"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='251', aliases=['252', '253', '254', '255'])
+async def level251_to_255(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 251–255)', color=discord.Color.orange())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    embed.add_field(name='**Mini Boss Monsters:**', value=(
+        "**Ignitrus** - Lv. 251 - Vulcani Crater Base\n"
+        "**Glaucius** - Lv. 248 - Arstida: Area 2"
+    ), inline=False)
+
+    embed.add_field(name='**Boss Monsters:**', value=(
+        "**Guard Golem** - Lv. 252 (Nightmare) - Weredragon's Throat\n"
+        "**Ferzen the Rock Dragon** - Lv. 251 (Ultimate) - Guardian Forest: Giant Tree"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='256', aliases=['257', '258', '259', '260'])
+async def level256_to_260(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 256–260)', color=discord.Color.red())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    embed.add_field(name='**Mini Boss Monsters:**', value=(
+        "**Rampion Milcaska** - Lv. 254 - Falls: Army Base\n"
+        "**Wolkissa** - Lv. 257 - Weredragon's Throat\n"
+        "**Galegon** - Lv. 260 - Boma Moja: Area 3"
+    ), inline=False)
+
+    embed.add_field(name='**Boss Monsters:**', value=(
+        "**War Dragon Turba** - Lv. 257 (Ultimate) - Prime Ramus: Village\n"
+        "**Trickster Dragon Mimyugon** - Lv. 258 (Nightmare) - Operation Zone: Cockpit Area"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='261', aliases=['262', '263', '264', '265'])
+async def level261_to_265(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 261–265)', color=discord.Color.orange())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    embed.add_field(name='**Mini Boss Monsters:**', value=(
+        "**Wolkissa** - Lv. 257 - Weredragon's Throat\n"
+        "**Galegon** - Lv. 260 - Boma Moja: Area 3\n"
+        "**Brassozard** - Lv. 263 - Operation Zone: Climate Control Area"
+    ), inline=False)
+
+    embed.add_field(name='**Boss Monsters:**', value=(
+        "**War Dragon Turba** - Lv. 257 (Ultimate) - Prime Ramus: Village\n"
+        "**Trickster Dragon Mimyugon** - Lv. 258 (Nightmare) - Operation Zone: Cockpit Area\n"
+        "**Vlam the Flame Dragon** - Lv. 260 (Ultimate) - Divido Spring\n"
+        "**Velum** - Lv. 263 (Ultimate) - Arstida: Depth"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='266', aliases=['267', '268', '269', '270'])
+async def level266_to_270(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 266–270)', color=discord.Color.red())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    embed.add_field(name='**Mini Boss Monsters:**', value=(
+        "**Exdocus** - Lv. 266 - Stairway to Vital Point\n"
+        "**Diark** - Lv. 270 - Tower of Clamor: Area 3\n"
+        "**Trus** - Lv. 269 - Propulsion System Zone: Power Tank\n"
+        "**Brassozard** - Lv. 263 - Operation Zone: Climate Control Area"
+    ), inline=False)
+
+    embed.add_field(name='**Boss Monsters:**', value=(
+        "**Gordel** - Lv. 269 (Ultimate) - Milcaska Falls: Weredragon's Mouth\n"
+        "**Oculasignio** - Lv. 266 (Ultimate) - Mt. Vulcani: Summit\n"
+        "**Brass Dragon Reguita** - Lv. 270 (Nightmare) - Boma Konda: Village Center\n"
+        "**Red Ash Dragon Rudis** - Lv. 269 (Hard) - Espuma Dome: Entrance\n"
+        "**Velum** - Lv. 263 (Ultimate) - Arstida: Depth"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='271', aliases=['272', '273', '274', '275'])
+async def level271_to_275(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 271–275)', color=discord.Color.red())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    embed.add_field(name='**Mini Boss Monsters:**', value=(
+        "**Charugon** - Lv. 275 - Boma Konda: Underground Area\n"
+        "**Orictoceras** - Lv. 272 - Kabla Jabali\n"
+        "**Diark** - Lv. 270 - Tower of Clamor: Area 3\n"
+        "**Trus** - Lv. 269 - Propulsion System Zone: Power Tank"
+    ), inline=False)
+
+    embed.add_field(name='**Boss Monsters:**', value=(
+        "**Burning Dragon Igneus** - Lv. 275 (Ultimate) - Boma Moja: Village Center\n"
+        "**Guard Golem** - Lv. 272 (Ultimate) - Weredragon's Throat\n"
+        "**Gordel** - Lv. 269 (Ultimate) - Milcaska Falls: Weredragon's Mouth\n"
+        "**Brass Dragon Reguita** - Lv. 270 (Nightmare) - Boma Konda: Village Center\n"
+        "**Red Ash Dragon Rudis** - Lv. 269 (Hard) - Espuma Dome: Entrance"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='276', aliases=['277', '278', '279', '280'])
+async def level276_to_280(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 276–280)', color=discord.Color.orange())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    embed.add_field(name='**Mini Boss Monsters:**', value=(
+        "**Charugon** - Lv. 275 - Boma Konda: Underground Area\n"
+        "**Orictoceras** - Lv. 272 - Kabla Jabali\n"
+        "**Lilicarolla** - Lv. 278 - Frozen Falls: Area 1\n"
+        "**Vodre** - Lv. 281 - Puerta Islands: Area 2"
+    ), inline=False)
+
+    embed.add_field(name='**Boss Monsters:**', value=(
+        "**Trickster Dragon Mimyugon** - Lv. 278 (Ultimate) - Operation Zone: Cockpit Area\n"
+        "**Filrocas** - Lv. 281 (Ultimate) - Royal Dragon Cocoon Chamber\n"
+        "**Burning Dragon Igneus** - Lv. 275 (Ultimate) - Boma Moja: Village Center\n"
+        "**Guard Golem** - Lv. 272 (Ultimate) - Weredragon's Throat"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='281', aliases=['282', '283', '284', '285'])
+async def level281_to_285(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 281–285)', color=discord.Color.orange())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    embed.add_field(name='**Mini Boss Monsters:**', value=(
+        "**Charugon** - Lv. 275 - Boma Konda: Underground Area\n"
+        "**Lilicarolla** - Lv. 278 - Frozen Falls: Area 1\n"
+        "**Vodre** - Lv. 281 - Puerta Islands: Area 2\n"
+        "**Fantica** - Lv. 284 - Espuma Dome: Area 2"
+    ), inline=False)
+
+    embed.add_field(name='**Boss Monsters:**', value=(
+        "**Trickster Dragon Mimyugon** - Lv. 278 (Ultimate) - Operation Zone: Cockpit Area\n"
+        "**Walican** - Lv. 287 (Ultimate) - Jabali Kubwa: Summit\n"
+        "**Wicked Dragon Fazzino** - Lv. 284 (Ultimate) - Propulsion System Room\n"
+        "**Filrocas** - Lv. 281 (Ultimate) - Royal Dragon Cocoon Chamber"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='286', aliases=['287', '288', '289', '290'])
+async def level286_to_290(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 286–290)', color=discord.Color.blue())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    embed.add_field(name='**Mini Boss Monsters:**', value=(
+        "**Limacina** - Lv. 290 - Deep Sea: Zone 2\n"
+        "**Vodre** - Lv. 281 - Puerta Islands: Area 2\n"
+        "**Capo Profundo** - Lv. 287 - Abandoned District: Area 3\n"
+        "**Fantica** - Lv. 284 - Espuma Dome: Area 2"
+    ), inline=False)
+
+    embed.add_field(name='**Boss Monsters:**', value=(
+        "**Mulgoon** - Lv. 291 (Nightmare) - Menabra Plains\n"
+        "**Brass Dragon Reguita** - Lv. 290 (Ultimate) - Boma Konda: Village Center\n"
+        "**Walican** - Lv. 287 (Ultimate) - Jabali Kubwa: Summit\n"
+        "**Wicked Dragon Fazzino** - Lv. 284 (Ultimate) - Propulsion System Room"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='291', aliases=['292', '293', '294', '295'])
+async def level291_to_295(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 291–295)', color=discord.Color.blue())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    embed.add_field(name='**Mini Boss Monsters:**', value=(
+        "**Limacina** - Lv. 290 - Deep Sea: Zone 2\n"
+        "**Capo Profundo** - Lv. 287 - Abandoned District: Area 3"
+    ), inline=False)
+
+    embed.add_field(name='**Boss Monsters:**', value=(
+        "**Mulgoon** - Lv. 291 (Nightmare) - Menabra Plains\n"
+        "**Dominaredor** - Lv. 293 (Ultimate) - Frozen Falls: Depths\n"
+        "**Brass Dragon Reguita** - Lv. 290 (Ultimate) - Boma Konda: Village Center\n"
+        "**Walican** - Lv. 287 (Ultimate) - Jabali Kubwa: Summit"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='296', aliases=['297', '298', '299', '300'])
+async def level296_to_300(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 296–300)', color=discord.Color.blue())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    embed.add_field(name='**Mini Boss Monsters:**', value=(
+        "**Meteora** - Lv. 302 - Menabra Plains\n"
+        "**Limacina** - Lv. 290 - Deep Sea: Zone 2"
+    ), inline=False)
+
+    embed.add_field(name='**Boss Monsters:**', value=(
+        "**Mulgoon** - Lv. 291 (Nightmare) - Menabra Plains\n"
+        "**Dominaredor** - Lv. 293 (Ultimate) - Frozen Falls: Depths\n"
+        "**Brass Dragon Reguita** - Lv. 290 (Ultimate) - Boma Konda: Village Center\n"
+        "**Red Ash Dragon Rudis** - Lv. 299 (Ultimate) - Espuma Dome: Entrance"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='301', aliases=['302', '303', '304', '305'])
+async def level301_to_305(ctx):
+    embed = discord.Embed(title='Spot Leveling (Lv. 301–305)', color=discord.Color.green())
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+
+    embed.add_field(name='**Mini Boss Monsters:**', value=(
+        "**Meteora** - Lv. 302 - Menabra Plains\n"
+        "**Wiltileaf** - Lv. 305 - Eumano Village Ruins: Area 2"
+    ), inline=False)
+
+    embed.add_field(name='**Boss Monsters:**', value=(
+        "**Vatudo** - Lv. 305 (Ultimate) - Deep Sea: Deepest Zone\n"
+        "**Don Profundo** - Lv. 302 (Ultimate) - Abandoned District: Ruins Summit\n"
+        "**Red Ash Dragon Rudis** - Lv. 299 (Ultimate) - Espuma Dome: Entrance"
+    ), inline=False)
+
+    await ctx.send(embed=embed)
+
+######################### Element Arrow ############################
+
+@bot.command(name='firearrow', aliases=['panahapi'])
+async def firearrow(ctx):
+    embed = discord.Embed(
+        title='🔥 Fire Element Arrows',
+        description='Berikut adalah daftar panah berelemen api beserta lokasi drop dan statistiknya.',
+        color=discord.Color.red()
+    )
+
+    embed.add_field(
+        name='Flame Arrow',
+        value=(
+            "**Drop:** Sunion *(Normal Monster Lv 73/76 - Dark Mirror)*\n"
+            "**Base ATK:** 34\n"
+            "**Base Stability:** 20%\n"
+            "**MaxMP:** +100\n"
+            "**Element:** 🔥 Fire\n"
+            "━━━━━━━━━━━━━━━━━━━"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='Demon Empress Arrow',
+        value=(
+            "**Drop:** Venena Metacoenubia *(Raid Boss Lv 185-235 - Neo Plastida)*\n"
+            "**Base ATK:** 120\n"
+            "**Base Stability:** 10%\n"
+            "**Accuracy:** +15\n"
+            "**Aggro:** -15%\n"
+            "**Element:** 🔥 Fire\n"
+            "━━━━━━━━━━━━━━━━━━━"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='Blazing Tail Arrow',
+        value=(
+            "**Drop:** Tailgon *(Normal Monster Lv 213/216 - Tunnel of Trial)*\n"
+            "**Base ATK:** 152\n"
+            "**Base Stability:** 20%\n"
+            "**Fire Resistance:** +10%\n"
+            "**Reduce Damage (Bowling):** 20%\n"
+            "**Element:** 🔥 Fire\n"
+            "━━━━━━━━━━━━━━━━━━━"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='|Limited Event| Love Arrow',
+        value=(
+            "**Craft:** NPC Blacksmith (Valentine Event Recipe)\n"
+            "**Base ATK:** 71\n"
+            "**Base Stability:** 20%\n"
+            "**Critical Rate:** +5\n"
+            "**Element:** 🔥 Fire\n"
+            "━━━━━━━━━━━━━━━━━━━"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='Dragon Guard Arrow',
+        value=(
+            "**Drop:** 7th Road of Megiston: 4th Battle\n"
+            "**Base ATK:** 187\n"
+            "**Base Stability:** 20%\n"
+            "**Critical Rate:** +10\n"
+            "**Attack MP Recovery:** +3\n"
+            "**Earth Resistance:** -5%\n"
+            "**Element:** 🔥 Fire\n"
+            "**Note:** *BEST ARROW to deal more damage*\n"
+            "━━━━━━━━━━━━━━━━━━━"
+        ),
+        inline=False
+    )
+
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='neutralarrow', aliases=['panahnetral'])
+async def neutralarrow(ctx):
+    embed = discord.Embed(
+        title='Neutral Element Arrows',
+        description='Daftar panah berelemen Neutral lengkap dengan lokasi drop dan statistik.',
+        color=discord.Color.light_grey()
+    )
+
+    embed.add_field(
+        name='LIL EMPRESS ARROW',
+        value=(
+            "**Drop:** Venena Coenubia (Raid Boss Lv 140–190 – Ultimea Palace: Throne)\n"
+            "**Base ATK:** 83\n"
+            "**Stability:** 15%\n"
+            "**Physical Pierce:** +10%\n"
+            "**DEF:** -30%\n"
+            "**ASPD:** +10%\n"
+            "**Aggro:** -10%\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='QUARTZ ARROW',
+        value=(
+            "**Drop:** Rollitida (Lv 191/193 – Fugitive Lake Swamp: Area 2/3)\n"
+            "**Base ATK:** 115\n"
+            "**Stability:** 20%\n"
+            "**Critical Rate:** +10\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='DRILL BOLT',
+        value=(
+            "**Drop:** Mine Digger (Lv 113 – Ultimea Sewer: South)\n"
+            "**Base ATK:** 120\n"
+            "**Stability:** 10%\n"
+            "**Physical Pierce:** +10%\n"
+            "**Critical Damage:** +2\n"
+            "**Aggro:** +20%\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='SPIRAL SHELL ARROW',
+        value=(
+            "**Drop:** Spirulida (Lv 243–245 – Deep Sea Zone 1/2/3)\n"
+            "**Base ATK:** 163\n"
+            "**Stability:** 20%\n"
+            "**Physical Pierce:** +10%\n"
+            "**Anticipate:** +10%\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='[LIMITED EVENT] DREAMY ARROW',
+        value=(
+            "**Drop:** Dreamy Scarlet Sakura (Nightmare Lv 220 – Hanami Event Boss – Lush Falls: Upstream)\n"
+            "**Base ATK:** 136\n"
+            "**Stability:** 20%\n"
+            "**Natural HP Regen:** +10%\n"
+            "**Aggro:** -20%\n"
+            "**Stronger vs Neutral:** +5%\n"
+            "*BEST ARROW to deal more damage*\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='[LIMITED EVENT] DRIVER BOLT',
+        value=(
+            "**Drop:** Inspector Golem (Lv 164 – Winter Event – Joulu House: Depot)\n"
+            "**Base ATK:** 200\n"
+            "**Stability:** 20%\n"
+            "**Accuracy:** -25%\n"
+            "**Attack MP Recovery:** +3\n"
+            "**Neutral Resistance:** +15%\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='[LIMITED EVENT] ANNIV FESTIVE ARROW IV',
+        value=(
+            "**Drop:** Anniv Equipment Box VII\n"
+            "**Base ATK:** 200\n"
+            "**Stability:** 20%\n"
+            "**Attack Speed:** +400\n"
+            "**Fractional Barrier:** +10%\n"
+            "**Aggro:** -16%\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.set_thumbnail(
+        url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&'
+    )
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='waterarrow', aliases=['panahair'])
+async def waterarrow(ctx):
+    embed = discord.Embed(
+        title='Water Element Arrows',
+        description='Daftar panah berelemen Water lengkap dengan lokasi drop dan statistik.',
+        color=discord.Color.blue()
+    )
+
+    embed.add_field(
+        name='SERREIN ARROW',
+        value=(
+            "**Drop:** Floragonet (Lv 159/160 – Fractum Sector: Area 1/2)\n"
+            "**Base ATK:** 84\n"
+            "**Stability:** 20%\n"
+            "**Effect:** Tumble Unavailable\n"
+            "**Absolute Accuracy:** +1%\n"
+            "**Element:** Water\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='DRY WATER ARROW',
+        value=(
+            "**Drop:** Coofer (Lv 255/256/257 – Umidus Valley: Area 1/2/3)\n"
+            "**Base ATK:** 206\n"
+            "**MaxHP:** +15%\n"
+            "**Aggro:** +30%\n"
+            "**Element:** Water\n"
+            "*BEST ARROW to deal more damage*\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='[LIMITED EVENT] OCEAN ARROW',
+        value=(
+            "**Craft:** NPC Blacksmith (Summer Event Recipe)\n"
+            "**Base ATK:** 110\n"
+            "**Stability:** 20%\n"
+            "**MaxMP:** +200\n"
+            "**Attack MP Recovery:** +1\n"
+            "**Wind Resistance:** -3%\n"
+            "**Element:** Water\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='[LIMITED EVENT] DRAGON PALACE ARROW',
+        value=(
+            "**Drop:** Sea Ghost Wooden Box - Falburrow\n"
+            "(Summer Event Boss – Saltau's Beach [Night])\n"
+            "**Base ATK:** 200\n"
+            "**MaxHP:** +25%\n"
+            "**Critical Rate:** +25%\n"
+            "**Effect:** Stun Unavailable\n"
+            "**Special:** -25% damage to Neutral\n"
+            "**Element:** Water\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.set_thumbnail(
+        url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&'
+    )
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='windarrow', aliases=['panahangin'])
+async def windarrow(ctx):
+    embed = discord.Embed(
+        title='Wind Element Arrows',
+        description='Daftar panah berelemen Wind lengkap dengan lokasi drop dan statistik.',
+        color=discord.Color.green()
+    )
+
+    embed.add_field(
+        name='TEMPEST ARROW (Boss Drop)',
+        value=(
+            "**Drop:** Forestia (Lv 39/49/59/69/89 – Land Of Chaos)\n"
+            "**Base ATK:** 15\n"
+            "**Stability:** 20%\n"
+            "**Accuracy:** +10%\n"
+            "**Critical Damage:** +1%\n"
+            "**Element:** Wind\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='TEMPEST ARROW (Craft)',
+        value=(
+            "**Craft:** NPC Blacksmith\n"
+            "**Base ATK:** 15\n"
+            "**Stability:** 20%\n"
+            "**Critical Damage:** +1%\n"
+            "**Element:** Wind\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='APPLE ARROW',
+        value=(
+            "**Drop:** Coryn (Lv 154–156 – Dikkit Sector)\n"
+            "**Base ATK:** 92\n"
+            "**Stability:** 15%\n"
+            "**Aggro:** -10%\n"
+            "**Element:** Wind\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='[LIMITED EVENT] QUEEN BEE ARROW',
+        value=(
+            "**Craft:** NPC Blacksmith (Valentine Event Recipe)\n"
+            "**Base ATK:** 150\n"
+            "**Stability:** 20%\n"
+            "**Additional Melee:** +10\n"
+            "**Water Resistance:** +5%\n"
+            "**Effect:** Tumble Unavailable\n"
+            "**Element:** Wind\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='[LIMITED EVENT] BAT FANG ARROW',
+        value=(
+            "**Drop:** Halloween Event – Rissus Valley\n"
+            "**Base ATK:** 136\n"
+            "**Stability:** 20%\n"
+            "**Physical Pierce:** +10%\n"
+            "**Critical Rate:** +10\n"
+            "**Accuracy:** -20\n"
+            "**Element:** Wind\n"
+            "*BEST ARROW to deal more damage*\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.set_thumbnail(
+        url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&'
+    )
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='eartharrow', aliases=['panahbumi'])
+async def eartharrow(ctx):
+    embed = discord.Embed(
+        title='Earth Element Arrows',
+        description='Daftar panah berelemen Earth lengkap dengan lokasi drop dan statistik.',
+        color=discord.Color.dark_gold()
+    )
+
+    embed.add_field(
+        name='POINTED ORE ARROW',
+        value=(
+            "**Drop:** Cavern Rat (Lv 99 – Singolare Ruins: 1st Floor)\n"
+            "**Base ATK:** 43\n"
+            "**Stability:** 20%\n"
+            "**DEF:** +50\n"
+            "**Physical Resistance:** +3%\n"
+            "**Accuracy:** -1%\n"
+            "**Element:** Earth\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='GUARDIAN FOREST ARROW',
+        value=(
+            "**Drop:** Arbogazella (Miniboss Lv 236 – Guardian Forest: Lost Woods)\n"
+            "**Base ATK:** 167\n"
+            "**Stability:** 20%\n"
+            "**Accuracy:** +50%\n"
+            "**Aggro:** -25%\n"
+            "**Stronger Against Fire:** -10%\n"
+            "**Stronger Against Light:** -20%\n"
+            "**Element:** Earth\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='EUMANO ARROW',
+        value=(
+            "**Drop:** Deformis (Lv 264 – Eumano Village Ruins: Central)\n"
+            "**Base ATK:** 226\n"
+            "**Stability:** 25%\n"
+            "**Long Range Damage:** +1%\n"
+            "**Motion Speed:** +3%\n"
+            "**Critical Rate:** +5\n"
+            "**Element:** Earth\n"
+            "*BEST ARROW to deal more damage*\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='[LIMITED EVENT] CACAO ARROW',
+        value=(
+            "**Craft:** NPC Blacksmith (Valentine Event Recipe)\n"
+            "**Base ATK:** 50\n"
+            "**Stability:** 20%\n"
+            "**Critical Rate:** +3\n"
+            "**Aggro:** -6%\n"
+            "**Element:** Earth\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.set_thumbnail(
+        url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&'
+    )
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='lightarrow', aliases=['panahcahaya'])
+async def lightarrow(ctx):
+    embed = discord.Embed(
+        title='Light Element Arrows',
+        description='Daftar panah berelemen Light lengkap dengan lokasi drop dan statistik.',
+        color=discord.Color.gold()
+    )
+
+    embed.add_field(
+        name='FLASH VOLT',
+        value=(
+            "**Reward:** Sub Quest [Juan - *Unforgettable Taste*, El Scaro]\n"
+            "**Base ATK:** 3\n"
+            "**Stability:** 15%\n"
+            "**Accuracy:** +10\n"
+            "**Critical Rate:** +10\n"
+            "**Stronger Against Light:** -50%\n"
+            "**Element:** Light\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='JOYFUL ARROW',
+        value=(
+            "**Drop:** Crestollar (Lv 253/256 – Latum Wetlands)\n"
+            "**Base ATK:** 100\n"
+            "**Stability:** 20%\n"
+            "**Max MP:** +100\n"
+            "**Element:** Light\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='[LIMITED EVENT] CANDY ARROW',
+        value=(
+            "**Craft:** NPC Blacksmith (White Day Event Recipe)\n"
+            "**Base ATK:** 56\n"
+            "**Stability:** 20%\n"
+            "**Magic DEF:** +10%\n"
+            "**Magic Resistance:** +10%\n"
+            "**Element:** Light\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='HOLY TREE ARROW',
+        value=(
+            "**Drop:** Santaby (Winter Event, Lv 159 – Tomte Pavilion)\n"
+            "**Base ATK:** 100\n"
+            "**Stability:** 20%\n"
+            "**Dark Resistance:** +10%\n"
+            "**Attack MP Recovery:** +1\n"
+            "**Element:** Light\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='STARHAMMER ARROW',
+        value=(
+            "**Drop:** Spectern (Lv 226 – Deusania’s Lab, Halloween Event)\n"
+            "**Base ATK:** 187\n"
+            "**Critical Rate:** +20\n"
+            "**Accuracy:** -10%\n"
+            "**Element:** Light\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='SUNNY SPRING ARROW',
+        value=(
+            "**Craft:** NPC Blacksmith (Hanami Event Recipe)\n"
+            "**Base ATK:** 181\n"
+            "**Stability:** 20%\n"
+            "**Physical Pierce:** +5%\n"
+            "**Magical Pierce:** +5%\n"
+            "**Guard Break:** +5%\n"
+            "**Element:** Light\n"
+            "*BEST ARROW to deal more damage*\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.set_thumbnail(
+        url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&'
+    )
+
+    await ctx.send(embed=embed)
+
+
+@bot.command(name='darkarrow', aliases=['panahgelap'])
+async def darkarrow(ctx):
+    embed = discord.Embed(
+        title='Dark Element Arrows',
+        description='Daftar panah berelemen Dark lengkap dengan lokasi drop dan statistik.',
+        color=discord.Color.dark_purple()
+    )
+
+    embed.add_field(
+        name='TWILIGHT ARROW',
+        value=(
+            "**Drop:** Twilight Dragon (Lv 90/100/110/120/140 – Fort Solfini: Roof)\n"
+            "**Base ATK:** 40\n"
+            "**Stability:** 20%\n"
+            "**Max HP:** -10%\n"
+            "**Ailment Resistance:** +5%\n"
+            "**Element:** Dark\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='SPIKY ARROW',
+        value=(
+            "**Drop:** Ivy (Lv 150–152 – Dark Dragon Shrine: Lower/Middle/Upper)\n"
+            "**Base ATK:** 79\n"
+            "**Stability:** 20%\n"
+            "**Magic Resistance:** +5%\n"
+            "**Reduce Damage (Floor):** +5%\n"
+            "**Element:** Dark\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='[LIMITED EVENT] TWILIGHT SAKURA ARROW',
+        value=(
+            "**Drop:** Amalgam (Lv 140/160/180 – Twilight Sakura Castle: Top, Hanami Event)\n"
+            "**Base ATK:** 100\n"
+            "**Stability:** 20%\n"
+            "**Light Resistance:** +5%\n"
+            "**Element:** Dark\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='SPECTER ARROW',
+        value=(
+            "**Drop:** Manomare (Lv 169–172 – Phasma Forest: Area 1/2/3, Halloween Event)\n"
+            "**Base ATK:** 120\n"
+            "**Stability:** 20%\n"
+            "**Additional Magic:** +50\n"
+            "**Invincible Aid (Sec):** 1\n"
+            "**Element:** Dark\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name='EVIL GAZE ARROW',
+        value=(
+            "**Drop:** Corey (Lv 230–234 – Tower of Clamor, Winter Event)\n"
+            "**Base ATK:** 190\n"
+            "**Stability:** 20%\n"
+            "**Accuracy:** +30%\n"
+            "**Wind Resistance:** +10%\n"
+            "**Element:** Dark\n"
+            "*BEST ARROW to deal more damage*\n"
+            "────────────────────────────"
+        ),
+        inline=False
+    )
+
+    embed.set_thumbnail(
+        url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&'
+    )
+
+    await ctx.send(embed=embed)
 
 
 
+
+
+######################################################################
 logging.info("Bot starting...")
 token = os.getenv('DISCORD_TOKEN')
 if not token:
