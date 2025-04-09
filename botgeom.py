@@ -1192,6 +1192,31 @@ async def venena(ctx):
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
+
+@bot.command(name='quasar', aliases=['demonic'])
+async def quasar(ctx):
+    embed = discord.Embed(title='Demonic Quasar')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='9', inline=True)
+    embed.add_field(name='MQ Locked', value='Yes', inline=True)
+    embed.add_field(name='Map', value='Morga Wasteland: Deepest Area')
+    embed.add_field(name='Element', value='Dark', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='925', inline=True)
+    embed.add_field(name='M.Def', value='925', inline=True)
+    embed.add_field(name='P.Res', value='7', inline=True)
+    embed.add_field(name='M.Res', value='7', inline=True)
+    embed.add_field(name='Prorate', value='N:5 P:5 M:5', inline=True)
+    embed.add_field(name='Crit Res', value='25', inline=True)
+    embed.add_field(name='Flee', value='410', inline=True)
+    embed.add_field(name='Retaliation', value="At 75-100% HP: Immune to S, no retaliation against FT.\nAt 50-75% HP: Immune to FT, no retaliation against S.\nAt 25-50% HP: Retaliates only to T.\nAt 10-25% HP: Immune to F, retaliates to T.\nAt 0-10% HP, immune to FTS.\n\nAt 75%, 50%, and 25% HP, the boss will gain invincibility for a short period of time and attack with a full map AOE fractional spikes attack.\nAt 10% HP, the boss will gain invincibility for a short period of time and cast a full map meteor attack that drops 30 seconds after it was casted.\nBoss retaliation is in the form of fractional spikes that deal about 30% of MaxHP and inflicts [Weaken] (25-50% HP) or [Dizzy] (10-25% HP).", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nHead (Demon Mask),\nLeft Arm (KN),\nTorso (BWG)", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/quasar.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
+
 ################ Main Quest BAB 8 ###############
 @bot.command(name='shampy', aliases=['sham'])
 async def shampy(ctx):
