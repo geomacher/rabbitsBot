@@ -100,8 +100,22 @@ async def reconnect_task():
 @bot.event
 async def on_disconnect():
     logging.warning('Bot terputus, mencoba untuk reconnect...')
+#######################################################
+             #COMMAND#
+###################################################
+@bot.command(name='commands', aliases=['helpme'])
+async def show_commands(ctx):
+    embed = discord.Embed(title='Command List', description='Berikut daftar command yang tersedia:', color=0x00ff00)
+    embed.add_field(name='bwanamabossmq', value='Contoh: `bwabossroga` - Menampilkan detail tentang boss.', inline=False)
+    embed.add_field(name='bwaxnamaboss', value='Contoh: `bwaxbosstoga` - Menampilkan stat xtall boss yang diinginkan.', inline=False)
+    embed.add_field(name='bwastatbuffland', value='Contoh: `bwastr` - Menampilkan code room untuk buff yang dicari.', inline=False)
+    embed.add_field(name='bwaconsumbuff', value='Contoh: `bwaconsumhp` - Menampilkan list consum buff.', inline=False)
+    embed.add_field(name='bwalevel', value='Contoh: `bwa250` - Menampilkan list boss untuk leveling di level yang diinginkan.', inline=False)
+    embed.add_field(name='bwaelearrow', value='Contoh: `bwafirearrow` - Menampilkan list ele arrow yang diinginkan dan lokasi dropnya.', inline=False)
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+    await ctx.send(embed=embed)
 
-#JS
+################# MQ BAB 1 #####################################################
 @bot.command(name='bosscolon')
 async def bosscolon(ctx):
     embed = discord.Embed(title='Boss Colon')
