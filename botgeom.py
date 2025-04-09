@@ -4173,6 +4173,390 @@ async def neutral(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
+########################### BUFF CONSUME #################################
+
+@bot.command(name='consumhp', aliases=['hpbuff'])
+async def show_hp_buffs(ctx):
+    embed = discord.Embed(title='🍖 Max HP Buffs Menu', color=discord.Color.green())
+    embed.set_thumbnail(url='https://media.discordapp.net/attachments/1318582370760265768/1321414339944648734/12.png?ex=67f6eb41&is=67f599c1&hm=c4156615e70851b8da9b8d0d4b9719781bff7f06053c5be6c51d526db69c93d5&format=webp&quality=lossless&width=1560&height=1106&')
+
+    food_buffs = [
+    ("Dragon Steak (30 min)", "🟢 Max HP +1500\n🟢 ASPD +250"),
+    ("Deep-Fried Bean Curd (10 min)", "🟢 Max HP % +1\n🟢 Accuracy +15"),
+    ("Iced Chicken Vita (30 min)", "🟢 Max HP +1000\n🔴 Aggro% -30"),
+    ("Dondurma (10 min)", "🔴 Max HP % -15\n🟢 Aggro% +30"),
+    ("Salt-Grilled Saury (30 min)", "🟢 Max HP +1000\n🟢 Natural HP Recovery % +100"),
+    ("Eggplant Tempura (30 min)", "🟢 Max HP +1000\n🟢 Experience % +10"),
+    ("Kiton's Meat (4 min)", "🟢 Max HP +5000"),
+    ("Tough Lamb Meat (30 min)", "🟢 Max HP +750\n🟢 STR +5"),
+    ("Bone-In Short Rib (20 min)", "🟢 Max HP % +10\n🟢 ATK +25"),
+    ("Sugar Cookie (30 min)", "🟢 Max HP +1500\n🟢 Max MP +200"),
+    ("Chilled Lamb (30 min)", "🟢 INT +3\n🟢 Max HP +1250"),
+    ("Charred Salamander Meat (20 min)", "🟢 Max HP +4000\n🟢 ATK up VIT % +20\n🟢 MATK up VIT % +20")
+    ]
+
+
+    for name, effect in food_buffs:
+        embed.add_field(name=name, value=effect, inline=False)
+
+    await ctx.send(embed=embed)
+
+@bot.command(name='consuhpmrecovery', aliases=['hprecov', 'hpregen'])
+async def show_hp_recovery_buffs(ctx):
+    embed = discord.Embed(title='🧪 HP Recovery Buffs Menu', description='Recover HP per use 🧪🧪🧪', color=discord.Color.blue())
+    embed.set_thumbnail(url='https://media.discordapp.net/attachments/1318582370760265768/1321436793710841856/14.png?ex=67f7002a&is=67f5aeaa&hm=dc6c79baa10facfa483221c359e58534cfb12b22c1287b51fd00a53c2df03bd1&format=webp&quality=lossless&width=889&height=629&')
+
+    recovery_buffs = [
+        ("Wedding Wine", "🟢 Recover HP +3000\n🟢 Recover MP +100"),
+        ("Swordsbear Treasured Sake", "🟢 Recover HP +12000"),
+        ("Pomie Castella", "🟢 Recover HP % +15"),
+        ("Winter Caffe Latte", "🟢 Recover HP +3000\n🟢 Recover MP +70"),
+        ("Winter Caffe Mocha", "🟢 Recover HP +2000\n🟢 Recover MP +80"),
+        ("Winter Macchiato", "🟢 Recover HP +7500\n🟢 Recover MP +25")
+    ]
+
+    for name, effect in recovery_buffs:
+        embed.add_field(name=name, value=effect, inline=False)
+
+    await ctx.send(embed=embed)
+
+@bot.command(name='consummp', aliases=['mpbuff'])
+async def show_mp_buffs(ctx):
+    embed = discord.Embed(title='🔷 Max MP Buffs Menu', color=discord.Color.purple())
+    embed.set_thumbnail(url='https://media.discordapp.net/attachments/1318582370760265768/1321430856039923753/Illustration.png?ex=67f6faa3&is=67f5a923&hm=0be9e397a59ee292e968d1f2273008fc31ef3cd01dc2021b61022d799712bdf4&format=webp&quality=lossless&width=1560&height=1106&')
+
+    mp_buffs = [
+        ("Mystery Potion (B) (10 min)", "🔴 Max MP -100\n🟢 Motion Speed % +2"),
+        ("Aggro Tonic (30 min)", "🟢 Max MP +100\n🟢 Aggro % +20"),
+        ("Mashed Sweet Potato (30 min)", "🟢 Max MP +200\n🟢 NMPR % +100"),
+        ("Little Bird Tiramisu (15 min)", "🟢 Max MP +200\n🟢 ASPD +100"),
+        ("Magiadd VI (30 min)", "🟢 Max MP +600"),
+        ("Potum Beans (10 min)", "🟢 Max MP +500\n🟢 AMPR +5"),
+        ("Sauteed Lonogo Shrimp (30 min)", "🟢 Max MP +300\n🟢 CSPD +250")
+    ]
+
+    for name, effect in mp_buffs:
+        embed.add_field(name=name, value=effect, inline=False)
+
+    await ctx.send(embed=embed)
+
+@bot.command(name='consummprecovery', aliases=['mprecov', 'mpregen'])
+async def show_mp_recovery_buffs(ctx):
+    embed = discord.Embed(title='🧃 MP Recovery Buffs', description='Recover MP per use and over time 🧃🧃🧃', color=discord.Color.teal())
+    embed.set_thumbnail(url='https://media.discordapp.net/attachments/1318582370760265768/1321442585541214298/13.png?ex=67f7058f&is=67f5b40f&hm=2239859659a792d5ac7a87fb2d7a2ad90039b8640599124d995d313a2725a256&format=webp&quality=lossless&width=1560&height=1106&')
+
+    # Recover MP per use
+    embed.add_field(name="🔹 Recover MP per use", value="\u200b", inline=False)
+
+    per_use_buffs = [
+        ("Forbidden Nut", "🟢 Recover MP 300\n🔴 Max HP % -99\n💬 Must be used at full health to avoid death."),
+        ("Coryn's Present", "🟢 Recover MP 300"),
+        ("Pom Biscuits", "🟢 Recover MP 150"),
+        ("Sakura Liqueur", "🟢 Recover MP 100"),
+        ("Whipped Cream", "🟢 Recover MP 100"),
+        ("Mellow Mushroom", "🟢 Recover MP 75")
+    ]
+
+    for name, effect in per_use_buffs:
+        embed.add_field(name=name, value=effect, inline=False)
+
+    # Recover MP over time
+    embed.add_field(name="\n🔹 Recover MP over time", value="\u200b", inline=False)
+
+    over_time_buffs = [
+        ("Champagne (30 min)", "🟢 Recover MP 100 every 10 seconds"),
+        ("Snow Wine (15 min)", "🟢 Recover MP %10 every 10 seconds\n💬 Capped to recover a maximum of 100 MP per tick."),
+        ("Mana Catalyst (30 min)", "🟢 AMPR +8"),
+        ("Premium Coffee (3 min)", "🟢 Recover MP 50 every 5 seconds")
+    ]
+
+    for name, effect in over_time_buffs:
+        embed.add_field(name=name, value=effect, inline=False)
+
+    await ctx.send(embed=embed)
+
+@bot.command(name='consumail', aliases=['ailbuff'])
+async def show_ailment_buffs(ctx):
+    embed = discord.Embed(
+        title='🛡️ Ailment Prevention Buffs',
+        description='Buffs to help resist or reduce ailments.',
+        color=discord.Color.green()
+    )
+    embed.set_thumbnail(url='https://media.discordapp.net/attachments/1318582370760265768/1323362483188138044/32.png?ex=67f6c15a&is=67f56fda&hm=dea21903fb26cf76345134766c77fbf85ef0e6bfe23e14a97e3796508b4225d3&format=webp&quality=lossless&width=889&height=629&')
+
+    ailment_buffs = [
+        ("Mystery Potion (G) (10 min) ", "🟢 Ailment Resistance % -10\n🟢 Max MP +100"),
+        ("Romanian Eggplant Dip (30 min)", "🟢 Ailment Resistance % +5")
+    ]
+
+    for name, effect in ailment_buffs:
+        embed.add_field(name=name, value=effect, inline=False)
+
+    await ctx.send(embed=embed)
+
+@bot.command(name='consumdef', aliases=['defbuff'])
+async def show_defense_buffs(ctx):
+    embed = discord.Embed(
+        title='🛡️ Defense Buffs',
+        description='Buffs to increase physical, magical, or guard defenses.',
+        color=discord.Color.dark_gold()
+    )
+    embed.set_thumbnail(
+        url='https://media.discordapp.net/attachments/1318582370760265768/1326967128821207124/10.png?ex=67f6af71&is=67f55df1&hm=145aad464bf009bf6228d68be3ca2f7c886afd43a9a215856d57dd976775a8a0&format=webp&quality=lossless&width=1560&height=1106&'
+    )
+
+    # Optional visual separator
+    embed.add_field(name="🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱", value="\u200b", inline=False)
+
+    defense_buffs = [
+        ("Mystery Potion Y (10 min)", "🟢 ATK % +1\n🟢 Physical Defense % +10"),
+        ("Ginkgo Nut Rice (15 min)", "🟢 Physical Resistance % +25\n🟢 Magic Resistance % +25"),
+        ("Goodbye Hat (30 min)", "🟢 Guard Power % +10\n🟢 Guard Recharge % +10\n🟢 VIT +10")
+    ]
+
+    for name, effect in defense_buffs:
+        embed.add_field(name=name, value=effect, inline=False)
+
+    await ctx.send(embed=embed)
+
+@bot.command(name='consummdef', aliases=['mdefbuff'])
+async def show_magic_defense_buffs(ctx):
+    embed = discord.Embed(
+        title='🔮 Magic Defense Buffs',
+        description='Buffs to improve magic defense or resistance.',
+        color=discord.Color.purple()
+    )
+    embed.set_thumbnail(
+        url='https://media.discordapp.net/attachments/1318582370760265768/1326968555802984548/11.png?ex=67f6b0c5&is=67f55f45&hm=59a24ef609b3d1fe89c341036ae2f70a4a065ec536a47c9404aa47b6817f2416&format=webp&quality=lossless&width=1560&height=1106&'
+    )
+
+    embed.add_field(name="✨", value="\u200b", inline=False)
+
+    magic_defense_buffs = [
+        ("Mystery Potion (P) (10 min)", "🟢 MATK % +1\n🟢 Magic Defense % +10"),
+        ("Elf Berry Pot (30 min)", "🟢 Magic Resistance % +12"),
+        ("Shiny Powder (30 min)", "🟢 Magic Defense +100\n🟢 Aggro % +10"),
+        ("Warm Fur Sheet (30 min)", "🟢 Magic Defense % +15\n🟢 Reduce Damage Floor % +15"),
+    ]
+
+    for name, value in magic_defense_buffs:
+        embed.add_field(name=name, value=value, inline=False)
+
+    await ctx.send(embed=embed)
+
+@bot.command(name='consumresis', aliases=['elementres', 'eleressbuff'])
+async def show_element_resistance_buffs(ctx):
+    embed = discord.Embed(
+        title='🌪️ Resistance to Elements Buffs',
+        description='Buffs to increase elemental resistance from Takoyaki & Christmas series.',
+        color=discord.Color.orange()
+    )
+    embed.set_thumbnail(
+        url='https://media.discordapp.net/attachments/1318582370760265768/1326972537653166191/9.png?ex=67f6b47a&is=67f562fa&hm=4c257ea839191bb446b6e279b0aed5aea152018cd877322a7201a23873a52d6d&format=webp&quality=lossless&width=889&height=629&'
+    )
+
+    # Takoyaki Series
+    embed.add_field(name="🍢 Takoyaki Series", value="\u200b", inline=False)
+    takoyaki_buffs = [
+        ("Roasted Eggplant (15 min)", "🟢 Critical Rate +10\n🟢 Resistance to Neutral % +20"),
+        ("Big Takoyaki (Salt) (20 min)", "🟢 Critical Rate +15\n🟢 Resistance to Light % +30"),
+        ("Big Takoyaki (Ponzu) (20 min)", "🟢 Critical Rate +15\n🟢 Resistance to Dark % +30"),
+        ("Big Takoyaki (Soy Sauce) (20 min)", "🟢 Critical Rate +15\n🟢 Resistance to Earth % +30"),
+        ("Big Takoyaki (Dashi) (20 min)", "🟢 Critical Rate +15\n🟢 Resistance to Water % +30"),
+        ("Big Takoyaki (Sauce) (20 min)", "🟢 Critical Rate +15\n🟢 Resistance to Fire % +30"),
+        ("Big Takoyaki (Scallion) (20 min)", "🟢 Critical Rate +15\n🟢 Resistance to Wind % +30"),
+    ]
+
+    for name, value in takoyaki_buffs:
+        embed.add_field(name=name, value=value, inline=False)
+
+    # Christmas Series
+    embed.add_field(name="🎄 Christmas Series", value="\u200b", inline=False)
+    christmas_buffs = [
+        ("Iced Chocolate (15 min)", "🟢 Max MP +100\n🟢 Resistance to Light % +25"),
+        ("Iced Coffee (15 min)", "🟢 Max MP +100\n🟢 Resistance to Dark % +25"),
+        ("Fruit Cake (30 min)", "🟢 Max MP +100\n🟢 Resistance to Earth % +50"),
+        ("Ice Cream Cake (30 min)", "🟢 Max MP +100\n🟢 Resistance to Water % +50"),
+        ("Chocolate Cake (30 min)", "🟢 Max MP +100\n🟢 Resistance to Fire % +50"),
+        ("Cheesecake (30 min)", "🟢 Max MP +100\n🟢 Resistance to Wind % +50"),
+    ]
+
+    for name, value in christmas_buffs:
+        embed.add_field(name=name, value=value, inline=False)
+
+    await ctx.send(embed=embed)
+
+@bot.command(name='consumatk', aliases=['atkkbuffs', 'atkbuff'])
+async def show_atk_buffs(ctx):
+    embed = discord.Embed(
+        title='⚔️ ATK Buffs',
+        description='Buff makanan & item yang meningkatkan kekuatan serangan (ATK).',
+        color=discord.Color.red()
+    )
+    embed.set_thumbnail(
+        url='https://media.discordapp.net/attachments/1318582370760265768/1326973929461649578/3.png?ex=67f6b5c6&is=67f56446&hm=74876ffc461f9fae5ab1a7d1755bd652caa5908bde4d5ef34e874eec606776d5&format=webp&quality=lossless&width=889&height=629&'
+    )
+
+    atk_buffs = [
+        ("Penetrating Oil (30 min)", "🟢 Physical Pierce % +10\n🟢 ATK % +3"),
+        ("Morning Star Gummy (10 min)", "🟢 Physical Pierce % +5\n🟢 Critical Rate % +40"),
+        ("Energy Pill (30 min)", "🟢 ATK % +5\n🟢 ATK +50"),
+        ("Lantern Cake (30 sec)", "🟢 ATK % +10\n🔻 Motion Speed % -10"),
+        ("Blade Oil (30 min)", "🟢 Unsheathed ATK % +5\n🟢 Unsheathed ATK +100"),
+        ("Matsutake Soup (15 min)", "🟢 Weapon ATK % +10\n🟢 Attack MP Recovery +10"),
+        ("Pumpkie Parfait (15 min)", "🟢 ATK % +6"),
+        ("Scorching Grass (2 min)", "🟢 Weapon Attack +9\n🟢 Damage to Earth % +2"),
+    ]
+
+    for name, value in atk_buffs:
+        embed.add_field(name=name, value=value, inline=False)
+
+    await ctx.send(embed=embed)
+
+@bot.command(name='consummatk', aliases=['matkbuffs', 'matkbuff'])
+async def show_matk_buffs(ctx):
+    embed = discord.Embed(
+        title='🔮 MATK Buffs',
+        description='Buff makanan & item yang meningkatkan Magic Attack (MATK).',
+        color=discord.Color.purple()
+    )
+    embed.set_thumbnail(
+        url='https://media.discordapp.net/attachments/1318582370760265768/1326975446507585580/7.png?ex=67f6b730&is=67f565b0&hm=96fc984ccd9e306a5e10a259297385045469b92ff944a9c99198738c93448abc&format=webp&quality=lossless&width=1560&height=1106&'
+    )
+
+    matk_buffs = [
+        ("Mommy Roll Cake (10 min)", "🟢 Magic Pierce % +5\n🟢 Critical Rate % +40"),
+        ("Pom's Rice Cake Soup (30 min)", "🟢 Magic Pierce % +5\n🟢 Weapon ATK % +5"),
+        ("Dried Walnut (3 min)", "🟢 MATK % +1\n🟢 DEX % +1"),
+        ("Bitter Gelatin (5 min)", "🔻 MATK % -4\n🟢 CSPD +800"),
+        ("Sparkly Candy (30 sec)", "🟢 MATK % +10\n🔻 Motion Speed % -10"),
+        ("Barrier Analyzer Lithograph (30 min)", "🟢 Magic Pierce % +10\n🟢 MATK % +3"),
+        ("Sorcerer's Nostrum (30 min)", "🟢 MATK % +5\n🟢 MATK +50"),
+    ]
+
+    for name, value in matk_buffs:
+        embed.add_field(name=name, value=value, inline=False)
+
+    await ctx.send(embed=embed)
+
+@bot.command(name='consumele', aliases=['elebuff'])
+async def show_damage_to_elements_buffs(ctx):
+    embed = discord.Embed(
+        title='✨ Damage to Elements Buffs',
+        description='Buff makanan & item yang meningkatkan damage terhadap elemen tertentu.',
+        color=discord.Color.orange()
+    )
+    embed.set_thumbnail(
+        url='https://media.discordapp.net/attachments/1318582370760265768/1326980706810990634/1.png?ex=67f6bc16&is=67f56a96&hm=d7ede370e553592df9703e21664158576fbba7f551f3cb051ae0071489cc2e83&format=webp&quality=lossless&width=889&height=629&'
+    )
+
+    damage_buffs = [
+        ("Glow Ray Soup (30 min)", "🟢 Damage to Fire % +2\n🟢 Damage to Water % +2\n🟢 Damage to Wind % +2\n🟢 Damage to Earth % +2\n🟢 Damage to Light % +2\n🟢 Damage to Dark % +2"),
+        ("Pumpkin Soup (10 min)", "🟢 Damage to Neutral % +5\n🟢 ASPD +100\n🟢 CSPD +100"),
+        ("Pumpkin Candy (10 min)", "🟢 Damage to Light % +5\n🟢 ASPD +100\n🟢 CSPD +100"),
+        ("Zombie Cake (10 min)", "🟢 Damage to Dark % +5\n🟢 ASPD +100\n🟢 CSPD +100"),
+        ("Barmbrack (10 min)", "🟢 Damage to Earth % +5\n🟢 ASPD +100\n🟢 CSPD +100"),
+        ("Ginger Cake (10 min)", "🟢 Damage to Water % +5\n🟢 ASPD +100\n🟢 CSPD +100"),
+        ("Pumpkin Cookie (10 min)", "🟢 Damage to Fire % +5\n🟢 ASPD +100\n🟢 CSPD +100"),
+        ("Jack Pudding (10 min)", "🟢 Damage to Wind % +5\n🟢 ASPD +100\n🟢 CSPD +100"),
+    ]
+
+    for name, value in damage_buffs:
+        embed.add_field(name=name, value=value, inline=False)
+
+    await ctx.send(embed=embed)
+
+@bot.command(name='consumaspd', aliases=['aspdbuffs', 'aspdbuff'])
+async def show_aspd_buffs(ctx):
+    embed = discord.Embed(
+        title='💨 Attack Speed Buffs',
+        description='Buff makanan & item yang meningkatkan kecepatan serangan (ASPD) dan kecepatan gerak.',
+        color=discord.Color.orange()
+    )
+    embed.set_thumbnail(
+        url='https://media.discordapp.net/attachments/1318582370760265768/1326981857526550629/8.png?ex=67f6bd28&is=67f56ba8&hm=f9967ae9f4ba9b8c8c44a284bafdb899d92ec7ff45a3b8963027b9b574972737&format=webp&quality=lossless&width=889&height=629&'
+    )
+
+    aspd_buffs = [
+        ("Tera Speed Potion (30 min)", "🟢 ASPD +1000"),
+        ("Solid Fuel (5 sec)", "🟢 Motion Speed % +10"),
+        ("Pear Tart (15 min)", "🟢 ASPD +500\n🟢 AMPR +3"),
+        ("Zombie Meat (30 min)", "🔻 ASPD -1000\n🟢 Max HP +10000"),
+        ("Coryn's Present (30 sec)", "🟢 ASPD +10000\n🔻 Recoil Damage % +100"),
+        ("Chirashi Sushi (30 min)", "🟢 ASPD +500\n🟢 ASPD % +25\n🟢 Defense +75"),
+        ("Duck Meat (3 min)", "🟢 Motion Speed +5%")
+    ]
+
+    for name, value in aspd_buffs:
+        embed.add_field(name=name, value=value, inline=False)
+
+    await ctx.send(embed=embed)
+
+@bot.command(name='consumcspd', aliases=['castbuffs', 'cspdbuff'])
+async def show_cast_speed_buffs(ctx):
+    embed = discord.Embed(
+        title='✨ Cast Speed Buffs (CSPD)',
+        description='Buff makanan & item yang meningkatkan kecepatan casting skill (CSPD).',
+        color=discord.Color.purple()
+    )
+    embed.set_thumbnail(
+        url='https://media.discordapp.net/attachments/1318582370760265768/1326984767274618970/Untitled46_20250110004227.png?ex=67f6bfde&is=67f56e5e&hm=2a8ec201f1e5f889e170419bf444e57e4ac6715eaa1791561020b7e786d7dfac&format=webp&quality=lossless&width=1560&height=1106&'
+    )
+
+    cspd_buffs = [
+        ("Spell Headphones (30 min)", "🟢 CSPD +700"),
+        ("Grape Jelly (15 min)", "🟢 CSPD +300\n🟢 Max MP +300"),
+        ("Inari Sushi (30 min)", "🟢 CSPD +500\n🟢 CSPD % +25\n🟢 MDEF +75"),
+    ]
+
+    for name, value in cspd_buffs:
+        embed.add_field(name=name, value=value, inline=False)
+
+    await ctx.send(embed=embed)
+
+@bot.command(name='consumacc', aliases=['accuracybuffs', 'accbuff'])
+async def show_accuracy_buffs(ctx):
+    embed = discord.Embed(
+        title='🎯 Accuracy Buffs',
+        description='Buff makanan & item yang meningkatkan akurasi atau critical.',
+        color=discord.Color.gold()
+    )
+    embed.set_thumbnail(
+        url='https://media.discordapp.net/attachments/1318582370760265768/1326983825502507048/34_1.png?ex=67f6befe&is=67f56d7e&hm=2219e493c36125cd5d67bb1e4fd2bec21ee6adb8084c3641da7a338fc766bccf&format=webp&quality=lossless&width=619&height=629&'
+    )
+
+    accuracy_buffs = [
+        ("Sauteed Butter Snails (30 min)", "🟢 Accuracy +30\n🟢 Critical Rate +5"),
+        ("War Dead Bracelet (30 min)", "🟢 Accuracy +60"),
+        ("Black Gelatin (3 min)", "🟢 Critical Rate +10\n🔻 Critical Damage % -10"),
+        ("Battie Scone (15 min)", "🟢 Accuracy +5%\n🟢 Long Range Damage +1%"),
+    ]
+
+    for name, value in accuracy_buffs:
+        embed.add_field(name=name, value=value, inline=False)
+
+    await ctx.send(embed=embed)
+
+@bot.command(name='consumflee', aliases=['fleebuff'])
+async def show_flee_buffs(ctx):
+    embed = discord.Embed(
+        title='🏃‍♂️ Flee Buffs',
+        description='Buff makanan & item yang meningkatkan Dodge (Flee).',
+        color=discord.Color.orange()
+    )
+    embed.set_thumbnail(
+        url='https://media.discordapp.net/attachments/1318582370760265768/1326985241008803850/2.png?ex=67f6c04f&is=67f56ecf&hm=b82356e4689b76fd67e40851fcfd802f5645ff569973a161ec8f4dc42eed8731&format=webp&quality=lossless&width=889&height=629&'
+    )
+
+    flee_buffs = [
+        ("Golden Pom Liquor (10 min)", "🟢 Accuracy +50\n🟢 Dodge +50"),
+        ("Wood Praline (15 min)", "🟢 Dodge % +10\n🟢 MATK % +1"),
+    ]
+
+    for name, value in flee_buffs:
+        embed.add_field(name=name, value=value, inline=False)
+
+    await ctx.send(embed=embed)
 
 ########################### Leveling ############################
 
