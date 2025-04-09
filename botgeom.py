@@ -107,7 +107,7 @@ async def on_disconnect():
 async def show_commands(ctx):
     embed = discord.Embed(title='Command List', description='Berikut daftar command yang tersedia:', color=0x00ff00)
     embed.add_field(name='bwanamabossmq', value='Contoh: `bwabossroga` - Menampilkan detail tentang boss.', inline=False)
-    embed.add_field(name='bwaxnamaboss', value='Contoh: `bwaxbosstoga` - Menampilkan stat xtall boss yang diinginkan.', inline=False)
+    embed.add_field(name='bwaxnamaboss', value='Contoh: `bwaxbossroga` - Menampilkan stat xtall boss yang diinginkan.', inline=False)
     embed.add_field(name='bwastatbuffland', value='Contoh: `bwastr` - Menampilkan code room untuk buff yang dicari.', inline=False)
     embed.add_field(name='bwaconsumbuff', value='Contoh: `bwaconsumhp` - Menampilkan list consum buff.', inline=False)
     embed.add_field(name='bwalevel', value='Contoh: `bwa250` - Menampilkan list boss untuk leveling di level yang diinginkan.', inline=False)
