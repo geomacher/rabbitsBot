@@ -115,6 +115,29 @@ async def show_commands(ctx):
     embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
     await ctx.send(embed=embed)
 
+
+
+@bot.command(name='bwaconsumbuff', aliases=['bwaconsumebuff'])
+async def show_commandsconsumbuff(ctx):
+    embed = discord.Embed(title='bwaconsumbuff', description='Berikut daftar command yang tersedia:', color=0x00ff00)
+    embed.add_field(name='1', value='Contoh: `bwaconsumhp` - Menampilkan list consum buff hp.', inline=False)
+    embed.add_field(name='2', value='Contoh: `bwaconsummp` - Menampilkan list consum buff mp.', inline=False)
+    embed.add_field(name='3', value='Contoh: `bwaconsumaspd` - Menampilkan list consum buff aspd.', inline=False)
+    embed.add_field(name='4', value='Contoh: `bwaconsumcspd` - Menampilkan list consum buff cspd.', inline=False)
+    embed.add_field(name='5', value='Contoh: `bwaconsumail` - Menampilkan list consum buff ailement.', inline=False)
+    embed.add_field(name='6', value='Contoh: `bwaconsumacc` - Menampilkan list consum buff acc.', inline=False)
+    embed.add_field(name='7', value='Contoh: `bwaconsumresis` - Menampilkan list consum buff resis.', inline=False)
+    embed.add_field(name='8', value='Contoh: `bwaconsumele` - Menampilkan list consum buff element.', inline=False)
+    embed.add_field(name='9', value='Contoh: `bwaconsumflee` - Menampilkan list consum buff dodge.', inline=False)
+    embed.add_field(name='10', value='Contoh: `bwaconsumatk` - Menampilkan list consum buff atk.', inline=False)
+    embed.add_field(name='11', value='Contoh: `bwaconsummatk` - Menampilkan list consum buff m atk.', inline=False)
+    embed.add_field(name='12', value='Contoh: `bwaconsumdef` - Menampilkan list consum buff def.', inline=False)
+    embed.add_field(name='13', value='Contoh: `bwaconsummdef` - Menampilkan list consum buff mdef.', inline=False)
+    embed.add_field(name='14', value='Contoh: `bwaconsumhprecovery` - Menampilkan list consum buff hp recovery.', inline=False)
+    embed.add_field(name='15', value='Contoh: `bwaconsummprecovery` - Menampilkan list consum buff mp recovery.', inline=False)
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+    await ctx.send(embed=embed)
+
 ################# MQ BAB 1 #####################################################
 @bot.command(name='bosscolon')
 async def bosscolon(ctx):
