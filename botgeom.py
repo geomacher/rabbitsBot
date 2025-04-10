@@ -75,6 +75,56 @@ for schedule in voice_schedule:
     for day in days:
         scheduler.add_job(join_voice_channel, CronTrigger(day_of_week=day, hour=join_hour, minute=join_minute, second=join_second), args=[voice_channel_id])
         scheduler.add_job(leave_voice_channel, CronTrigger(day_of_week=day, hour=leave_hour, minute=leave_minute, second=join_second), args=[voice_channel_id])
+#######################################################################################################################################################
+#################### TEXT PENGINGGAT RAID ####################################
+@bot.event
+async def on_ready():
+    logging.info(f'Bot {bot.user.name} telah terhubung.')
+    scheduler.start()
+
+    # Penjadwalan pengingat RAID untuk hari Sabtu
+    reminder_times = ["07:00", "19:00", "20:00"]
+    for time in reminder_times:
+        hour, minute = map(int, time.split(":"))
+        scheduler.add_job(
+            send_raid_reminder,
+            CronTrigger(day_of_week='sat', hour=hour-7, minute=minute, timezone='UTC'),  # Konversi WIB ke UTC (WIB - 7 jam)
+        )
+
+#######################################################################################################################
+
+async def send_raid_reminder():
+    guild = discord.utils.get(bot.guilds)
+    if guild is None:
+        logging.warning("Guild tidak ditemukan.")
+        return
+
+    # Ganti ID channel di bawah ini sesuai kebutuhanmu
+    text_channel_id = 1079918706672549930  # <- ganti dengan ID channel tempat kamu ingin kirim pesan
+    channel = bot.get_channel(text_channel_id)
+    if channel is None:
+        logging.warning("Channel tidak ditemukan.")
+        return
+
+    role = discord.utils.get(guild.roles, name="`『ＲＩ』")
+    if role is None:
+        logging.warning("Role 『ＲＩ』 tidak ditemukan.")
+        return
+
+    reminder_msg = f"{role.mention} guys kita raid malam ini jam 21:00 WIB!"
+    await channel.send(reminder_msg)
+    logging.info(f"Dikirim pengingat raid ke channel {channel.name}")
+
+
+################################################################################################################################
+
+
+
+
+
+
+
+
 
 
 @bot.event
