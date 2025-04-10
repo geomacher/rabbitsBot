@@ -117,7 +117,7 @@ async def show_commands(ctx):
 
 
 
-@bot.command(name='bwaconsumbuff', aliases=['bwaconsumebuff'])
+@bot.command(name='consumbuff', aliases=['consumebuff'])
 async def show_commandsconsumbuff(ctx):
     embed = discord.Embed(title='bwaconsumbuff', description='Berikut daftar command yang tersedia:', color=0x00ff00)
     embed.add_field(name='1', value='Contoh: `bwaconsumhp` - Menampilkan list consum buff hp.', inline=False)
