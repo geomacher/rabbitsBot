@@ -16,113 +16,105 @@ intents = discord.Intents.default()
 intents.message_content = True  
 bot = commands.Bot(command_prefix='bwa', intents=intents)
 
-scheduler = AsyncIOScheduler()  
+# Scheduler
+scheduler = AsyncIOScheduler()
 
+# Data Notifikasi & Voice
 notifications = [
     {"time": "23:45:00", "days": ["tue", "thu", "wed"], "sound": "Kano - 【Rabinva】Stella-rium by Geomacher on Smule- Social Singing Karaoke App_5(2).mp3"},
-  
 ]
-
-# Waktu masuk dan keluar voice channel
 voice_schedule = [
     {"join_time": "23:45:00", "leave_time": "23:50:00", "days": ["tue", "thu", "wed"], "voice_channel_id": 1005098144251527218},
 ]
 
-
-async def play_sound(voice_channel_id, sound_file):
-    voice_channel = bot.get_channel(voice_channel_id)
-    if voice_channel is not None:
-        if not bot.voice_clients:
-            voice_client = await voice_channel.connect()
-        else:
-            voice_client = bot.voice_clients[0]
-        audio_source = discord.FFmpegPCMAudio(sound_file)
-        if not voice_client.is_playing():
-            logging.info(f"Memutar suara {sound_file} di channel {voice_channel.name}")
-            voice_client.play(audio_source)
-            while voice_client.is_playing():
-                await asyncio.sleep(1)
-
-
+# ======================= VOICE FUNCTIONS =========================
 async def join_voice_channel(voice_channel_id):
-    voice_channel = bot.get_channel(voice_channel_id)
-    if voice_channel is not None and not bot.voice_clients:
-        await voice_channel.connect()
-        logging.info(f"Bot bergabung ke voice channel {voice_channel.name}")
+    channel = bot.get_channel(voice_channel_id)
+    if channel and isinstance(channel, discord.VoiceChannel):
+        if not bot.voice_clients:
+            await channel.connect()
+            logging.info(f"Bergabung ke voice channel: {channel.name}")
 
 async def leave_voice_channel(voice_channel_id):
     for vc in bot.voice_clients:
         if vc.channel.id == voice_channel_id:
             await vc.disconnect()
-            logging.info(f"Bot meninggalkan voice channel {vc.channel.name}")
+            logging.info(f"Keluar dari voice channel: {vc.channel.name}")
 
+async def play_sound(voice_channel_id, sound_file):
+    channel = bot.get_channel(voice_channel_id)
+    if channel and isinstance(channel, discord.VoiceChannel):
+        voice_client = await channel.connect() if not bot.voice_clients else bot.voice_clients[0]
+        audio_source = discord.FFmpegPCMAudio(sound_file)
+        if not voice_client.is_playing():
+            logging.info(f"Memutar: {sound_file} di {channel.name}")
+            voice_client.play(audio_source)
+            while voice_client.is_playing():
+                await asyncio.sleep(1)
+            await voice_client.disconnect()
 
-for notification in notifications:
-    time = notification["time"]
-    days = notification["days"]
-    sound_file = notification["sound"]
-    hour, minute, second = map(int, time.split(':'))
-    for day in days:
-        scheduler.add_job(play_sound, CronTrigger(day_of_week=day, hour=hour, minute=minute, second=second), args=[1189594050307825756, sound_file])
-
-for schedule in voice_schedule:
-    join_time = schedule["join_time"]
-    leave_time = schedule["leave_time"]
-    days = schedule["days"]
-    voice_channel_id = schedule["voice_channel_id"]
-    join_hour, join_minute, join_second = map(int, join_time.split(':'))
-    leave_hour, leave_minute, leave_second = map(int, leave_time.split(':'))
-    for day in days:
-        scheduler.add_job(join_voice_channel, CronTrigger(day_of_week=day, hour=join_hour, minute=join_minute, second=join_second), args=[voice_channel_id])
-        scheduler.add_job(leave_voice_channel, CronTrigger(day_of_week=day, hour=leave_hour, minute=leave_minute, second=join_second), args=[voice_channel_id])
-#######################################################################################################################################################
-#################### TEXT PENGINGGAT RAID ####################################
-@bot.event
-async def on_ready():
-    logging.info(f'Bot {bot.user.name} telah terhubung.')
-    scheduler.start()
-
-    # Penjadwalan pengingat RAID untuk hari Sabtu
-    reminder_times = ["07:00", "19:00", "20:00"]
-    for time in reminder_times:
-        hour, minute = map(int, time.split(":"))
-        scheduler.add_job(
-            send_raid_reminder,
-            CronTrigger(day_of_week='sat', hour=hour-7, minute=minute, timezone='UTC'),  # Konversi WIB ke UTC (WIB - 7 jam)
-        )
-
-#######################################################################################################################
-
+# ======================= RAID REMINDER =========================
 async def send_raid_reminder():
     guild = discord.utils.get(bot.guilds)
-    if guild is None:
+    if not guild:
         logging.warning("Guild tidak ditemukan.")
         return
 
-    # Ganti ID channel di bawah ini sesuai kebutuhanmu
-    text_channel_id = 1079918706672549930  # <- ganti dengan ID channel tempat kamu ingin kirim pesan
-    channel = bot.get_channel(text_channel_id)
-    if channel is None:
+    channel = bot.get_channel()
+    if not channel:
         logging.warning("Channel tidak ditemukan.")
         return
 
     role = discord.utils.get(guild.roles, name="`『ＲＩ』")
-    if role is None:
+    if not role:
         logging.warning("Role 『ＲＩ』 tidak ditemukan.")
         return
 
-    reminder_msg = f"{role.mention} guys kita raid malam ini jam 21:00 WIB!"
-    await channel.send(reminder_msg)
-    logging.info(f"Dikirim pengingat raid ke channel {channel.name}")
+    msg = f"{role.mention} guys kita raid malam ini jam 21:00 WIB!"
+    await channel.send(msg)
+    logging.info(f"Pengingat raid dikirim ke {channel.name}")
 
+# ======================= BOT EVENTS =========================
+@bot.event
+async def on_ready():
+    logging.info(f"Bot {bot.user.name} sudah online.")
+    scheduler.start()
+
+    # Notifikasi suara
+    for notif in notifications:
+        h, m, s = map(int, notif["time"].split(":"))
+        for day in notif["days"]:
+            scheduler.add_job(
+                play_sound,
+                CronTrigger(day_of_week=day, hour=h, minute=m, second=s),
+                args=[1189594050307825756, notif["sound"]]
+            )
+
+    # Voice Join/Leave
+    for sched in voice_schedule:
+        jh, jm, js = map(int, sched["join_time"].split(":"))
+        lh, lm, ls = map(int, sched["leave_time"].split(":"))
+        for day in sched["days"]:
+            scheduler.add_job(join_voice_channel, CronTrigger(day_of_week=day, hour=jh, minute=jm, second=js), args=[sched["voice_channel_id"]])
+            scheduler.add_job(leave_voice_channel, CronTrigger(day_of_week=day, hour=lh, minute=lm, second=ls), args=[sched["voice_channel_id"]])
+
+    # Pengingat RAID setiap Sabtu
+    for reminder_time in ["11:00", "19:00", "20:00"]:
+        h, m = map(int, reminder_time.split(":"))
+        scheduler.add_job(
+            send_raid_reminder,
+            CronTrigger(day_of_week='sat', hour=h-7, minute=m, timezone='UTC')
+        )
+
+@bot.event
+async def on_error(event, *args, **kwargs):
+    logging.exception(f"Error terjadi di event: {event}")
+
+@bot.command()
+async def test_reminder(ctx):
+    await send_raid_reminder()
 
 ################################################################################################################################
-
-
-
-
-
-
 
 
 
