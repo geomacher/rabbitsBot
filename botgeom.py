@@ -110,9 +110,6 @@ async def on_ready():
 async def on_error(event, *args, **kwargs):
     logging.exception(f"Error terjadi di event: {event}")
 
-@bot.command()
-async def test_reminder(ctx):
-    await send_raid_reminder()
 
 ################################################################################################################################
 
@@ -2557,7 +2554,34 @@ async def bakuzan(ctx):
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
 
+####################### Event boss ################################
 
+
+####################### Hanami Event #################################
+
+@bot.command(name='baavgai', aliases=['baav'])
+async def baavgai(ctx):
+    embed = discord.Embed(title='Baavgai')
+    embed.add_field(name='Level boss', value='Normal : ', inline=True)
+    embed.add_field(name='MQ Chapter', value='Hanami Event', inline=True)
+    embed.add_field(name='MQ Locked', value='No', inline=True)
+    embed.add_field(name='Map', value='Mt. Sakuraten Summit')
+    embed.add_field(name='Element', value='Earth', inline=True)
+    embed.add_field(name='Base HP', value='', inline=True)
+    embed.add_field(name='Base EXP', value='', inline=True)
+    embed.add_field(name='P.Def', value='E: [PH1: 600; PH2: 900];\nN: [PH1: 660; PH2: 990];\nH: [PH1: 720; PH2: 1080];\nVH: [PH1: 3780; PH2: 4170]', inline=True)
+    embed.add_field(name='M.Def', value='E: [PH1: 800; PH2: 1200];\nN: [PH1: 880; PH2: 1320];\nH: [PH1: 960; PH2: 1440];\nVH: [PH: 4040; PH2: 4560]', inline=True)
+    embed.add_field(name='P.Res', value='E: [PH1: 8; PH2: 10];\nN: [PH1: 8; PH2: 13];\nH: [PH1: 9; PH2: 14];\nVH: [PH1: 10; PH2: 15]', inline=True)
+    embed.add_field(name='M.Res', value='E: [PH1: 8; PH2: 10];\nN: [PH1: 8; PH2: 13];\nH: [PH1: 9; PH2: 14]\nVH: [PH1: 10; PH2: 15]', inline=True)
+    embed.add_field(name='Prorate', value='N:15  P:15  M:10', inline=True)
+    embed.add_field(name='Crit Res', value='E: 20;\nN: 30;\nH: 30;\nVH: 30;', inline=True)
+    embed.add_field(name='Flee', value='E: [PH1: 370; PH2: 400];\nN: [PH1: 400; PH2: 600];\nH: [PH1: 430; PH2: 645];\nVH: [PH1: 460; PH2: 690];', inline=True)
+    embed.add_field(name='Retaliation', value="E to VH:\n2 phases; transitions @50% HP\nDamage above 50% of the boss's HP is ignored\n\n@50% HP, the boss temporarily gains [Invincible] and releases rotating fins (maxHP FR)Number of fins released depends on the difficulty:\nE: 1x (abs Item Disabled)\nN: 2x (abs Item Disabled, Silence)\nH/VH: 4x (abs Item Disabled, Silence, Bleed)\n\nThe boss also releases fins as part of its normal attack patterns\nImmune to FTS while releasing fins\n\nVH:\nThe boss has two modes: MODE1 & MODE2.\nIf a part is broken, boss will release a no warning FR attack (fixed 1 damage, abs Knockback) to all players then go to MODE2.\nWhile in MODE2, damage limit is 100k\nIf the boss receives a total of 1M damage while in MODE2, it will go back to MODE1\n[Invincible] while switching modes\nBreaking parts reduces the boss's defenses:\nRight hand: -3k DEF\nSword hilt: -3k MDEF\n\nFTS Retal:\n\nE to H\nFT: OK\nS: Immune\n\nVH:\nImmune to S\nMODE1: FT is OK\nMODE2 (DMG Limit): Retaliates to FT with a no warning attack\nto all players (maxHP FR, abs Mana Explosion)", inline=False)
+    embed.add_field(name='Parts Destruction:', value="3 Parts:\nRight Hand,\nSword Hilt Above Left Shoulder,\nLeft Side of Head", inline=False)
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/bakuzan.png')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
+    await ctx.send(embed=embed)
 
 ######################### Xtall MQ ######################################
 
@@ -3482,7 +3506,9 @@ async def xbakuza(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
+############################## Xtall Event Boss ###################################################################
 
+################################ Xtall Hanami Event ##############################
 
 
 
@@ -5980,7 +6006,23 @@ async def darkarrow(ctx):
     await ctx.send(embed=embed)
 
 
-
+####################Random############################
+@bot.command(name='wishlistrei', aliases=['w'])
+async def imitacia(ctx):
+    embed = discord.Embed(title='Whishlist REI')
+    embed.add_field(name='Level Boss', value='Normal : 109', inline=True)
+    embed.add_field(
+        name='Wishlist:',
+        value=(
+            "standie xavier tinggi 185cm\n"
+            "standie akrilik yang kota dan bisa buka isinya xavier mandi\n"
+            "plushie 30cm,60cm,1m xavier\n"
+            "oppai pad xavier\n"))
+    embed.set_image(url='https://cdn.discordapp.com/attachments/1189594050307825756/1360525924591866006/IMG_9419.jpg?ex=67fb7001&is=67fa1e81&hm=5b4b20a88a76235b0b203ab9f92f8ca5812b9858d10219ac823889c66b5ff0b7&')
+    embed.set_thumbnail(
+        url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&'
+    )
+    await ctx.send(embed=embed)
 
 
 ######################################################################
