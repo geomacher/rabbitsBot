@@ -2578,7 +2578,7 @@ async def baavgai(ctx):
     embed.add_field(name='Flee', value='E: [PH1: 370; PH2: 400];\nN: [PH1: 400; PH2: 600];\nH: [PH1: 430; PH2: 645];\nVH: [PH1: 460; PH2: 690];', inline=True)
     embed.add_field(name='Retaliation', value="E to VH:\n2 phases; transitions @50% HP\nDamage above 50% of the boss's HP is ignored\n\n@50% HP, the boss temporarily gains [Invincible] and releases rotating fins (maxHP FR)Number of fins released depends on the difficulty:\nE: 1x (abs Item Disabled)\nN: 2x (abs Item Disabled, Silence)\nH/VH: 4x (abs Item Disabled, Silence, Bleed)\n\nThe boss also releases fins as part of its normal attack patterns\nImmune to FTS while releasing fins\n\nVH:\nThe boss has two modes: MODE1 & MODE2.\nIf a part is broken, boss will release a no warning FR attack (fixed 1 damage, abs Knockback) to all players then go to MODE2.\nWhile in MODE2, damage limit is 100k\nIf the boss receives a total of 1M damage while in MODE2, it will go back to MODE1\n[Invincible] while switching modes\nBreaking parts reduces the boss's defenses:\nRight hand: -3k DEF\nSword hilt: -3k MDEF\n\nFTS Retal:\n\nE to H\nFT: OK\nS: Immune\n\nVH:\nImmune to S\nMODE1: FT is OK\nMODE2 (DMG Limit): Retaliates to FT with a no warning attack\nto all players (maxHP FR, abs Mana Explosion)", inline=False)
     embed.add_field(name='Parts Destruction:', value="3 Parts:\nRight Hand,\nSword Hilt Above Left Shoulder,\nLeft Side of Head", inline=False)
-    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/bakuzan.png')
+    embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/boss/baavgai.png')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     embed.set_footer(text='FTS = Flinch/Tumble/Stun\nEASY = 0.1 * def | flee\nHARD = 2 x def | flee\nNIGHTMARE = 4 x def | flee\nULTIMATE = 6 x def | flee.')
     await ctx.send(embed=embed)
@@ -4112,7 +4112,7 @@ async def str(ctx):
 async def hp(ctx):
     embed = discord.Embed(title='Code Alamat hp')
     embed.add_field(name='Name', value='Golden Stir Fry', inline=False)
-    embed.add_field(name='HP', value='1250015\n4262222\n3040005\n1180755\n1010455', inline=True)
+    embed.add_field(name='HP', value='1011945 Punya si Ghill\n1250015\n4262222\n3040005\n1180755\n1010455', inline=True)
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
