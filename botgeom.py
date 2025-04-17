@@ -4118,10 +4118,108 @@ async def buffland(ctx):
 
 ####################################### DROP LIST #############################################
 
+
+
+
+##################################### DROP 14 ################################################
+
+
+
+
+
+
+@bot.command(name='droppiscruva', aliases=['dropPiscruva', 'droppiscru', 'droppisc', 'dropPiscru', 'dropPisc'])
+async def droppiscruva(ctx):
+    class droppiscruvaView(View):
+        @discord.ui.button(label='Puscruva Bow STAT', style=discord.ButtonStyle.primary)
+        async def PuscruvaBowSTAT(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Puscruva Bow')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362426610627903568/image.png?ex=68025a28&is=680108a8&hm=b61159b8329f04871898bf4ffb773fff5a9708a3c3b92497390bc24c8435667b&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Puscruva Bow APP', style=discord.ButtonStyle.primary)
+        async def PuscruvaBowAPP(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Puscruva Bow')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362426610988355734/image.png?ex=68025a28&is=680108a8&hm=192e654e2aa8738484fde4bb61540b196cdc9fb2b786ae7e72cddcc1d4f86106&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Puscruva Gun STAT', style=discord.ButtonStyle.danger)
+        async def PuscruvaGunSTAT(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Puscruva Gun')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362426609709351094/image.png?ex=68025a28&is=680108a8&hm=d0a787a3dc4ee1f7b86b8b7a83d5c526fd43cbcc6bbe47e11d944fd9bc378535&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Puscruva Gun APP', style=discord.ButtonStyle.danger)
+        async def PuscruvaGunAPP(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Puscruva Gun')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362426610057220207/image.png?ex=68025a28&is=680108a8&hm=f03d14928894dc9be7af611a15a01b055b7232ae8a8959dde828dd010af1bd07&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtallpiscruva(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Piscruva')
+            embed.add_field(name='Upgrade', value='Nurethoth>\nGuignol>\nGuard Golem>\nPiscruva', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362426611282215054/image.png?ex=68025a28&is=680108a8&hm=5429b71dca3809e34a63a37e614e04c44502a1b0b45ee5455a03bbc35f8152eb&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = droppiscruvaView()
+    await ctx.send("Pilih salah satu kategori untuk Drop boss Piscruva:", view=view)
+
+
+
+
 ###################################### DROP 15 ###############################################
 
+@bot.command(name='dropsupreme', aliases=['dropsecb', 'dropsupreme evil crystal beast', 'dropsupremeevilcrystalbeast'])
+async def dropsupreme(ctx):
+    class dropsupremeView(View):
+        @discord.ui.button(label='Evil Crystal Beast Spear STAT', style=discord.ButtonStyle.primary)
+        async def Evil_Crystal_Beast_Spear_STAT(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Evil Crystal Beast Spear')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362411519215669499/image.png?ex=68024c1a&is=6800fa9a&hm=d3a5dd4ae11f51fbc4656b845bb501b6c881a90fcab1cc6bbc4756b7d30df206&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
 
-@bot.command(name='dropbakuza')
+        @discord.ui.button(label='Evil Crystal Beast Spear APP', style=discord.ButtonStyle.primary)
+        async def Evil_Crystal_Beast_Spear_APP(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Evil Crystal Beast Spear')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362411518896898089/image.png?ex=68024c1a&is=6800fa9a&hm=38320343f78e89a222ac86ba9a6ac03444825c12a92f27d11c3967b386f21d36&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Evil Crystal Beast Wings STAT', style=discord.ButtonStyle.danger)
+        async def Evil_Crystal_Beast_Wings_STAT(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Evil Crystal Beast Wings')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362411519866048572/image.png?ex=68024c1a&is=6800fa9a&hm=ba2adf99c90e53a55f7cf180a64f74d11ad9f3f7143c493a70442cd792bd76f7&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Evil Crystal Beast Wings APP', style=discord.ButtonStyle.danger)
+        async def Evil_Crystal_Beast_Wings_APP(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Evil Crystal Beast Wings')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362411520230949014/image.png?ex=68024c1a&is=6800fa9a&hm=e0e4cf13ea444e869afa9cae459582c86900e75fcf2b877005d297f1df7d3358&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtallsupreme(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Supreme Evil Crystal Beast')
+            embed.add_field(name='Upgrade', value='Pillar Golem>\nUltimate Machina>\nVlam the Flame Dragon>\nSupreme Evil Crystal Beast', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362411519513596167/image.png?ex=68024c1a&is=6800fa9a&hm=71f8632ce685bc41ecf92491c4b42ea7805e1b8badf514b1e802740abf18be9c&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = dropsupremeView()
+    await ctx.send("Pilih salah satu kategori untuk Drop boss Supreme Evil Crystal Beast:", view=view)
+
+###
+
+@bot.command(name='dropbakuzan', aliases=['dropbaku'])
 async def dropbakuza(ctx):
     class dropbakuzaView(View):
         @discord.ui.button(label='Brigand Coat Stat', style=discord.ButtonStyle.primary)
@@ -4152,6 +4250,14 @@ async def dropbakuza(ctx):
             embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
             await interaction.response.send_message(embed=embed, ephemeral=True)
 
+        @discord.ui.button(label='Xtall Bakuzan', style=discord.ButtonStyle.danger)
+        async def xtall_bakuzan(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Bakuzan')
+            embed.add_field(name='Upgrade', value='Ganglef>Tyrant Machina>Vulture>Mimyugon>Bakuzan', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/696678783465553990/1357554048068354208/image.png?ex=67f0a03b&is=67ef4ebb&hm=e258b0d8bc408666ff8dacbcc76769cb79d6104612ed792d108c0516f4b0b702&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
     view = dropbakuzaView()
     await ctx.send("Pilih salah satu kategori untuk Drop boss Bakuza:", view=view)
 
@@ -4161,8 +4267,19 @@ async def dropbakuza(ctx):
 
 
 
-#########################  Buff Land Home Code #########################
 
+
+
+
+
+
+
+########################################################################
+######################################################################
+#######################################################################
+#########################  Buff Land Home Code #########################
+############################################################################
+##########################################################################
 
 @bot.command(name='str', aliases=['streght'])
 async def str(ctx):
@@ -4367,7 +4484,13 @@ async def neutral(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
+
+
+############################################################################
+#########################################################################
 ########################### BUFF CONSUME #################################
+###########################################################################
+
 
 @bot.command(name='consumhp', aliases=['hpbuff'])
 async def show_hp_buffs(ctx):
@@ -4752,7 +4875,12 @@ async def show_flee_buffs(ctx):
 
     await ctx.send(embed=embed)
 
+
+
+#####################################################################
 ########################### Leveling ############################
+###################################################################
+
 
 
 @bot.command(name='56', aliases=['57', '58', '59', '60', '61', '62'])
@@ -5453,7 +5581,13 @@ async def level301_to_305(ctx):
 
     await ctx.send(embed=embed)
 
+
+
+####################################################################
 ######################### Element Arrow ############################
+#####################################################################
+
+
 
 @bot.command(name='firearrow', aliases=['panahapi'])
 async def firearrow(ctx):
