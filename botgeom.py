@@ -3498,7 +3498,7 @@ async def xpiscruva(ctx):
     await ctx.send(embed=embed)
 
 
-@bot.command(name='xbakuza', aliases=['xbaku'])
+@bot.command(name='xbakuzan', aliases=['xbaku'])
 async def xbakuza(ctx):
     embed = discord.Embed(title='Bakuzan')
     embed.add_field(name='Upgrade', value='Ganglef>Tyrant Machina>Vulture>Mimyugon>Bakuzan', inline=True)
@@ -3509,6 +3509,21 @@ async def xbakuza(ctx):
 ############################## Xtall Event Boss ###################################################################
 
 ################################ Xtall Hanami Event ##############################
+@bot.command(name='xblackpeachninja', aliases=['xninja'])
+async def xninja(ctx):
+    embed = discord.Embed(title='Black Peach Ninja')
+    embed.add_field(name='Upgrade', value='Mimesia>\nDreamy Scarlet  Sakura>\nBaavgai>\nBlack Peach  Ninja', inline=True)
+    embed.set_image(url='https://cdn.discordapp.com/attachments/696678783465553990/1362329734247088178/image.png?ex=6801ffef&is=6800ae6f&hm=2a2c3ae8ca2ecaf1dfb6535643ccea264fda8a7747877f6ef4003f87721c272a&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
+
+@bot.command(name='xsquirinja', aliases=['xsquiri'])
+async def xsquirinja(ctx):
+    embed = discord.Embed(title='Squirinja')
+    embed.add_field(name='Upgrade', value='Mimesia>\nDreamy Scarlet  Sakura>\nBaavgai>\nSquirinja', inline=True)
+    embed.set_image(url='https://cdn.discordapp.com/attachments/696678783465553990/1362334569201930280/image.png?ex=68020470&is=6800b2f0&hm=7664850b06979ef9ef932fe6bc13b1a4e57c0b4914d7e49b95d220e6138fbc62&')
+    embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+    await ctx.send(embed=embed)
 
 
 
