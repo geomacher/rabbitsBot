@@ -6,6 +6,9 @@ import asyncio
 import logging
 import os
 from dotenv import load_dotenv
+import discord
+from discord.ext import commands
+from discord.ui import View, Button
 
 load_dotenv()
 
@@ -4118,32 +4121,32 @@ async def buffland(ctx):
 ###################################### DROP 15 ###############################################
 
 
-@bot.command(name='dropbakuzan')
+@bot.command(name='dropbakuza')
 async def dropbakuza(ctx):
     class dropbakuzaView(View):
         @discord.ui.button(label='Brigand Coat Stat', style=discord.ButtonStyle.primary)
-        async def xtall(self, interaction: discord.Interaction, button: Button):
+        async def Brigand_Coat_Stat(self, interaction: discord.Interaction, button: Button):
             embed = discord.Embed(title='Brigand Coat')
             embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362381719315026020/image.png?ex=68023059&is=6800ded9&hm=ba8c8d0c3e1eaeb533ca5f8f5b7f4876ef4dcd5dd86db37ff35a582a778f1aa7&')
             embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
             await interaction.response.send_message(embed=embed, ephemeral=True)
 
         @discord.ui.button(label='Brigand Coat APP', style=discord.ButtonStyle.primary)
-        async def xtall(self, interaction: discord.Interaction, button: Button):
+        async def Brigand_Coat_APP(self, interaction: discord.Interaction, button: Button):
             embed = discord.Embed(title='Brigand Coat APP')
             embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362383286592339998/image.png?ex=680231cf&is=6800e04f&hm=23c5fde099a7421334e741797218e444c325f5532b871e3299f30deb6db8633e&')
             embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
             await interaction.response.send_message(embed=embed, ephemeral=True)
 
         @discord.ui.button(label='Mini Cannon', style=discord.ButtonStyle.danger)
-        async def boss(self, interaction: discord.Interaction, button: Button):
+        async def Mini_Cannon(self, interaction: discord.Interaction, button: Button):
             embed = discord.Embed(title='Mini Cannon')
             embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362382016955420792/image.png?ex=680230a0&is=6800df20&hm=fdc74926f34b59738b5f135c5fd14628b56a7d0917bbe38afe97a7572ce9176f&')
             embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
             await interaction.response.send_message(embed=embed, ephemeral=True)
 
         @discord.ui.button(label='Mini Cannon APP', style=discord.ButtonStyle.danger)
-        async def boss(self, interaction: discord.Interaction, button: Button):
+        async def Mini_Cannon_APP(self, interaction: discord.Interaction, button: Button):
             embed = discord.Embed(title='Mini Cannon APP')
             embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362383582894755921/image.png?ex=68023216&is=6800e096&hm=ca233f34b3f4d6a3e03a998359657097b1fe13c04ac9a938c1748729105514b6&')
             embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
