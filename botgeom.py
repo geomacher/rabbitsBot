@@ -4080,6 +4080,84 @@ async def xwolkissa(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
+######################MINI BOSS DETAIL#############################
+##########################FROM BAB 12#################################
+@bot.command(name='wolkissa', aliases=['wolkisa', 'wolkis', 'wolkiss', 'wolk'])
+async def dropwolkissa(ctx):
+    class DropwolkissaView(View):
+        @discord.ui.button(label='Detail Wolkissa', style=discord.ButtonStyle.secondary)
+        async def detailwolkissa(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Wolkissa')
+            embed.add_field(name='Level boss', value='257', inline=True)
+            embed.add_field(name='MQ Chapter', value='', inline=True)
+            embed.add_field(name='Map', value="Weredragon's Throat")
+            embed.add_field(name='Element', value='Water', inline=True)
+            embed.add_field(name='Base HP', value='9650000', inline=True)
+            embed.add_field(name='P.Def', value='771', inline=True)
+            embed.add_field(name='M.Def', value='771', inline=True)
+            embed.add_field(name='P.Res', value='30', inline=True)
+            embed.add_field(name='M.Res', value='30', inline=True)
+            embed.add_field(name='Prorate', value='N:40  P:40  M:40', inline=True)
+            embed.add_field(name='Crit Res', value='20', inline=True)
+            embed.add_field(name='Flee', value='775', inline=True)
+            embed.add_field(name='Retaliation', value="FTS: OK\n\nThis miniboss has a high evasion rate.\nWhen the miniboss moves away, it will attempt to heal 193K HP.", inline=False)
+            embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/miniboss/wolkissa.png')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Holy Script Gun', style=discord.ButtonStyle.primary)
+        async def HolyScriptGun(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Holy Script Gun')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362635052592402543/1362640808762675200/image.png?ex=680321a5&is=6801d025&hm=6d9f5127a8b2524e412a57c72a4ef79fd8f73b4d68cf83686c9bcebf0b024369&')
+            embed.set_thumbnail(url='hhttps://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtallwolkissa(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Wolkissa')
+            embed.add_field(name='Upgrade', value='Wolkissa>', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362635052592402543/1362640809152872619/image.png?ex=680321a5&is=6801d025&hm=ce0169a8d7b94777d0518bec163581b24376ed1d25d4baf6328ea6f7dc1e9eea&')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = DropwolkissaView()
+    await ctx.send("📦 Pilih kategori drop atau detail boss Wolkissa:", view=view)
+
+@bot.command(name='galegon', aliases=['gale', 'galeg', 'galego'])
+async def dropgalegon(ctx):
+    class DropgalegonView(View):
+        @discord.ui.button(label='Detail Galegon', style=discord.ButtonStyle.secondary)
+        async def detailgalegon(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Galegon')
+            embed.add_field(name='Level boss', value='260', inline=True)
+            embed.add_field(name='Map', value='Boma Moja: Area 3')
+            embed.add_field(name='Element', value='Wind', inline=True)
+            embed.add_field(name='Base HP', value='10300000', inline=True)
+            embed.add_field(name='P.Def', value='650', inline=True)
+            embed.add_field(name='M.Def', value='780', inline=True)
+            embed.add_field(name='P.Res', value='30', inline=True)
+            embed.add_field(name='M.Res', value='30', inline=True)
+            embed.add_field(name='Prorate', value='N:30  P:60  M:30', inline=True)
+            embed.add_field(name='Crit Res', value='20', inline=True)
+            embed.add_field(name='Flee', value='470', inline=True)
+            embed.add_field(name='Retaliation', value="F: Immune\nTS: OK\n\nIGNITE/FEAR/DAZZLE: Immune\n\nNote: This miniboss has a player-centered red AOE attack that inflicts [Dazzled]", inline=False)
+            embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/miniboss/galegon.png')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtallgalegon(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Galegon')
+            embed.add_field(name='Upgrade', value='Thug Golem >\nGalegon', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362635052592402543/1362640906158870558/image.png?ex=680321bc&is=6801d03c&hm=42e957b7041e97ecb0474f08195e7981470fe2484c88a62f93ca9014ee304f10&')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = DropgalegonView()
+    await ctx.send("📦 Pilih kategori drop atau detail boss :", view=view)    
+
+
+
 
 ###################### Mini Boss Stat Tabel ###########################
 
@@ -4118,16 +4196,234 @@ async def buffland(ctx):
 
 ####################################### DROP LIST #############################################
 
+##################################### DROP 13 ################################################
 
+@bot.command(name='dropzapo', aliases=['dropzap'])
+async def dropzapo(ctx):
+    class dropzapoView(View):
+        @discord.ui.button(label='Water Priest Robe', style=discord.ButtonStyle.primary)
+        async def WaterPriestRobe(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Water Priest Robe')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362617306307625210/image.png?ex=68030bc2&is=6801ba42&hm=6ad04a7070648bd07b6c69caf3da68b3ec4f5b679ebf4258af5a3aee22811cc1&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
 
+        @discord.ui.button(label='Water Priest Draconic Horns', style=discord.ButtonStyle.primary)
+        async def WaterPriestDraconicHorns(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Water Priest Draconic Horns')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362617305896456252/image.png?ex=68030bc1&is=6801ba41&hm=9a27b203f59bf6fbc5a62ecbabf83b3cfe35d3633edb4bf9d99d62d9b1ca2bb8&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtallzapo(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Zapo')
+            embed.add_field(name='Upgrade', value='Arachnidemon >\nZapo', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362617306571870349/image.png?ex=68030bc2&is=6801ba42&hm=852839a5bba5fa2b88abf273537299da989fd156bb24c9ba3361aeb4775e7b23&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = dropzapoView()
+    await ctx.send("Pilih salah satu kategori untuk Drop boss Zapo:", view=view)
+
+@bot.command(name='droprudis', aliases=['dropredashdragonrudis'])
+async def droprudis(ctx):
+    class droprudisView(View):
+        @discord.ui.button(label='Amnis Staff', style=discord.ButtonStyle.primary)
+        async def AmnisStaff(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Amnis Staff')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362616123714961508/image.png?ex=68030aa8&is=6801b928&hm=226ee9a4bda16c6d4903b1145ecef347c6faf12ca1c310e0544c1f624173ec10&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Amnis Rapier', style=discord.ButtonStyle.primary)
+        async def AmnisRapier(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Amnis Rapier')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362616124147241011/image.png?ex=68030aa8&is=6801b928&hm=c558682e7ff9c31ac57b3d36a687daedcddc4792f4e5d948c03bb9ce21ca303e&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtallrudis(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Red Ash Dragon Rudis')
+            embed.add_field(name='Upgrade', value='Gravicep >\nRed Ash Dragon Rudis', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362616124453421197/image.png?ex=68030aa8&is=6801b928&hm=bcf150f36e6ab8dffa5a34ff50de966c70af2d762718caec2a7f5b7cd133940c&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = droprudisView()
+    await ctx.send("Pilih salah satu kategori untuk Drop boss Rudis:", view=view)
+
+@bot.command(name='dropdonprofundo', aliases=['dropdon'])
+async def dropdonprofundo(ctx):
+    class dropdonprofundoView(View):
+        @discord.ui.button(label='Don Shield', style=discord.ButtonStyle.primary)
+        async def DonShield(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Don Shield')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362614630207459369/image.png?ex=68030943&is=6801b7c3&hm=c991808494de4d8e583a39fce5b5bc02f9f9748feddeed446a8526353b216755&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Don Knuckles', style=discord.ButtonStyle.primary)
+        async def DonKnuckles(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Don Knuckles')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362614630655987939/image.png?ex=68030944&is=6801b7c4&hm=f6bd88219f43678bbbb8b3dd29481160d27d2295b9624cab1924e47a22eb7c00&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtalldonprofundo(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Don Profundo')
+            embed.add_field(name='Upgrade', value='Black Knight of Delusion >\nGwaimol >\nHexter >\nDon Profundo', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362614631008305202/image.png?ex=68030944&is=6801b7c4&hm=c1ec62fd1d5d14610e93ffbd48c0e2db11a2bbf576a4419a1786563fa514c513&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = dropdonprofundoView()
+    await ctx.send("Pilih salah satu kategori untuk Drop boss Don Profundo:", view=view)
+
+@bot.command(name='dropvatudo', aliases=['dropvatu'])
+async def dropvatudo(ctx):
+    class dropvatudoView(View):
+        @discord.ui.button(label='Abyss Bow', style=discord.ButtonStyle.primary)
+        async def AbyssBow(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Abyss Bow')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362613939418169375/image.png?ex=6803089f&is=6801b71f&hm=7d0b001894401520fdc02905289035569078079a65fa53bb8d2a2bb4ffea0a86&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Abyys Katana', style=discord.ButtonStyle.primary)
+        async def AbyysKatana(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Abyys Katana')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362613939824754899/image.png?ex=6803089f&is=6801b71f&hm=4fdff7d512f0f53716c1ce76b178ea9a58e0e734867467b916d22025d940626c&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtallvatudo(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Vatudo')
+            embed.add_field(name='Upgrade', value='Evil Crystal Beast >\nShampy >\nIrestida >\nVatudo', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362613940085067958/image.png?ex=6803089f&is=6801b71f&hm=0370c0e4382fce9cef1e6534ddea4b2e2664a7cfdb563f4b1f94f73ad499d7c1&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = dropvatudoView()
+    await ctx.send("Pilih salah satu kategori untuk Drop boss Vatudo :", view=view)
+
+@bot.command(name='drophumida', aliases=['drophumi'])
+async def drophumida(ctx):
+    class drophumidaView(View):
+        @discord.ui.button(label='Humida Barrel', style=discord.ButtonStyle.primary)
+        async def HumidaBarrel(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Humida Barrel')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362602088668069988/image.png?ex=6802fd95&is=6801ac15&hm=bc3ee3293ace08be631608e0089e33771f17f6c398dfecf0f0576996e0bd4116&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Humida Wings', style=discord.ButtonStyle.primary)
+        async def HumidaWings(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Humida Wings')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362602089007546368/image.png?ex=6802fd95&is=6801ac15&hm=de24b836c14a88f0a7aae19076516f6fbc54343c9e28c84f4ba8a08bf125bff2&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtallhumida(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Humida')
+            embed.add_field(name='Upgrade', value='Venena >\nVenena II >\nHumida', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362602088420347995/image.png?ex=6802fd95&is=6801ac15&hm=f583e1826855166f43274ca6023307c659fe007206e26cb3dc72e3d433bd4bbc&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = drophumidaView()
+    await ctx.send("Pilih salah satu kategori untuk Drop boss Humida:", view=view)
+
+@bot.command(name='droptorexesa', aliases=['droptorex'])
+async def droptorexesa(ctx):
+    class droptorexesaView(View):
+        @discord.ui.button(label='Water City Jewel Box', style=discord.ButtonStyle.primary)
+        async def WaterCityJewelBox(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Water City Jewel Box')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362611153091559637/image.png?ex=68030606&is=6801b486&hm=86dec3180fedc30502440ac6382315304acffebf68e01a71e1efc0dddb46ef28&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtalltorexesa(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Torexesa')
+            embed.add_field(name='Upgrade', value='Brutal Dragon Decel >\nYork >\nTuscog>\nBlack Shadow >\nTorexesa', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362611153548742957/image.png?ex=68030607&is=6801b487&hm=f5edede875b5a487c4dd3e23b7879fc58922e08404a52168b5d218a7be47ba15&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = droptorexesaView()
+    await ctx.send("Pilih salah satu kategori untuk Drop boss :", view=view)
 
 ##################################### DROP 14 ################################################
 
+@bot.command(name='dropmulgoon', aliases=['dropmulgon'])
+async def dropmulgoon(ctx):
+    class dropmulgoonView(View):
+        @discord.ui.button(label='Mulgoon Hood', style=discord.ButtonStyle.primary)
+        async def MulgoonHood(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Mulgoon Hood')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362450097438330930/image.png?ex=68027008&is=68011e88&hm=db2acebc75a7d22fe7403852dab873fd283a0e9635f747bde538ed2bd18f8829&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Mulgoon Robe', style=discord.ButtonStyle.primary)
+        async def MulgoonRobe(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Mulgoon Robe')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362450097719218356/image.png?ex=68027008&is=68011e88&hm=3f9eb0bd3aa9f3ffb40098a9507d22c2a4ba41f81a6b705985b3237de4193dd1&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtallmulgoon(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title="Mulgoon's Hand")
+            embed.add_field(name='Upgrade', value='None', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362450098038243448/image.png?ex=68027008&is=68011e88&hm=6cddb9ba5d2f9464f6036616889da2c5b621a987b3ad9e8a4884a1ca53e3e6e0&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = dropmulgoonView()
+    await ctx.send("Pilih salah satu kategori untuk Drop boss Mulgoon :", view=view)
+
+@bot.command(name='dropdeformis', aliases=['dropdefor'])
+async def dropdeformis(ctx):
+    class dropdeformisView(View):
+        @discord.ui.button(label='Gloomy Flower Staff', style=discord.ButtonStyle.primary)
+        async def GloomyFlowerStaff(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Gloomy Flower Staff')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362449378211532840/image.png?ex=68026f5c&is=68011ddc&hm=90d88b400271d1e6ff0d953bbe91f196b9bc47e0d67a13c5268e27c1768e4608&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Eumano Arrow', style=discord.ButtonStyle.primary)
+        async def EumanoArrow(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Eumano Arrow')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362449378492678264/image.png?ex=68026f5c&is=68011ddc&hm=37da7748ba928f1d266bc601a7b8e364dc5e798dbda9d8c10fcdb6ef800b2086&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Gloomy Tree Shield', style=discord.ButtonStyle.danger)
+        async def GloomyTreeShield(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Gloomy Tree Shield')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362449378778022149/image.png?ex=68026f5c&is=68011ddc&hm=16f705ade5fc182931be625bb32899813b5cc4cfc21f799342c24ff9ff7eefa7&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtalldeformis(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Deformis')
+            embed.add_field(name='Upgrade', value='Imitator> \nMardula> \nVelum >\nDeformis', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362449379063238837/image.png?ex=68026f5d&is=68011ddd&hm=7526531d585dd5fafd1effdd74ae390258b28d3ee994b679379b94dfe1771167&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
 
 
-
-
-
+    view = dropdeformisView()
+    await ctx.send("Pilih salah satu kategori untuk Drop boss deformis:", view=view)
 
 @bot.command(name='dropmenti', aliases=['dropment'])
 async def dropmenti(ctx):
@@ -4171,7 +4467,6 @@ async def dropmenti(ctx):
     view = dropmentiView()
     await ctx.send("Pilih salah satu kategori untuk Drop boss :", view=view)
 
-
 @bot.command(name='dropbiskyva', aliases=['dropbisk', 'dropBiskyva', 'dropbisky'])
 async def dropbiskyva(ctx):
     class dropbiskyvaView(View):
@@ -4213,7 +4508,6 @@ async def dropbiskyva(ctx):
 
     view = dropbiskyvaView()
     await ctx.send("Pilih salah satu kategori untuk Drop boss Biskyva:", view=view)
-
 
 @bot.command(name='droppiscruva', aliases=['dropPiscruva', 'droppiscru', 'droppisc', 'dropPiscru', 'dropPisc'])
 async def droppiscruva(ctx):
@@ -4303,8 +4597,6 @@ async def dropsupreme(ctx):
 
     view = dropsupremeView()
     await ctx.send("Pilih salah satu kategori untuk Drop boss Supreme Evil Crystal Beast:", view=view)
-
-###
 
 @bot.command(name='dropbakuzan', aliases=['dropbaku'])
 async def dropbakuza(ctx):
