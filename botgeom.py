@@ -4128,6 +4128,93 @@ async def buffland(ctx):
 
 
 
+
+@bot.command(name='dropmenti', aliases=['dropment'])
+async def dropmenti(ctx):
+    class dropmentiView(View):
+        @discord.ui.button(label='Anguish Sword STAT', style=discord.ButtonStyle.primary)
+        async def AnguishSwordSTAT(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Anguish Sword')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362446976876155042/image.png?ex=68026d20&is=68011ba0&hm=ca18527d3b983c2fdfb7c03f0ab0dbb538009c50a8f2df5de0d49e1855512b75&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Anguish Sword APP', style=discord.ButtonStyle.primary)
+        async def AnguishSwordAPP(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Anguish Sword')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362446977287328004/image.png?ex=68026d20&is=68011ba0&hm=19dc38c728450dbbc0a0eb7f55a91516d20649ed6782beb5efd32a529957221a&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Anguish Knuckles STAT', style=discord.ButtonStyle.danger)
+        async def AnguishKnucklesSTAT(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Anguish Knuckles')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362446977530331257/image.png?ex=68026d20&is=68011ba0&hm=05b2644fc4793a106297df085c67cd6e9eef67fdb228cea2c207a3fef7a4a120&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Anguish Knuckles APP', style=discord.ButtonStyle.danger)
+        async def AnguishKnucklesAPP(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Anguish Knuckles')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362446977782124784/image.png?ex=68026d20&is=68011ba0&hm=3718e4b5ac0d04036abbb251eb3c8394aa3d933469fd4849b3e804c0e9ba494b&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtallmenti(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Menti')
+            embed.add_field(name='Upgrade', value='Imitacia >\nFinstern the Dark Dragon >\nOculasignio >\nMenti', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362446978193035324/image.png?ex=68026d20&is=68011ba0&hm=db07b768dee6e9ebcf2facf602eb7538811d21abb2e0b80bfdd1182b8168f6da&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = dropmentiView()
+    await ctx.send("Pilih salah satu kategori untuk Drop boss :", view=view)
+
+
+@bot.command(name='dropbiskyva', aliases=['dropbisk', 'dropBiskyva', 'dropbisky'])
+async def dropbiskyva(ctx):
+    class dropbiskyvaView(View):
+        @discord.ui.button(label='Abyssal Greatsword STAT', style=discord.ButtonStyle.primary)
+        async def AbyssalGreatswordSTAT(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Abyssal Greatsword')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362444360284635388/image.png?ex=68026ab0&is=68011930&hm=dd719b1dc536356c890cb332887602bcd487adeeafbcbdc1f40bc59fbd00319c&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Abyssal Greatsword APP', style=discord.ButtonStyle.primary)
+        async def AbyssalGreatswordAPP(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Abyssal Greatsword')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362444360632893594/image.png?ex=68026ab0&is=68011930&hm=827e2d103980a917a9f0fa2c50f4f1a0d9c0b017b0d4e9a19e3f2eb9bc94bccb&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Abyssal Katana STAT', style=discord.ButtonStyle.danger)
+        async def AbyssalKatanaSTAT(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Abyssal Katana')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362444360972505218/image.png?ex=68026ab0&is=68011930&hm=15a55de42829647287436375cad15b00360a35f5d5c1571020429e6a65eb20c8&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Abyssal Katana APP', style=discord.ButtonStyle.danger)
+        async def AbyssalKatanaAPP(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Abyssal Katana')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362444361350250748/image.png?ex=68026ab0&is=68011930&hm=66c032d32a68355eb0f132177cf66d52e37b1c92e41d06ab330d3c598f578788&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtallbiskyva(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Biskyva')
+            embed.add_field(name='Upgrade', value='Ifrid >\nMom Fluck >\nGordel >\nBiskyva', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362381233727869001/1362444361866018896/image.png?ex=68026ab0&is=68011930&hm=ea01695ee0bb9a32f29d166d2d61239bea7b664e3752dfbe8778babcd496bbc3&')
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = dropbiskyvaView()
+    await ctx.send("Pilih salah satu kategori untuk Drop boss Biskyva:", view=view)
+
+
 @bot.command(name='droppiscruva', aliases=['dropPiscruva', 'droppiscru', 'droppisc', 'dropPiscru', 'dropPisc'])
 async def droppiscruva(ctx):
     class droppiscruvaView(View):
