@@ -3545,14 +3545,12 @@ async def xtortuga(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xmiraclepotum', aliases=['xmiracle'])
 async def xmiraclepotum(ctx):
     embed = discord.Embed(title='Miracle Potum')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357568106394030311/image.png?ex=67f4a1d2&is=67f35052&hm=131225c16f82e552a6103686852dc379e76585aa2f35a1b0b18ab09ca4e75ac8&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xdarkmushroom', aliases=['xdmushroom'])
 async def xdarkmushroom(ctx):
@@ -3561,14 +3559,12 @@ async def xdarkmushroom(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xsilverroar', aliases=['xsilver'])
 async def xsilverorar(ctx):
     embed = discord.Embed(title='Silver Roar')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357568199306248264/image.png?ex=67f4a1e9&is=67f35069&hm=bdcf3254917abfe305f1d165331dbe9421e523b9a982f6f24b2acbeb86f891d7&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xmetalstinger', aliases=['xmetal'])
 async def xmetal(ctx):
@@ -3577,14 +3573,12 @@ async def xmetal(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xkingpotum', aliases=['xking'])
 async def xkingpotum(ctx):
     embed = discord.Embed(title='King Potum')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357568325651140689/image.png?ex=67f4a207&is=67f35087&hm=3a1db820271f812f782269074fa698cc9d82637c435fb121e6f7bdcbc47d5e09&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xgiantboar', aliases=['xgiant'])
 async def xgiantboar(ctx):
@@ -3593,14 +3587,12 @@ async def xgiantboar(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xgoldenskeleton', aliases=['xgolden'])
 async def xgoldenskeleton(ctx):
     embed = discord.Embed(title='Golden Skeleton')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357568772256432339/image.png?ex=67f4a271&is=67f350f1&hm=002d581fdadb46df2d4ce9960b65f5961c84726477ce87fe3de987eb39285e16&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xbigcoryn', aliases=['xbig'])
 async def xbigcoryn(ctx):
@@ -3609,14 +3601,12 @@ async def xbigcoryn(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='seltirio', aliases=['xselti'])
 async def xseltirio(ctx):
     embed = discord.Embed(title='Seltirio')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357568973452873728/image.png?ex=67f4a2a1&is=67f35121&hm=b54a6dd854ace7a80c7586fea764fa804199036c2570c65aee37f68074907a57&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xstonemercenary', aliases=['xstone'])
 async def xstonemerchenary(ctx):
@@ -3625,14 +3615,12 @@ async def xstonemerchenary(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xarcoiris', aliases=['xarco'])
 async def xarcoiris(ctx):
     embed = discord.Embed(title='Arcoiris')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357569236825800787/image.png?ex=67f4a2e0&is=67f35160&hm=30ffe90d23334db2f26c92ab5ddb6d99f42573b5a51d7b0c2108c636c09d705a&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xmoonlightpotum', aliases=['xmoonlight'])
 async def xmoonlightpotum(ctx):
@@ -3641,14 +3629,12 @@ async def xmoonlightpotum(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xgigantknight', aliases=['xgigant'])
 async def xgigantknight(ctx):
     embed = discord.Embed(title='Gigant Knight')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357569608474689658/image.png?ex=67f4a339&is=67f351b9&hm=6a91a85de042effcfcc95c8a2d3fd584a6de20575671288d3e80c130f45d5b71&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xcaspy', aliases=['xcasp'])
 async def xcaspy(ctx):
@@ -3657,14 +3643,12 @@ async def xcaspy(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xviolaccoon', aliases=['xviola'])
 async def xviolaccoon(ctx):
     embed = discord.Embed(title='Violaccoon')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357569798124474491/image.png?ex=67f4a366&is=67f351e6&hm=4a9f11a009c81fca73bd7488d7a74a3cbc92f2c2c3570aee5c00e35282d4a3c4&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xshininggentleman', aliases=['xshining'])
 async def xshininggentleman(ctx):
@@ -3673,14 +3657,12 @@ async def xshininggentleman(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xdeathcolon', aliases=['xdeath'])
 async def xdeathcolon(ctx):
     embed = discord.Embed(title='Death Colon')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357570113070432317/image.png?ex=67f4a3b1&is=67f35231&hm=9df7f79d382b2357cdb53cf30868b3340da2515269e809b3bbf2cb5884e6f607&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xgranny', aliases=['xgrany'])
 async def xgranny(ctx):
@@ -3689,14 +3671,12 @@ async def xgranny(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xgrylle', aliases=['xGrylle'])
 async def xgrylle(ctx):
     embed = discord.Embed(title='Grylle')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357570411151229019/image.png?ex=67f4a3f8&is=67f35278&hm=2df8bed24cd47973357ae4c2b8efea82cfbaebb8bf2a96bb18d093829fa6ef28&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xnightmarepotum', aliases=['xnightmare'])
 async def xnightmarepotum(ctx):
@@ -3705,14 +3685,12 @@ async def xnightmarepotum(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xdaddyfinpen', aliases=['xfinpen'])
 async def xdaddyfinpen(ctx):
     embed = discord.Embed(title='Daddy Finpen')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357574013425287330/image.png?ex=67f4a753&is=67f355d3&hm=157922dd351ceea61a51322e1c0f0a9526af0c780422c2600cb66e13371cc481&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xlapin', aliases=['xLapin'])
 async def xlapin(ctx):
@@ -3721,14 +3699,12 @@ async def xlapin(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xcorrodedknight', aliases=['xcorroded'])
 async def xcorrodedknight(ctx):
     embed = discord.Embed(title='Corroded Knight Captian')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357574196624097322/image.png?ex=67f4a77e&is=67f355fe&hm=843a0719f540023976fcb8ae55bfcaa8be7dbb52d1464c815ba35f340036ad31&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xsalamander', aliases=['xsalam'])
 async def xsalamander(ctx):
@@ -3744,14 +3720,12 @@ async def xevilcrystalsword(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xbuildergolem', aliases=['xbuilder'])
 async def xbuildergolem(ctx):
     embed = discord.Embed(title='Builder Golem')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357574524652228638/image.png?ex=67f4a7cd&is=67f3564d&hm=cdc9568d7c9149aa3008910dcf9a2c8611111c5ea303feb85474fed3d265d15b&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xdusk', aliases=['xDusk'])
 async def xdusk(ctx):
@@ -3760,14 +3734,12 @@ async def xdusk(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xodelon', aliases=['xOdelon'])
 async def xodelon(ctx):
     embed = discord.Embed(title='Odelon Machina')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357574754512666674/image.png?ex=67f4a803&is=67f35683&hm=714bd887d96200d9f7161503115e2007f2cfffbf5a511eae93ab99c05cc41b03&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xsuperdeathmushroom', aliases=['xsdm'])
 async def xsuperdeathmushroom(ctx):
@@ -3776,14 +3748,12 @@ async def xsuperdeathmushroom(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xcommandergolem', aliases=['xcg'])
 async def xcommandergolem(ctx):
     embed = discord.Embed(title='Commander Golem')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357574965314064516/image.png?ex=67f4a836&is=67f356b6&hm=a7bec43de72e164ae1e6569126e121ca7934232ca13c06c2b63c88f6f14c964a&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xlyark', aliases=['xLyark'])
 async def xlyark(ctx):
@@ -3792,14 +3762,12 @@ async def xlyark(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xamoeba', aliases=['xAmoeba'])
 async def xamoeba(ctx):
     embed = discord.Embed(title='Amoeba Machina')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357575155542528210/image.png?ex=67f4a863&is=67f356e3&hm=7ab3066edbfc487b8f013b769c706ee041f67178688ff82754a0cbbd3dcf4876&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xvolotur', aliases=['xVolotur'])
 async def xvolotur(ctx):
@@ -3808,14 +3776,12 @@ async def xvolotur(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xwanderingwheel', aliases=['xww'])
 async def xwanderingwheel(ctx):
     embed = discord.Embed(title='Wandering Wheel')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357575333775282337/image.png?ex=67f4a88e&is=67f3570e&hm=1438e4c98384c46a50dbb310434c3b7310ac012865f957662b4fc16b82441a11&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xseraph', aliases=['xSeraph'])
 async def xseraph(ctx):
@@ -3824,14 +3790,12 @@ async def xseraph(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xsolopy', aliases=['xSolopy'])
 async def xsolopy(ctx):
     embed = discord.Embed(title='Solopy')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357575547433123927/image.png?ex=67f4a8c1&is=67f35741&hm=41614a4a679fc26f0f9ad6b0617f93db8c869c59543ffa6c3598357936ecce54&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xfanadon', aliases=['xFanadon'])
 async def xfanadon(ctx):
@@ -3840,7 +3804,6 @@ async def xfanadon(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xaltoblepas', aliases=['xalto'])
 async def xaltoblepas(ctx):
     embed = discord.Embed(title='Altoblepas')
@@ -3848,14 +3811,12 @@ async def xaltoblepas(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xbubblebogey', aliases=['xbubble'])
 async def xbubblebogey(ctx):
     embed = discord.Embed(title='Bubble Bogey')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357575759895466075/image.png?ex=67f4a8f3&is=67f35773&hm=a29f802db75a67492a564541523e21c9e3af9685156ad78490276f53e3e16baf&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
     
 @bot.command(name='xmithurnalynx', aliases=['xmithurna'])
 async def xmithurna(ctx):
@@ -3864,14 +3825,12 @@ async def xmithurna(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xcarbuncle', aliases=['xcarbu'])
 async def xcarbuncle(ctx):
     embed = discord.Embed(title='Carbuncle')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357575922311630908/image.png?ex=67f4a91a&is=67f3579a&hm=283ec94cd27da83e80b05f588ef57fcb16d349a329f95542f81538ee3c0b6333&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xgoldenia', aliases=['xGoldenia'])
 async def xgoldenia(ctx):
@@ -3880,14 +3839,12 @@ async def xgoldenia(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xthuggolem', aliases=['xthug'])
 async def xthuggolem(ctx):
     embed = discord.Embed(title='Thug Golem')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357576057737449543/image.png?ex=67f4a93a&is=67f357ba&hm=adf909355634154bcbb1a11f74cf3d2e9c5b07a0fe7d9ffde7608b221f83943d&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xgrimuckus', aliases=['xgrim'])
 async def xgrimuckus(ctx):
@@ -3896,14 +3853,12 @@ async def xgrimuckus(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xfrenzyviola', aliases=['xfrenzy'])
 async def xfrenzyviola(ctx):
     embed = discord.Embed(title='Frenzy Viola')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357576339850530996/image.png?ex=67f4a97d&is=67f357fd&hm=12fd2cd26bb26a08e4fa70c96ca9d92ff71710b0a1769c007cc669d26e6e2809&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xarmasite', aliases=['xArmasite'])
 async def xarmasite(ctx):
@@ -3912,14 +3867,12 @@ async def xarmasite(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xmegaalpoca', aliases=['xmega'])
 async def xmegaalpoca(ctx):
     embed = discord.Embed(title='Mega Alpoca')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357576489461219428/image.png?ex=67f4a9a1&is=67f35821&hm=12fa3a789ad08fd650d77e4b42bbc540bdccfaf4f26d30669791bf27902bf796&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xblood', aliases=['xbsc'])
 async def xblood(ctx):
@@ -3928,14 +3881,12 @@ async def xblood(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xcanemofish', aliases=['xcanemo'])
 async def xcanemofish(ctx):
     embed = discord.Embed(title='Canemofish')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357576814448607242/image.png?ex=67f4a9ef&is=67f3586f&hm=5186fb4322cd8bdb09865b4f1beea931e2585668d6af591babf37b28cee0be29&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 bot.command(name='xdemoniceye', aliases=['xdemonic'])
 async def xdemoniceye(ctx):
@@ -3944,14 +3895,12 @@ async def xdemoniceye(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xtardigrademon', aliases=['xtardi'])
 async def xtardigrademon(ctx):
     embed = discord.Embed(title='Tardigrademon')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357576955444203601/image.png?ex=67f4aa10&is=67f35890&hm=9d51e29f25602cd626240ff9efb31e9ff9b8d165c858d86b01cdb8f70c046e30&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xsandbannditsleader', aliases=['xsandbandit'])
 async def xsandbanditsleader(ctx):
@@ -3960,14 +3909,12 @@ async def xsandbanditsleader(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xageladanios', aliases=['xagel'])
 async def xageladanios(ctx):
     embed = discord.Embed(title='Ageladanios')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357577168430960660/image.png?ex=67f4aa43&is=67f358c3&hm=1e23536c03f1f964b8d7cc64a97461969c44d644cb9f050e63cfd365ae1563a3&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xtappler', aliases=['xTappler'])
 async def xtappler(ctx):
@@ -3976,14 +3923,12 @@ async def xtappler(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xespectro', aliases=['xespec'])
 async def xespectro(ctx):
     embed = discord.Embed(title='Espectro')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357577363478548560/image.png?ex=67f4aa72&is=67f358f2&hm=9c6307f28a08cedf677c252d882a17413c2bb224fc8ac26b95e162acbf10efce&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xgrimreaper', aliases=['xreaper'])
 async def xgrimreaper(ctx):
@@ -3992,14 +3937,12 @@ async def xgrimreaper(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xlordofnezim', aliases=['xnezim'])
 async def xlordofnazim(ctx):
     embed = discord.Embed(title='Lord of Nezim')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357577574330404884/image.png?ex=67f4aaa4&is=67f35924&hm=910faa9529ee3905fcf47f5b8d548de7dc5d2a5ffd8c57626720a82ba25ec0a6&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xtrocostida', aliases=['xtroco'])
 async def xtrocostida(ctx):
@@ -4008,14 +3951,12 @@ async def xtrocostida(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xrhinosaur', aliases=['xrhino'])
 async def xrhinosaur(ctx):
     embed = discord.Embed(title='Rhinosaur')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357577717737848955/image.png?ex=67f4aac6&is=67f35946&hm=d6d106a8cda72759a96c11061b14cb7fc00baa9230b4ba1c14aff76b1cea5172&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xarbogazella', aliases=['xarbo'])
 async def xarbogazella(ctx):
@@ -4024,14 +3965,12 @@ async def xarbogazella(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xbullamius', aliases=['xbull'])
 async def xbullamius(ctx):
     embed = discord.Embed(title='Bullamius')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357577919714562129/image.png?ex=67f4aaf6&is=67f35976&hm=761ba79ecacf4d7aefa038ad6df734e7775d4620b4c03b531f78a9727789c7d1&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xgordo', aliases=['xGordo'])
 async def xgordo(ctx):
@@ -4040,14 +3979,12 @@ async def xgordo(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xblazingur', aliases=['xblazing'])
 async def xblazingur(ctx):
     embed = discord.Embed(title='Blazingur')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357578081921011972/image.png?ex=67f4ab1d&is=67f3599d&hm=c7670e5ef6e44b8e282c121719aacb1732b8c9691c9495fa7cd5de13507f9093&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xglaucius', aliases=['xglau'])
 async def xglaucius(ctx):
@@ -4056,7 +3993,6 @@ async def xglaucius(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xignitrus', aliases=['xignit'])
 async def xignitrus(ctx):
     embed = discord.Embed(title='Ignitrus')
@@ -4064,14 +4000,12 @@ async def xignitrus(ctx):
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
 
-
 @bot.command(name='xrampion', aliases=['xRampion'])
 async def xrampion(ctx):
     embed = discord.Embed(title='Rampion')
     embed.set_image(url='https://cdn.discordapp.com/attachments/1357554153794179152/1357578902976860291/image.png?ex=67f4abe1&is=67f35a61&hm=52cad6c20843008b37cbcefd548fe6ef5142e2b8091590c0c5a1f93cca4fc041&')
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png?ex=67efd05b&is=67ee7edb&hm=45b4587d235223ee3806eca9d31e499115c9061c560464e322ff580c6ca542f7&')
     await ctx.send(embed=embed)
-
 
 @bot.command(name='xwolkissa', aliases=['xwolkis'])
 async def xwolkissa(ctx):
@@ -4156,9 +4090,502 @@ async def dropgalegon(ctx):
     view = DropgalegonView()
     await ctx.send("📦 Pilih kategori drop atau detail boss :", view=view)    
 
+@bot.command(name='brassozard', aliases=['brasso', 'zard'])
+async def dropbrassozard(ctx):
+    class DropbrassozardView(View):
+        @discord.ui.button(label='Detail Brassozard', style=discord.ButtonStyle.secondary)
+        async def detailbrassozard(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Brassozard')
+            embed.add_field(name='Level boss', value='263', inline=True)
+            embed.add_field(name='Map', value='Operation Zone: Climate Control Area')
+            embed.add_field(name='Element', value='Earth', inline=True)
+            embed.add_field(name='Base HP', value='10410000', inline=True)
+            embed.add_field(name='P.Def', value='657', inline=True)
+            embed.add_field(name='M.Def', value='657', inline=True)
+            embed.add_field(name='P.Res', value='16', inline=True)
+            embed.add_field(name='M.Res', value='15', inline=True)
+            embed.add_field(name='Prorate', value='N:5  P:5  M:5', inline=True)
+            embed.add_field(name='Crit Res', value='35', inline=True)
+            embed.add_field(name='Flee', value='500', inline=True)
+            embed.add_field(name='Retaliation', value="FT: OK\nS: Immune\n\nThe miniboss's straight line laser attack deals magic damage and inflicts absolute [Mana Explosion].", inline=False)
+            embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/miniboss/brassozard.png')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
 
+        @discord.ui.button(label='Red-Winged Dragon Bow', style=discord.ButtonStyle.primary)
+        async def RedWingedDragonBow(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Red-Winged Dragon Bow')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362635052592402543/1362641204096929852/image.png?ex=68032203&is=6801d083&hm=9fc47923763fbe0c876c1757a33b9b829f1e11f71d4d2c1ae1bdd1bef9159fa1&')
+            embed.set_thumbnail(url='hhttps://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
 
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtallbrassozard(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Brassozard')
+            embed.add_field(name='Upgrade', value='Gigant Knight >\nVolotur >\nBrassozard', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362635052592402543/1362641204419756092/image.png?ex=68032203&is=6801d083&hm=00dcb1d95aaf9be58881aa867919e598506d6d42a5f5bcef6c1785ba17244eea&')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
 
+    view = DropbrassozardView()
+    await ctx.send("📦 Pilih kategori drop atau detail boss :", view=view)
+
+@bot.command(name='trus', aliases=['tru'])
+async def droptrus(ctx):
+    class DroptrusView(View):
+        @discord.ui.button(label='Detail Trus', style=discord.ButtonStyle.secondary)
+        async def detailtrus(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Trus')
+            embed.add_field(name='Level boss', value='269', inline=True)
+            embed.add_field(name='Map', value='Propulsion System Zone: Power Tank')
+            embed.add_field(name='Element', value='Fire', inline=True)
+            embed.add_field(name='Base HP', value='12800000', inline=True)
+            embed.add_field(name='P.Def', value='942', inline=True)
+            embed.add_field(name='M.Def', value='807', inline=True)
+            embed.add_field(name='P.Res', value='10', inline=True)
+            embed.add_field(name='M.Res', value='10', inline=True)
+            embed.add_field(name='Prorate', value='N:5  P:5  M:10', inline=True)
+            embed.add_field(name='Crit Res', value='20', inline=True)
+            embed.add_field(name='Flee', value='480', inline=True)
+            embed.add_field(name='Retaliation', value="F: 50% resistance to F\nT: OK\nS: 100% resistance to S\n\nAttack Pattern Notes:\n - Small, red fan-shaped AOE (magic) to no warning rotating fins (MaxHP frac, absolute Tumble)\n - Retreat then 3x straight line attacks (magic, absolute Ignite). 2nd and 3rd straight lines are very fast.\n - No retreat then 1x straight line attack (magic, absolute Ignite)\n - Spikes (magic, absolute Ignite)\n - Meteor (magic, absolute Slow)", inline=False)
+            embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/miniboss/trus.png')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtalltrus(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Trus')
+            embed.add_field(name='Upgrade', value='Trus', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362635052592402543/1362643294495969431/image.png?ex=680323f6&is=6801d276&hm=78ef1c197630c2a1d90b2ca09c40a30d8829142827c7847697b8eb63291237f6&')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = DroptrusView()
+    await ctx.send("📦 Pilih kategori drop atau detail boss :", view=view)
+
+@bot.command(name='orictoceras', aliases=['oricto'])
+async def droporictoceras(ctx):
+    class DroporictocerasView(View):
+        @discord.ui.button(label='Detail Orictoceras', style=discord.ButtonStyle.secondary)
+        async def detailorictoceras(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Orictoceras')
+            embed.add_field(name='Level boss', value='272', inline=True)
+            embed.add_field(name='Map', value='Kabla Jabali')
+            embed.add_field(name='Element', value='Earth', inline=True)
+            embed.add_field(name='Base HP', value='13500000', inline=True)
+            embed.add_field(name='P.Def', value='1088', inline=True)
+            embed.add_field(name='M.Def', value='816', inline=True)
+            embed.add_field(name='P.Res', value='10', inline=True)
+            embed.add_field(name='M.Res', value='10', inline=True)
+            embed.add_field(name='Prorate', value='N:10  P:20  M:20', inline=True)
+            embed.add_field(name='Crit Res', value='20', inline=True)
+            embed.add_field(name='Flee', value='490', inline=True)
+            embed.add_field(name='Retaliation', value="FTS: OK\n\nThe blue, player-centered AOE that this miniboss releases deals a lot of fractional damage", inline=False)
+            embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/miniboss/orictoceras.png')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtallorictoceras(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Orictoceras')
+            embed.add_field(name='Upgrade', value='Fanadon >\nOrictoceras', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362635052592402543/1362644430107967488/image.png?ex=68032504&is=6801d384&hm=b6e4d57d6a3dde9aebcbe1418c42c77fb9d6c9d6678823e9146e3b4431215e63&')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = DroporictocerasView()
+    await ctx.send("📦 Pilih kategori drop atau detail boss :", view=view)
+
+@bot.command(name='charugon', aliases=['charu'])
+async def dropcharugon(ctx):
+    class DropcharugonView(View):
+        @discord.ui.button(label='Detail Charugon', style=discord.ButtonStyle.secondary)
+        async def detailcharugon(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Charugon')
+            embed.add_field(name='Level boss', value='275', inline=True)
+            embed.add_field(name='Map', value='Boma Konda: Underground Area')
+            embed.add_field(name='Element', value='Fire', inline=True)
+            embed.add_field(name='Base HP', value='19100000', inline=True)
+            embed.add_field(name='P.Def', value='1100', inline=True)
+            embed.add_field(name='M.Def', value='1375', inline=True)
+            embed.add_field(name='P.Res', value='10', inline=True)
+            embed.add_field(name='M.Res', value='12', inline=True)
+            embed.add_field(name='Prorate', value='N:10  P:5  M:5', inline=True)
+            embed.add_field(name='Crit Res', value='30', inline=True)
+            embed.add_field(name='Flee', value='580', inline=True)
+            embed.add_field(name='Retaliation', value="FT: OK\nS: Immune\n\nAttacks:\n-Blue AOE, player-centered meteor (FR, abs Stun)\n-Wide red AOE & frontal triangular breathe attack: (M, abs Ignite)\n-Star-patterned fins (FR, abs Fear)\n-Player-centered red AOE attack (P, abs Tumble)\n\nNote:\n-The safe area during the wide red AOE breathe attack is behind the miniboss.\nUse a DPS that can take a few hits for this miniboss if you want to mass kill. Having the skill [Recovery] is also recommended.", inline=False)
+            embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/miniboss/charugon.png')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Dragon Slasher', style=discord.ButtonStyle.primary)
+        async def DragonSlasher(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Dragon Slasher')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362635052592402543/1362644605211775078/image.png?ex=6803252e&is=6801d3ae&hm=7fced9049ecceae6e7ef3792bfce500f61396bc16f62b9a34c91cdfb1e13004f&')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtallcharugon(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Charugon')
+            embed.add_field(name='Upgrade', value='Flare VVolg >\nCharugon', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362635052592402543/1362644605564092476/image.png?ex=6803252e&is=6801d3ae&hm=c312450b1c66949bd3923e1b89b5836e8d56aa43d98736a41291a86206f6234f&')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = DropcharugonView()
+    await ctx.send("📦 Pilih kategori drop atau detail boss :", view=view)
+
+@bot.command(name='lilicarolla', aliases=['lilica'])
+async def droplilicarolla(ctx):
+    class DroplilicarollaView(View):
+        @discord.ui.button(label='Detail Lilicarolla', style=discord.ButtonStyle.secondary)
+        async def detaillilicarolla(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Lilicarolla')
+            embed.add_field(name='Level boss', value='278', inline=True)
+            embed.add_field(name='Map', value='Frozen Falls: Area 1')
+            embed.add_field(name='Element', value='Dark', inline=True)
+            embed.add_field(name='Base HP', value='14480000', inline=True)
+            embed.add_field(name='P.Def', value='1250', inline=True)
+            embed.add_field(name='M.Def', value='1250', inline=True)
+            embed.add_field(name='P.Res', value='11', inline=True)
+            embed.add_field(name='M.Res', value='11', inline=True)
+            embed.add_field(name='Prorate', value='N:5  P:15  M:5', inline=True)
+            embed.add_field(name='Crit Res', value='20', inline=True)
+            embed.add_field(name='Flee', value='500', inline=True)
+            embed.add_field(name='Retaliation', value="None\n\nNote: The miniboss's auto attack animation hit is delayed.", inline=False)
+            embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/miniboss/lilicarolla.png')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtalllilicarolla(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Lilicarolla')
+            embed.add_field(name='Upgrade', value='Odelon Machina >\nTappler >\nLilicarolla', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362635052592402543/1362644860078788658/image.png?ex=6803256b&is=6801d3eb&hm=e6afbf791d88e67372fa338a54a5a6995bed866774df948a536303673fdee99c&')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = DroplilicarollaView()
+    await ctx.send("📦 Pilih kategori drop atau detail boss :", view=view)
+
+@bot.command(name='vodre', aliases=['vod', 'vodr'])
+async def vodre(ctx):
+    class DropvodreView(View):
+        @discord.ui.button(label='Detail Vodre', style=discord.ButtonStyle.secondary)
+        async def detailvodre(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Vodre')
+            embed.add_field(name='Level boss', value='281', inline=True)
+            embed.add_field(name='Map', value='Puerta Islands: Area 2')
+            embed.add_field(name='Element', value='Water', inline=True)
+            embed.add_field(name='Base HP', value='17300000', inline=True)
+            embed.add_field(name='P.Def', value='1406', inline=True)
+            embed.add_field(name='M.Def', value='1123', inline=True)
+            embed.add_field(name='P.Res', value='11', inline=True)
+            embed.add_field(name='M.Res', value='11', inline=True)
+            embed.add_field(name='Prorate', value='N:10  P:5  M:10', inline=True)
+            embed.add_field(name='Crit Res', value='30', inline=True)
+            embed.add_field(name='Flee', value='510', inline=True)
+            embed.add_field(name='Retaliation', value="FT & Stop: Immune when the miniboss is underground\nS: Immune\nFEAR: Immune\nBLIND: Immune\n\nLarge fins attack (absolute Freeze) and rush attacks (absolute Tumble/Flinch) deal a lot of fractional damage\nMeteor (M) inflicts absolute Slow\nBreath attack (M) and 2x cross fins (FR) can inflict absolute Freeze", inline=False)
+            embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/miniboss/vodre.pnghttps://raw.githubusercontent.com/jrabella93/TSXen/main/images/miniboss/vodre.png')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtallvodre(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Vodre')
+            embed.add_field(name='Upgrade', value='Vodre', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362635052592402543/1362645177637933148/image.png?ex=680325b7&is=6801d437&hm=d32a4ea1d11780d864cab3670bada5a7988efb0e213506e70b437d5bfd91568e&')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = DropvodreView()
+    await ctx.send("📦 Pilih kategori drop atau detail boss :", view=view)
+
+@bot.command(name='fantica', aliases=['fanti'])
+async def dropfantica(ctx):
+    class DropfanticaView(View):
+        @discord.ui.button(label='Detail Fantica', style=discord.ButtonStyle.secondary)
+        async def detailfantica(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Fantica')
+            embed.add_field(name='Level boss', value='284', inline=True)
+            embed.add_field(name='Map', value='Espuma Dome: Area 2')
+            embed.add_field(name='Element', value='', inline=True)
+            embed.add_field(name='Base HP', value='14700000', inline=True)
+            embed.add_field(name='P.Def', value='852', inline=True)
+            embed.add_field(name='M.Def', value='1136', inline=True)
+            embed.add_field(name='P.Res', value='11', inline=True)
+            embed.add_field(name='M.Res', value='11', inline=True)
+            embed.add_field(name='Prorate', value='N:10  P:10  M:20', inline=True)
+            embed.add_field(name='Crit Res', value='20', inline=True)
+            embed.add_field(name='Flee', value='511', inline=True)
+            embed.add_field(name='Retaliation', value="None", inline=False)
+            embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/miniboss/fantica.pnghttps://raw.githubusercontent.com/jrabella93/TSXen/main/images/miniboss/fantica.png')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtallfantica(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Fantica')
+            embed.add_field(name='Upgrade', value='Grylle >\nFantica', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362635052592402543/1362645580446175343/image.png?ex=68032617&is=6801d497&hm=ab46610b1c1c11f8b979a8268f3640f92dc48c2414d94a270e4ef5ac0e3082e7&')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = DropfanticaView()
+    await ctx.send("📦 Pilih kategori drop atau detail boss :", view=view)
+
+@bot.command(name='capoprofundo', aliases=['capo'])
+async def dropcapo(ctx):
+    class DropcapoView(View):
+        @discord.ui.button(label='Detail Capo Profundo', style=discord.ButtonStyle.secondary)
+        async def detailcapo(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Capo Profundo')
+            embed.add_field(name='Level boss', value='287', inline=True)
+            embed.add_field(name='Map', value='Abandoned District Area 3')
+            embed.add_field(name='Element', value='', inline=True)
+            embed.add_field(name='Base HP', value='15800000', inline=True)
+            embed.add_field(name='P.Def', value='1435', inline=True)
+            embed.add_field(name='M.Def', value='1435', inline=True)
+            embed.add_field(name='P.Res', value='11', inline=True)
+            embed.add_field(name='M.Res', value='11', inline=True)
+            embed.add_field(name='Prorate', value='N:10  P:20  M:20', inline=True)
+            embed.add_field(name='Crit Res', value='20', inline=True)
+            embed.add_field(name='Flee', value='520', inline=True)
+            embed.add_field(name='Retaliation', value="FTS: OK\n\nThe miniboss starts releasing shock waves while walking after the 12th step.", inline=False)
+            embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/miniboss/capoprofundo.png')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Mace Sword', style=discord.ButtonStyle.primary)
+        async def MaceSword(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Mace Sword')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362635052592402543/1362645854720233662/image.png?ex=68032658&is=6801d4d8&hm=f9c154b754bcb21f056a651ad0641c51d7f9b48d4be44d2b7bf9e484b6462ffa&')
+            embed.set_thumbnail(url='hhttps://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtallcapo(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Capo Profundo')
+            embed.add_field(name='Upgrade', value='Tortuga >\nDaddy Finpen >\nCapo Profundo', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362635052592402543/1362645855169151116/image.png?ex=68032658&is=6801d4d8&hm=067379fb4f02b32635718096f98f39dec3af10f7afe6e76b025a9b998a2697c7&')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = DropcapoView()
+    await ctx.send("📦 Pilih kategori drop atau detail boss :", view=view)
+
+@bot.command(name='limacina', aliases=['lima'])
+async def droplimacina(ctx):
+    class DroplimacinaView(View):
+        @discord.ui.button(label='Detail Limacina', style=discord.ButtonStyle.secondary)
+        async def detailLimacina(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Limacina')
+            embed.add_field(name='Level boss', value='190', inline=True)
+            embed.add_field(name='Map', value='Deep Sea: Zone 2')
+            embed.add_field(name='Element', value='Dark', inline=True)
+            embed.add_field(name='Base HP', value='18800000', inline=True)
+            embed.add_field(name='P.Def', value='1595', inline=True)
+            embed.add_field(name='M.Def', value='1595', inline=True)
+            embed.add_field(name='P.Res', value='14', inline=True)
+            embed.add_field(name='M.Res', value='14', inline=True)
+            embed.add_field(name='Prorate', value='N:10  P:20  M:20', inline=True)
+            embed.add_field(name='Crit Res', value='20', inline=True)
+            embed.add_field(name='Flee', value='780', inline=True)
+            embed.add_field(name='Retaliation', value="FTS: OK", inline=False)
+            embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/miniboss/limacina1.png')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtalllimacina(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Limacina')
+            embed.add_field(name='Upgrade', value='Big Coryn >\nSeraph Machina >\nLimacina', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362635052592402543/1362646016666636468/image.png?ex=6803267f&is=6801d4ff&hm=a2e9491372eb9c2e5c402c07ff096800e9654ed5aa239c87eaab2ae80f845e3e&')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = DroplimacinaView()
+    await ctx.send("📦 Pilih kategori drop atau detail boss :", view=view)
+
+@bot.command(name='jiva', aliases=['jiv'])
+async def dropjiva(ctx):
+    class DropjivaView(View):
+        @discord.ui.button(label='Detail Jiva', style=discord.ButtonStyle.secondary)
+        async def detailjiva(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Jiva')
+            embed.add_field(name='Level boss', value='293', inline=True)
+            embed.add_field(name='Map', value='Little Shrine of Grace: Area 2')
+            embed.add_field(name='Element', value='Dark', inline=True)
+            embed.add_field(name='Base HP', value='16000000', inline=True)
+            embed.add_field(name='P.Def', value='1172', inline=True)
+            embed.add_field(name='M.Def', value='878', inline=True)
+            embed.add_field(name='P.Res', value='11', inline=True)
+            embed.add_field(name='M.Res', value='11', inline=True)
+            embed.add_field(name='Prorate', value='N:115  P:115  M:10', inline=True)
+            embed.add_field(name='Crit Res', value='20', inline=True)
+            embed.add_field(name='Flee', value='520', inline=True)
+            embed.add_field(name='Retaliation', value="FTS: OK\n\nWarning: The player-centered AOE that the miniboss performs after flying away and coming back is fatal fractional.", inline=False)
+            embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/miniboss/jiva.png')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtalljiva(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Jiva')
+            embed.add_field(name='Upgrade', value='Altoblepas >\nJiva', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362635052592402543/1362646185285779456/image.png?ex=680326a7&is=6801d527&hm=7acace9215c2a93510bbade13a905fb64d7a60ac800552174c868521e8f1a64f&')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = DropjivaView()
+    await ctx.send("📦 Pilih kategori drop atau detail boss :", view=view)
+
+@bot.command(name='doridodi', aliases=['dori'])
+async def dodridodi(ctx):
+    class DropdoridodiView(View):
+        @discord.ui.button(label='Detail Doridodi', style=discord.ButtonStyle.secondary)
+        async def detaildoridodi(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Doridodi')
+            embed.add_field(name='Level boss', value='296', inline=True)
+            embed.add_field(name='Map', value='Marinatown: Area 2')
+            embed.add_field(name='Element', value='Dark', inline=True)
+            embed.add_field(name='Base HP', value='19600000', inline=True)
+            embed.add_field(name='P.Def', value='1658', inline=True)
+            embed.add_field(name='M.Def', value='1658', inline=True)
+            embed.add_field(name='P.Res', value='14', inline=True)
+            embed.add_field(name='M.Res', value='14', inline=True)
+            embed.add_field(name='Prorate', value='N:30  P:20  M:20', inline=True)
+            embed.add_field(name='Crit Res', value='20', inline=True)
+            embed.add_field(name='Flee', value='530', inline=True)
+            embed.add_field(name='Retaliation', value="FTS: OK", inline=False)
+            embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/miniboss/doridodi1.png')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtalldoridodi(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Doridodi')
+            embed.add_field(name='Upgrade', value='Arbogazella >\nDoridodi', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362635052592402543/1362646341335126196/image.png?ex=680326cc&is=6801d54c&hm=00f2536119f1d40b5990fccb2c78bb646ffb5d14b25ef6e8c3370b7215f83e00&')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = DropdoridodiView()
+    await ctx.send("📦 Pilih kategori drop atau detail boss :", view=view)
+
+@bot.command(name='wiltileaf', aliases=['wilti'])
+async def dropwilti(ctx):
+    class DropwiltiView(View):
+        @discord.ui.button(label='Detail Wiltileaf', style=discord.ButtonStyle.secondary)
+        async def detail(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Wiltileaf')
+            embed.add_field(name='Level boss', value='305', inline=True)
+            embed.add_field(name='Map', value='Eumano Village Ruins: Area 2')
+            embed.add_field(name='Element', value='Dark', inline=True)
+            embed.add_field(name='Base HP', value='11800000', inline=True)
+            embed.add_field(name='P.Def', value='915', inline=True)
+            embed.add_field(name='M.Def', value='1526', inline=True)
+            embed.add_field(name='P.Res', value='14', inline=True)
+            embed.add_field(name='M.Res', value='14', inline=True)
+            embed.add_field(name='Prorate', value='N:20  P:30  M:30', inline=True)
+            embed.add_field(name='Crit Res', value='20', inline=True)
+            embed.add_field(name='Flee', value='460', inline=True)
+            embed.add_field(name='Retaliation', value="N/A", inline=False)
+            embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/miniboss/wiltileaf.png')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Lyre Bow', style=discord.ButtonStyle.primary)
+        async def lyrebow(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Lyre Bow')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362635052592402543/1362646648161042523/image.png?ex=68032715&is=6801d595&hm=4d400c5f350068f15aaeb68bbbb4ff9b1e6c20ea254f069c69c57c12573af1d2&')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtallwilti(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Wiltileaf')
+            embed.add_field(name='Upgrade', value='Metal Stinger >\nLyark Master Specialist >\nAgeladanios >\nWiltileaf', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362635052592402543/1362646648513232976/image.png?ex=68032715&is=6801d595&hm=3b11daf37ba0010d736a5631ba06668b63b260284ccded01a59b49ab8c76fb67&')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = DropwiltiView()
+    await ctx.send("📦 Pilih kategori drop atau detail boss :", view=view)
+
+@bot.command(name='meteora', aliases=['mete'])
+async def dropmete(ctx):
+    class DropmeteView(View):
+        @discord.ui.button(label='Detail Meteora', style=discord.ButtonStyle.secondary)
+        async def detailmeteora(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Meteora')
+            embed.add_field(name='Level boss', value='302', inline=True)
+            embed.add_field(name='Map', value='Menabra Plains')
+            embed.add_field(name='Element', value='Fire', inline=True)
+            embed.add_field(name='Base HP', value='20730000', inline=True)
+            embed.add_field(name='P.Def', value='1693', inline=True)
+            embed.add_field(name='M.Def', value='1963', inline=True)
+            embed.add_field(name='P.Res', value='20', inline=True)
+            embed.add_field(name='M.Res', value='20', inline=True)
+            embed.add_field(name='Prorate', value='N:20  P:20  M:10', inline=True)
+            embed.add_field(name='Crit Res', value='20', inline=True)
+            embed.add_field(name='Flee', value='272', inline=True)
+            embed.add_field(name='Retaliation', value="Miniboss Location:\nUpon entering Menabra Plains, turn 135 degrees clockwise. You will see a narrow path; walk through this path. Along this path, there is a location at the left edge where you can fall off (the edge is triangular); jump off the edge. Then, turn around and follow the upward path. The miniboss will be at the end of the upward path, toward the right edge.\n\nFTS: OK", inline=False)
+            embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/miniboss/meteora.png')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Meteor Sword', style=discord.ButtonStyle.primary)
+        async def meteorsword(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Meteor Sword')
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362635052592402543/1362647091876335667/image.png?ex=6803277f&is=6801d5ff&hm=4c2f75e386a575f28d1c83aab48afd99d549deeb860408dd20fd944b87908727&')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtallmeteora(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Meteora')
+            embed.add_field(name='Upgrade', value='Cerberus >\nPyxtica >\nGemma >\nMeteora', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362635052592402543/1362647092299825203/image.png?ex=6803277f&is=6801d5ff&hm=c57747d9e1bcd7b858ec77d9439f072f33abf3d530977cbde70ca4af239ab5c4&')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = DropmeteView()
+    await ctx.send("📦 Pilih kategori drop atau detail boss :", view=view)
+
+@bot.command(name='dandolion', aliases=['dando'])
+async def drop(ctx):
+    class DropdandoView(View):
+        @discord.ui.button(label='Detail Dandolion', style=discord.ButtonStyle.secondary)
+        async def detail(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Dandolion')
+            embed.add_field(name='Level boss', value='308', inline=True)
+            embed.add_field(name='Map', value='Umidus Valley: Cliff Path')
+            embed.add_field(name='Element', value='Wind', inline=True)
+            embed.add_field(name='Base HP', value='21550000', inline=True)
+            embed.add_field(name='P.Def', value='1078', inline=True)
+            embed.add_field(name='M.Def', value='771', inline=True)
+            embed.add_field(name='P.Res', value='24', inline=True)
+            embed.add_field(name='M.Res', value='12', inline=True)
+            embed.add_field(name='Prorate', value='N:5  P:20  M:40', inline=True)
+            embed.add_field(name='Crit Res', value='20', inline=True)
+            embed.add_field(name='Flee', value='920', inline=True)
+            embed.add_field(name='Retaliation', value="Location: Head to the first cave to the left and go all the way north. The miniboss will be at the left corner.", inline=False)
+            embed.set_image(url='https://raw.githubusercontent.com/jrabella93/TSXen/main/images/miniboss/dandolion.png')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+        @discord.ui.button(label='Xtall', style=discord.ButtonStyle.danger)
+        async def xtalldando(self, interaction: discord.Interaction, button: Button):
+            embed = discord.Embed(title='Dandolion')
+            embed.add_field(name='Upgrade', value='Jade Raptor >\nSuper Death Mushroom >\nDandolion', inline=True)
+            embed.set_image(url='https://cdn.discordapp.com/attachments/1362635052592402543/1362647920465150053/image.png?ex=68032845&is=6801d6c5&hm=15e03518a816e5740becd6b80ac6c6e84ed27b3a3c3665277fc21a981f21a200&')
+            embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
+    view = DropdandoView()
+    await ctx.send("📦 Pilih kategori drop atau detail boss :", view=view)
 ###################### Mini Boss Stat Tabel ###########################
 
 
