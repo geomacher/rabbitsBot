@@ -7041,7 +7041,24 @@ async def imitacia(ctx):
 
     ########################################################Blade Skill#######################################################################
 @bot.command(name='blade', aliases=['bladeskill'])
-async def blade(ctx):
+
+
+@bot.command(name='drop', aliases=['drop'])
+async def drop(ctx):
+    class SkillButton(Button):
+        def __init__(self, label, data):
+            super().__init__(label=label, style=discord.ButtonStyle.primary)
+            self.data = data
+
+        async def callback(self, interaction: discord.Interaction):
+            embed = discord.Embed(
+                title=self.data["title"],
+                description=self.data["description"],
+                color=discord.Color.blue()
+            )
+            embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png")
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+
     class bladeView(View):
         def __init__(self):
             super().__init__(timeout=None)
@@ -7170,12 +7187,6 @@ async def blade(ctx):
             for label, data in self.skills.items():
                 self.add_item(self.create_button(label, data))
 
-        def create_button(self, label, data):
-            async def callback(interaction: discord.Interaction):
-                embed = discord.Embed(title=data["title"], description=data["description"], color=discord.Color.blue())
-                embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png")
-                await interaction.response.send_message(embed=embed, ephemeral=True)
-            return Button(label=label, style=discord.ButtonStyle.primary, custom_id=label, row=0, callback=callback)
 
     view = bladeView()
     await ctx.send("Pilih salah satu skill:", view=view)
