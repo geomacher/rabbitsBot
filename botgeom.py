@@ -7029,6 +7029,159 @@ async def imitacia(ctx):
     await ctx.send(embed=embed)
 
 
+
+
+
+
+
+    #########################################################SKILLL############################################################################
+
+
+
+
+    ########################################################Blade Skill#######################################################################
+@bot.command(name='blade', aliases=['bladeskill'])
+async def blade(ctx):
+    class DropView(View):
+        def __init__(self):
+            super().__init__(timeout=None)
+            self.skills = {
+                "Hard Hit": {
+                    "title": "Hard Hit",
+                    "description": (
+                        "**Lv 1 Skill**\n"
+                        "One-Handed Sword/Two-Handed Sword only\n"
+                        "**MP Cost**: 100\n"
+                        "**Damage Type**: Physical\n\n"
+                        "**Base Skill Multiplier**: 1 + 0.05 * Skill Level\n"
+                        "**Base Skill Constant**: 50 + 5 * Skill Level\n"
+                        "**Hit Count**: 1 hit\n"
+                        "**Max Cast Range**: Weapon’s auto attack range\n"
+                        "**Ailment**: Flinch (Chance up to 50%)\n"
+                        "**Duration**: 2s\n"
+                        "**Game Description**: Brutally hit target. Chance to flinch.\n"
+                        "**OHS Bonus**: Flinch chance +50%\n"
+                        "**2HS Bonus**: Skill Multiplier +0.5"
+                    )
+                },
+                "Rampage": {
+                    "title": "Rampage",
+                    "description": (
+                        "**Lv 3 Skill**\n"
+                        "One-Handed Sword/Two-Handed Sword only\n"
+                        "**MP Cost**: 500\n"
+                        "**Damage Type**: None\n\n"
+                        "Boosts next 10 auto attacks and deals a final blow.\n"
+                        "**Final Blow Multiplier**: Up to 2.5 + 0.05 * SLv\n"
+                        "**Buff**: Sets DEF/MDEF/Dodge to 0, +MP Recovery\n"
+                        "**Duration**: 10 attacks or ailment/10 min\n"
+                        "**OHS Bonus**: First 10 Mult + (0.05 * SLv)\n"
+                        "**2HS Bonus**: Final Mult +4"
+                    )
+                },
+                "Meteor Breaker": {
+                    "title": "Meteor Breaker",
+                    "description": (
+                        "**Lv 4 Skill**\n"
+                        "One-Handed Sword/Two-Handed Sword only\n"
+                        "**MP Cost**: 600\n"
+                        "**Damage Type**: Physical\n\n"
+                        "**Hit Count**: 2 hits (Main target); 1 AOE\n"
+                        "**Invincible while casting**\n"
+                        "**Ailment**: Dizzy (up to 25%)\n"
+                        "**Game Description**: Leap and smash the ground like a meteor.\n"
+                        "**OHS Bonus**: Dizzy Chance +75%\n"
+                        "**2HS Bonus**: +Skill Mult (First Hit)"
+                    )
+                },
+                "Sonic Blade": {
+                    "title": "Sonic Blade",
+                    "description": (
+                        "**Lv 1 Skill**\n"
+                        "One-Handed Sword/Two-Handed Sword only\n"
+                        "**MP Cost**: 200\n"
+                        "**Damage Type**: Physical\n\n"
+                        "**Dash toward target, hits enemies in path**\n"
+                        "**Crit Rate**: +(10 * SLv)\n"
+                        "**Super Mode**: Double Mult, +1m Hit Range\n"
+                        "**OHS Bonus**: +4m Range\n"
+                        "**2HS Bonus**: +2m Hit Range, +0.5 Mult"
+                    )
+                },
+                "Spiral Air": {
+                    "title": "Spiral Air",
+                    "description": (
+                        "**Lv 2 Skill**\n"
+                        "**MP Cost**: 300\n"
+                        "**Damage Type**: Physical\n"
+                        "**Hit Count**: 10 hits\n"
+                        "**No Crits**\n"
+                        "**Buff**: Crit Damage +(0.5 + 0.5 * SLv + total DEX/(60 - SLv))\n"
+                        "**2HS Penalty**: Crit Damage buff halved"
+                    )
+                },
+                "Sword Tempest": {
+                    "title": "Sword Tempest",
+                    "description": (
+                        "**Lv 3 Skill**\n"
+                        "**MP Cost**: 400\n"
+                        "**Damage Type**: Physical\n"
+                        "**Wave + Tornado effect**\n"
+                        "**Wave Ailment**: Suction\n"
+                        "**Game Description**: Slash that causes storm; pulls enemies in.\n"
+                        "**OHS Bonus**: +Tornado Mult (baseDEX/500)\n"
+                        "**2HS Bonus**: +Wave Mult (1 + baseSTR/500)"
+                    )
+                },
+                "Buster Blade": {
+                    "title": "Buster Blade",
+                    "description": (
+                        "**Lv 4 Skill**\n"
+                        "**MP Cost**: 300\n"
+                        "**Damage Type**: Physical\n"
+                        "**Always Crits**\n"
+                        "**HP Heal**: 1000 + (OHS: +2 * baseVIT)\n"
+                        "**Buff**: Weapon ATK + (1 * SLv)% for 10s\n"
+                        "**OHS Bonus**: Skill Mult + (baseDEX/200)\n"
+                        "**2HS Bonus**: Skill Mult + (baseSTR/100)\n"
+                        "**Shield Bonus**: Weapon ATK +(10 + Shield Refine)%"
+                    )
+                },
+                "Sword Mastery": {
+                    "title": "Sword Mastery (Passive)",
+                    "description": (
+                        "**Lv 1 Skill**\n"
+                        "**Weapon ATK**: +(3 * SLv)%\n"
+                        "**ATK**: +1~3% based on level\n"
+                        "**Game Description**: Boost sword damage.\n"
+                        "**Dual Sword Bonus**: Affects subhand too"
+                    )
+                },
+                "Quick Slash": {
+                    "title": "Quick Slash (Passive)",
+                    "description": (
+                        "**Lv 1 Skill**\n"
+                        "**Attack Speed**: +(SLv)% and +(10 * SLv)\n"
+                        "**Game Description**: Shortens attack interval for swords."
+                    )
+                }
+            }
+
+            for label, data in self.skills.items():
+                self.add_item(self.create_button(label, data))
+
+        def create_button(self, label, data):
+            async def callback(interaction: discord.Interaction):
+                embed = discord.Embed(title=data["title"], description=data["description"], color=discord.Color.blue())
+                embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png")
+                await interaction.response.send_message(embed=embed, ephemeral=True)
+            return Button(label=label, style=discord.ButtonStyle.primary, custom_id=label, row=0, callback=callback)
+
+    view = DropView()
+    await ctx.send("Pilih salah satu skill:", view=view)
+
+
+
 ######################################################################
 logging.info("Bot starting...")
 token = os.getenv('DISCORD_TOKEN')
