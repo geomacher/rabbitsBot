@@ -7185,7 +7185,7 @@ async def drop(ctx):
             }
 
             for label, data in self.skills.items():
-                self.add_item(self.create_button(label, data))
+                self.add_item(SkillButton(label, data))
 
 
     view = bladeView()
