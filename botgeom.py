@@ -7042,7 +7042,7 @@ async def imitacia(ctx):
     ########################################################Blade Skill#######################################################################
 @bot.command(name='blade', aliases=['bladeskill'])
 async def blade(ctx):
-    class DropView(View):
+    class bladeView(View):
         def __init__(self):
             super().__init__(timeout=None)
             self.skills = {
@@ -7177,7 +7177,7 @@ async def blade(ctx):
                 await interaction.response.send_message(embed=embed, ephemeral=True)
             return Button(label=label, style=discord.ButtonStyle.primary, custom_id=label, row=0, callback=callback)
 
-    view = DropView()
+    view = bladeView()
     await ctx.send("Pilih salah satu skill:", view=view)
 
 
