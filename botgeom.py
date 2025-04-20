@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 import discord
 from discord.ext import commands
 from discord.ui import View, Button
-from skillDesc import skillsblade, skillsshot, skillhalberd
+from skillDesc import skillsblade, skillsshot, skillshalberd
 
 load_dotenv()
 
@@ -7080,7 +7080,7 @@ class shotView(View):
 class halberdView(View):
     def __init__(self):
         super().__init__(timeout=None)
-        for label, data in skillhalberd.items():
+        for label, data in skillshalberd.items():
             self.add_item(SkillButton(label, data))
 
 
