@@ -475,7 +475,7 @@ skillsblade = {
 }
 
 
-######################################## BOW ####################################
+######################################## BOW #################################################################################################################################################################
 
 
 skillsshot = {
@@ -1251,9 +1251,9 @@ skillsshot = {
 }
 
 
+###############################################################################################################################################################################
 
-
-skillhalberd = {
+skillshalberd = {
 
 "Flash Stab": {
   "title": "Flash Stab",
@@ -1931,5 +1931,1313 @@ skillhalberd = {
   ),
   "image_url": "https://cdn.discordapp.com/attachments/1310475215893037069/1360086054341841049/sprite_12.png?ex=68046258&is=680310d8&hm=8c8ac51cc8f42835a994f71f4ae78af1b72731ec790fb22536d821a2faafa34f&"
 }
+
+}
+
+
+#########################################################################################################################################################################################
+
+skillsmartial = {
+    "Smash": {
+  "title": "Smash",
+  "description": (
+    "**Lv 1 Skill**\n"
+    "No Limit\n"
+    "**MP Cost**: 100\n"
+    "**Damage Type**: Physical\n\n"
+    "**Skill Stats**:\n"
+    "- **Base Skill Multiplier**: 0.5 + 0.02 * Skill Level\n"
+    "- **Base Skill Constant**: 5 * Skill Level\n"
+    "- **Hit Count**: 1 hit\n"
+    "- **Maximum Cast Range**: Defaults to Knuckle's Auto Attack Max Range if equipped on main weapon or sub weapon slot; 1m otherwise\n\n"
+    "**Ailment**:\n"
+    "- **Type**: Flinch\n"
+    "- **Base Ailment Chance**: 50% (levels 1 to 5); 75% (levels 6 to 10)\n"
+    "- **Ailment Duration**: 2 seconds\n"
+    "- **Ailment Resistance**: 1 second (Easy and Normal); 3 seconds (Hard); 6 seconds (Nightmare); 9 seconds (Ultimate)\n\n"
+    "**Knuckle Main/Sub Bonus**:\n"
+    "- **Skill Multiplier**: +0.5\n"
+    "- **Skill Constant**: +(25 + total AGI / 10)\n"
+    "- **Flinch Chance**: +25%\n\n"
+    "**Game Description**:\n"
+    "“Strongly hit the target. Chance to inflict [Flinch] on target.”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869169697554309120/smash.png?ex=68057a1c&is=6804289c&hm=9c143a6b18d834664b3f8c32a8859d5f84fc68fdc1fbafb2868b3d11b6f2a95e&"
+},
+"Bash": {
+  "title": "Bash",
+  "description": (
+    "**Lv 1 Skill**\n"
+    "No Limit\n"
+    "**MP Cost**: 200\n"
+    "**Damage Type**: Physical\n\n"
+    "**Skill Stats**:\n"
+    "- **Base Skill Multiplier**: 1 + 0.05 * Skill Level\n"
+    "- **Base Skill Constant**: 10 * Skill Level\n"
+    "- **Hit Count**: 1 hit\n"
+    "- **Maximum Cast Range**: Defaults to Knuckle's Auto Attack Max Range if equipped on main weapon or sub weapon slot; 1m otherwise\n\n"
+    "**Ailment**:\n"
+    "- **Type**: Stun\n"
+    "- **Base Ailment Chance**: 25% (levels 1 to 5); 50% (levels 6 to 10)\n"
+    "- **Ailment Duration**: 5 seconds\n"
+    "- **Ailment Resistance**: 25 seconds (Easy, Normal, Hard and Nightmare); 30 seconds (Ultimate)\n\n"
+    "**Knuckle Main/Sub Bonus**:\n"
+    "- **Skill Multiplier**: +(1 + total AGI / 500)\n"
+    "- **Skill Constant**: +(50 + total AGI / 5)\n"
+    "- **Stun Chance**: +(25 + total AGI / 10)%\n\n"
+    "**Game Description**:\n"
+    "“Strike a heavy blow on the head. Chance to inflict [Stun] on the target.”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869169720891424808/bash.png?ex=68057a21&is=680428a1&hm=c729dfe1719efcae68b52f93b9b520f48361f254da2592ee30b39e8dd91390e3&"
+},
+
+"Shell Break": {
+  "title": "Shell Break",
+  "description": (
+    "**Lv 2 Skill**\n"
+    "No Limit\n"
+    "**MP Cost**: 300\n"
+    "**Damage Type**: Physical\n\n"
+    "**Skill Stats**:\n"
+    "- **Base Skill Multiplier**: 1 + 0.05 * Skill Level\n"
+    "- **Base Skill Constant**: 50 + 10 * Skill Level\n"
+    "- **Hit Count**: 1 hit\n"
+    "- **Maximum Cast Range**: Defaults to Knuckle's Auto Attack Max Range if equipped on main weapon or sub weapon slot; 1m otherwise\n\n"
+    "**Skill Effect**:\n"
+    "- Physical Pierce: +(5 * Skill Level)%\n"
+    "- MP Recovery: Recover 400 MP if this skill inflicts Armor Break\n\n"
+    "**Ailment**:\n"
+    "- **Type**: Armor Break\n"
+    "- **Base Ailment Chance**: 10% + (1.5 * Skill Level)%\n"
+    "- **Ailment Duration**: 5 seconds\n"
+    "- **Ailment Resistance**: None\n\n"
+    "**Knuckle Main/Sub Bonus**:\n"
+    "- **Skill Multiplier**: +0.5\n"
+    "- **Skill Multiplier**: +((target's DEF - target's Level) / 50); capped between -1 and 5\n"
+    "- **Skill Constant**: +150\n"
+    "- **Skill Constant**: +((target's DEF - target's Level) * 2); capped between -100 and 500\n\n"
+    "**Knuckle Main Only Bonus**:\n"
+    "- **Armor Break Chance**: +25%\n\n"
+    "**Game Description**:\n"
+    "“A straight punch that penetrates hard armor. The damage dealt increases as the target's DEF is higher. Low chance to inflict [Armor Break]. Recover MP if it succeeds.”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869169746963218462/shellbreak.png?ex=68057a28&is=680428a8&hm=0a0a464c3d16c2d694064321b7b88336ab7a15939957ea98f4b8d564cedb374d&"
+},
+"Heavy Smash": {
+  "title": "Heavy Smash",
+  "description": (
+    "**Lv 3 Skill**\n"
+    "No Limit\n"
+    "**MP Cost**: 400\n"
+    "**Damage Type**: Physical\n\n"
+    "**Skill Stats**:\n"
+    "- **Base Skill Multiplier**: 1 + 0.15 * Skill Level\n"
+    "- **Base Skill Multiplier (Additional Hit)**: 1 + 0.15 * Skill Level\n"
+    "- **Base Skill Constant**: 100 + 10 * Skill Level (per hit)\n"
+    "- **Hit Count**: 1 hit; 2 hits if the target has the Armor Break ailment\n"
+    "- **Additional Hit Notes**: Dodge, Evasion, Guard, Anticipate, and Guard Break calculations are done for the first hit and copied to the second; rest of damage calculation is done per hit\n"
+    "- **Maximum Cast Range**: Defaults to Knuckle's Auto Attack Max Range if equipped on main weapon or sub weapon slot; 1m otherwise\n\n"
+    "**Skill Effect**:\n"
+    "- Gains a second, always-critical hit if the target has Armor Break\n\n"
+    "**Ailment**:\n"
+    "- **Type**: Lethargy\n"
+    "- **Base Ailment Chance**: 20% + (3 * Skill Level)%\n"
+    "- **Ailment Duration**: 10 seconds\n"
+    "- **Ailment Resistance**: None\n\n"
+    "**Knuckle Main/Sub Bonus**:\n"
+    "- **Skill Multiplier**: +1.5\n"
+    "- **Skill Multiplier (Additional Hit)**: +5\n"
+    "- **Skill Constant**: +100\n"
+    "- **Lethargy Chance**: +50%\n\n"
+    "**Other Effect**:\n"
+    "- Triple Thrust's Skill Constant buff applies only to the first hit\n\n"
+    "**Game Description**:\n"
+    "“Hit the target very hard. Chance to inflict [Lethargy] on the target. Deal additional damage on the target that has [Armor Break].”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869169757167951892/heavysmash.png?ex=68057a2a&is=680428aa&hm=603211459717bb9f72e972a71e7697e83e24b9ee7f4a768c6501afc638195f35&"
+},
+
+"Chariot": {
+  "title": "Chariot",
+  "description": (
+    "**Lv 4 Skill**\n"
+    "No Limit\n"
+    "**MP Cost**: 500\n"
+    "**Damage Type**: Physical\n\n"
+    "**Skill Stats**:\n"
+    "- **Base Skill Multiplier**: 9.9 + 0.01 * Skill Level\n"
+    "- **Base Skill Constant**: 50 + 20 * Skill Level\n"
+    "- **Hit Count**: 1 hit\n"
+    "- **Maximum Cast Range**: 12m\n"
+    "- **Hit Range**: Single target without Knuckles main/sub; AoE with Knuckles: height 12m, radius 0.75m from caster\n"
+    "- **Base Charge Time**: 11s (Lv 1), 9s (Lv 2–3), 7s (Lv 4–5), 5s (Lv 6–7), 3s (Lv 8–9), 1s (Lv 10)\n\n"
+    "**Ailment**:\n"
+    "- **Type**: Fear\n"
+    "- **Base Ailment Chance**: (5 * Skill Level)% (halved on bosses)\n"
+    "- **Ailment Duration**: 10 seconds\n"
+    "- **Ailment Resistance**: None\n\n"
+    "**Knuckle Main/Sub Bonus**:\n"
+    "- **Skill Multiplier**: +(2.5 + base AGI / 100)\n"
+    "- **Skill Constant**: +250\n"
+    "- **Fear Chance**: +50%\n"
+    "- **Charge Time**: -1 second\n\n"
+    "**Game Description**:\n"
+    "“Shoot out the energy inside of the character. Chance to inflict [Fear] on the target. Charge Time is shortened depending on the skill level.”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869169781515878490/chariot.png?ex=68057a30&is=680428b0&hm=d5855197410502fd7c027f0772b39d2384c2abbbe1777db3670d3f3636dad573&"
+},
+
+"Sonic Wave": {
+  "title": "Sonic Wave",
+  "description": (
+    "**Lv 1 Skill**\n"
+    "No Limit\n"
+    "**MP Cost**: 100\n"
+    "**Damage Type**: Physical\n\n"
+    "**Skill Stats**:\n"
+    "- **Base Skill Multiplier**: 0.75 + 0.025 * Skill Level\n"
+    "- **Base Skill Constant**: 5 * Skill Level\n"
+    "- **Hit Count**: 1 hit\n"
+    "- **Maximum Cast Range**: 4m (Lv 1–3); 8m (Lv 4–6); 12m (Lv 7–9); 16m (Lv 10)\n\n"
+    "**Ailment**:\n"
+    "- **Type**: Tumble\n"
+    "- **Base Ailment Chance**: (5 * Skill Level)%\n"
+    "- **Ailment Duration**: 3 seconds\n"
+    "- **Ailment Resistance**: 3s (Easy/Normal); 6s (Hard); 12s (Nightmare); 18s (Ultimate)\n\n"
+    "**Knuckle Main/Sub Bonus**:\n"
+    "- **Skill Multiplier**: +0.25\n"
+    "- **Skill Constant**: +25\n"
+    "- **Tumble Chance**: +50%\n"
+    "- **Maximum Cast Range**: +4m\n\n"
+    "**Game Description**:\n"
+    "“Attack with an impulsive wave. Chance to inflict [Tumble] on the target.”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869169798288908308/sonicwave.png?ex=68057a34&is=680428b4&hm=6e77ad0567cb6934c4aa812ff2937598bdc609a68ed1ec3eb9e602ce7fa3bb85&"
+},
+"Earthbind": {
+  "title": "Earthbind",
+  "description": (
+    "**Lv 2 Skill**\n"
+    "No Limit\n"
+    "**MP Cost**: 100\n"
+    "**Damage Type**: Physical\n\n"
+    "**Skill Stats**:\n"
+    "- **Base Skill Multiplier**: 1 + 0.025 * Skill Level\n"
+    "- **Base Skill Constant**: 5 * Skill Level\n"
+    "- **Hit Count**: 1 hit\n"
+    "- **Maximum Cast Range**: Defaults to Knuckle's Auto Attack Max Range if equipped on main weapon or sub weapon slot; 1m otherwise\n"
+    "- **Hit Range**: 1m (Lv 1–2); 1.5m (Lv 3–5); 2m (Lv 6–8); 2.5m (Lv 9–10)\n\n"
+    "**Skill Effect**:\n"
+    "- For each target hit, recover 5% of Max HP (max 500 HP)\n\n"
+    "**Ailment**:\n"
+    "- **Type**: Stop\n"
+    "- **Base Ailment Chance**: (5 * Skill Level)%\n"
+    "- **Ailment Duration**: 10 seconds\n"
+    "- **Ailment Resistance**: 50 seconds\n\n"
+    "**Knuckle Main/Sub Bonus**:\n"
+    "- **Skill Multiplier**: +(0.25 + total AGI / 500)\n"
+    "- **Skill Constant**: +25\n"
+    "- **Hit Range**: +1.5m\n"
+    "- **HP Recovery Limit**: +500 HP\n"
+    "- **Stop Chance**: +50%\n\n"
+    "**Game Description**:\n"
+    "“Attack enemies around you by shaking the ground. Chance to inflict [Stop] on the targets. Restore small amount of HP by hitting a target.”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869169812574707712/earthbind.png?ex=68057a37&is=680428b7&hm=6106b4783f9e03d8ccfd7ead681356f45b7bc7b56eede16fcf06da58db2f6084&"
+},
+
+"Triple Kick": {
+  "title": "Triple Kick",
+  "description": (
+    "**Lv 3 Skill**\n"
+    "No Limit\n"
+    "**MP Cost**: 300\n"
+    "**Damage Type**: Physical\n\n"
+    "**Skill Stats**:\n"
+    "- **Base Skill Multiplier**: 1 + 0.1 * Skill Level (per hit)\n"
+    "- **Base Skill Constant**: 25 + 2 * Skill Level (per hit)\n"
+    "- **Hit Count**: 3 hits (individual damage calculations)\n"
+    "- **Maximum Cast Range**: 3m\n\n"
+    "**Skill Effect**:\n"
+    "- Second hit: Critical Rate +(2 * Skill Level)\n"
+    "- Third hit: Critical Rate +(4 * Skill Level)\n\n"
+    "**Knuckle Main/Sub Bonus**:\n"
+    "- **Skill Multiplier**: +1\n"
+    "- **Critical Rate**: +50 for all hits\n\n"
+    "**Game Description**:\n"
+    "“Attack the target three times quickly. Critical rates are higher than normal attacks.”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869169850361200670/triplekick.png?ex=68057a40&is=680428c0&hm=aa6d48399750cc0824caa39bdbba40ef75968fea38eb49215fcdda7d9b207a59&"
+},
+
+"Rush": {
+  "title": "Rush",
+  "description": (
+    "**Lv 4 Skill**\n"
+    "No Limit\n"
+    "**MP Cost**: 400\n"
+    "**Damage Type**: Physical\n\n"
+    "**Skill Stats**:\n"
+    "- **Base Skill Multiplier**: 3 + 0.4 * Skill Level (total across 4 hits)\n"
+    "- **Base Skill Constant**: 20 * Skill Level (total across 4 hits)\n"
+    "- **Hit Count**: 4 hits (damage divided evenly)\n"
+    "- **Maximum Cast Range**: Defaults to Knuckle's Auto Attack Max Range if equipped on main weapon or sub weapon slot; 1m otherwise\n\n"
+    "**Buff Effect**:\n"
+    "- **Motion Speed**: +2% (Lv 1–3); +3% (Lv 4–6); +4% (Lv 7–9); +5% (Lv 10)\n"
+    "- **Buff Activation**: Immediately, before skill is cast\n"
+    "- **Buff Duration**: 10 seconds\n\n"
+    "**Knuckle Main/Sub Bonus**:\n"
+    "- **Skill Multiplier**: +(2 + base AGI / 50)\n"
+    "- **Skill Constant**: +200\n"
+    "- **Motion Speed Buff**: Doubled\n\n"
+    "**Game Description**:\n"
+    "“Quick consecutive attacks. Action Speed increases for a few seconds including Rush activated.”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869169863812329522/rush.png?ex=68057a43&is=680428c3&hm=eb409a7361612b1035534647525a841f0e1d306125b4ca337f4cf9c8777e7765&"
+},
+"Martial Mastery": {
+  "title": "Martial Mastery",
+  "description": (
+    "**Lv 1 Skill**\n"
+    "Knuckle Main only\n"
+    "**Type**: Passive\n\n"
+    "**Passive Effect**:\n"
+    "- **Weapon ATK**: +(3 * Skill Level)%\n"
+    "- **ATK**: +1% (Lv 1–2); +2% (Lv 3–7); +3% (Lv 8–10)\n\n"
+    "**Game Description**:\n"
+    "“—”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869169890618146816/martialmastery.png?ex=68057a4a&is=680428ca&hm=2f72eac69bdade077d9c14991a75033992e85fa995e7afb7ef6514954e2cca58&"
+},
+
+"Martial Discipline": {
+  "title": "Martial Discipline",
+  "description": (
+    "**Lv 3 Skill**\n"
+    "Knuckle Main or Sub / Knuckle Main only (depends on effect)\n"
+    "**Type**: Passive\n\n"
+    "**Passive Effect**:\n"
+    "- Increases the damage of Martial Skills by (1 * Skill Level)% (requires Knuckles equipped on Main or Sub)\n"
+    "- Attack Speed +(Skill Level)% and +(10 * Skill Level) (only when Knuckles are Main weapon)\n\n"
+    "**Game Description**:\n"
+    "“Deepen understanding of Knuckles. Increases attack speed of Knuckles. Increases damage of Knuckle skills a little.”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869169900994846760/martialdiscipline.png?ex=68057a4c&is=680428cc&hm=938bf9524a546a344686acaea684ce2d607762454c6c6779d4e0601ee376d35a&"
+},
+
+"Chakra": {
+  "title": "Chakra",
+  "description": (
+    "**Lv 4 Skill**\n"
+    "No Limit\n"
+    "**MP Cost**: 200\n"
+    "**Damage Type**: None\n"
+    "**Base Charge Time**: 3 seconds (affected by Cast Speed)\n\n"
+    "**Skill Effect**:\n"
+    "- Restores 50 MP to user and party members on successful cast\n\n"
+    "**Buff Effect** (applies to party):\n"
+    "- **Attack MP Recovery**: +(Skill Level + MAX(0, Skill Level - 5))\n"
+    "- **Flat Skill Based Damage Reduction**: +0 (self), +(2 * base VIT) (others)\n"
+    "- **Percentage Skill Based Damage Reduction**: +10% + (2 * Skill Level)%\n"
+    "- **Buff Duration**: 10 + Skill Level seconds OR until caster is hit\n\n"
+    "**Knuckle Main/Sub Bonus**:\n"
+    "- MP Heal +50\n"
+    "- Percentage Skill Based Damage Reduction +20%\n"
+    "- Buff Duration +10 seconds\n\n"
+    "**Game Description**:\n"
+    "“Restore MP a little and add a buff to reduce the next damage for a few seconds. Increase Attack MP Recovery a little during the effect. Effective on party members.”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869169909224054784/chakra.png?ex=68057a4e&is=680428ce&hm=3ba349282290dffeccd12b6fe52ad974f104d5a1a4f533e9ffbd49e8e1224c2d&"
+},
+
+"Aggravate": {
+  "title": "Aggravate",
+  "description": (
+    "**Lv 1 Skill**\n"
+    "Knuckle Main only\n"
+    "**Type**: Passive\n\n"
+    "**Passive Effect**:\n"
+    "- **Attack MP Recovery**: +(0.5 * Skill Level)\n"
+    "- On successful auto attacks (not missed), chance to deal additional hit: (10 + 4 * Skill Level)%\n\n"
+    "**Aggravate Hit Info**:\n"
+    "- **Damage Type**: Neutral\n"
+    "- **Element**: Neutral\n"
+    "- **Skill Multiplier**: 0.05 * Skill Level (per hit)\n"
+    "- **Hit Count**: Same as triggering auto attack (damage is divided evenly)\n"
+    "- **Damage Formula**:\n"
+    "  (Physical Base Damage - target's DEF) × Skill Multiplier × Stability × Neutral Proration × (1 - Gem Reduction%)\n"
+    "- **Note**: Damage is calculated independently of the triggering auto attack; not affected by Guard\n\n"
+    "**Ailment**:\n"
+    "- **Type**: Armor Break\n"
+    "- **Chance**: 0%\n\n"
+    "**Other Notes**:\n"
+    "- Not affected by Martial Discipline\n\n"
+    "**Game Description**:\n"
+    "“Keenly attack the target again. You have a chance to deal additional damage by normal attacks of Knuckles.”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869169928308150272/aggravate.png?ex=68057a53&is=680428d3&hm=2ba3f3a3b494bb37d4344a7d7f52f5c6b351f091c0a675f3118ddde18b5639b5&"
+},
+"Strong Chase Attack": {
+  "title": "Strong Chase Attack",
+  "description": (
+    "**Lv 2 Skill**\n"
+    "Knuckle Only\n"
+    "**Type**: Passive\n\n"
+    "**Passive Effect**:\n"
+    "- Accuracy% + (Skill Level)% (default)\n\n"
+    "**Main Knuckle Only Bonus**:\n"
+    "- Aggravate Skill Multiplier + (0.05 * Skill Level)\n"
+    "- Accuracy% boost is doubled → becomes (Skill Level * 2)%\n"
+    "- Physical Pierce for Aggravate: *Still under investigation*\n\n"
+    "**Game Description**:\n"
+    "“Enhances the power of small attacks. Increases your accuracy and enhances the additional damage of [Aggravate].”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869169939372711966/strongchaseattack.png?ex=68057a55&is=680428d5&hm=102d853e530c5cd86724602eb6bf7f4bbee3c9ea4e8e706f62f1f6f0f2e74e90&"
+},
+
+"Abstract Arms": {
+  "title": "Abstract Arms",
+  "description": (
+    "**Lv 5 Skill**\n"
+    "Knuckle Only\n"
+    "**Type**: Passive\n\n"
+    "**Passive Effect**:\n"
+    "- Allows **manual evasion dash during skill animations**.\n"
+    "- Evasion cancels current skill animation, letting a **shadow/clone** perform the animation instead.\n"
+    "- Skill cooldown:\n"
+    "  • Main Knuckle: (10 - Skill Level) sec\n"
+    "  • Sub Knuckle: (20 - Skill Level) sec\n"
+    "- Cannot use again until the shadow finishes its animation.\n"
+    "- Using this while in **Combo** cancels that Combo instantly.\n\n"
+    "**Can be used with**:\n"
+    "- All Martial skills **except** Slide, Energy Control, Asura Aura\n"
+    "- Crusher skills: Breathworks, Combination, God Hand\n"
+    "- Buff skills: MP Charge, War Cry, War Cry of Struggle, Quick Aura, Kairiki Ranshin, Guardian\n\n"
+    "**Notes**:\n"
+    "- Srd/Lrd% from Abstract Chariot is applied **when the clone deals damage**, not on cast.\n"
+    "- Clone of Abstract God Hand does **not grant buff** when taking hits.\n\n"
+    "**Game Description**:\n"
+    "“Enables Evasion (Manual Only) while using certain Martial skills. After activating it, you need to wait before you can activate it again. Not available for some skills that perform special actions.”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/967826840192450650/psychothousandhands.png?ex=680522fc&is=6803d17c&hm=cae037e2d75a90b7cd9ff6e70d44f435e88df53a030b208134d338c4fc7fe29d&"
+},
+
+"Asura Aura": {
+  "title": "Asura Aura",
+  "description": (
+    "**Lv 5 Skill**\n"
+    "Knuckle Only\n"
+    "**MP Cost**: 0\n"
+    "**Type**: Toggle Buff\n\n"
+
+    "**Punch Damage**:\n"
+    "- Multiplier: 0.95 + (Base AGI / (2400 - Skill Level * 200))\n"
+    "- Sub-Knuckle Penalty: 0.5 + (Base AGI / (2400 - Skill Level * 200))\n"
+    "- Constant: 0\n"
+    "- Hit Range: 2.5m\n"
+    "- Interval: 1 hit per 0.25 sec (Unaffected by Motion Speed, Swift, Freeze)\n\n"
+
+    "**Buff Effect (Asura Mode)**:\n"
+    "- All skills except Martial/Crusher cost +100 MP (after combo tag reductions)\n"
+    "- Gain 1 Asura Stack per 100 MP used\n"
+    "- At 20+ Stacks: You lose 5% Max HP **per stack gained**\n"
+    "- At 40 Stacks: Instant Death\n"
+    "- Taking damage → Lose 100 MP to reduce damage by (MP * 5%) [max 95%] and gain 1 stack\n"
+    "- No Attack MP Recovery (Decoy, auto attacks, etc.)\n"
+    "- Actions like Burning Spirit or Manual Guard **still recover MP** based on AMPR\n"
+    "- Skill Constant +20 * Skill Level (except for Asura punches); halved for sub-knuckle\n"
+    "- [Main Knuckle] Damage Dealt +30% (multiplicative)\n"
+    "- Flat Critical +7.5 * Skill Level; sub-knuckle = ÷3\n"
+    "- Ailment Resistance: +1% per 10 MP (max 100%) [additive with MTL/equipment]\n\n"
+
+    "**Auto Attack Effects in Asura Mode**:\n"
+    "- Triggers **infinite punches** with Perfect Aim [Main Knuckle only]\n"
+    "- Stops when target is too far, or you skill/manual guard/evasion\n"
+    "- Does **not inflict prorate**, uses Physical Proration\n\n"
+
+    "**Auto Attack with Asura Stacks (NOT in Asura Mode)**:\n"
+    "- Triggers 1 punch per stack with Perfect Aim [Main Knuckle only]\n"
+    "- Each punch can recover: (Total AMPR / 10) * Skill Level MP (halved on sub)\n"
+    "- Missed hits do **not** recover MP (stack is still consumed)\n"
+    "- Same cancel conditions as above\n"
+    "- These also don’t inflict prorate, Physical Proration only\n\n"
+
+    "**Partial Buffs when NOT in Asura Mode (but with ≥1 stack)**:\n"
+    "- Flat Critical +7.5 * Skill Level; ÷3 if sub-knuck\n"
+    "- Skill Constant +20 * Skill Level; halved if sub-knuck\n"
+    "- [Main Knuckle] Damage Dealt +10% (additive)\n\n"
+
+    "**Other Notes**:\n"
+    "- Turning Asura ON resets stacks to 0 and gives 2 sec Iframe\n"
+    "- Turning Asura OFF removes Iframe immediately if it's active\n"
+    "- Stack MP recovery upon changing maps: stack * 50 MP (fixed)\n"
+    "- Using this again toggles Asura Mode ON/OFF\n"
+    "- Asura punches are **unaffected** by SRD/LRD, and still benefit from Brave Aura etc.\n"
+    "- Game Description: “Unleashes the demon power that is hidden inside. While active, ATK increases and if you receive damage, MP will be used to mitigate the damage, but in exchange, you will lose Attack MP Recovery and MP cost will increase.”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/967826840393756672/asuraaura.png?ex=680522fc&is=6803d17c&hm=cdd07237a7e88dbe367e2774f7804b4377a0af9d385e39c9153a3faa20c904e3&"
+},
+"Flash Blink": {
+  "title": "Flash Blink",
+  "description": (
+    "**Lv 5 Skill**\n"
+    "Knuckle Only\n"
+    "**MP Cost**: 100\n"
+    "**Damage Type**: Physical\n"
+    "**Cast Range**: Max 6m\n\n"
+
+    "**Damage**:\n"
+    "- Base Skill Multiplier: 3 + 0.3 * Skill Level\n"
+    "- [Main Knuckle Only] Additional Multiplier: + (Base AGI / 300)\n"
+    "- Skill Constant: 100\n"
+    "- Hit Count: 1 + Additional Hits based on Evasion Used\n\n"
+
+    "**Additional Hits Mechanic**:\n"
+    "- Total Add Hits = Max Evasion Stack - Current Evasion Stack\n"
+    "- Add Hit Damage Scaling:\n"
+    "  • 1st: 50% of Main Hit\n"
+    "  • 2nd: 25%\n"
+    "  • 3rd: 12.5%\n"
+    "  • 4th: 6.25%\n"
+    "  • ...continues halving\n"
+    "- Damage is based on **Normal Auto Attack Proration**, and also inflicts it\n"
+    "- **SRD% does not affect this skill**\n\n"
+
+    "**Buff Effect**:\n"
+    "- After using Flash Blink, your **next skill** gains +[Skill Level]% SRD%\n"
+    "- Buff Duration: Until you use another skill\n\n"
+
+    "Game Description: “Sends out a residual image to attack. The hit count increases according to the number of Evasions used. The power of the next close range attack increases.”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/967826840913858610/flasharts.png?ex=680522fc&is=6803d17c&hm=2ea1cf80a4a3affa8f00e16b80d91db8b42eba8d7b8c14723baec2ada31ff9bb&"
+},
+"Energy Control": {
+  "title": "Energy Control",
+  "description": (
+    "**Lv 5 Skill**\n"
+    "Knuckle Only\n"
+    "**MP Cost**: 100\n\n"
+
+    "**Skill Effect**:\n"
+    "- Reduces **all incoming damage to 0** during animation\n"
+    "- Successful parry grants **Chakra Buff (no MP recovery)**\n"
+    "- Chakra Level granted = your current Chakra Level, capped at Energy Control Level\n"
+    "- Grants Base Weapon ATK% and Stability buffs if parry successful\n"
+    "- Cannot gain or keep Eburst stacks/buffs while this buff is active\n\n"
+
+    "**Chakra Buff Effects**:\n"
+    "- AMPR + (Chakra Level + MAX(0, Chakra Level - 5))\n"
+    "- %Skill-Based Damage Reduction: 10% + 2% per Chakra Level\n"
+    "- Buff Duration: 10 + Chakra Level seconds OR until hit\n"
+    "- [Main Knuckle Only]: Extra +10s duration for Chakra buff\n"
+    "- [Main Knuckle Only]: +20% to Skill-Based Damage Reduction\n\n"
+
+    "**Base Weapon ATK% and Stability Buffs**:\n"
+    "- +5% * Skill Level Weapon ATK (Main Knuckle only)\n"
+    "- Caps at 50% total (combined with Annihilator)\n"
+    "- Stability: +10% (all weapons)\n"
+    "- Duration =\n"
+    "  • Lv1: 30s\n"
+    "  • Lv2: 32s\n"
+    "  • Lv3: 35s\n"
+    "  • Lv4: 40s\n"
+    "  • Lv5: 45s\n"
+    "  • Lv6: 50s\n"
+    "  • Lv7: 60s\n"
+    "  • Lv8: 70s\n"
+    "  • Lv9: 80s\n"
+    "  • Lv10: 90s\n\n"
+
+    "Game Description: “Control the flow of energy and turns it aside. Nullifies the damage received while performing it and receives the buffs of Chakra except the MP Recovery effect. The level of Chakra that activates will not surpass the level of Energy Control acquired.”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/967826840620253224/dispersingforce.png?ex=680522fc&is=6803d17c&hm=577f3de5ceba50347b0cc60edf3c988136354997d3cf7ba67fc07d24f731cfaf&"
+},
+"Mountain Press": {
+  "title": "Mountain Press",
+  "description": (
+    "**T5 Skill**\n"
+    "Knuckles / Main Bare Hand Only\n"
+    "**MP Cost**: 500\n"
+    "**Damage Type**: Physical\n"
+    "**Cast Range**: 4m\n\n"
+
+    "**Base Skill Multiplier**:\n"
+    "- Knuckles: 7.5 + 0.25 * Skill Level\n"
+    "- Barehand/Sub-weapon: 7.5 + 0.25 * Skill Level + (higher of DEX or AGI) / 100\n"
+    "**Base Skill Constant**: 500\n\n"
+
+    "**Ailment: Stun**\n"
+    "- Chance: 100% (Knuckles), 10% * Skill Level (Barehand)\n"
+    "- Duration: 5s\n"
+    "- Resistance Cooldown: 30s (Easy~Nightmare), 35s (Ultimate)\n\n"
+
+    "**Buff Effect**:\n"
+    "- Aggravate extra hits become **Critical** if auto attack is Critical\n"
+    "- Knuckle Main: Aggravate additional hit activation = **100%**\n"
+    "- Aggravate gets +10% multiplier per successful activation during buff (max ×50; 5x multiplier)\n"
+    "- Buff Duration: Equal to Stun Resistance Cooldown\n\n"
+
+    "Notes:\n"
+    "- Affected by Short Range Damage\n"
+    "- Physical Proration\n\n"
+    
+    "Game Description: A powerful shoulder strike. Chance to inflict [Stun] on the target. "
+    "*If the stun debuff is prevented due to active resistance, the buff effect from the skill \"Aggravate\" will be applied.*"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/1343488332599922699/1348187339406573588/sprite_1.png?ex=6805430d&is=6803f18d&hm=76a9400619e764152a9e797f86c14e071587be5b465fec9514fac52023fb6ca9&"
+},
+"Seismic Stomp": {
+  "title": "Seismic Stomp",
+  "description": (
+    "**T5 Skill**\n"
+    "Knuckles / Main Bare Hand Only\n"
+    "**MP Cost**: 300\n"
+    "**Damage Type**: Physical\n"
+    "**Cast Range**: 2m\n\n"
+
+    "**Base Skill Multiplier**:\n"
+    "- Knuckles: 7.5 + 0.25 * Skill Level\n"
+    "- Barehand/Sub-weapon: 7.5 + 0.25 * Skill Level + (higher of DEX or STR) / 100\n"
+    "**Base Skill Constant**: 300\n\n"
+
+    "**Ailment: Flinch**\n"
+    "- Chance: 10% * Skill Level\n"
+    "- Duration: 2s\n"
+    "- Resistance Cooldown: 6s (Easy~Hard), 7s (NM), 10s (Ultimate)\n\n"
+
+    "**MP Recovery Effect**:\n"
+    "- 600 + (Total AMPR * 2)\n"
+    "- Affected by Chakra, Aggravate, Quick Motion, Raving Storm, Ether Flame, Hidden Talent, Equipments, Crystas, Consumables, Infinity Gem, Stoodie Buff\n\n"
+
+    "Notes:\n"
+    "- Affected by Short Range Damage\n"
+    "- Physical Proration\n\n"
+
+    "Game Description: Throws your opponent off balance with a heavy stomp. Chance to inflict [Flinch] on the target. "
+    "If successful, a large amount of MP will be restored."
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/1343488332599922699/1348187331928260662/sprite_2.png?ex=6805430c&is=6803f18c&hm=891ea5997ffd0c5d3b824b5ac0beca2ede26a0e73ac984d948f3d35e4bc11509&"
+},
+"Spin Sweep": {
+  "title": "Spin Sweep",
+  "description": (
+    "**T5 Skill**\n"
+    "Knuckles / Main Bare Hand Only\n"
+    "**MP Cost**: 400\n"
+    "**Damage Type**: Physical\n"
+    "**Cast Range**: 2m\n\n"
+
+    "**Base Skill Multiplier (Main Hit)**:\n"
+    "- Knuckles: 2.5 + 0.25 * Skill Level\n"
+    "- Barehand/Sub: 2.5 + 0.25 * Skill Level + (higher of AGI or STR)/100\n"
+    "**Base Skill Constant**: 400\n\n"
+
+    "**Additional Hit (Wheel Kick)**:\n"
+    "- Knuckles: 5 + 0.5 * Skill Level + (Base AGI / 100)\n"
+    "- Barehand: 5 + 0.5 * Skill Level\n"
+    "- Constant: 400 + 40 * Skill Level\n\n"
+
+    "**Ailment: Tumble**\n"
+    "- Chance: 100%\n"
+    "- Duration: 3s\n"
+    "- Resistance Cooldown: 8s (Easy~Hard), 14s (NM), 20s (Ultimate)\n\n"
+
+    "**Buff Effect**:\n"
+    "- Immunity to: Suction, Slow, Stop\n"
+    "- Evasion Recovery:\n"
+    "  • Barehand/Sub-MD: +1\n"
+    "  • Sub-Knuckles: +1.7\n"
+    "  • Sub-Dagger: +2\n"
+    "  • Main Knuckles: +3\n"
+    "- Buff Duration: 2 + floor(Skill Level / 2)\n\n"
+
+    "Notes:\n"
+    "- Affected by Short Range Damage\n"
+    "- Physical Proration\n\n"
+
+    "Game Description: Trips your opponent with a leg sweep. Chance to inflict [Tumble] on the target. "
+    "If successful, you will perform additional attacks and gain a buff for a few seconds. "
+    "All Weapons Bonus: Evasion will be slightly restored when the buff is gained. The buff lasts for a few seconds and during this time, movement disruption due to [Slow], [Stop] and pull attacks will be prevented."
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/1343488332599922699/1348187346876760084/sprite.png?ex=6805430f&is=6803f18f&hm=932bd3be328b35c5395b1fb5259a61a9afeca8802de6a995e2bc1e193e01d9f8&"
+}
+
+}
+
+
+
+
+
+################################ KATANA #########################################
+
+
+
+skillskatana = {
+    
+"Issen": {
+  "title": "Issen",
+  "description": (
+    "**Lv 1 Skill**\n"
+    "Katana Main / Sub Only\n"
+    "**MP Cost**: 100\n"
+    "**Damage Type**: Physical\n"
+    "**Cast Range**: Follows Katana Auto Attack Range\n\n"
+
+    "**Hit Count**: 2 hits\n"
+    "- First Hit: Multiplier = 0.5 | Constant = 0\n"
+    "- Second Hit: Multiplier = 1 + 0.05 * Skill Level | Constant = 50 + 5 * Skill Level\n\n"
+
+    "**Skill Effects**:\n"
+    "- Treated as an **Unsheathe Attack**\n"
+    "- Second Hit: **Critical Rate ×3** (200% boost)\n"
+    "  → Effective Crit = Total Critical Rate * 3\n\n"
+
+    "Game Description: Slash an enemy at a blinding speed. High Critical Rate at the second hit."
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869209932795351050/issen.png?ex=68059f95&is=68044e15&hm=56c927dab3c399154c19cec7781d9e2533ada8351980051eabad83c0b0011a54&"
+},
+"Pulse Blade": {
+  "title": "Pulse Blade",
+  "description": (
+    "**Lv 1 Skill**\n"
+    "Katana Main / Sub Only\n"
+    "**MP Cost**: 100\n"
+    "**Damage Type**: Physical\n"
+    "**Cast Range**: 12m\n\n"
+
+    "**Hit Count**: 3 hits\n"
+    "- First Hit Multiplier: 0.5\n"
+    "- Second Hit: 0.5 + 0.05 * Skill Level\n"
+    "- Third Hit: 0.5 + 0.1 * Skill Level\n"
+    "- Constant for All Hits: 30 + Skill Level\n"
+    "- Critical: Calculated once, applied to all 3 hits\n\n"
+
+    "**Skill Effects**:\n"
+    "- Treated as an **Unsheathe Attack**\n"
+    "- **Distance-based DEF penalty** applied to target:\n"
+    "  → Penalty = (Distance - Katana Auto Range) * (11 - Skill Level)/100\n"
+    "  → New Target DEF = Original DEF * (1 + Penalty), Penalty min = 0\n"
+    "- If used **outside combo** or as the **last combo skill**, and user is not Slowed or Stopped:\n"
+    "  → Allows **dash movement** using trackball during sheathing animation\n\n"
+
+    "Game Description: Slash an enemy with an aerial slash at a distance. "
+    "The damage decreases as you get further away from the target. "
+    "You can move when sheathing the katana."
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869209948033265664/pulseblade.png?ex=68059f98&is=68044e18&hm=871c31b0575cadd4fb747a7648e31be057ff10f2870341bd1810cf757f9d2527&"
+},
+"Triple Thrust": {
+  "title": "Triple Thrust",
+  "description": (
+    "**Lv 2 Skill**\n"
+    "Katana Main / Sub Only\n"
+    "**MP Cost**: 300\n"
+    "**Damage Type**: Physical\n"
+    "**Cast Range**: 12m\n\n"
+
+    "**Hit Count**: 3 hits (damage calculated once, split evenly)\n"
+    "**Base Skill Multiplier**: 1.5 + 0.2 * Skill Level + (AGI / 500)\n"
+    "**Base Skill Constant**: 0\n\n"
+
+    "**Skill Effects**:\n"
+    "- Treated as an **Unsheathe Attack**\n"
+    "- Movement: Moves you **behind** the target upon hit\n\n"
+
+    "**Buff Effect**:\n"
+    "- Boosts **Skill Constant** of next attack skill\n"
+    "  → Constant Increase = Player Level / (11 - Skill Level)\n"
+    "- Buff lasts **until a skill is used**\n\n"
+
+    "Game Description: Quickly approach and thrust a target. Move behind a target when attacking. "
+    "Increase the damage of the next skill a little."
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869209966223970304/triplethrust.png?ex=68059f9d&is=68044e1d&hm=13a477fe73667b0069bc80b0adf44bfddcb27d94d0e13ea4a6cd3eef20ad35d9&"
+},
+"Hasso Happa": {
+  "title": "Hasso Happa",
+  "description": (
+    "**Lv 3 Skill**\n"
+    "Katana Main / Sub Only\n"
+    "**MP Cost**: 500\n"
+    "**Damage Type**: Physical\n"
+    "**Cast Range**: Follows Katana Auto Attack Range\n"
+    "**Hit Range**: \n"
+    "- 2m (Lv 1–2), 3m (Lv 3–6), 4m (Lv 7–10) around caster\n\n"
+
+    "**Hit Count**:\n"
+    "- First Hit: Always 1 hit\n"
+    "- Extra Hits: 0 (Lv 1–3), 1 (Lv 4–6), 2 (Lv 7–10)\n"
+    "- Each hit has its own damage calculation\n\n"
+
+    "**Multipliers**:\n"
+    "- First Hit: 2.2 (Lv 1) → 6.0 (Lv 10)\n"
+    "- Other Hits: Same as above except Lv 10 = 3.0 (not 6.0)\n"
+    "- Constant: 130 + 2 × Skill Level\n\n"
+
+    "**Skill Effects**:\n"
+    "- Treated as **Unsheathe Attack**\n"
+    "- Has **Perfect Aim**\n"
+    "- Usable dash via trackball during sheathing animation if not Slowed/Stunned\n"
+    "- [Main Katana Only] Enhanced version called **Sakura Ranman** triggers if used after **Kasumisetsu Getsuka** (requires 1 Sakura stack):\n"
+    "  → Adds +1 + 0.5 + 0.5 multiplier to each hit compared to normal Hasso\n"
+    "  → Recovers **+300 MP** per Sakura Ranman hit (max 600 MP per cast)\n\n"
+
+    "**Combo Interaction**:\n"
+    "- **Triple Thrust** Skill Constant buff is divided across hit count\n\n"
+    "**Other Notes**:\n"
+    "- Unaffected by Whack\n"
+    "- Affected by **Short Range Damage** regardless of distance\n\n"
+
+    "Game Description: Slash all enemies in a certain space. Deal damage to enemies around you without fail. You can move when sheathing the katana."
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869209983663898674/hassohappa.png?ex=68059fa1&is=68044e21&hm=957602be86e2c71b51efd3b92d1d2d5821e19412acfb2887333a7c0362bf670f&"
+},
+"Tenryu Ransei": {
+  "title": "Tenryu Ransei",
+  "description": (
+    "**Lv 4 Skill**\n"
+    "Katana Main / Sub Only\n"
+    "**MP Cost**: 300 (reduced to 100 after gaining stack)\n"
+    "**Damage Type**: Physical\n"
+    "**Cast Range**: Follows Katana Auto Attack Range\n\n"
+
+    "**Hit Count**: 4 hits (damage spread evenly)\n"
+    "**Multiplier**: 1.5 + 0.25 × Skill Level\n"
+    "**Constant**: 10 × Skill Level\n"
+    "**Stack Effect**:\n"
+    "- Base multiplier × (1 + stack count), max 3 stacks\n"
+    "- Accuracy +10 × (1 + stack count), max 3 stacks\n"
+    "- Motion Speed: 125% - 15% × stack count (max 3 stacks)\n\n"
+
+    "**Skill Effects**:\n"
+    "- Treated as **Unsheathe Attack**\n"
+    "- Doesn’t apply proration if it's the last skill used\n"
+    "- Auto-attacks break this chain\n\n"
+
+    "**Buff Mechanics**:\n"
+    "- Gain 1 stack per use (max 4)\n"
+    "- Buff lasts 10s from Tenryu, 30s from **Madagachi**/**Zantei Settetsu**, or extended via **Kasumisetsu Getsuka**\n"
+    "- Using Madagachi/Zantei/Kasumisetsu while buff is active refreshes duration but **resets stacks**\n"
+    "- Special mode: **Tenryu Ransei: Zannou/Zanyu** triggers under certain conditions\n"
+    "- Auto attack delay = 0 (unless under Paralysis, Fear, etc.)\n\n"
+
+    "**Limitations**:\n"
+    "- Zantei version can't inflict Armor Break\n\n"
+
+    "Game Description: Furiously slash consecutively. Power increases for a while every time you use the skill (4 times at most). "
+    "Special attack is applied to Madagachi/Zantei Settetsu by meeting certain conditions and the buff duration increases."
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869210013200179240/tenryuransei.png?ex=68059fa8&is=68044e28&hm=09828d01dd06ef49f3dcb02e67c794942704a1fe507eb3aec6fec256744566a5&"
+},
+"Garyou Tensei": {
+  "title": "Garyou Tensei",
+  "description": (
+    "**Lv 4 Skill**\n"
+    "Katana Main / Sub Only\n"
+    "**MP Cost**: 500\n"
+    "**Damage Type**: Physical\n"
+    "**Cast Range**: Follows Katana Auto Attack Range\n"
+    "**Hit Count**: 1 hit\n"
+    "**Not an Unsheathe Attack**\n\n"
+
+    "**Damage Formula**:\n"
+    "- Multiplier = MAX[0.2 × Skill Level; (0.2 × Skill Level + Stack Count ÷ 10) × Stack Count]\n"
+    "- Constant: 100\n\n"
+
+    "**Critical Penalty**:\n"
+    "- Critical Rate = -(110 - 10 × Skill Level)\n"
+    "- If **Kairiki Ranshin Buff** is active:\n"
+    "  → Garyou removes the buff\n"
+    "  → Gains +100 Flat Crit Rate and +100% Physical Pierce for this skill only\n\n"
+
+    "**Bonus vs Armor Break**:\n"
+    "- If the target has **Armor Break**, Garyou's constant ×10\n\n"
+
+    "**Buff Aftercast**:\n"
+    "- Gain Damage Reduction Buff: 5% × number of Garyou stacks\n"
+    "- Buff duration = number of Garyou stacks (in seconds)\n\n"
+
+    "**Divine Slash Condition**:\n"
+    "- If using **Garyou Tensei Lv 10** with 10/10 stacks **during Shadowless Slash animation**, this skill becomes **Divine Slash**\n\n"
+
+    "**Stack System**:\n"
+    "- Gain 1 stack (max 10) for each:\n"
+    "  → Mononofu skill used\n"
+    "  → Dash-enhanced normal attack (main katana only)\n"
+    "- Stacks expire upon using Garyou\n\n"
+
+    "**Passive Effect**:\n"
+    "- +2% damage to all Mononofu skills per stack (up to 10 = 20%)\n"
+    "- After Garyou/Divine Slash, you always get +20% Mononofu damage **regardless of stack count** for the duration of the damage reduction buff\n\n"
+
+    "Game Description: The ultimate slash. The power increases every time you use certain Mononofu Skills (10 times at Most). "
+    "Power increases against targets inflicted with [Armor Break]. Critical Rate is extremely low."
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869210019932012614/garyoutensei.png?ex=68059fa9&is=68044e29&hm=429b1edb285741a21d345f1a12cd552fa79b8f3b9ca665648835ca95132c5bd0&"
+},
+"Pommel Strike": {
+  "title": "Pommel Strike",
+  "description": (
+    "**Lv 1 Skill**\n"
+    "Katana Main / Sub Only\n"
+    "**MP Cost**: 200\n"
+    "**Damage Type**: Physical\n"
+    "**Element**: Neutral\n"
+    "**Cast Range**: Follows Katana Auto Attack Range\n"
+    "**Hit Count**: 1 hit\n\n"
+
+    "**Damage**:\n"
+    "- Multiplier: 1 + 0.05 × Skill Level\n"
+    "- Constant: 100 + 10 × Skill Level\n\n"
+
+    "**Ailments**:\n"
+    "- **Primary**: Paralysis\n"
+    "  → Chance: 50% + (5 × Skill Level)%\n"
+    "  → Duration: 10 seconds\n"
+    "- **Secondary**: Stun (only if target is already Paralyzed)\n"
+    "  → Chance: 5 × Skill Level%\n"
+    "  → Duration: 5 seconds\n"
+    "  → Resistance Duration: 25s (Easy–Nightmare); 30s (Ultimate)\n\n"
+
+    "**Skill Effect**:\n"
+    "- If the target already has **Paralysis**, this skill will inflict **Stun** instead\n"
+    "- If using **Mind's Eye**, this skill will be stopped if the target has Paralysis\n\n"
+
+    "Game Description: Strike an enemy with the pommel. Chance to inflict [Paralysis]. Chance to inflict [Stun] if the target is paralyzed."
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869210043122344006/pomelstrike.png?ex=68059faf&is=68044e2f&hm=ed7368978b902d71170c4d13ec8c0301cb4e407de16d881cef0f903e96a7a676&"
+},
+"Magadachi": {
+  "title": "Magadachi",
+  "description": (
+    "**Lv 2 Skill**\n"
+    "Katana Main / Sub Only\n"
+    "**MP Cost**: 300\n"
+    "**Damage Type**: Physical\n"
+    "**Cast Range**: Follows Katana Auto Attack Range\n"
+    "**Hit Count**: 1 hit\n\n"
+
+    "**Damage**:\n"
+    "- Base Multiplier: 2 + 0.3 × Skill Level\n"
+    "- Constant: 100 + 10 × Skill Level\n"
+    "- *Tenryu Ransei: Zannou* Multiplier: 13 + Floor((Tenryu Base Multiplier × 100 × Stack Count) ÷ 2) ÷ 100\n"
+    "- *Tenryu Ransei: Zannou* Constant: 300\n\n"
+
+    "**Skill Effect**:\n"
+    "- If you don’t take damage before the katana lifting animation ends → normal damage dealt\n"
+    "- If you take damage before it ends → animation changes and no damage is dealt\n"
+    "- If used while Tenryu Ransei's buff is active and parry succeeds, you trigger **Tenryu Ransei: Zannou**\n"
+    "  → Considered an Unsheathe Attack\n"
+    "  → Grants **Perfect Aim** and **2s Invincibility** (or 0.5s after animation ends)\n\n"
+
+    "**Buff Effects**:\n"
+    "- Reduces **Physical & Fractional** damage taken by 90%\n"
+    "- Reduces **Magic** damage taken by 45%\n"
+    "- If damage would normally be fatal and you’re above 20% HP, you survive at **1 HP**\n"
+    "- **Negates ailment** from the reduced hit\n"
+    "- If damage is taken, **MP Recovery**: 100 + (10 × Skill Level); *-100 if used in combo*\n"
+    "- Buff lasts until damage is taken or until animation ends\n\n"
+
+    "**Notes**:\n"
+    "- This skill **does not prorate** on parry\n"
+    "- Triple Thrust’s constant boost applies to the normal attack, **not** to Tenryu Zannou\n\n"
+
+    "Game Description: Parry an enemy's attack and reduce damage only once. Nullify ailments, recover MP a little, and remain at least 1 HP when taking fatal damage at certain amount of HP. Just deal damage if you don't parry."
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869210049363460096/magadachi.png?ex=68059fb0&is=68044e30&hm=f20a8924e39e03d7c4aef79794fdbdad2db1a5e86905f75ccf0bcd0c22f2acf7&"
+},
+"Zantei Settetsu": {
+  "title": "Zantei Settetsu",
+  "description": (
+    "**Lv 3 Skill**\n"
+    "Katana Main / Sub Only\n"
+    "**MP Cost**: 400\n"
+    "**Damage Type**: Physical\n"
+    "**Cast Range**: Follows Katana Auto Attack Range\n"
+    "**Hit Count**: 4 hits + 1 counter hit\n\n"
+
+    "**Damage**:\n"
+    "- Base Multiplier: 1 + 0.2 × Skill Level (total across all 4 hits)\n"
+    "- Base Constant: 10 × Skill Level (total)\n"
+    "- *Counter Multiplier*: 5 + 1 × Skill Level\n"
+    "- *Counter Constant*: 30 × Skill Level\n"
+    "- *Tenryu Ransei: Zannou* Multiplier: 13 + Floor((Tenryu Base Multiplier × 100 × Stack Count) ÷ 2) ÷ 100\n"
+    "- *Tenryu Ransei: Zannou* Constant: 300\n\n"
+
+    "**Skill Effect**:\n"
+    "- Treated as an **Unsheathe Attack**\n"
+    "- If you take damage before the slashing animation ends → an **extra counter hit** triggers\n"
+    "- If Tenryu Ransei buff is active during this, the counter becomes **Tenryu Ransei: Zannou**\n"
+    "  → Unsheathe Attack, Perfect Aim, 2s Invincibility (or 0.5s after animation ends)\n"
+    "  → Cannot inflict Armor Break\n\n"
+
+    "**Buff Effects**:\n"
+    "- Nullifies **1 instance of damage** (sets it to 0, but still considered “taken”)\n"
+    "- Grants immunity to **Flinch, Tumble, Stun, Knockback** from that hit\n"
+    "- Buff ends after 1 hit taken or animation ends\n\n"
+
+    "**Counter Ailment**:\n"
+    "- **Armor Break**\n"
+    "  → Chance: 50% + (5 × Skill Level)%\n"
+    "  → Duration: 5s\n"
+    "  → No ailment resistance duration\n\n"
+
+    "**Notes**:\n"
+    "- Triple Thrust constant boost applies to first 4 hits\n"
+    "- Does **not apply** to counter or Tenryu Ransei: Zannou\n\n"
+
+    "Game Description: Furiously slash an enemy taking its attack. Nullify damage once and do additional attack. Chance to inflict [Armor Break] with it."
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869210055554256926/zanteisettetsu.png?ex=68059fb2&is=68044e32&hm=aad82b34753cd513326be635a8a2434ec0ff9f4b3b3e63f88c02c3be561bfa55&"
+},
+"Bushido": {
+  "title": "Bushido",
+  "description": (
+    "**Lv 1 Skill**\n"
+    "No Limit / Katana Main Only (depends on effect)\n"
+    "**Type**: Passive Skill\n\n"
+
+    "**Passive Effect**:\n"
+    "- Max HP + (10 × Skill Level)\n"
+    "- Max MP + (10 × Skill Level)\n"
+    "- Accuracy + (Skill Level)\n"
+    "- Weapon ATK + (3 × Skill Level)%\n"
+    "- Additional ATK Bonus:\n"
+    "  → +1% if Skill Level 1–2\n"
+    "  → +2% if Skill Level 3–7\n"
+    "  → +3% if Skill Level 8–10\n"
+    "*Note: All ATK effects apply only when using **Katana** as Main Weapon*"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869210066245537842/bushido.png?ex=68059fb4&is=68044e34&hm=bb2d99f3a71d0191f13aa660ab51b456b93f467c03b8ee9fae8a4e4ae6c440e0&"
+},
+"Two-Handed": {
+  "title": "Two-Handed",
+  "description": (
+    "**Lv 1 Skill**\n"
+    "No Limit / Katana Main Only (depends on effect)\n"
+    "**Type**: Passive Skill\n\n"
+
+    "**Passive Effect**:\n"
+    "- Weapon ATK + (Skill Level)%\n"
+    "- Accuracy + (Skill Level)%\n"
+    "- Critical Rate + (Skill Level)\n"
+    "- Stability + (Skill Level)%\n"
+    "*These effects only apply if your **Sub Weapon slot is empty***\n\n"
+
+    "**Conditional ATK Bonus**:\n"
+    "- When using **Katana** as Main Weapon + no Sub Weapon (excluding **Ninjutsu Scroll + Ninja Spirit**):\n"
+    "  → When you land a **Critical Auto Attack or Skill**, you gain:\n"
+    "  → **Crit ATK Multiplier**: Total ATK × (1 + 0.05 × Skill Level)\n\n"
+
+    "**Penalties (Non-Katana Main)**:\n"
+    "- Critical Rate bonus: **halved**\n"
+    "- Stability bonus: **halved**\n\n"
+
+    "*Game Description is misleading — this does **not** increase critical damage directly*"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869210098952708156/twohanded.png?ex=68059fbc&is=68044e3c&hm=38458ed9adc06d0532d5af973e79619450ea5d02925f773bf8bd8d2581b95602&"
+},
+"Meikyo Shishui": {
+  "title": "Meikyo Shishui",
+  "description": (
+    "**Lv 2 Skill**\n"
+    "No Limit\n"
+    "**MP Cost**: 200\n"
+    "**Type**: Buff Skill (no direct damage)\n\n"
+
+    "**Buff Effects**:\n"
+    "- Critical Rate: +20 + (2 × Skill Level)\n"
+    "- DEF: -100 × (11 - Skill Level)\n"
+    "- MDEF: -100 × (11 × Skill Level)\n"
+    "- Critical Damage: - (15 - Skill Level)%\n"
+    "- Duration: 10s + (2 × Skill Level) OR until you use another skill\n"
+    "- Buff applies only to the **next skill** after activation\n\n"
+
+    "**Katana Main/Sub Bonuses**:\n"
+    "- Critical Rate: +25 instead\n"
+    "- No Critical Damage penalty\n"
+    "- Buff duration is **doubled**\n\n"
+
+    "**Special Interaction**:\n"
+    "- If **Decoy** is cast immediately after Meikyo, the **crit rate bonus** persists throughout Decoy’s duration\n\n"
+
+    "Game Description: Sharpen your focus. Critical Rate greatly increases for a short time and Critical Damage, DEF, and MDEF decrease. The effect ends when you use another skill."
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869210118057787392/meikyoshisui.png?ex=68059fc1&is=68044e41&hm=fd22500aea30af717c7087a156829af6f9f5b657be873a105847e3301b75d175&"
+},
+"Shukuchi": {
+  "title": "Shukuchi",
+  "description": (
+    "**Lv 3 Skill**\n"
+    "No Limit\n"
+    "**MP Cost**: 0\n"
+    "**Type**: Passive/Dash Utility\n\n"
+
+    "**Effect**:\n"
+    "- When you use an auto attack or Mononofu attacking skill **out of range**, you will dash to the target (unless under [Slow] or [Stop])\n"
+    "- The action is queued and performed after the dash animation ends\n"
+    "- If it's an auto attack, it becomes an **Unsheathe Attack**\n\n"
+
+    "**Buff Effect (upon dash)**:\n"
+    "- Next auto attack's Skill Multiplier: +(0.05 × Skill Level)\n"
+    "- Attack MP Recovery:\n"
+    "  → Level 1: +0\n"
+    "  → Level 2: +1\n"
+    "  → Level 3: +2\n"
+    "  → ... up to +25 at Level 10\n"
+    "- Buff Duration: Until a skill or auto attack is executed\n\n"
+
+    "**Katana Main Bonus**:\n"
+    "- Attack MP Recovery is **doubled**\n\n"
+
+    "**Notes**:\n"
+    "- Works with **Rampage**: First 10 auto attacks get additive Skill Multiplier boost\n"
+    "- Applies only to **main hand** in Dual Swords\n"
+    "- Cancelling the dash removes the buff and Unsheathe effect\n"
+    "- If the queued attack doesn’t connect, buff is lost"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869210124219211786/shukuchi.png?ex=68059fc2&is=68044e42&hm=cfca15d166be1678ccf41cb240db0a8ed6c06ccb31d22dfe6c9654000fe3ba3d&"
+},
+"Kairiki Ranshin": {
+  "title": "Kairiki Ranshin",
+  "description": (
+    "**Lv 4 Skill**\n"
+    "No Limit\n"
+    "**MP Cost**: 200\n"
+    "**Type**: Buff\n\n"
+
+    "**Effect**:\n"
+    "- Inflicts [Ignite] on self\n"
+    "- Duration depends on level:\n"
+    "  → Level 1: 5s, Level 2–3: 6s, ..., Level 10: 10s\n"
+    "- No resistance time\n\n"
+
+    "**Buff Effects**:\n"
+    "- ATK: +(10 × Skill Level)\n"
+    "- Attack MP Recovery: up to +25 at Level 10\n"
+    "- Auto Attack Skill Multiplier: +(0.05 × Skill Level)\n"
+    "- Garyou Tensei:\n"
+    "  → + (10 × Skill Level) Critical Rate\n"
+    "  → + (10 × Skill Level)% Physical Pierce\n"
+    "- Ends when you use **Garyou Tensei**\n\n"
+
+    "**Katana Main/Sub Bonus**:\n"
+    "- Auto Attack Multiplier bonus: +0.5\n"
+    "- Buff Duration: **tripled**\n\n"
+
+    "**Notes**:\n"
+    "- Works with **Rampage**: Skill Multiplier boost applies to first 10 auto attacks\n"
+    "- Only affects main hand for Dual Swords"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869210132490379284/kairikiranshin.png?ex=68059fc4&is=68044e44&hm=ec9595c2c3b8890058dce6efe25f818b1f43071c1640612044e0947f87205e11&"
+},
+"Bouncing Blade": {
+  "title": "Bouncing Blade",
+  "description": (
+    "**Lv 3 Skill**\n"
+    "Katana Main Only\n"
+    "**MP Cost**: 100\n"
+    "**Damage Type**: Physical\n\n"
+
+    "**Base Stats**:\n"
+    "- Multiplier: 2 + (0.2 × Skill Level)\n"
+    "- Constant: 100 × 10 × Skill Level\n"
+    "- Hit Count: 1 hit\n"
+    "- Range: Katana Auto Attack Range\n\n"
+
+    "**Skill Effect**:\n"
+    "- If you receive damage during the skill's animation:\n"
+    "  → The skill triggers a **counterattack** and deals damage\n"
+    "  → You gain **(current Garyou Stacks + 2)**\n"
+    "- If you don't get hit: No damage, no proration\n"
+    "- Immune to Flinch, Tumble, Stun **while waiting to receive damage**\n\n"
+
+    "**Buff Effect (if damage is taken)**:\n"
+    "- HP Recovery: + (Skill Level × 10)% of the damage taken\n"
+    "- MP Cost of **next skill**: **Halved**\n"
+    "- Accuracy Boost: (Base Accuracy × Weapon ATK × (0.05 + 0.02 × Skill Level)%)\n\n"
+
+    "**Game Description**: A defensive scabbard technique. Counterattacks if hit once, heals HP, reduces next skill MP cost, and increases accuracy."
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869210141868851251/bouncingblade.png?ex=68059fc6&is=68044e46&hm=3411c5908fb6d0925a747ddb22e9ba4b0fd860b7ccfd630fcebd3e815b8eeb3f&"
+},
+"Kasumisetsu Getsuka": {
+  "title": "Kasumisetsu Getsuka",
+  "description": (
+    "**Lv 5 Skill**\n"
+    "Main Katana Only\n"
+    "**MP Cost**: 500\n"
+    "**Damage Type**: Physical\n\n"
+
+    "**First 4 Hits**:\n"
+    "- Multiplier: 7.5 + (0.75 × Skill Level)\n"
+    "- Constant: 500\n"
+    "- Hit Count: 4 hits (calculated once and split evenly)\n\n"
+
+    "**Last Hit (or Zanyu Variant)**:\n"
+    "- Multiplier: 1 + (Total DEX ÷ 250)\n"
+    "- Constant: 200\n"
+    "- If Tenryu Ransei is active:\n"
+    "  → Multiplier: (1.5 + 0.25 × Tenryu Skill Lv) × Tenryu Stack + TotalDEX / (50 × (5 − Stack))\n"
+    "  → Constant: 200\n"
+    "- Hit Count: 1 (evaluated independently)\n\n"
+
+    "**Effect**:\n"
+    "- Treated as an **Unsheathe Attack**\n"
+    "- If **Tenryu Ransei buff** is active:\n"
+    "  → Last hit becomes **Tenryu Ransei: Zanyu**\n"
+    "  → Buff duration refreshed: 10 + (10 × Stack) sec (Bowtana: −10s penalty)\n"
+    "  → Consumes 3 stacks; **2 stacks** if you successfully parry with this skill\n"
+    "- If no Tenryu stack: Skill still usable, but no buff refresh\n\n"
+
+    "**Defense**:\n"
+    "- Slight **Physical/Magic Damage Reduction** during animation:\n"
+    "  → Reduction% = SkillLv × 9 − (max(0, SkillLv × 9 − 50) ÷ 2)\n"
+    "- Immune to **Flinch**, **Tumble**, **Stun**, and **Knockback** (even absolute variants)\n\n"
+
+    "**Main Katana Only Bonuses**:\n"
+    "- Last Hit / Zanyu:\n"
+    "  → + (Base STR ÷ 5) Critical Rate\n"
+    "  → + (Base DEX ÷ 5)% Physical Pierce\n"
+    "- Using **Hasso Happa** immediately after this skill triggers **Sakura Ranman** special action\n\n"
+
+    "**Miscellaneous**:\n"
+    "- Default cast range = Weapon’s auto attack range\n"
+    "- If used with bow (Bowtana): cast range follows **bow**\n"
+    "- Does **not** give Perfect Aim or invincibility (unlike Zannou or Zantei)\n\n"
+
+    "**Game Description**:\n"
+    "“Attacks the target with a series of slashes and slightly reduces the damage received while it is active. Performs a special attack if Tenryu Ransei is in effect, and the number of times it is used determines the duration of the power increase.”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/967838736916316250/kasumisetsugetsuka.png?ex=68052e10&is=6803dc90&hm=23fd9599b87dac3c0c529d7d1523d5f9d3040ce9ec50e55be8d14b785cda1774&"
+},
+"Shadowless Slash": {
+  "title": "Shadowless Slash",
+  "description": (
+    "**Lv 5 Skill**\n"
+    "Main Katana Only\n"
+    "**MP Cost**: 300\n"
+    "**Damage Type**: Physical\n\n"
+
+    "**Base Damage**:\n"
+    "- Multiplier (all 5 hits): 4 + (0.5 × Skill Lv) + (Base DEX ÷ 200) + (Base AGI ÷ 200)\n"
+    "- Constant: 300\n"
+    "- Hit Count: 5 (calculated once, split evenly)\n"
+    "- Cast Range: Weapon’s Auto Attack Max Range (Bowtana: follows bow range)\n\n"
+
+    "**Skill Effects**:\n"
+    "- Treated as an **Unsheathe Attack**\n"
+    "- Ignores **Short Range Damage%** scaling regardless of distance\n"
+    "- **Grants +2 Garyou stacks** on use\n"
+    "- **Accuracy Bonus**: +200 × Skill Level\n"
+    "- Grants ability to dash post-cast; successful dash gives Enhanced Auto-Attack buff (Bowtana excluded)\n\n"
+
+    "**Main Katana Bonus**:\n"
+    "- If **Garyou Stack = 10/10** and Garyou skill at max level:\n"
+    "  → Using Garyou during Shadowless animation triggers **Divine Slash** (must occur within the hit animation window)\n"
+    "  → Skill usage between them is allowed, but **Divine Slash** must activate within Shadowless hit window\n"
+    "- **Divine Slash** Properties:\n"
+    "  → Damage Type: Physical, Unsheathe, SRD%-affected\n"
+    "  → Has **Perfect Aim**, **2s Invincibility**, and **cannot be evaded** unless forced/absolute evasion\n"
+    "  → Triggers **Kairiki Ranshin** effect (based on Kairiki skill level)\n"
+    "  → Stats:\n"
+    "    • Multiplier: 30 + (Base Weapon ATK ÷ 100)\n"
+    "    • Constant: 500 (no Armor Break) / 1000 (with Armor Break)\n"
+    "    • Hit Count: 1\n"
+    "    • + (10 × Kairiki Lv) Critical Rate\n"
+    "    • + (10 × Kairiki Lv)% Physical Pierce\n\n"
+
+    "**Buff (After Divine Slash lands)**:\n"
+    "- Unsheathe ATK + TRUNC((Total STR + Total DEX) ÷ 51)%\n"
+    "- Duration: 10 seconds\n\n"
+
+    "**Proration Behavior**:\n"
+    "- Shadowless Slash uses physical proration **on cast**\n"
+    "- Physical proration is **inflicted at the end** of the animation\n"
+    "- Recasting Shadowless before damage log cancels previous proration\n"
+    "- **Divine Slash** damage is calculated immediately when text appears, not on landing\n"
+    "- Combo “Shadowless → Garyou”: Divine Slash inherits Shadowless proration (−2 physical total)\n\n"
+
+    "**Game Description**:\n"
+    "“Rapidly slashes the enemy. It’s so fast that even the enemy doesn’t know when the katana leaves its scabbard. Attacks with high accuracy and grants 2 of Garyou Tensei’s buffs. You can move when sheathing the katana.”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/967838737180528750/muezan.png?ex=68052e10&is=6803dc90&hm=c10af8e47fb5c3ee2df10d3fa366e38284df08615aee4070ed5fa8e16e80e3d8&"
+},
+"Nukiuchi Sennosen": {
+  "title": "Nukiuchi Sennosen",
+  "description": (
+    "**Lv 5 Skill**\n"
+    "Main Katana Only\n"
+    "**Type**: Passive\n\n"
+
+    "**Charge Mechanic**:\n"
+    "- Passive activates after charging for **(12 − Skill Level)** seconds by **not using any attacks**\n"
+    "- Performing a **Katana Dash** reduces the charge time by **1 second**\n"
+    "- At **Level 10**, a single Katana Dash instantly activates the glowing state\n"
+    "- If any attack (auto or skill) is used before the charge completes, the timer resets\n\n"
+
+    "**Glowing Effect (Once Charged)**:\n"
+    "- Replaces Shukuchi Auto Attack’s multiplier with **400% of its normal value**\n"
+    "- **Constant** increases as HP decreases:\n"
+    "  → Constant = 1000 × (100% − Current HP%)\n"
+    "  → Example: At 25% HP → Constant = 1000 × (1 − 0.25) = 750\n"
+    "- **Stacks additively** with:\n"
+    "  • Kairiki Ranshin auto multiplier buff\n"
+    "  • Berserk buff\n"
+    "  • Other multipliers\n"
+    "- If **Enhanced Auto-Attack buff** is active (from Shukuchi dash), it will **double** this Nukiuchi Auto’s total damage\n\n"
+
+    "**Special Interaction**:\n"
+    "- If used with **Pulse Blade**, this passive transforms it into **Swift Pulse Blade**\n"
+    "  → Swift Pulse Blade deals **5x** the normal Pulse Blade damage\n"
+    "  → Note: Swift Pulse Blade does **not** contribute to proration\n\n"
+
+    "**Game Description**:\n"
+    "“A sword-drawing technique that is like a miracle. When not attacking for a certain period of time, the normal attack with Shukuchi will be greatly enhanced. The less HP you have, the more powerful it is.”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/967838736522047548/shukuchi.png?ex=68052e10&is=6803dc90&hm=29e32d7020acc334372f20a9a3c532f18ab5fb94dfde66bac706da60f111868f&"
+},
+"Dauntless": {
+  "title": "Dauntless",
+  "description": (
+    "**Lv 5 Skill**\n"
+    "Main Katana Only\n"
+    "**Type**: Passive\n\n"
+
+    "**Dauntless Stack Mechanic**:\n"
+    "- Gains **1 stack every (12 − Skill Level)** seconds when fighting miniboss/boss\n"
+    "- Max stacks: **100**\n"
+    "- If no miniboss or boss is present: **Lose 1 stack every 2 seconds**\n"
+    "- **Parry skills** (Magadachi, Zantei Settetsu, Bouncing Blade) give **+2 stacks** per successful parry\n"
+    "- Killing a miniboss: **Lose 10%** of current stacks\n\n"
+
+    "**Stack Threshold Buffs**:\n"
+    "• **10+ stacks**: Accuracy + (Stack/10 × 10)\n"
+    "• **20+ stacks**: Flat Weapon ATK + (Stack/10 × 5)\n"
+    "• **30+ stacks**: Unsheathe Damage + (Stack/10)%\n"
+    "• **40+ stacks**: Motion Speed +12.5%\n"
+    "• **50+ stacks**:\n"
+    "  - Gain a one-time **iFrame during Katana slide animation** (similar to Zantei iFrame; prevents GSW/Aura cancel)\n"
+    "  - **Kasumisetsu Getsuka** consumes 1 less Tenryu Stack\n"
+    "  - **Tenryu Ransei Base Multiplier** +1\n"
+    "• **60+ stacks**: Flat Base Weapon ATK + (Stack/10 × 5)\n"
+    "• **70+ stacks**: Unsheathe Damage + (Stack/10)% (additional)\n"
+    "• **80+ stacks**: Motion Speed +12.5% (additional)\n"
+    "• **90+ stacks**: MP Cost of all Mononofu skills is **halved**\n"
+    "• **100 stacks**: Weapon ATK % increased by **(2 × weapon refine value)%**\n\n"
+
+    "**Game Description**:\n"
+    "“A strong determination to confront the enemy. Dauntless automatically accumulates when fighting against a powerful enemy. Grants various buffs for every 10 Dauntless points accumulated. The effects end when the enemy is defeated.”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/967838736714956891/futoufukutsu.png?ex=68052e10&is=6803dc90&hm=9868f9b6bbb91d12a085a93d94c31201f661c0cb78e826c336f0e6ea2a11cb24&"
+}
+
+
+
+
+
+
+
+
 
 }
