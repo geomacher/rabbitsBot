@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 import discord
 from discord.ext import commands
 from discord.ui import View, Button
-from skillDesc import skillsblade, skillsshot, skillshalberd
+from skillDesc import skillsblade, skillsshot, skillshalberd, skillskatana, skillsmartial
 
 load_dotenv()
 
@@ -7069,19 +7069,32 @@ class bladeView(View):
         for label, data in skillsblade.items():
             self.add_item(SkillButton(label, data))
 
-
 class shotView(View):
     def __init__(self):
         super().__init__(timeout=None)
         for label, data in skillsshot.items():
             self.add_item(SkillButton(label, data))
 
-
 class halberdView(View):
     def __init__(self):
         super().__init__(timeout=None)
         for label, data in skillshalberd.items():
             self.add_item(SkillButton(label, data))
+
+class martialView(View):
+    def __init__(self):
+        super().__init__(timeout=None)
+        for label, data in skillsmartial.items():
+            self.add_item(SkillButton(label, data))
+
+
+class katanaView(View):
+    def __init__(self):
+        super().__init__(timeout=None)
+        for label, data in skillskatana.items():
+            self.add_item(SkillButton(label, data))           
+
+
 
 
 @bot.command(name='blade', aliases=['bladeskill'])
@@ -7099,9 +7112,15 @@ async def shot(ctx):
     view = halberdView()
     await ctx.send("Pilih salah satu skill:", view=view)
 
+@bot.command(name='martial', aliases=['martialskill'])
+async def shot(ctx):
+    view = martialView()
+    await ctx.send("Pilih salah satu skill:", view=view)
 
-
-
+@bot.command(name='katana', aliases=['katanaskill'])
+async def shot(ctx):
+    view = katanaView()
+    await ctx.send("Pilih salah satu skill:", view=view)
 
 
 ######################################################################
