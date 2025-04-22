@@ -5194,7 +5194,7 @@ async def int(ctx):
     await ctx.send(embed=embed)
 
 
-@bot.command(name='maggro', aliases=['minaggrp'])
+@bot.command(name='maggro', aliases=['minaggro', "-aggro"])
 async def maggro(ctx):
     embed = discord.Embed(title='Code Alamat -Aggro')
     embed.add_field(name='Name', value='White Stew', inline=False)
