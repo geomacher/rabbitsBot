@@ -7104,7 +7104,7 @@ class dualswordView(View):
 class magicView(View):
     def __init__(self):
         super().__init__(timeout=None)
-        for label, data in skillsdualsword.items():
+        for label, data in skillsmagic.items():
             self.add_item(SkillButton(label, data))  
 
 
