@@ -3232,12 +3232,783 @@ skillskatana = {
   "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/967838736714956891/futoufukutsu.png?ex=68052e10&is=6803dc90&hm=9868f9b6bbb91d12a085a93d94c31201f661c0cb78e826c336f0e6ea2a11cb24&"
 }
 
+}
 
 
 
+skillsdualsword = {
+    
+    "Dual Sword Mastery": {
+  "title": "Dual Sword Mastery",
+  "description": (
+    "**Lv 1 Skill**\n"
+    "Weapon Type: One-Handed Sword / Dual Swords Only\n"
+    "**Type**: Passive\n\n"
 
+    "**Main Effect**:\n"
+    "- Enables equipping **One-Handed Sword** in sub-weapon slot to become **Dual Swords**\n"
+    "- **Sub-weapon sword stats** are ignored except for **Element**\n\n"
 
+    "**Dual Sword ATK Formula**:\n"
+    "- **Main ATK** = (Player Level + Main Weapon ATK + STR + AGI + DEX × 2) × ATK% + Flat ATK\n"
+    "- **Sub Weapon ATK** = Sub Weapon ATK × (1 + Weapon ATK% / 100 + Refine² / 200) + Refine + Flat Weapon ATK\n"
+    "- **Sub ATK** = (Player Level + Sub Weapon ATK + STR + AGI × 3) × ATK% + Flat ATK\n"
+    "- **Sub Base Damage** = (Sub ATK + Player Level − Mob Level) × (100 − Mob Physical RES%) / 100\n\n"
 
+    "**Dual Sword Skill Base Damage**:\n"
+    "- Takes **Sub ATK** and **Subhand Stability** into account\n"
+    "- **Subhand Stability** = Subhand Stability / 2 + STR × 0.06 + AGI × 0.04 + Stability% from equip/avatar/etc.\n"
+    "- **Dual Sword Skill Damage** = (Main ATK + Sub ATK × Subhand Stability + Player Level − Mob Level) × (100 − Mob Physical RES%) / 100\n\n"
 
+    "**Element Behavior**:\n"
+    "- Auto Attacks use each sword’s **own element**\n"
+    "- Dual Sword Skills use **dual element** (main + subhand element). If skill has no fixed element, both elements apply\n\n"
+
+    "**Stat Modifiers for Dual Swords**:\n"
+    "- Accuracy = −(55 − 3 × Skill Level)%\n"
+    "- Critical Rate = −(55 − 3 × Skill Level)%\n"
+    "- **Total AMPR is doubled**\n"
+    "- These stat changes apply **only if Dual Swords equipped**\n\n"
+
+    "**Special Note**:\n"
+    "- Dual Swords are still considered **One-Handed Sword** for some skill interactions\n\n"
+
+    "**Game Description**:\n"
+    "“You can equip 2 One-Handed Swords. Reduces the decline in Accuracy Rate and Critical Rate as this skill levels up.”"
+  ),
+  "image_url": ""
+},
+  "Twin Slash": {
+    "title": "Twin Slash",
+    "description": (
+      "**Lv 1 Skill**\n"
+      "Weapon Type: Dual Swords Only\n"
+      "**MP Cost**: 200\n"
+      "**Damage Type**: Physical\n"
+      "**Element**: Uses main weapon's element, but has Dual Element (adds subhand element)\n\n"
+
+      "**Skill Parameters**:\n"
+      "- **Base Skill Multiplier**: 1.5 + 0.1 × Skill Level\n"
+      "- **Base Skill Constant**: 100 + 10 × Skill Level (applies to each hit)\n"
+      "- **Hit Count**: 1 hit\n"
+      "- **Max Cast Range**: Follows main weapon's auto attack range\n\n"
+
+      "**Special Effect**:\n"
+      "- Increases **Critical Damage** by +50 + (5 × Skill Level)\n\n"
+
+      "**Game Description**:\n"
+      "“Slash the target with the swords. Increases critical damage.”"
+    ),
+    "image_url": ""
+  },
+  "Spinning Slash": {
+    "title": "Spinning Slash",
+    "description": (
+      "**Lv 2 Skill**\n"
+      "Weapon Type: Dual Swords Only\n"
+      "**MP Cost**: 100\n"
+      "**Damage Type**: Physical\n"
+      "**Element**: Wind + Subhand weapon’s element (Dual Element)\n\n"
+
+      "**Skill Parameters**:\n"
+      "- **First Hit Multiplier**: 1.25 + 0.025 × Skill Level\n"
+      "- **Whirlwind Multiplier**: 0.3 + 0.02 × Skill Level (per tick)\n"
+      "- **First Hit Constant**: 50 + 5 × Skill Level\n"
+      "- **Whirlwind Constant**: 50 + 5 × Skill Level (per tick)\n"
+      "- **Hit Count**:\n"
+      "  - First Hit: 1 hit\n"
+      "  - Whirlwind: 3 ticks, 5 hits per tick (15 total hits)\n"
+      "- **Max Cast Range**: Infinite\n"
+      "- **Hit Range**: 4m AoE around caster\n\n"
+
+      "**Ailments**:\n"
+      "- **First Hit**: Knockback (5m, halved on bosses), 100% if aggro, 0.8s resistance\n"
+      "- **Whirlwind**: Blind (Chance = 15% + 2.5 × Skill Level), Duration = 10s\n\n"
+
+      "**Other Effects**:\n"
+      "- Inflicts **Magic Proration**\n"
+      "- Unaffected by **Whack, Long Range, Short Range Damage stats**\n"
+      "- **Mind's Eye** will stop this skill if target is already **Blinded**\n"
+      "- **Triple Thrust's Constant Buff** is split between first hit and whirlwind ticks\n\n"
+
+      "**Game Description**:\n"
+      "“Slash and blow away enemies around you. Dual Element (One Handed Sword) Generate whirlwind and deal damage. Chance to inflict [Blind].”"
+    ),
+    "image_url": ""
+  },
+  "Phantom Slash": {
+    "title": "Phantom Slash",
+    "description": (
+      "**Lv 3 Skill**\n"
+      "Weapon Type: Dual Swords Only\n"
+      "**MP Cost**: 400\n"
+      "**Damage Type**: Physical\n"
+      "**Element**: Dark + Subhand weapon’s element (Dual Element)\n\n"
+
+      "**Skill Parameters**:\n"
+      "- **Base Skill Multiplier**: 5 + 0.2 × Skill Level (total for all hits)\n"
+      "- **Base Skill Constant**: 200 + 20 × Skill Level (total for all hits)\n"
+      "- **Hit Count**: 12 hits (damage is calculated once and divided evenly)\n"
+      "- **Max Cast Range**: 8m\n\n"
+
+      "**Skill Effects**:\n"
+      "- **5% chance** to instantly deal **999999999 damage** to mobs (non-bosses only)\n"
+      "- Grants **invincibility** during the animation\n"
+      "- You can **slide out of invincibility** by moving (via trackpad/joystick)\n"
+      "- **Short Range / Long Range Damage** bonuses apply **only while invincible**, not after moving\n"
+      "- **Camera angle** affects slide direction during manual exit\n\n"
+
+      "**Buff Effects**:\n"
+      "- **Invincibility** duration: 6s OR until skill ends OR you move\n\n"
+
+      "**Ailment**:\n"
+      "- **Freeze Chance**: (10 × Skill Level)%\n"
+      "- **Duration**: 10 seconds\n"
+      "- **No resistance**\n\n"
+
+      "**Game Description**:\n"
+      "“Slash a target with lightning speed. Dual Element (One Handed Sword) Become invincible mode while in action and able to cancel the mode by moving the character. Chance to kill weak monsters except bosses. Chance to inflict 'Freeze' on the target.”"
+    ),
+    "image_url": ""
+  },
+  "Cross Parry": {
+    "title": "Cross Parry",
+    "description": (
+      "**Lv 1 Skill**\n"
+      "Weapon Type: Dual Swords Only\n"
+      "**MP Cost**: 100\n"
+      "**Damage Type**: Physical\n"
+      "**Element**: Uses main weapon's element + subhand weapon's element (Dual Element)\n\n"
+
+      "**Skill Parameters**:\n"
+      "- **Base Skill Multiplier**: 1 + 0.01 × Skill Level\n"
+      "- **Base Skill Constant**: 50 + 5 × Skill Level\n"
+      "- **Hit Count**: 2 hits (damage is calculated once and divided)\n"
+      "- **Max Cast Range**: Same as main weapon's auto attack\n\n"
+
+      "**Buff Effects**:\n"
+      "- The skill toggles between two states: **Primary Buff** and **Secondary Buff**\n"
+      "- **Primary Buff**:\n"
+      "  - Physical & Magic Resistance: +10% to +90% (scales by level)\n"
+      "  - Grants immunity to: **Flinch**, **Tumble**, **Stun**, **Knockback**\n"
+      "  - Duration: Until skill animation ends OR you get hit\n"
+      "- **Secondary Buff**:\n"
+      "  - **ATK**: +(Skill Level)%\n"
+      "  - **ASPD**: +(10 × Skill Level)%\n"
+      "  - Duration: 30 seconds OR until you use the skill again\n"
+      "- Recasting during **Secondary Buff** restores the **Primary Buff**, replacing the secondary\n\n"
+
+      "**Game Description**:\n"
+      "“Parry a target's attack and push the target away. Reduce Physical/Magic damage while the skill is in action. Enhance ATK and ASPD for 30 seconds when reducing damage.”"
+    ),
+    "image_url": ""
+  },
+  "Charging Slash": {
+    "title": "Charging Slash",
+    "description": (
+      "**Lv 2 Skill**\n"
+      "Weapon Type: Dual Swords Only\n"
+      "**MP Cost**: 300\n"
+      "**Damage Type**: Physical\n"
+      "**Element**: Uses main weapon’s element + subhand weapon’s element (Dual Element)\n\n"
+
+      "**Skill Parameters**:\n"
+      "- **Base Skill Multiplier**: 1 + 0.1 × Skill Level (for each hit)\n"
+      "- **Base Skill Constant**: 100 + 20 × Skill Level (for each hit)\n"
+      "- **Hit Count**: 2 hits on main target, 1 hit on all other enemies\n"
+      "- **Hit Range (Second Hit)**: 3m around the caster\n"
+      "- **Max Cast Range**: Follows main weapon’s auto attack range\n\n"
+
+      "**Skill Effects**:\n"
+      "- Categorized as an **Unsheathe Attack**\n"
+      "- Moves you **12m forward**, hitting all enemies in the path\n"
+      "- Triple Thrust’s Skill Constant buff is **halved** for this skill\n\n"
+
+      "**Game Description**:\n"
+      "“Charge toward the target using two swords. Pass through the target and deal damage to the enemies in a straight line. Categorized as an Unsheathe Attack.”"
+    ),
+    "image_url": ""
+  },
+  "Shadowstep": {
+    "title": "Shadowstep",
+    "description": (
+      "**Lv 3 Skill**\n"
+      "Weapon Type: Dual Swords Only\n"
+      "**MP Cost**: 400 (Lv 1–2), 300 (Lv 3–6), 200 (Lv 7–10)\n"
+      "**Damage Type**: None\n\n"
+
+      "**Max Cast Range by Level**:\n"
+      "- Lv 1: 4m\n"
+      "- Lv 2–3: 5m\n"
+      "- Lv 4–5: 6m\n"
+      "- Lv 6–7: 7m\n"
+      "- Lv 8–9: 8m\n"
+      "- Lv 10: 12m\n\n"
+
+      "**Skill Effects**:\n"
+      "- **Teleport to the back** of your target\n"
+      "- Your next **auto attack becomes an Unsheathe Attack**\n\n"
+
+      "**Buff Effects**:\n"
+      "- **Attack MP Recovery**: +Skill Level\n"
+      "- **Critical Rate**: +(20 × Skill Level)% for your **next skill**\n"
+      "- **Buff Duration**: Until your next skill is used\n\n"
+
+      "**Game Description**:\n"
+      "“Quickly move behind a target's back. Enhance Attack MP Recovery until the next skill. Increase Critical Rate of skill attack one time.”"
+    ),
+    "image_url": ""
+  },
+  "Shining Cross": {
+    "title": "Shining Cross",
+    "description": (
+      "**Lv 4 Skill**\n"
+      "Weapon Type: Dual Swords Only\n"
+      "**MP Cost**: 600\n"
+      "**Damage Type**: Physical\n"
+      "**Element**: Light + subhand weapon’s element (Dual Element)\n\n"
+
+      "**Skill Parameters**:\n"
+      "- **Base Skill Multiplier**: 3 + 0.1 × Skill Level + STR/500 + DEX/500 + AGI/500 (each hit)\n"
+      "- **Base Skill Constant**: 100 + 20 × Skill Level (each hit)\n"
+      "- **Hit Count**: 2 hits (calculated individually)\n"
+      "- **Max Cast Range**: 12m\n\n"
+
+      "**Skill Effects**:\n"
+      "- **Loses 0.5 multiplier per meter** after 5m distance\n"
+      "- **MP Recovery**: (10 × Skill Level) MP per use for **each crit hit**\n"
+      "- **Does not refresh or activate** HP regen buffs like Bless/Regeras\n"
+      "- Affected by **Whack**, **Long Range**, and **Short Range Damage stats**\n\n"
+
+      "**Buff Effects**:\n"
+      "- **Heal over Time**: (0.1 × Skill Level)% Max HP every 3s\n"
+      "- If cast at **7–11m**, recovery is **doubled**\n"
+      "- If cast at **12m**, recovery is **tripled**\n"
+      "- **Buff Duration**: 9 seconds\n\n"
+
+      "**Game Description**:\n"
+      "“A pair of light blades slashes darkness. Dual Element (One Handed Sword) Deal more damage as the distance is closer. Restore MP with Critical. Grant a buff to restore small amount of HP, and it cannot be overwritten.”"
+    ),
+    "image_url": ""
+  },
+  "Reflex": {
+    "title": "Reflex",
+    "description": (
+      "**Lv 1 Skill**\n"
+      "Weapon Type: No Limit\n"
+      "**MP Cost**: 100\n\n"
+
+      "**Buff Effects**:\n"
+      "- Evasion Recharge: +10% + (2 × Skill Level)%\n"
+      "- DEF & MDEF: −(100 − Skill Level)%\n"
+      "- **Buff Duration**: 10 seconds\n"
+      "- **Dual Swords Bonus**: Buff Duration extended by **1 minute and 30 seconds**\n\n"
+
+      "**Game Description**:\n"
+      "“Increases Evasion Recharge for a short time. Decreases DEF and MDEF a lot.”"
+    ),
+    "image_url": ""
+  },
+  "Flash Blast": {
+    "title": "Flash Blast",
+    "description": (
+      "**Lv 3 Skill**\n"
+      "Weapon Type: No Limit\n"
+      "**MP Cost**: 200\n\n"
+
+      "**Buff Effects**:\n"
+      "- Unsheathe Attack Power: +Skill Level%\n"
+      "- Triggers a **Wind-elemental physical blast** when you **evade** or use **Shadowstep**\n"
+      "- Buff Duration: 20 seconds\n"
+      "- **Dual Swords Bonus**:\n"
+      "  - Buff Duration +1 minute and 40 seconds\n"
+      "  - Blast becomes **Dual Element** (gets subhand element)\n"
+      "  - Buff gives Weapon ATK +25% (main weapon only)\n"
+      "  - Evasion Count: +Floor(Skill Level / 5)\n"
+      "- **One-Handed Sword Bonus (including Dual Swords)**:\n"
+      "  - Blast Skill Multiplier +0.5\n"
+      "  - Blast Hit Range +1m\n\n"
+
+      "**Blast Parameters**:\n"
+      "- Damage Type: Physical\n"
+      "- Element: Wind (Dual Element if Dual Swords)\n"
+      "- Base Skill Multiplier: 0.5 + 0.15 × Skill Level (per hit)\n"
+      "- Base Skill Constant: 100 + 10 × Skill Level (per hit)\n"
+      "- Hit Count: 2 hits (calculated separately)\n"
+      "- Hit Range: 4m (5m if One-Handed Sword equipped)\n\n"
+
+      "**Other Notes**:\n"
+      "- Blast is unaffected by Impact or Shadowstep’s “next skill” buffs\n"
+      "- Triple Thrust’s Skill Constant buff is divided by 2\n\n"
+
+      "**Game Description**:\n"
+      "“Dual Element (One Handed Sword) Enhance Unsheathe Power for a short period of time and add a powerful counter when activating Evasion. It is activated when using [Shadowstep].”"
+    ),
+    "image_url": ""
+  },
+  "Storm Reaper": {
+    "title": "Storm Reaper",
+    "description": (
+      "**Lv 4 Skill**\n"
+      "Weapon Type: Dual Swords Only\n"
+      "**MP Cost**: 400\n"
+      "**Damage Type**: Physical\n\n"
+
+      "**Skill Parameters**:\n"
+      "- Base Skill Multiplier: 4 + 0.1 × Skill Level + Floor(DEX/25) × (Skill Level/100)\n"
+      "- Base Skill Constant: 100 + 10 × Skill Level (per hit)\n"
+      "- Hit Count: 2 hits (calculated individually)\n"
+      "- Max Cast Range: Based on main weapon’s auto attack range\n\n"
+
+      "**Skill Effects**:\n"
+      "- Treated as an **Unsheathe Attack**\n"
+      "- Treated as if cast from **50m range** (for damage), so:\n"
+      "  - Always affected by **Long Range Damage** and **Long Range passive**\n"
+      "  - **Never affected by Short Range Damage stats**\n"
+      "- You leap **9m backward** and become **invincible** for:\n"
+      "  - 2 seconds OR\n"
+      "  - Until the leap ends\n\n"
+
+      "**Buff Effects**:\n"
+      "- Buff: Increases next **Short Range Damage** by:\n"
+      "  → (10 × Skill Level)% × Floor(Distance Traveled / 9 × 10) / 10\n"
+      "- Buff Duration: Until your next skill is used\n"
+      "- **Note**: Buff does **not apply to auto attacks**, Additional Melee, or Additional Magic\n\n"
+
+      "**Game Description**:\n"
+      "“Attack a target and jump back quickly. The damage of the next close ranged attack greatly increases. Invincible while jumping back.”"
+    ),
+    "image_url": ""
+  },
+
+  "Dual Sword Control": {
+    "title": "Dual Sword Control",
+    "description": (
+      "**Lv 1 Skill**\n"
+      "Weapon Type: Dual Swords Only\n"
+      "**Type**: Passive\n\n"
+
+      "**Passive Effects**:\n"
+      "- Attack Speed: +(50 × Skill Level)\n"
+      "- Accuracy: +5% + (3 × Skill Level)%\n"
+      "- Critical Rate: +5% + (3 × Skill Level)%\n\n"
+
+      "**Game Description**:\n"
+      "“Increases ASPD of Dual Swords. Reduces the disadvantages of Dual Swords.”"
+    ),
+    "image_url": ""
+  },
+  "Godspeed": {
+    "title": "Godspeed",
+    "description": (
+      "**Lv 2 Skill**\n"
+      "Weapon Type: No Limit\n"
+      "**Type**: Passive\n\n"
+
+      "**Passive Effects**:\n"
+      "- AGI +1 → +15 (based on skill level)\n"
+      "- Unsheathe Attack +5% + (1% × Skill Level)\n"
+      "- **Dual Swords Bonus**: Unsheathe Attack +10% (additional)\n\n"
+
+      "**Game Description**:\n"
+      "“Increases AGI and Unsheathe Attacks such as First Attack, Evasion Attacks, and certain skills.”"
+    ),
+    "image_url": ""
+  },
+  "Saber Aura": {
+    "title": "Saber Aura",
+    "description": (
+      "**Lv 4 Skill**\n"
+      "Weapon Type: Dual Swords Only\n"
+      "**MP Cost**: 900\n\n"
+
+      "**Buff Effects**:\n"
+      "- Starts with 1 stack\n"
+      "- Gains 1 stack every:\n"
+      "  • 7 sec (Lv1), 6 sec (Lv2-3), 5 sec (Lv4-5), 4 sec (Lv6-7), 3 sec (Lv8-9), 2 sec (Lv10)\n"
+      "- Movement Speed: Doubled (overridden by Stop, stacks with Slow)\n"
+      "- Attack Speed: +(10 × Skill Level × Stacks)%\n"
+      "- Accuracy: +(5 × Skill Level × Stacks)\n"
+      "- Attack MP Recovery: +(Ceil(0.5 × Skill Level) × Stacks) ×2 (**Dual Swords Bonus**)\n"
+      "- HP Drain: Every second you lose:\n"
+      "  (25 − 2 × Skill Level + 5 × (Stacks − 1))% of current HP (max 99%)\n"
+      "- If HP drain would reduce HP below 5% or you take lethal damage:\n"
+      "  → Buff ends, enters **Cooldown**, and you recover (5 × Stacks)% of Max HP\n"
+      "- **While in Cooldown**:\n"
+      "  • All stat bonuses end\n"
+      "  • Cannot recast Saber Aura\n"
+      "- Buff Duration after entering cooldown: (10 + Stacks) seconds\n\n"
+
+      "**Special Notes**:\n"
+      "- Skill **cannot be used in combos**\n"
+      "- **Shukuchi is disabled** while active\n"
+      "- If this buff saves you from death (1 HP), **Decoy will vanish**\n"
+      "- **Regretless** can bypass this skill’s protection and still instantly kill\n\n"
+
+      "**Game Description**:\n"
+      "“The two blades emit a divine light. Increase various stats and movement speed. Continuously use HP while the effect is active. The effect ends when you become unable to use HP. Unable to use redundantly.”"
+    ),
+    "image_url": ""
+  },
+
+  "Aerial Cut": {
+    "title": "Aerial Cut",
+    "description": (
+      "**Lv 5 Skill**\n"
+      "Weapon Type: Dual Swords Only\n"
+      "**MP Cost**: 100\n"
+      "**Damage Type**: Physical\n"
+      "**Element**: Wind\n"
+      "**Dual Element**: Yes (inherits subhand element)\n\n"
+
+      "**Main Hits**:\n"
+      "- Base Skill Multiplier: 2.15 + (Spinning Slash Lv × 0.085) + (Floor(DEX / 10)% × Skill Level)\n"
+      "- Base Skill Constant: 50 + (Spinning Slash Lv × 5)\n"
+      "- Hit Count: 3 (damage split evenly)\n"
+      "- Ailment: Blind (25% chance, 10 seconds duration)\n\n"
+
+      "**Additional Hit**:\n"
+      "- Base Skill Multiplier: 5 + Skill Level + (Base STR / 100)\n"
+      "- Base Skill Constant: 20 × Skill Level\n"
+      "- Hit Count: 1\n"
+      "- Critical Damage Bonus:\n"
+      "  • 50% of Twin Slash’s CD bonus (if target **not blinded**)\n"
+      "  • 100% of Twin Slash’s CD bonus (if target **is blinded**)\n"
+      "  • CD bonus is floored then scaled, capped under 300% CDMG\n\n"
+
+      "**Distance Penalties (for Additional Hit only)**:\n"
+      "- CDMG penalty: −20 flat per meter starting from 8m\n"
+      "- STR Multiplier penalty: −20% per meter starting from 8m\n"
+      "- Penalty Formula (for both): 20 × MAX(0; Distance − 7)\n\n"
+
+      "**Range & Activation**:\n"
+      "- Max Cast Range: 12m\n"
+      "- Not treated as Unsheathe\n"
+      "- Affected by Short Range Damage and Long Range Damage (also Long Range passive)\n\n"
+
+      "**Special Effects**:\n"
+      "- If Spinning Slash's Whirlwind animation is active and Aerial Cut is used while moving forward:\n"
+      "  → Triggers Additional Hit (costs extra 2 MP bars)\n"
+      "  → Cancels Spinning Slash animation immediately\n"
+      "- Extra MP consumption is **not affected** by Combo Tags or MP reduction effects\n"
+      "- Unique Proration:\n"
+      "  • Main Hits = Magic Proration\n"
+      "  • Additional Hit = Physical Proration\n"
+      "  (Both still deal Physical damage)\n\n"
+
+      "**Fun Fact**:\n"
+      "- Aerial Cut’s first hit has same base multiplier as full Spinning Slash (1st hit + 3 whirlwinds)\n"
+      "- If using Spinning Slash Compress Registlet: +0.5 Mult per SS hit\n"
+      "  → Bonus also applies to Aerial Cut’s first hit (ex. +2 Mult total)\n"
+      "  → Final Mult = (Spinning Slash full Mult) + Dex Bonus\n\n"
+
+      "**Game Description**:\n"
+      "“A sword technique released without deploying Spinning Slash. Dual Element with (One-Handed Sword). While deploying Spinning Slash, press the button to move forward and the powerful additional attacks will be unleashed.”\n"
+      "- The Power of Aerial Cut depends on the level of Spinning Slash acquired\n"
+      "- Increased critical damage from Twin Slash acquired will apply to the additional attacks, increased further if target is blinded"
+    ),
+    "image_url": ""
+  },
+
+  "Lunar Misfortune": {
+    "title": "Lunar Misfortune",
+    "description": (
+      "**Lv 5 Skill**\n"
+      "Weapon Type: Dual Swords Only\n"
+      "**MP Cost**: 400\n"
+      "**Damage Type**: Physical\n"
+      "**Element**: Dark (Dual Element: yes — inherits subhand element)\n\n"
+
+      "**Main Hits**:\n"
+      "- Base Skill Multiplier: 5 + (Skill Level × 0.5) + (Total DEX / 200)\n"
+      "- Base Skill Constant: 400\n"
+      "- Hit Count: 2 (spread evenly)\n"
+      "- Additional Bonus if Cast ≥8m: +Total DEX / 100 (DEX always applies; halved if cast <8m)\n"
+      "- Only Main Hits are affected by Unsheathe Attack\n"
+      "- Damage affected by SRD% or LRD% depending on cast range\n"
+      "- Teleports you 1m in front of the target on use\n\n"
+
+      "**Additional AoE Hits** (if player moves backward during Main Hit animation):\n"
+      "- Base Skill Multiplier: 2.5 + (0.05 × Skill Level)\n"
+      "- Base Skill Constant: 0\n"
+      "- Hit Count: 5 (each hit calculated individually)\n"
+      "- Hit Range: Starts at 1m, grows by +0.5m per hit (up to 3m max)\n"
+      "- Critical Rate: Uses **Physical Critical Rate**\n"
+      "- Critical Damage: Uses **Physical Critical Damage**\n"
+      "- Physical Pierce Bonus: +(5 × Skill Level)%\n"
+      "- MP Recovery: (10 + 7 × Skill Level) per hit that lands (only 1× per target, even if multi-hit)\n\n"
+
+      "**Proration**:\n"
+      "- Main Hit: Physical Proration (deals & applies it)\n"
+      "- Additional Hits:\n"
+      "  • If target was NOT hit by Main Hit: Applies Magic Proration\n"
+      "  • If target WAS hit by Main Hit: No proration applied\n\n"
+
+      "**Special Effects**:\n"
+      "- Grants **Shadowstep Buff** upon teleport (disappears after next skill like usual)\n"
+      "- Grants buff to boost **Shining Cross → Blazing Shining Cross**:\n"
+      "  • Multiplier (Lv10): 4 + (Total STR + AGI + DEX)/400 (per hit)\n"
+      "  • Buff Duration: 6 sec per Additional Hit landed (max 30 sec)\n"
+      "  • MP Recovery during this buff is **doubled**\n\n"
+
+      "**Skill Transformation Combos**:\n"
+      "- If using **Phantom Slash** during Lunar's teleport animation → becomes **Phantom Eclipse**:\n"
+      "  • Motion becomes max swift\n"
+      "- If using **Storm Reaper** during teleport animation → becomes **Orbit Reaper**:\n"
+      "  • Motion becomes max swift\n"
+      "  • SRD% Buff replaced by LRD% Buff with halved value:\n"
+      "    → LRD% Buff: (5 × Skill Level)% × FLOOR(Distance Travelled / 9 × 10)/10\n\n"
+
+      "**Game Description**:\n"
+      "“Dazzling moonlight. Dual Element with (One-Handed Sword). Power increases (based on DEX) when activated 8m or more from target. Press the back button right after it activates to quickly retreat and pierce the enemy with flying moonlight blade.”"
+    ),
+    "image_url": ""
+  },
+
+  "Twin Buster Blade": {
+    "title": "Twin Buster Blade",
+    "description": (
+      "**Lv 5 Skill**\n"
+      "Weapon Type: Dual Swords Only\n"
+      "**MP Cost**: 300\n"
+      "**Damage Type**: Physical\n"
+      "**Element**: Main Weapon’s Element (Dual Element active — inherits subhand element)\n\n"
+
+      "**Main Hit**:\n"
+      "- Base Skill Multiplier: (0.75 × Skill Level) + (Base AGI + Base DEX)/200\n"
+      "- Base Skill Constant: 10 × Skill Level\n"
+      "- Hit Count: 4 (damage calculated once, split evenly)\n"
+      "- **Always Critical**: Main hits have Absolute Critical\n"
+      "- Affected by SRD%\n"
+      "- Not affected by Unsheathe%\n\n"
+
+      "**Additional AoE Hit**:\n"
+      "- Base Skill Multiplier: 5 + (Base STR / 200 × Number of enemies hit)\n"
+      "- Base Skill Constant: 20 × Skill Level\n"
+      "- Hit Count: 1\n"
+      "- AoE Range: 6m in front, 2m behind target\n"
+      "- Affected by **Unsheathe%** only (not SRD%, unless fixed; now SRD affects this too)\n"
+      "- Not guaranteed Critical\n\n"
+
+      "**Max Cast Range**: 7m\n\n"
+
+      "**Buff Effect (requires Buster Blade)**:\n"
+      "- Buff: +1% Weapon ATK × Buster Blade’s Level\n"
+      "- Duration: 10 seconds\n"
+      "- Using this skill again while buff is active **does not** refresh duration\n"
+      "- You receive the same buff even if **Buster Blade** skill is acquired separately\n\n"
+
+      "**Game Description**:\n"
+      "“Consecutive double slash surrounded by an aura. A series of efficient slashes resulting in a critical hit. Performs a two-stage attack with an AoE that gets stronger as more targets are involved.”"
+    ),
+    "image_url": ""
+  },
+
+  "Crescent Saber": {
+    "title": "Crescent Saber",
+    "description": (
+      "**Lv 5 Skill**\n"
+      "Weapon Type: Dual Swords Only\n"
+      "**MP Cost**: 200\n\n"
+
+      "**Passive Effect**:\n"
+      "- During Saber Aura mode, Crescent Saber replaces Saber Aura for 200 MP\n"
+      "- Requires **more than 2 Saber Aura stacks** to be used\n"
+      "- Using this skill will:\n"
+      "  - Enter Crescent Saber Mode\n"
+      "  - Reset Saber Aura cooldown\n\n"
+
+      "**On Cast Effect**:\n"
+      "- Heal: (Saber Aura Stack × 10%) of Max HP\n"
+      "- Restore Evasion by Saber Aura Stack amount\n\n"
+
+      "**Crescent Saber Mode Buff**:\n"
+      "- +10 * Skill Level Critical Rate\n"
+      "- Halves MP Cost of all non-magic skills (does not stack with Impact, Rage Sword, etc.)\n"
+      "- Cannot reuse Crescent Saber during this mode (it reverts to Saber Aura)\n"
+      "- **MP Drain**: For every 5 HP lost, lose 1 MP. If MP insufficient, buff ends immediately\n"
+      "- +AMPR: (2 × Skill Level)\n"
+      "- +Skill Constant: (Total CRIT Rate × Skill Level / 10) + ((Skill Level - 10) × Skill Level), max 200\n"
+      "- Duration: MAX(Saber Aura Stacks × 3 ; 10) seconds OR until Saber Aura is reused\n\n"
+
+      "**Game Description**:\n"
+      "“A special skill that can be activated while Saber Aura is active. Restores HP and the number of Evasions. Greatly raises Critical Rate and constantly halves all MP Cost. However, if you take damage from an enemy…”"
+    ),
+    "image_url": ""
+  },
+
+  "Aerial Slay": {
+    "title": "Aerial Slay",
+    "description": (
+      "**Tier 4 Active Skill**\n"
+      "Weapon Type: One-Handed Sword / Dual Swords Only\n"
+      "**MP Cost**: 300 (Reduced to 100 when used in Combo, except as opener)\n"
+      "**Damage Type**: Physical (Magic if using Magic Device)\n\n"
+
+      "**Base Multiplier**:\n"
+      "- Dual Swords: 10 + (Highest of Base AGI / DEX / STR) / 200\n"
+      "- Other Weapons: 5 + Total DEX / 100\n"
+      "- Constant: 100 + 20 × Skill Level\n\n"
+      "**Cast Range**:\n"
+      "- Uses weapon range\n"
+      "- Up to 12m if using MD, Arrow, or Ninjutsu Scroll\n\n"
+      "**Skill Effects**:\n"
+      "- Affected by SRD/LRD depending on range and sub-weapon\n"
+      "- Uses and deals Physical Proration\n"
+      "- You can move during animation using directional keys\n\n"
+      "**Sub-Weapon Bonuses**:\n"
+      "- **Knuckle / Dagger**: Automatically activates Swift effect\n"
+      "- **Shield**:\n"
+      "  - Damage Reduction: -2% × Shield Refinement Value\n"
+      "  - 100% immunity to Flinch/Tumble/Stun\n"
+      "  - Also negates forced immobilization (e.g., Bovinari’s Stun)\n"
+      "- **Magic Device**:\n"
+      "  - Skill becomes Magic Type\n"
+      "  - Castable up to 12m\n"
+      "- **Arrow / Ninjutsu Scroll**:\n"
+      "  - Castable up to 12m\n"
+      "- **Dual Swords**:\n"
+      "  - Greatly reduced aggro from MP usage for 5 seconds\n"
+      "  - Aggro reduction = MIN[75% ; (1 - 1/Base MP Bar Cost)]\n\n"
+
+      "**Game Description**:\n"
+      "“Slashes your enemy while trifling with them. When activated with a combo (except as opener), the required MP becomes 100. You can move with the directional keys while the skill is active.”"
+    ),
+    "image_url": ""
+  },
+  "Horizon Cut": {
+    "title": "Horizon Cut",
+    "description": (
+      "**Tier 5 Active Skill**\n"
+      "Weapon Type: One-Handed Sword / Dual Swords Only\n"
+      "**MP Cost**: 600\n"
+      "**Damage Type**: Physical\n\n"
+
+      "**Base Skill Multiplier** (Main Hit):\n"
+      "- **Dual Swords**: 4.5 + (0.05 * Skill Level) + (Total DEX / 200)\n"
+      "- **Non-Dual Swords**: 9 + (0.1 * Skill Level) + (Total DEX / 100)\n"
+      "Base Skill Constant (Main Hit):\n"
+      "- **Dual Swords**: 30 * Skill Level\n"
+      "- **Non-Dual Swords**: 60 * Skill Level\n\n"
+
+      "**Base Skill Multiplier** (Additional Hit/Dual Swords Only):\n"
+      "- 0.5 * Skill Level + (Base STR or AGI / 200) (use higher one)\n"
+      "Base Skill Constant (Additional Hit/Dual Swords Only): 30 * Skill Level\n\n"
+
+      "**Maximum Cast Range**: Follows weapon range.\n"
+      "This skill is affected by short/long range damage; uses and deals physical proration.\n\n"
+
+      "**Game Description**:\n"
+      "“Surprises your enemy with a swift backhand slash. The MP Cost for the next skill used is halved. The required MP becomes 300 when used as a combo finisher. You will tumble if you take damage while it is active.”"
+    ),
+    "image_url": ""
+  },
+  
+   
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

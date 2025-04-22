@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 import discord
 from discord.ext import commands
 from discord.ui import View, Button
-from skillDesc import skillsblade, skillsshot, skillshalberd, skillskatana, skillsmartial
+from skillDesc import skillsblade, skillsshot, skillshalberd, skillskatana, skillsmartial, skillsdualsword, skillsmagic
 
 load_dotenv()
 
@@ -7058,7 +7058,9 @@ class SkillButton(Button):
         )
         # Pakai image_url dari data jika ada
         image_url = self.data.get("image_url", "https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png")
-        embed.set_thumbnail(url=image_url)
+        thumbnail = self.data.get("thumbnail")
+        embed.set_thumbnail(image_url)
+        embed.set_image(thumbnail)
         await interaction.response.send_message(embed=embed, ephemeral=True)
 
 
@@ -7087,14 +7089,23 @@ class martialView(View):
         for label, data in skillsmartial.items():
             self.add_item(SkillButton(label, data))
 
-
 class katanaView(View):
     def __init__(self):
         super().__init__(timeout=None)
         for label, data in skillskatana.items():
             self.add_item(SkillButton(label, data))           
 
+class dualswordView(View):
+    def __init__(self):
+        super().__init__(timeout=None)
+        for label, data in skillsdualsword.items():
+            self.add_item(SkillButton(label, data))  
 
+class magicView(View):
+    def __init__(self):
+        super().__init__(timeout=None)
+        for label, data in skillsdualsword.items():
+            self.add_item(SkillButton(label, data))  
 
 
 @bot.command(name='blade', aliases=['bladeskill'])
@@ -7120,6 +7131,16 @@ async def shot(ctx):
 @bot.command(name='katana', aliases=['katanaskill'])
 async def shot(ctx):
     view = katanaView()
+    await ctx.send("Pilih salah satu skill:", view=view)
+
+@bot.command(name='dualsword', aliases=['dualswordskill'])
+async def shot(ctx):
+    view =dualswordView()
+    await ctx.send("Pilih salah satu skill:", view=view)
+
+@bot.command(name='magic', aliases=['magicskill'])
+async def shot(ctx):
+    view = magicView()
     await ctx.send("Pilih salah satu skill:", view=view)
 
 
