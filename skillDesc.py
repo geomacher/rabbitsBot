@@ -4406,53 +4406,50 @@ skillsmagic = {
     "*Fan angle: (40 + 2 * Skill Level)°*\n"
     "- **Base Cast Time**: 8 seconds (affected by Cast Speed)\n\n"
 
+    "**Buff Effect**:\n"
+    "- Gain 1 counter for each other Magic Skill used before casting\n"
+    "- Max: 8 counters\n"
+    "- Each counter reduces Total Cast Time by 1s (after Cast Speed & Chain Cast)\n"
+    "- Buff Duration: Until Magic: Burst is cast\n"
+    "- Invincibility buff after cast:\n"
+    "  - **Staff/Magic Device**: fixed 2s iframe (not cancelled by animation end)\n"
+    "  - **Others**: lasts until animation ends\n\n"
+
+    "**Ailment**:\n"
+    "- **Knockback** (not available on bosses)\n"
+    "- **Chance**: (10 * Skill Level)%\n"
+    "- **Distance**: 15m - 2 * mob size (in meters)\n"
+    "- **Resistance**: Equal to knockback distance (in seconds)\n\n"
+
+    "**Visual Stack Limit by Cast Speed**:\n"
+    "- 0/8 (0 CSPD)\n"
+    "- 0/4 (1k CSPD)\n"
+    "- 0/3 (3250 CSPD)\n"
+    "- 0/2 (5500 CSPD)\n"
+    "- 0/1 (7750 CSPD)\n"
+    "- 0/0 (10k CSPD)\n"
+    "*Note: this visual is bugged and might not update properly*\n\n"
+
+    "**Weapon Bonuses**:\n"
+    "- **Staff**: Skill Multiplier +(BaseINT / 100)\n"
+    "- **Magic Device**:\n"
+    "  - Skill Multiplier +(BaseINT / 200)\n"
+    "  - Fan Radius Bonus: +1m (Lv 1–3) / +2m (Lv 4–6) / +3m (Lv 7–10)\n"
+    "  - Fan Angle Bonus: +5° (Lv 1–3) / +10° (Lv 4–6) / +15° (Lv 7–10)\n"
+    "*Staff bonus takes precedence over Magic Device bonus*\n\n"
+
+    "**Game Description**:\n"
+    "“Enhance magic power and shoot out. Chance to Knock Back the target aiming at you. Cast Time is very long, however, it is shortened by using Magic Skills before casting.”"
+
     "**Magic: Burst Range**:\n"
     "- **Red**: Main caster position\n"
     "- **Blue**: Possible target position\n"
     "- **Green**: AoE of Magic: Burst\n"
     "- **Purple**: Burst angle\n"
     "- **Black**: Comparison circle with same radius\n\n"
-  ),
+    ),
   "thumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/869164731099906099/75140972e4e097d434f98934794d4ba2e9b62eb6r1-640-400v2_hq.png",
   "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869161461765783552/burst.png"
-  },
-  "footer": {
-    "text": (
-      "**Buff Effect**:\n"
-      "- Gain 1 counter for each other Magic Skill used before casting\n"
-      "- Max: 8 counters\n"
-      "- Each counter reduces Total Cast Time by 1s (after Cast Speed & Chain Cast)\n"
-      "- Buff Duration: Until Magic: Burst is cast\n"
-      "- Invincibility buff after cast:\n"
-      "  - **Staff/Magic Device**: fixed 2s iframe (not cancelled by animation end)\n"
-      "  - **Others**: lasts until animation ends\n\n"
-
-      "**Ailment**:\n"
-      "- **Knockback** (not available on bosses)\n"
-      "- **Chance**: (10 * Skill Level)%\n"
-      "- **Distance**: 15m - 2 * mob size (in meters)\n"
-      "- **Resistance**: Equal to knockback distance (in seconds)\n\n"
-
-      "**Visual Stack Limit by Cast Speed**:\n"
-      "- 0/8 (0 CSPD)\n"
-      "- 0/4 (1k CSPD)\n"
-      "- 0/3 (3250 CSPD)\n"
-      "- 0/2 (5500 CSPD)\n"
-      "- 0/1 (7750 CSPD)\n"
-      "- 0/0 (10k CSPD)\n"
-      "*Note: this visual is bugged and might not update properly*\n\n"
-
-      "**Weapon Bonuses**:\n"
-      "- **Staff**: Skill Multiplier +(BaseINT / 100)\n"
-      "- **Magic Device**:\n"
-      "  - Skill Multiplier +(BaseINT / 200)\n"
-      "  - Fan Radius Bonus: +1m (Lv 1–3) / +2m (Lv 4–6) / +3m (Lv 7–10)\n"
-      "  - Fan Angle Bonus: +5° (Lv 1–3) / +10° (Lv 4–6) / +15° (Lv 7–10)\n"
-      "*Staff bonus takes precedence over Magic Device bonus*\n\n"
-
-      "**Game Description**:\n"
-      "“Enhance magic power and shoot out. Chance to Knock Back the target aiming at you. Cast Time is very long, however, it is shortened by using Magic Skills before casting.”"
-    )
   }
 }
 
