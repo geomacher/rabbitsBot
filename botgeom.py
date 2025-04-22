@@ -7059,8 +7059,8 @@ class SkillButton(Button):
         # Pakai image_url dari data jika ada
         image_url = self.data.get("image_url", "https://cdn.discordapp.com/attachments/945573573827911680/1357330845920268429/WM_PNG.png")
         thumbnail = self.data.get("thumbnail")
-        embed.set_thumbnail(image_url)
-        embed.set_image(thumbnail)
+        embed.set_thumbnail(url=image_url)
+        embed.set_image(url=thumbnail)
         await interaction.response.send_message(embed=embed, ephemeral=True)
 
 
