@@ -3276,7 +3276,7 @@ skillsdualsword = {
     "**Game Description**:\n"
     "“You can equip 2 One-Handed Swords. Reduces the decline in Accuracy Rate and Critical Rate as this skill levels up.”"
   ),
-  "image_url": ""
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869188573906235473/dualswordmastery.png?ex=68082eb0&is=6806dd30&hm=89b00550f579b288d2aa6a5b67368cfcd8a698c5169fd64b1b387ea41c6121ac&"
 },
   "Twin Slash": {
     "title": "Twin Slash",
@@ -3299,7 +3299,7 @@ skillsdualsword = {
       "**Game Description**:\n"
       "“Slash the target with the swords. Increases critical damage.”"
     ),
-    "image_url": ""
+    "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869188605355130951/twinslash.png?ex=68082eb8&is=6806dd38&hm=865930687886ff1ea18bc0810e40941e76c59c10486af86b8255d6a1c7f7e285&"
   },
   "Spinning Slash": {
     "title": "Spinning Slash",
@@ -3334,7 +3334,7 @@ skillsdualsword = {
       "**Game Description**:\n"
       "“Slash and blow away enemies around you. Dual Element (One Handed Sword) Generate whirlwind and deal damage. Chance to inflict [Blind].”"
     ),
-    "image_url": ""
+    "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869188592780607558/spinningslash.png?ex=68082eb5&is=6806dd35&hm=1ae49bfb97eb6f37b840fc96c6e6fc789af989080a68a6b817d0a7afdce6e4ae&"
   },
   "Phantom Slash": {
     "title": "Phantom Slash",
@@ -3369,7 +3369,7 @@ skillsdualsword = {
       "**Game Description**:\n"
       "“Slash a target with lightning speed. Dual Element (One Handed Sword) Become invincible mode while in action and able to cancel the mode by moving the character. Chance to kill weak monsters except bosses. Chance to inflict 'Freeze' on the target.”"
     ),
-    "image_url": ""
+    "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869188614851026964/phantomslash.png?ex=68082eba&is=6806dd3a&hm=05fd5dfa72a903e4742410bba4a8dcd0ef693480e847edd5bd14604e99efc585&"
   },
   "Cross Parry": {
     "title": "Cross Parry",
@@ -3401,7 +3401,7 @@ skillsdualsword = {
       "**Game Description**:\n"
       "“Parry a target's attack and push the target away. Reduce Physical/Magic damage while the skill is in action. Enhance ATK and ASPD for 30 seconds when reducing damage.”"
     ),
-    "image_url": ""
+    "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869188645247148112/crossparry.png?ex=68082ec1&is=6806dd41&hm=ae6bec545d6a241b488fda89cc702922813910f81ed1672e2f3509e098895375&https://cdn.discordapp.com/attachments/614452674137686022/869188645247148112/crossparry.png?ex=68082ec1&is=6806dd41&hm=ae6bec545d6a241b488fda89cc702922813910f81ed1672e2f3509e098895375&"
   },
   "Charging Slash": {
     "title": "Charging Slash",
@@ -3427,7 +3427,7 @@ skillsdualsword = {
       "**Game Description**:\n"
       "“Charge toward the target using two swords. Pass through the target and deal damage to the enemies in a straight line. Categorized as an Unsheathe Attack.”"
     ),
-    "image_url": ""
+    "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869188655506403368/chargingslash.png?ex=68082ec4&is=6806dd44&hm=8d2dc65613ae62b8c3276331ef4c3e1d36f96d5a2ea4da49e29e0c62105bec09&"
   },
   "Shadowstep": {
     "title": "Shadowstep",
@@ -3457,7 +3457,7 @@ skillsdualsword = {
       "**Game Description**:\n"
       "“Quickly move behind a target's back. Enhance Attack MP Recovery until the next skill. Increase Critical Rate of skill attack one time.”"
     ),
-    "image_url": ""
+    "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869188783558524998/shadowstep.png?ex=68082ee2&is=6806dd62&hm=1c06886fde674aa00739bae8c6e8bd57902af34e9580931cacc952cc77d88e25&"
   },
   "Shining Cross": {
     "title": "Shining Cross",
@@ -3489,7 +3489,7 @@ skillsdualsword = {
       "**Game Description**:\n"
       "“A pair of light blades slashes darkness. Dual Element (One Handed Sword) Deal more damage as the distance is closer. Restore MP with Critical. Grant a buff to restore small amount of HP, and it cannot be overwritten.”"
     ),
-    "image_url": ""
+    "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869188803649232946/shiningcross.png?ex=68082ee7&is=6806dd67&hm=6dd0521d67fe88c4b841b8d018a7baf445bcbd18daf1bc62b63ee7b642210e6c&"
   },
   "Reflex": {
     "title": "Reflex",
@@ -3507,7 +3507,7 @@ skillsdualsword = {
       "**Game Description**:\n"
       "“Increases Evasion Recharge for a short time. Decreases DEF and MDEF a lot.”"
     ),
-    "image_url": ""
+    "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869188821353377812/reflex.png?ex=68082eeb&is=6806dd6b&hm=90174cf2f99bf3a568c6b81636420ba671e00b20c6eccd1134b8c26bb1ab7fc0&"
   },
   "Flash Blast": {
     "title": "Flash Blast",
@@ -3544,7 +3544,7 @@ skillsdualsword = {
       "**Game Description**:\n"
       "“Dual Element (One Handed Sword) Enhance Unsheathe Power for a short period of time and add a powerful counter when activating Evasion. It is activated when using [Shadowstep].”"
     ),
-    "image_url": ""
+    "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869188830190792734/flashblast.png?ex=68082eed&is=6806dd6d&hm=4b67a22d9f5a85c9148faefb5d277985b2a187d19d1a2db9179993a63056b5e9&"
   },
   "Storm Reaper": {
     "title": "Storm Reaper",
@@ -3578,7 +3578,7 @@ skillsdualsword = {
       "**Game Description**:\n"
       "“Attack a target and jump back quickly. The damage of the next close ranged attack greatly increases. Invincible while jumping back.”"
     ),
-    "image_url": ""
+    "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869188857520857118/stormreaper.png?ex=68082ef4&is=6806dd74&hm=b72ade7b7fb6330c85083d0d55380fa6f2055387a4ce4aabe3fd16872f25491b&"
   },
 
   "Dual Sword Control": {
@@ -3596,7 +3596,7 @@ skillsdualsword = {
       "**Game Description**:\n"
       "“Increases ASPD of Dual Swords. Reduces the disadvantages of Dual Swords.”"
     ),
-    "image_url": ""
+    "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869188883835928576/dualswordcontrol.png?ex=68082efa&is=6806dd7a&hm=4000cd30be117ddab72a03bccbe21d5ed86024be9040730576f27138f08df526&"
   },
   "Godspeed": {
     "title": "Godspeed",
@@ -3613,7 +3613,7 @@ skillsdualsword = {
       "**Game Description**:\n"
       "“Increases AGI and Unsheathe Attacks such as First Attack, Evasion Attacks, and certain skills.”"
     ),
-    "image_url": ""
+    "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869188894053244948/godspeed.png?ex=68082efd&is=6806dd7d&hm=38bdd3a85535ba7b96265339fbdcaf383a8b1a5d8c7aefb71d54ca165a3a7962&"
   },
   "Saber Aura": {
     "title": "Saber Aura",
@@ -3648,7 +3648,7 @@ skillsdualsword = {
       "**Game Description**:\n"
       "“The two blades emit a divine light. Increase various stats and movement speed. Continuously use HP while the effect is active. The effect ends when you become unable to use HP. Unable to use redundantly.”"
     ),
-    "image_url": ""
+    "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869188910947901490/saberaura.png?ex=68082f01&is=6806dd81&hm=d4a7821266a26b5560edec46acc87edcfdfb3713969cf8eb4dd3fff73bb7f666&"
   },
 
   "Aerial Cut": {
@@ -3707,7 +3707,7 @@ skillsdualsword = {
       "- The Power of Aerial Cut depends on the level of Spinning Slash acquired\n"
       "- Increased critical damage from Twin Slash acquired will apply to the additional attacks, increased further if target is blinded"
     ),
-    "image_url": ""
+    "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/998266275623084052/airslicer.png?ex=6807c4ea&is=6806736a&hm=fcd3ac4f5736525ffc39e13b5602b88a615e99dad1d2655347c96af0b0c9d92d&"
   },
 
   "Lunar Misfortune": {
@@ -3762,7 +3762,7 @@ skillsdualsword = {
       "**Game Description**:\n"
       "“Dazzling moonlight. Dual Element with (One-Handed Sword). Power increases (based on DEX) when activated 8m or more from target. Press the back button right after it activates to quickly retreat and pierce the enemy with flying moonlight blade.”"
     ),
-    "image_url": ""
+    "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/998266276805877830/lunardisaster.png?ex=6807c4eb&is=6806736b&hm=f09e5d941137a02832dd0679f27d10eb611221c895a529c68bdd9621880cab21&"
   },
 
   "Twin Buster Blade": {
@@ -3801,7 +3801,7 @@ skillsdualsword = {
       "**Game Description**:\n"
       "“Consecutive double slash surrounded by an aura. A series of efficient slashes resulting in a critical hit. Performs a two-stage attack with an AoE that gets stronger as more targets are involved.”"
     ),
-    "image_url": ""
+    "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/998266275321102376/twinbusterblade.png?ex=6807c4ea&is=6806736a&hm=dc72f743768f44bb43b69b3727f5f57475a530b6e55a0bd26ff0a3bcfb595ca5&"
   },
 
   "Crescent Saber": {
@@ -3834,7 +3834,7 @@ skillsdualsword = {
       "**Game Description**:\n"
       "“A special skill that can be activated while Saber Aura is active. Restores HP and the number of Evasions. Greatly raises Critical Rate and constantly halves all MP Cost. However, if you take damage from an enemy…”"
     ),
-    "image_url": ""
+    "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/998266276403232919/arcsaber.png?ex=6807c4eb&is=6806736b&hm=ba27eb08bc799c6dc5406b654add14305bc742e865904d3144326d2d963839ca&"
   },
 
   "Aerial Slay": {
@@ -3874,7 +3874,7 @@ skillsdualsword = {
       "**Game Description**:\n"
       "“Slashes your enemy while trifling with them. When activated with a combo (except as opener), the required MP becomes 100. You can move with the directional keys while the skill is active.”"
     ),
-    "image_url": ""
+    "image_url": "https://cdn.discordapp.com/attachments/1310475215893037069/1360086061384204319/sprite_14.png?ex=680856da&is=6807055a&hm=36e6d58a2d95e223517c665899b7bd2bc254bb84dcf356288b14ce4d7d59b7d9&"
   },
   "Horizon Cut": {
     "title": "Horizon Cut",
@@ -3901,12 +3901,571 @@ skillsdualsword = {
       "**Game Description**:\n"
       "“Surprises your enemy with a swift backhand slash. The MP Cost for the next skill used is halved. The required MP becomes 300 when used as a combo finisher. You will tumble if you take damage while it is active.”"
     ),
-    "image_url": ""
+    "image_url": "https://cdn.discordapp.com/attachments/1310475215893037069/1360086068824903690/sprite_10.png?ex=680856db&is=6807055b&hm=3b83ab209a737ee32da9d531b7ced4ffb50687bfdd1c1c02b7b48f43f0caaca4&"
   },
-  
-   
-
+  "Sting Blade": {
+  "title": "Sting Blade",
+  "description": (
+    "**T5 Skill**\n"
+    "One-Handed Sword / Dual Swords Only\n"
+    "**MP Cost**: 100\n"
+    "**Damage Type**: Physical\n\n"
+    "**Skill Stats**:\n"
+    "- **Base Skill Multiplier (Main Hit)**:\n"
+    "  - Dual Swords: 3 + 0.4 * Skill Level\n"
+    "  - Non-Dual Swords: 3 + 0.4 * Skill Level + Total DEX ÷ 100\n"
+    "- **Base Skill Constant (Main Hit)**: 100\n"
+    "- **Physical Pierce Bonus (Main Hit)**: +(5 + 2 * Skill Level)%\n"
+    "  - *Non-Dual Swords*: Pierce bonus is doubled\n"
+    "  - *If Pierce > 100% and not a Graze*: +0.1 * Excess Pierce (max +5)\n\n"
+    "- **Base Skill Multiplier (Additional Hit / Dual Swords Only)**: 2 + Total AGI ÷ 100\n"
+    "- **Base Skill Constant (Additional Hit)**: 100\n"
+    "- **Physical Pierce Bonus (Additional Hit)**: +(5 + 2 * Skill Level)%\n"
+    "  - *If Pierce > 100% and not a Graze*: +0.1 * Excess Pierce (max +5)\n"
+    "  - *Not affected by motion speed or Swift tag*\n\n"
+    "- **Maximum Cast Range**: 12m\n\n"
+    "**Skill Effect**:\n"
+    "- Affected by Short/Long Range Damage\n"
+    "- Affected by Long Range Skill\n"
+    "- Uses and deals Physical Proration\n\n"
+    "**Game Description**:\n"
+    "“Closes the distance with a very sharp thrust. As long as it is not a Graze, "
+    "hitting the target will boost your piercing power. The power increases further "
+    "based on the piercing power that exceeds the maximum value.”"
+  ),
+  "image_url": "https://cdn.discordapp.com/attachments/1310475215893037069/1360086094364020756/sprite_11.png?ex=680856e2&is=68070562&hm=133da0430f76a59a92da03161e9e6a05e4ce5d738994348ed9c05eb6b4dad629&"
 }
+
+   
+}
+
+
+
+skillsmagic = {
+    "Elemental Magic": {
+  "title": "The Name of Magic",
+  "description": (
+    "**Magic Types with Element Variations**\n"
+    "Covers Fire, Water, Wind, Earth, Light, and Dark elements.\n\n"
+    
+    "**Magic: Arrows**\n"
+    "- Fire Arrows\n"
+    "- Water Arrows\n"
+    "- Wind Arrows\n"
+    "- Earth Arrows\n"
+    "- Light Arrows\n"
+    "- Dark Arrows\n"
+    "*Effect Change: Arrow appearance is changed based on element*\n\n"
+
+    "**Magic: Javelin**\n"
+    "- Fire Javelin\n"
+    "- Ice Javelin\n"
+    "- Wind Javelin\n"
+    "- Rock Javelin\n"
+    "- Holy Javelin\n"
+    "- Dark Javelin\n"
+    "*Effect Change: Impact animation is changed based on element*\n\n"
+
+    "**Magic: Lances**\n"
+    "- Vulcan\n"
+    "- Icicles\n"
+    "- Wind Thrust\n"
+    "- Rock Cannon\n"
+    "- Vanishment\n"
+    "- Eclipse\n"
+    "*Effect Change: Hit effect of the lances is changed*\n\n"
+
+    "**Magic: Wall**\n"
+    "- Fire Wall\n"
+    "- Aqua Screen\n"
+    "- Gale Zone\n"
+    "- Earthquake\n"
+    "- Holy Wall\n"
+    "- Evil Gate\n"
+    "*Effect Change: Entire magic formation and effect animation is changed*\n\n"
+
+    "**Magic: Blast**\n"
+    "- Explosion\n"
+    "- Absolute Zero\n"
+    "- Aero Blast\n"
+    "- Geo Impact\n"
+    "- Shining Blast\n"
+    "- Evil Blast\n"
+    "*Effect Change: Explosion effect is changed*\n\n"
+
+    "**Magic: Storm**\n"
+    "- Fire Storm\n"
+    "- Frozen Cyclone\n"
+    "- Thunder Storm\n"
+    "- Sandstorm\n"
+    "- Lux Vortex\n"
+    "- Evil Tempest\n"
+    "*Effect Change: Color is changed*\n\n"
+
+    "**Magic: Burst**\n"
+    "- Hell Inferno\n"
+    "- Eternal Blizzard\n"
+    "- Force Tempest\n"
+    "- Gravity Turn\n"
+    "- Punishment\n"
+    "- Eclipse\n"
+    "*Effect Change: Entire effect animation is changed*\n\n"
+
+    "**Magic: Fall**\n"
+    "- Meteor Rain\n"
+    "- Hail\n"
+    "- Fulgurite\n"
+    "- Rockfall\n"
+    "- Meteor Light\n"
+    "- Cosmos\n"
+    "*Effect Change: Only the color is changed*"
+  )
+},
+"Magic: Arrows": {
+  "title": "Magic: Arrows",
+  "description": (
+    "**Lv 1 Skill**\n"
+    "No Limit\n"
+    "**MP Cost**: 100\n"
+    "**Damage Type**: Magic\n\n"
+    
+    "**Skill Stats**:\n"
+    "- **Base Skill Multiplier**: 0.65 + 0.06 * Skill Level (per hit)\n"
+    "- **Base Skill Constant**: 40 + Skill Level (per hit)\n"
+    "- **Hit Count**:\n"
+    "  - 2 hits (Lv 1–2)\n"
+    "  - 3 hits (Lv 3–4)\n"
+    "  - 4 hits (Lv 5–6)\n"
+    "  - 5 hits (Lv 7–8)\n"
+    "  - 6 hits (Lv 9–10)\n"
+    "  *Damage is calculated for first hit; others copy result (crit/guard/etc.)*\n"
+    "- **Maximum Cast Range**: 12m\n"
+    "- **Base Cast Time**: 2 seconds (affected by Cast Speed)\n\n"
+    
+    "**Weapon Bonuses**:\n"
+    "- **Staff**: +0.25 Skill Multiplier\n"
+    "- **Magic Device**: +2 Hit Count\n"
+    "*Staff bonus takes precedence over Magic Device bonus*\n\n"
+
+    "**Game Description**:\n"
+    "“Shoot small magic arrows. The arrows increase as the skill levels up.”"
+  ),
+  "image_url": ""
+},
+
+
+"Magic: Javelin": {
+  "title": "Magic: Javelin",
+  "description": (
+    "**Lv 1 Skill**\n"
+    "No Limit\n"
+    "**MP Cost**: 200\n"
+    "**Damage Type**: Magic\n\n"
+
+    "**Skill Stats**:\n"
+    "- **Base Skill Multiplier**: 1.5 + 0.1 * Skill Level\n"
+    "- **Base Skill Constant**: 50 + 15 * Skill Level\n"
+    "- **Hit Count**: 1 hit\n"
+    "- **Maximum Cast Range**: 8m\n\n"
+
+    "**Ailments**:\n"
+    "- Flinch (Neutral)\n"
+    "- Ignite (Fire)\n"
+    "- Freeze (Water)\n"
+    "- Blind (Wind)\n"
+    "- Slow (Earth)\n"
+    "- Dizzy (Light)\n"
+    "- Fear (Dark)\n"
+    "- **Base Ailment Chance**: 7.5% * Skill Level\n"
+    "- **Ailment Duration**: 2s for Flinch; 10s for others\n"
+    "- **Ailment Resistance**:\n"
+    "  - Flinch: 5s (Easy–Hard), 6s (Nightmare), 9s (Ultimate)\n"
+    "  - Others: None\n\n"
+
+    "**Weapon Bonuses**:\n"
+    "- **Staff**: +0.5 Skill Multiplier\n"
+    "- **Magic Device**: +25% Ailment Chance\n"
+    "*Staff bonus takes precedence over Magic Device bonus*\n\n"
+
+    "**Game Description**:\n"
+    "“Drop a large magic javelin on the target. Chance to inflict a status ailment. The status ailment depends on the element.”"
+  ),
+  "image_url": ""
+},
+
+
+"Magic: Lances": {
+  "title": "Magic: Lances",
+  "description": (
+    "**Lv 2 Skill**\n"
+    "No Limit\n"
+    "**MP Cost**: 300\n"
+    "**Damage Type**: Magic\n\n"
+
+    "**Skill Stats**:\n"
+    "- **Base Skill Multiplier**: 2.5 + 0.15 * Skill Level (per hit)\n"
+    "- **Base Skill Constant**: 300 + 40 * Skill Level (per hit)\n"
+    "- **Hit Count**: 2 hits (Lv 1–5); 3 hits (Lv 6–10)\n"
+    "*Damage is calculated for first hit; others copy result (crit/guard/etc.)*\n"
+    "- **Maximum Cast Range**: 14m\n"
+    "- **Base Cast Time**: 2 seconds (affected by Cast Speed)\n\n"
+
+    "**Ailment**:\n"
+    "- **Type**: Stop\n"
+    "- **Base Chance**: 10% + (2 * Skill Level)%\n"
+    "- **Duration**: 10 seconds\n"
+    "- **Resistance**: 10 seconds\n\n"
+
+    "**Weapon Bonuses**:\n"
+    "- **Staff**:\n"
+    "  - +1.5 Skill Multiplier + (Total INT / 500)\n"
+    "  - Stop chance is tripled\n"
+    "- **Magic Device**:\n"
+    "  - + (Total INT / 500) Skill Multiplier\n"
+    "  - +2 Hit Count\n"
+    "  - Stop chance is tripled\n"
+    "*Staff bonus takes precedence over Magic Device bonus*\n\n"
+
+    "**Game Description**:\n"
+    "“Shoot magic lances one after another. The lances increase as the skill levels up. Chance to inflict [Stop] on the target.”"
+  ),
+  "image_url": ""
+},
+"Magic: Impact": {
+  "title": "Magic: Impact",
+  "description": (
+    "**Lv 3 Skill**\n"
+    "No Limit\n"
+    "**MP Cost**: 200\n"
+    "**Damage Type**: Magic\n"
+    "**Element**: Neutral\n\n"
+
+    "**Skill Stats**:\n"
+    "- **Base Skill Multiplier**: 0.25 * Skill Level\n"
+    "- **Skill Multiplier (Impact Buff Active)**: 0.1 * Skill Level\n"
+    "- **Base Skill Constant**: 100 + 10 * Skill Level\n"
+    "- **Hit Count**: 1 hit\n"
+    "- **Maximum Cast Range**: Theoretically infinite (limited to 100m)\n"
+    "- **Hit Range**: 3m around caster\n"
+    "- **Base Cast Time**:\n"
+    "  - 2s (Lv 1–2)\n"
+    "  - 1s (Lv 3–6)\n"
+    "  - None (Lv 7–10)\n"
+    "*Affected by Cast Speed*\n\n"
+
+    "**Buff Effect**:\n"
+    "- Halves MP Cost of the next skill (rounded up to the nearest 100)\n"
+    "- While buff is active: Skill Multiplier and Tumble chance reduced\n"
+    "- Weapon bonuses are disabled while buff is active\n"
+    "- **Buff Duration**: Until a skill is used\n\n"
+
+    "**Ailment**:\n"
+    "- **Tumble**\n"
+    "- **Base Chance**: 15% + (5 * Skill Level)%\n"
+    "- **Chance (Impact Buff Active)**: Skill Level%\n"
+    "- **Duration**: 3 seconds\n"
+    "- **Resistance**:\n"
+    "  - 3s (Easy, Normal)\n"
+    "  - 6s (Hard)\n"
+    "  - 12s (Nightmare)\n"
+    "  - 18s (Ultimate)\n\n"
+
+    "**Weapon Bonuses**:\n"
+    "- **Staff**: Tumble chance +25%\n"
+    "- **Magic Device**: Skill Multiplier +2.5\n\n"
+
+    "**Game Description**:\n"
+    "“Attack enemies around you with a shock wave. Halves MP cost of the next skill. The effect will become weak if you consecutively use this skill.”"
+  ),
+  "image_url": ""
+},
+
+
+"Magic: Finale": {
+  "title": "Magic: Finale",
+  "description": (
+    "**Lv 4 Skill**\n"
+    "No Limit\n"
+    "**MP Cost**: 1600\n"
+    "**Damage Type**: Magic\n"
+    "**Element**: Neutral\n\n"
+
+    "**Skill Stats**:\n"
+    "- **First Radius**: Multiplier = 30 / Constant = 300 * Skill Level\n"
+    "- **Second Radius**: Multiplier = 20 / Constant = 30 * Skill Level\n"
+    "- **Third Radius**: Multiplier = 10 / Constant = 3 * Skill Level\n"
+    "- **Hit Count**:\n"
+    "  - 3 hits (First Radius)\n"
+    "  - 2 hits (Second Radius only)\n"
+    "  - 1 hit (Third Radius only)\n"
+    "*Damage is calculated for each hit*\n"
+    "- **Maximum Cast Range**: 12m\n"
+    "- **Hit Range**: 0.5m / 4m / 10m\n"
+    "- **Base Cast Time**: (13 - Skill Level) seconds\n\n"
+
+    "**Skill Effect**:\n"
+    "- Generates 1000 Aggro per second of cast time on main target\n"
+    "- Remaining aggro generated on hit\n"
+    "- Aggro reduced by CSPD:\n"
+    "  - First 1000 CSPD: every 20 CSPD = 1% reduction\n"
+    "  - After 1000 CSPD: every 180 CSPD = 1% reduction\n\n"
+
+    "**Weapon Bonuses**:\n"
+    "- **Staff**: First Radius Multiplier +7.5 + (Base INT / 100)\n"
+    "- **Magic Device**:\n"
+    "  - First Radius Multiplier + (Base INT / 100)\n"
+    "  - First Radius is quadrupled\n"
+    "  - Second and Third Radius is doubled\n"
+    "*Staff bonus takes precedence over Magic Device bonus*\n\n"
+
+    "**Special Notes**:\n"
+    "- Unaffected by Chain Cast\n"
+    "- Aggro during cast is unaffected by Sneak Attack or Aggro% stats\n\n"
+
+    "**Game Description**:\n"
+    "“Super wide area of effect. Deal greater damage to enemies near the center. Cast Speed is long and unable to reduce it with CSPD. Generate Aggro while casting.”"
+  ),
+  "image_url": ""
+},
+
+
+"Magic: Wall": {
+  "title": "Magic: Wall",
+  "description": (
+    "**Lv 1 Skill**\n"
+    "No Limit\n"
+    "**MP Cost**: 200\n"
+    "**Damage Type**: Magic\n\n"
+
+    "**Skill Stats**:\n"
+    "- **Base Skill Multiplier**: 0.8 + 0.04 * Skill Level (per hit)\n"
+    "- **Base Skill Constant**: 100 + 2 * Skill Level (per hit)\n"
+    "- **Hit Count**:\n"
+    "  - 5 hits (Lv 1)\n"
+    "  - 6 hits (Lv 2–3)\n"
+    "  - 7 hits (Lv 4–5)\n"
+    "  - 8 hits (Lv 6–7)\n"
+    "  - 9 hits (Lv 8–9)\n"
+    "  - 10 hits (Lv 10)\n"
+    "*Damage calculated for each hit*\n"
+    "- **Maximum Cast Range**: Theoretically infinite\n"
+    "- **Hit Range**: 2m around caster's position\n"
+    "- **Base Cast Time**: 1 second (affected by Cast Speed)\n\n"
+
+    "**Ailment**:\n"
+    "- **Knockback**\n"
+    "- **Base Chance**: 100% (if you have aggro)\n"
+    "- **Knockback Distance**: 5m (halved for bosses)\n"
+    "- **Ailment Resistance**: 0.8 seconds\n\n"
+
+    "**Weapon Bonuses**:\n"
+    "- **Staff**: Skill Multiplier +0.3\n"
+    "- **Magic Device**: Hit Range +1m\n"
+    "*Staff bonus takes precedence over Magic Device bonus*\n\n"
+
+    "**Special Note**:\n"
+    "- Triple Thrust's Skill Constant buff is divided by the Hit Count\n\n"
+
+    "**Game Description**:\n"
+    "“Create a magic wall at the feet. Deal damage and knock back enemies.”"
+  ),
+  "image_url": ""
+},
+"Magic: Blast": {
+  "title": "Magic: Blast",
+  "description": (
+    "**Lv 2 Skill**\n"
+    "No Limit\n"
+    "**MP Cost**: 300\n"
+    "**Damage Type**: Magic\n\n"
+
+    "**Skill Stats**:\n"
+    "- **Base Skill Multiplier**: 7 + 0.3 * Skill Level\n"
+    "- **Base Skill Constant**: 180 + 20 * Skill Level\n"
+    "- **Hit Count**: 1 hit\n"
+    "- **Maximum Cast Range**: 8m\n"
+    "- **Hit Range**: 2m around target\n"
+    "- **Base Cast Time**: 4 seconds (affected by Cast Speed)\n\n"
+
+    "**Ailment (depends on element)**:\n"
+    "- **Neutral**: Flinch\n"
+    "- **Fire**: Ignite\n"
+    "- **Water**: Freeze\n"
+    "- **Wind**: Blind\n"
+    "- **Earth**: Slow\n"
+    "- **Light**: Dizzy\n"
+    "- **Dark**: Fear\n"
+    "- **Base Ailment Chance**: (5 * Skill Level)%\n"
+    "- **Duration**: Flinch = 2s; Others = 10s\n"
+    "- **Resistance**:\n"
+    "  - Flinch: 5s (Easy/Normal/Hard), 6s (Nightmare), 9s (Ultimate)\n"
+    "  - Others: None\n\n"
+
+    "**Weapon Bonuses**:\n"
+    "- **Staff**: Skill Multiplier +(1.5 + Total INT / 500)\n"
+    "- **Magic Device**:\n"
+    "  - Skill Multiplier +(Total INT / 500)\n"
+    "  - Ailment Chance +50%\n"
+    "  - Hit Range +2m\n"
+    "*Staff bonus takes precedence over Magic Device bonus*\n\n"
+
+    "**Game Description**:\n"
+    "“Set off a blast by concentrating magic power. Chance to inflict a status ailment. The status ailment depends on the element.”"
+  ),
+  "image_url": ""
+},
+
+
+"Magic: Storm": {
+  "title": "Magic: Storm",
+  "description": (
+    "**Lv 3 Skill**\n"
+    "No Limit\n"
+    "**MP Cost**: 400\n"
+    "**Damage Type**: Magic\n\n"
+
+    "**Skill Stats**:\n"
+    "- **Base Skill Multiplier**: 1.8 + 0.02 * Skill Level (per hit)\n"
+    "- **Base Skill Constant**: 400 (per hit)\n"
+    "- **Hit Count**:\n"
+    "  - 1 hit (Lv 1)\n"
+    "  - 2 hits (Lv 2–3)\n"
+    "  - 3 hits (Lv 4–5)\n"
+    "  - 4 hits (Lv 6–7)\n"
+    "  - 5 hits (Lv 8–9)\n"
+    "  - 6 hits (Lv 10)\n"
+    "*Damage calculated for each hit*\n"
+    "- **Maximum Cast Range**: 8m\n"
+    "- **Hit Range**:\n"
+    "  - 1.75m (Lv 1–3)\n"
+    "  - 2.75m (Lv 4–7)\n"
+    "  - 3.75m (Lv 8–10)\n"
+    "*Centered around target's position*\n"
+    "- **Base Cast Time**: 1 second (affected by Cast Speed)\n\n"
+
+    "**Ailment**:\n"
+    "- **Suction**\n"
+    "- **Chance**: 100% (on mobs), 50% (on bosses)\n"
+    "- **Duration**: 1 second\n"
+    "- **Resistance**: 0.001 second\n\n"
+
+    "**Weapon Bonuses**:\n"
+    "- **Staff**: Skill Multiplier +1\n"
+    "- **Magic Device**: Hit Range +2m\n"
+    "*Staff bonus takes precedence over Magic Device bonus*\n\n"
+
+    "**Special Note**:\n"
+    "- Triple Thrust’s Skill Constant buff is divided by the Hit Count\n\n"
+
+    "**Game Description**:\n"
+    "“A magic to generate a storm. Enemies will be sucked into it. Strong monsters may not be sucked into it.”"
+  ),
+  "image_url": ""
+},
+
+
+"Magic Mastery": {
+  "title": "Magic Mastery",
+  "description": (
+    "**Lv 1 Skill**\n"
+    "Staff / Magic Device Only\n"
+    "**Type**: Passive\n\n"
+
+    "**Passive Effects**:\n"
+    "- Weapon ATK +(3 * Skill Level)%\n"
+    "- MATK Boost:\n"
+    "  - +1% (Lv 1–2)\n"
+    "  - +2% (Lv 3–7)\n"
+    "  - +3% (Lv 8–10)\n\n"
+
+    "**Game Description**:\n"
+    "“Get better at using magic weapons. ATK of Staffs and Magic Devices increases.”"
+  ),
+  "image_url": ""
+},
+"Magic: Burst": {
+  "title": "Magic: Burst",
+  "description": (
+    "**Lv 4 Skill**\n"
+    "No Limit\n"
+    "**MP Cost**: 500\n"
+    "**Damage Type**: Magic\n\n"
+
+    "**Skill Stats**:\n"
+    "- **Base Skill Multiplier**: 15 + 0.6 * Skill Level\n"
+    "- **Base Skill Constant**: 200 + 30 * Skill Level\n"
+    "- **Hit Count**: 1 hit\n"
+    "- **Maximum Cast Range**: 8m\n"
+    "- **Hit Range**: Fan of:\n"
+    "  - 8m (Lv 1–5)\n"
+    "  - 9m (Lv 6)\n"
+    "  - 10m (Lv 7)\n"
+    "  - 11m (Lv 8)\n"
+    "  - 12m (Lv 9)\n"
+    "  - 13m (Lv 10)\n"
+    "*Fan angle: (40 + 2 * Skill Level)°*\n"
+    "- **Base Cast Time**: 8 seconds (affected by Cast Speed)\n\n"
+
+    "**Magic: Burst Range**:\n"
+    "- **Red**: Main caster position\n"
+    "- **Blue**: Possible target position\n"
+    "- **Green**: AoE of Magic: Burst\n"
+    "- **Purple**: Burst angle\n"
+    "- **Black**: Comparison circle with same radius\n\n"
+  ),
+  "thumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/869164731099906099/75140972e4e097d434f98934794d4ba2e9b62eb6r1-640-400v2_hq.png",
+  "image_url": "https://cdn.discordapp.com/attachments/614452674137686022/869161461765783552/burst.png"
+  },
+  "footer": {
+    "text": (
+      "**Buff Effect**:\n"
+      "- Gain 1 counter for each other Magic Skill used before casting\n"
+      "- Max: 8 counters\n"
+      "- Each counter reduces Total Cast Time by 1s (after Cast Speed & Chain Cast)\n"
+      "- Buff Duration: Until Magic: Burst is cast\n"
+      "- Invincibility buff after cast:\n"
+      "  - **Staff/Magic Device**: fixed 2s iframe (not cancelled by animation end)\n"
+      "  - **Others**: lasts until animation ends\n\n"
+
+      "**Ailment**:\n"
+      "- **Knockback** (not available on bosses)\n"
+      "- **Chance**: (10 * Skill Level)%\n"
+      "- **Distance**: 15m - 2 * mob size (in meters)\n"
+      "- **Resistance**: Equal to knockback distance (in seconds)\n\n"
+
+      "**Visual Stack Limit by Cast Speed**:\n"
+      "- 0/8 (0 CSPD)\n"
+      "- 0/4 (1k CSPD)\n"
+      "- 0/3 (3250 CSPD)\n"
+      "- 0/2 (5500 CSPD)\n"
+      "- 0/1 (7750 CSPD)\n"
+      "- 0/0 (10k CSPD)\n"
+      "*Note: this visual is bugged and might not update properly*\n\n"
+
+      "**Weapon Bonuses**:\n"
+      "- **Staff**: Skill Multiplier +(BaseINT / 100)\n"
+      "- **Magic Device**:\n"
+      "  - Skill Multiplier +(BaseINT / 200)\n"
+      "  - Fan Radius Bonus: +1m (Lv 1–3) / +2m (Lv 4–6) / +3m (Lv 7–10)\n"
+      "  - Fan Angle Bonus: +5° (Lv 1–3) / +10° (Lv 4–6) / +15° (Lv 7–10)\n"
+      "*Staff bonus takes precedence over Magic Device bonus*\n\n"
+
+      "**Game Description**:\n"
+      "“Enhance magic power and shoot out. Chance to Knock Back the target aiming at you. Cast Time is very long, however, it is shortened by using Magic Skills before casting.”"
+    )
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
