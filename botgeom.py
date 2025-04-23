@@ -155,9 +155,9 @@ async def show_commands(ctx):
     embed.add_field(name='bwaconsumbuff', value='Contoh: `bwaconsumhp` - Menampilkan list consum buff.', inline=False)
     embed.add_field(name='bwalevel', value='Contoh: `bwa250` - Menampilkan list boss untuk leveling di level yang diinginkan.', inline=False)
     embed.add_field(name='bwaelearrow', value='Contoh: `bwafirearrow` - Menampilkan list ele arrow yang diinginkan dan lokasi dropnya.', inline=False)
+    embed.add_field(name='bwaskill', value='Contoh: `bwablade` - Menampilkan detail skill', inline=False)
     embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
     await ctx.send(embed=embed)
-
 
 
 @bot.command(name='consumbuff', aliases=['consumebuff'])
@@ -178,6 +178,21 @@ async def show_commandsconsumbuff(ctx):
     embed.add_field(name='13', value='Contoh: `bwaconsummdef` - Menampilkan list consum buff mdef.', inline=False)
     embed.add_field(name='14', value='Contoh: `bwaconsumhprecovery` - Menampilkan list consum buff hp recovery.', inline=False)
     embed.add_field(name='15', value='Contoh: `bwaconsummprecovery` - Menampilkan list consum buff mp recovery.', inline=False)
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+    await ctx.send(embed=embed)
+
+
+    bot.command(name='skill', aliases=['skilcommand'])
+async def show_commandsconsumbuff(ctx):
+    embed = discord.Embed(title='bwaskill', description='Berikut daftar command yang tersedia:', color=0x00ff00)
+    embed.add_field(name='1', value='Contoh: `bwablade` - Menampilkan list consum buff hp.', inline=False)
+    embed.add_field(name='2', value='Contoh: `bwamagic` - Menampilkan list consum buff mp.', inline=False)
+    embed.add_field(name='3', value='Contoh: `bwashot` - Menampilkan list consum buff aspd.', inline=False)
+    embed.add_field(name='4', value='Contoh: `bwakatana` - Menampilkan list consum buff cspd.', inline=False)
+    embed.add_field(name='5', value='Contoh: `bwadualsword` - Menampilkan list consum buff ailement.', inline=False)
+    embed.add_field(name='6', value='Contoh: `bwahalberd` - Menampilkan list consum buff acc.', inline=False)
+    embed.add_field(name='7', value='Contoh: `bwaknuckle` - Menampilkan list consum buff resis.', inline=False)
+    embed.add_field(name='8', value='Contoh: `bwacrusher` - Menampilkan list consum buff element.', inline=False)
     embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
     await ctx.send(embed=embed)
 

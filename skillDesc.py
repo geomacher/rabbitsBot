@@ -4439,7 +4439,7 @@ skillsmagic = {
     "*Staff bonus takes precedence over Magic Device bonus*\n\n"
 
     "**Game Description**:\n"
-    "“Enhance magic power and shoot out. Chance to Knock Back the target aiming at you. Cast Time is very long, however, it is shortened by using Magic Skills before casting.”"
+    "“Enhance magic power and shoot out. Chance to Knock Back the target aiming at you. Cast Time is very long, however, it is shortened by using Magic Skills before casting.”\n\n"
 
     "**Magic: Burst Range**:\n"
     "- **Red**: Main caster position\n"
