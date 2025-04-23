@@ -182,7 +182,36 @@ async def show_commandsconsumbuff(ctx):
     await ctx.send(embed=embed)
 
 
-    bot.command(name='skill', aliases=['skilcommand'])
+
+@bot.command(name='statbuffland', aliases=['codebuff'])
+async def show_commandsconsumbuff(ctx):
+    embed = discord.Embed(title='bwaconsumbuff', description='Berikut daftar command yang tersedia:', color=0x00ff00)
+    embed.add_field(name='1', value='Contoh: `bwahp` - Menampilkan list code buff hp.', inline=False)
+    embed.add_field(name='2', value='Contoh: `bwamp` - Menampilkan list code buff mp.', inline=False)
+    embed.add_field(name='3', value='Contoh: `bwastr` - Menampilkan list code buff str.', inline=False)
+    embed.add_field(name='4', value='Contoh: `bwaint` - Menampilkan list code buff int.', inline=False)
+    embed.add_field(name='5', value='Contoh: `bwadex` - Menampilkan list code buff dex.', inline=False)
+    embed.add_field(name='6', value='Contoh: `bwaagi` - Menampilkan list code buff agi.', inline=False)
+    embed.add_field(name='7', value='Contoh: `bwavit` - Menampilkan list code buff vit', inline=False)
+    embed.add_field(name='8', value='Contoh: `bwaaggro` - Menampilkan list code buff aggro.', inline=False)
+    embed.add_field(name='9', value='Contoh: `bwamaggro` - Menampilkan list code buff min aggro.', inline=False)
+    embed.add_field(name='10', value='Contoh: `bwatk` - Menampilkan list code buff atk.', inline=False)
+    embed.add_field(name='11', value='Contoh: `bwawatk` - Menampilkan list code buff w atk.', inline=False)
+    embed.add_field(name='12', value='Contoh: `bwafire` - Menampilkan list code buff dte fire.', inline=False)
+    embed.add_field(name='13', value='Contoh: `bwaearth` - Menampilkan list code buff dte earth.', inline=False)
+    embed.add_field(name='14', value='Contoh: `bwawater` - Menampilkan list code buff dte water.', inline=False)
+    embed.add_field(name='15', value='Contoh: `bwawind` - Menampilkan list code buff dte wind.', inline=False)
+    embed.add_field(name='15', value='Contoh: `bwalight` - Menampilkan list code buff dte light.', inline=False)
+    embed.add_field(name='15', value='Contoh: `bwadark` - Menampilkan list code buff dte dark.', inline=False)
+    embed.add_field(name='15', value='Contoh: `bwaneutral` - Menampilkan list code buff dte neutral.', inline=False)
+    embed.add_field(name='15', value='Contoh: `bwapresis` - Menampilkan list code buff p resis.', inline=False)
+    embed.add_field(name='15', value='Contoh: `bwamresis` - Menampilkan list code buff m resis.', inline=False)
+    embed.add_field(name='15', value='Contoh: `bwafrac` - Menampilkan list code buff frac.', inline=False)
+    embed.set_thumbnail(url='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemhpYWlyYnQ5YWo0bzk1Y25idjUzcm1zNGc3a2YzOXAyczN4aTR5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuZx6u3PtNScexzvwK/giphy.gif')
+    await ctx.send(embed=embed)
+
+
+bot.command(name='skill', aliases=['skilcommand'])
 async def show_commandsconsumbuff(ctx):
     embed = discord.Embed(title='bwaskill', description='Berikut daftar command yang tersedia:', color=0x00ff00)
     embed.add_field(name='1', value='Contoh: `bwablade` - Menampilkan list consum buff hp.', inline=False)
