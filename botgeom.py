@@ -198,7 +198,7 @@ async def show_commandsconsumbuff(ctx):
     embed.add_field(name='10', value='Contoh: `bwatk` - Menampilkan list code buff atk.', inline=False)
     embed.add_field(name='11', value='Contoh: `bwawatk` - Menampilkan list code buff w atk.', inline=False)
     embed.add_field(name='12', value='Contoh: `bwafire` - Menampilkan list code buff dte fire.', inline=False)
-    embed.add_field(name='13', value='Contoh: `bwaearth` - Menampilkan list code buff dte earth.', inline=False)
+    embed.add_field(name='13', value='Contoh: `bwaearth` - Menampilkan list code buff dte earth.', inline=False)GeneratorExit
     embed.add_field(name='14', value='Contoh: `bwawater` - Menampilkan list code buff dte water.', inline=False)
     embed.add_field(name='15', value='Contoh: `bwawind` - Menampilkan list code buff dte wind.', inline=False)
     embed.add_field(name='15', value='Contoh: `bwalight` - Menampilkan list code buff dte light.', inline=False)
